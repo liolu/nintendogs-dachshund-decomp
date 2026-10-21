@@ -24,9 +24,6 @@ parser.add_argument("--objdiff", type=Path, help="Path to pre-installed objdiff 
 parser.add_argument("--sjiswrap", type=Path, help="Path to pre-installed sjiswrap executable")
 parser.add_argument('version', help='Game version')
 args = parser.parse_args()
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-import reloc_fixes  # per-game fix of false pointers: no-op without config/<version>/reloc_fixes.txt
-reloc_fixes.apply(Path(__file__).resolve().parent.parent, args.version, quiet=True)
 if args.dsd is None and (Path(__file__).resolve().parent.parent / "dsd-dsi.exe").exists():
     # dsd built with DSi-enhanced ROM support (decomp ds/_src/ds-decomp, branch dsi-enhanced) until it is released
     args.dsd = os.path.join(".", "dsd-dsi.exe")
