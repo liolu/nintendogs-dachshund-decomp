@@ -6,8 +6,9 @@ typedef unsigned short u16;
 typedef int s32;
 typedef volatile u32 vu32;
 typedef volatile u16 vu16;
-void *func_0206a00c(void) {
-    s32 blockOffset = ((*(vu16 *) ((0x04000000) | 0xa)) & 0x3c) >> 2;
-    u32 offset      = ((*(vu32 *) 0x04000000) & 0x7000000) >> 24;
-    return (void *) (0x6000000 + offset * 0x10000 + blockOffset * 0x4000);
+s32 func_0206a00c(void) {
+    s32 b = (*(volatile u16 *) 0x400000A & 0x3C) >> 2;
+    s32 a = (*(volatile u32 *) 0x4000000 & 0x7000000) >> 0x18;
+
+    return 0x6000000 + (a << 0x10) + (b << 0xE);
 }

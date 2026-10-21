@@ -5,6 +5,13 @@ extern unsigned int func_02080c28(void);
 extern void func_02080c3c(unsigned int savedState);
 extern void func_0207f670(void *);
 extern char data_0214ec20[];
+typedef unsigned short u16;
+typedef unsigned int u32;
+extern int func_02063dd0(void);
+extern int func_02063cb0(int count, int a, int b, int c, int d, int e);
+extern void func_020801f4(u32 a, u32 b);
+extern void func_02063f34(int i, int val);
+extern int func_02063de0(int a, int b, int c);
 int func_0206520c(void) {
     int *g             = (int *) data_0214ec20;
     unsigned int saved = func_02080c28();

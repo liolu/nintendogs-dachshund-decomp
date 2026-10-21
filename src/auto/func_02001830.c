@@ -254,7 +254,6 @@ BOOL func_02001830(TPCalibrateParam *calibrate) {
     y2  = info->ncd.tp.raw_y2;
     dx2 = (u16) (info->ncd.tp.dx2);
     dy2 = (u16) (info->ncd.tp.dy2);
-#line 260
     if ((x1 == 0 && x2 == 0 && y1 == 0 && y2 == 0) || (func_0200129c(calibrate, x1, y1, dx1, dy1, x2, y2, dx2, dy2) != 0)) {
         calibrate->x0       = 0;
         calibrate->y0       = 0;

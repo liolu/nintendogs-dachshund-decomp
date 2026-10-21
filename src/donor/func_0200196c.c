@@ -265,7 +265,7 @@ static inline void TPi_ErrorAtPxi(TPRequestCommand command) {
 void func_0200196c(PXIFifoTag tag, u32 data, BOOL err) {
 
 #pragma unused(tag)
-#line 268
+
     u16 result;
     u16 command;
 

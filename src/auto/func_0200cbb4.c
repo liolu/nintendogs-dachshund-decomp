@@ -12,6 +12,16 @@ s32 func_0203278c(void *, s16);                     /* extern */
 M2C_UNK func_0203e5e8(void *, s32);                 /* extern */
 M2C_UNK func_020a5828();                            /* extern */
 
+s32 func_01ffdb08(s16);
+s32 func_0200ccc4();
+s32 func_02022e04(void *, M2C_UNK);
+M2C_UNK func_0202706c(s32, M2C_UNK);
+M2C_UNK func_02027484(s32, void *);
+s32 func_02028114(void *);
+M2C_UNK func_02029248(void *);
+s32 func_0203278c(void *, s16);
+M2C_UNK func_0203e5e8(void *, s32);
+M2C_UNK func_020a5828();
 void func_0200cbb4(void *arg0) {
     s16 var_r9;
     s32 temp_r0;

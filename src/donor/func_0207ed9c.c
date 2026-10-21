@@ -18,10 +18,14 @@ static inline BOOL OS_RestoreIME(BOOL enable) {
     (*(vu16 *) 0x04000208) = (vu16) enable;
     return (BOOL) prev;
 }
-u32 func_0207ed9c(u32 mask) {
-    BOOL ime               = OS_DisableIME();
-    u32 prev               = (*(vu32 *) 0x04000210);
-    (*(vu32 *) 0x04000210) = prev | mask;
-    OS_RestoreIME(ime);
-    return prev;
+u32 func_0207ed9c(u32 arg0) {
+    u32 old;
+    u16 old_a = *(volatile u16 *)0x4000208;
+
+    *(volatile u16 *)0x4000208 = 0;
+    old = *(volatile u32 *)0x4000210;
+    *(volatile u32 *)0x4000210 = old | arg0;
+    (void)*(volatile u16 *)0x4000208;
+    *(volatile u16 *)0x4000208 = old_a;
+    return old;
 }

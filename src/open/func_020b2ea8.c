@@ -1,0 +1,50 @@
+#include "m2c.h"
+extern s32 *data_0213ec58;
+extern s32 *data_0213ec5c;
+extern s32 *data_0213ec50;
+extern s32 *data_0213ec4c;
+extern s32 *data_0213ec54;
+extern s32 func_01ffdb08(s32 arg0);
+extern void func_020b2a54(s32 arg0, void *arg1);
+extern void func_02027658(s32 arg0, void *arg1);
+extern void func_02027680(s32 arg0, void *arg1);
+extern s32 func_02028120(s32 arg0);
+extern void func_01ff832c(s32 arg0, void *arg1, void *arg2, void *arg3);
+extern s32 func_02067cbc(void *arg0, void *arg1);
+extern void func_02067ca0(s32 arg0, s32 arg1);
+extern s32 func_02068654(void);
+void func_020b2ea8(u8 *dst, s32 arg1) {
+    u8 tmp[12];
+    s32 idx;
+    s32 g;
+    s32 h;
+    s32 m;
+    s32 r;
+    s32 v;
+    s32 x;
+
+    idx = func_01ffdb08(arg1);
+    g = (s32) data_0213ec58;
+    h = (s32) data_0213ec5c;
+    *(s32 *) (dst + 0) = 0;
+    *(s32 *) (dst + 4) = h;
+    *(s32 *) (dst + 8) = g;
+    func_020b2a54(idx, dst + 0xC);
+    func_02027658(idx, dst + 0xC);
+    func_02027680(idx, tmp);
+    m = (s32) data_0213ec50;
+    r = func_02028120(idx);
+    *(s32 *) (dst + 0x10) = (s32) (((s64) r * m + 0x800) >> 12);
+    m = (s32) data_0213ec4c;
+    r = func_02028120(idx);
+    func_01ff832c((s32) (((s64) r * m + 0x800) >> 12), tmp, dst + 0xC, dst + 0xC);
+    *(s32 *) (dst + 0x18) = 0;
+    *(s32 *) (dst + 0x1C) = 0x1000;
+    *(s32 *) (dst + 0x20) = 0;
+    m = (s32) data_0213ec54;
+    r = func_02028120(idx);
+    v = func_02067cbc(dst + 0xC, dst);
+    func_02067ca0((s32) (((s64) r * m + 0x800) >> 12), v);
+    x = func_02068654();
+    *(s32 *) (dst + 0x24) = (s32) (((s64) x * 0x1680000 + 0x80000) >> 20);
+}

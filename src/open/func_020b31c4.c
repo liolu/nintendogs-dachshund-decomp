@@ -1,0 +1,55 @@
+#include "m2c.h"
+extern s32 data_0213ec9c;
+extern s32 data_0213eca0;
+extern s32 data_0213eca4;
+extern s32 data_0213eca8;
+extern s32 data_0215562c;
+extern s32 data_0213ec98;
+extern s32 data_0213ec90;
+extern s32 data_0213ec94;
+extern s32 data_0213ec88;
+extern s32 data_0213ec8c;
+extern s32 func_01ffdb08(s32 arg0);
+extern s32 func_02028120(s32 arg0);
+extern void func_02027658(M2C_UNK arg0, M2C_UNK arg1);
+extern s32 func_02067ca0(M2C_UNK arg0, M2C_UNK arg1);
+extern s32 func_02068654(M2C_UNK arg0);
+void func_020b31c4(M2C_UNK arg0, M2C_UNK arg1) {
+    s32 h;
+    s32 v;
+    s32 w;
+    s32 t1;
+    s32 t2;
+    s32 a;
+    s32 b;
+    s32 c;
+
+    h = func_01ffdb08(arg1);
+    a = data_0213ec9c;
+    v = func_02028120(h);
+    t1 = data_0213eca0 + (s32) (((s64) v * a + 0x800) >> 12);
+    b = data_0213eca4;
+    v = func_02028120(h);
+    t2 = data_0213eca8 + (s32) (((s64) v * b + 0x800) >> 12);
+    c = data_0215562c;
+    M2C_FIELD(arg0, s32 *, 0x0) = c;
+    M2C_FIELD(arg0, s32 *, 0x4) = t2;
+    M2C_FIELD(arg0, s32 *, 0x8) = t1;
+    func_02027658(h, arg0 + 0xC);
+    M2C_FIELD(arg0, s32 *, 0xC) = (s32) (((s64) M2C_FIELD(arg0, s32 *, 0xC) * data_0213ec98 + 0x800) >> 12);
+    a = data_0213ec90;
+    v = func_02028120(h);
+    M2C_FIELD(arg0, s32 *, 0x10) = data_0213ec94 + (s32) (((s64) v * a + 0x800) >> 12);
+    M2C_FIELD(arg0, s32 *, 0x14) = 0;
+    M2C_FIELD(arg0, s32 *, 0x18) = 0;
+    M2C_FIELD(arg0, s32 *, 0x1C) = 0x1000;
+    M2C_FIELD(arg0, s32 *, 0x20) = 0;
+    a = data_0213ec9c;
+    v = func_02028120(h);
+    b = data_0213ec88;
+    w = func_02028120(h);
+    t1 = data_0213eca0 + (s32) (((s64) v * a + 0x800) >> 12);
+    t2 = data_0213ec8c + (s32) (((s64) w * b + 0x800) >> 12);
+    c = func_02068654(func_02067ca0(t2, t1));
+    M2C_FIELD(arg0, s32 *, 0x24) = (s32) (((s64) c * 0x1680000 + 0x80000) >> 20);
+}

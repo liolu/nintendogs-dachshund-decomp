@@ -10,7 +10,7 @@ void func_020ab7a8(s32 arg0) {
     void *temp_r2;
 
     temp_r1 = M2C_FIELD(arg0, s16 *, 0x90);
-    switch (temp_r1) {                              /* irregular */
+    switch (temp_r1) {
         case 0:
             temp_r2                         = *M2C_FIELD(arg0, void ***, 0x214);
             M2C_FIELD(temp_r2, u16 *, 0x20) = (u16) (M2C_FIELD(temp_r2, u16 *, 0x20) | 1);

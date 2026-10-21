@@ -6,6 +6,7 @@ extern int func_0206377c(__file_handle handle, unsigned char *buffer, int *count
 // clang-format off
 asm void func_0206373c(register void* c);
 // clang-format on
+extern void func_0206373c(void *c);
 int func_0206377c(__file_handle handle, unsigned char *buffer, int *count, void *ref) {
     unsigned long i, n;
 

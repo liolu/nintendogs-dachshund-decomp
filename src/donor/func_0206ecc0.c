@@ -4,9 +4,7 @@
 typedef unsigned int uint;
 typedef unsigned int uint;
 extern void func_0206ecc0(int param_1, uint param_2);
-void func_0206ecc0(int param_1, uint param_2)
-
-{
+void func_0206ecc0(int param_1, uint param_2) {
     int iVar1;
 
     *(int *) (param_1 + 0x10)                     = *(int *) (param_1 + 0x10) + 1;

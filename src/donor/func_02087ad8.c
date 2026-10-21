@@ -199,7 +199,6 @@ FSFile *func_02087ad8(FSArchive *arc) {
     if (Archive_PauseAsked(arc) != 0) {
         arc->flags &= ~0x40;
         arc->flags |= 0x8;
-
         func_0207f5fc((OSThreadQueue *) &arc->queue.tail);
     }
     func_02080c3c(irqState);

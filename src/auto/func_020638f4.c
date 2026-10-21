@@ -1,3 +1,4 @@
+#include "m2c.h"
 /* compiler: 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto */
 /* func_0207ccb0 from https://github.com/GoldieLeGenie/DQIV-DECOMP libs/NitroSDK/src/wm/wm_system.c (license: none), reused by
  * tools/donor_match.py */

@@ -97,9 +97,7 @@ static inline void TPi_ErrorAtPxi(TPRequestCommand command) {
     }
 }
 void func_0200150c(u8 retry, u16 range) {
-
 #pragma unused(retry)
-#line 436
     OSIntrMode enabled;
 
     ((void) 0);

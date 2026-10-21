@@ -14,6 +14,7 @@ typedef float f32;
 typedef double f64;
 
 typedef s32 M2C_UNK;
+/* end of m2c types */
 
 #ifndef NULL
     #define NULL ((void *) 0)

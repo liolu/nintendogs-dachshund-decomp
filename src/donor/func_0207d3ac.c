@@ -1,3 +1,4 @@
+#include "m2c.h"
 /* compiler: 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto */
 /* NNS_FndGetGroupIDForMBlockExpHeap from https://github.com/RonyxDumb/mkds src/arm9/020176c0_Mem_Exp_GetAllocatableSize.c
  * (license: none), reused by tools/donor_match.py */

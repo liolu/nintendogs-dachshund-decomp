@@ -9,6 +9,7 @@ extern int data_0213cadc;
 extern void func_0206c588(int dmaNo, void *dest, u32 data, u32 size, void *callback, void *arg);
 extern void func_0206c7e4(int dmaNo, void *dest, u32 data, u32 size);
 extern void func_0206cbf8(u32 data, void *dest, u32 size);
+extern void func_02106a5fc(void);
 void func_0206a5fc(void) {
     int i;
 

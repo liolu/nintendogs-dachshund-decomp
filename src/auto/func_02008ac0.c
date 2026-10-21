@@ -3,6 +3,4 @@
 
 void func_02008ae8(M2C_UNK, M2C_UNK);
 
-void func_02008ac0(s32 arg0) {
-    func_02008ae8(1, arg0);
-}
+void func_02008ac0(s32 arg0) { func_02008ae8(1, arg0); }

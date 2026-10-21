@@ -6,6 +6,10 @@
 #include "engine.h"
 // clang-format on
 
+/* Nitro SDK math types referenced by generated prototypes. */
+typedef s32 fx32;
+typedef struct { fx32 x, y, z; } VecFx32;
+
 #ifndef M2C_SELF_AddU32ToPtr
 void *AddU32ToPtr(void *, u32);
 #endif
@@ -3187,7 +3191,7 @@ void func_0206c874(void *);
 void func_0206c974(void *);
 #endif
 #ifndef M2C_SELF_func_0206cbc4
-void func_0206cbc4(s16, s32, s32);
+void func_0206cbc4(u16, s32, s32);
 #endif
 #ifndef M2C_SELF_func_0206cbdc
 void func_0206cbdc(s32, s32, s32);
@@ -10567,7 +10571,7 @@ void func_0203968c(M2C_UNK);
 void func_020396cc(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02039708
-void func_02039708(M2C_UNK, M2C_UNK, M2C_UNK);
+void func_02039708(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02039948
 void func_02039948(M2C_UNK);
@@ -12886,7 +12890,7 @@ void func_020b19f8(M2C_UNK, M2C_UNK, M2C_UNK);
 void func_020b1ad0(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b1bec
-M2C_UNK func_020b1bec(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
+M2C_UNK func_020b1bec(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b1ddc
 M2C_UNK func_020b1ddc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);

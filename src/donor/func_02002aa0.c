@@ -21,6 +21,8 @@ inline u32 PMi_MakeData2(u32 bit, u32 seq, u32 data) {
 extern BOOL func_02002df0(void);
 extern PMiWork data_0214cd14;
 extern BOOL func_02002df0(void);
+typedef unsigned short int u16;
+extern const u16(*ctrdgi_fl_maxtime);
 u32 func_02002aa0(u32 number, PMCallback callback, void *arg) {
     u32 pxi_send_data;
 

@@ -1,3 +1,4 @@
+#include "m2c.h"
 /* compiler: 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto */
 /* func_02058890 from projets/club-house-games/src/donor/func_02058890.c (same code in another game of this workspace), reused
  * by tools/donor_match.py */
@@ -46,11 +47,9 @@ inline void *AddU32ToPtr(void *ptr, u32 val) {
 static inline NNSiFndFrmHeapHead *GetFrmHeapHeadPtrFromHeapHead(NNSiFndHeapHead *pHHead) {
     return AddU32ToPtr(pHHead, sizeof(NNSiFndHeapHead));
 }
-void func_0207df6c(NNSiFndHeapHead *pHeapHd) {
-    NNSiFndFrmHeapHead *pFrmHeapHd = GetFrmHeapHeadPtrFromHeapHead(pHeapHd);
-
-    ((void) 0);
-
-    pFrmHeapHd->headAllocator = pHeapHd->heapStart;
-    pFrmHeapHd->pState        = 0;
+s32 func_0207df6c(s32 arg0) {
+    s32 *p = (s32 *) (arg0 + 0x24);
+    p[0] = *(s32 *) (arg0 + 0x18);
+    p[2] = 0;
+    return 0;
 }

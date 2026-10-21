@@ -26,7 +26,7 @@ void func_020f8c7c(s32 arg0, s32 arg1, s32 arg2) {
     M2C_FIELD(temp_r0, s32 *, 0x24)        = 0;
     M2C_FIELD(temp_r0, s32 *, 0x34)        = 0;
     temp_r1                                = M2C_FIELD(arg0, s16 *, 0x94);
-    switch (temp_r1) {                              /* irregular */
+    switch (temp_r1) {
         case 0x40:
             M2C_FIELD(arg0, s32 *, 0xF8)    = 0x333;
             M2C_FIELD(arg0, s16 *, 0xA6)    = 1;

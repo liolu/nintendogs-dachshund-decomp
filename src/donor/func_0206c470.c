@@ -9,6 +9,8 @@ static inline void UnkWaitDmaBusy(u32 dmaNo) {
     while (*cnt & 0x80000000) {
     }
 }
+extern u32 func_02080c28(void);
+extern void func_02080c3c(u32);
 void func_0206c470(u32 dmaNo) {
     u32 e = func_02080c28();
     UnkWaitDmaBusy(dmaNo);

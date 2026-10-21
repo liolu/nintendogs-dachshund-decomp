@@ -9,7 +9,7 @@ void func_020f8eac(s32 arg0) {
     s16 temp_r1;
 
     temp_r1 = M2C_FIELD(arg0, s16 *, 0x90);
-    switch (temp_r1) {                              /* irregular */
+    switch (temp_r1) {
         case 2:
             func_020afbc4();
             return;

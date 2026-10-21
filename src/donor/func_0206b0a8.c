@@ -15,6 +15,7 @@ static inline void GXi_DmaCopy32Async(u32 dmaNo, const void *src, void *dest, u3
 }
 extern u32 data_0214f470;
 extern u32 data_0213cadc;
+extern void func_02106b0a8(void *src, u32 offset, u32 size);
 #pragma thumb off
 void func_0206b0a8(void *src, u32 offset, u32 size) {
     GXi_DmaCopy32Async(data_0213cadc, src, (void *) (data_0214f470 + offset), size, ((void *) 0), ((void *) 0));
