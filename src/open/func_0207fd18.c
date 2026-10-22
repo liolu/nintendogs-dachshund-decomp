@@ -26,7 +26,7 @@ s32 func_0207fd18(OSMessageQueue *mq, void *msg, u32 flags) {
         }
         func_0207f670(&mq->queueSend);
     }
-    mq->firstIndex = (mq->firstIndex + mq->msgCount - 1) % mq->msgCount;
+    mq->firstIndex               = (mq->firstIndex + mq->msgCount - 1) % mq->msgCount;
     mq->msgArray[mq->firstIndex] = msg;
     mq->usedCount++;
     func_0207f5fc(&mq->queueReceive);

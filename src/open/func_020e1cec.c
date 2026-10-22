@@ -19,18 +19,18 @@ void func_020e1cec(s32 *arg0, s32 arg1) {
     p = data_02159e70;
     if (M2C_FIELD(p, s32 *, 0xB8) == 2) {
         M2C_FIELD(p, s32 *, 0x1D0C) = 1;
-        tmp = M2C_FIELD(p, s32 *, 0x1D0C);
-        base = (char *) p + 0x1D0C;
+        tmp                         = M2C_FIELD(p, s32 *, 0x1D0C);
+        base                        = (char *) p + 0x1D0C;
         if (tmp != 4) {
             M2C_FIELD(base, s32 *, 4) = tmp;
         }
     }
     func_020dd9e4();
-    base = data_02159fc4 + 0x160;
-    M2C_FIELD(base, s32 *, 0) = 1;
-    M2C_FIELD(base, s32 *, 4) = arg0[0];
-    M2C_FIELD(base, s32 *, 8) = arg0[0];
-    M2C_FIELD(base, s32 *, 0xC) = arg0[1];
+    base                         = data_02159fc4 + 0x160;
+    M2C_FIELD(base, s32 *, 0)    = 1;
+    M2C_FIELD(base, s32 *, 4)    = arg0[0];
+    M2C_FIELD(base, s32 *, 8)    = arg0[0];
+    M2C_FIELD(base, s32 *, 0xC)  = arg0[1];
     M2C_FIELD(base, s32 *, 0x10) = arg0[2];
     M2C_FIELD(base, s16 *, 0x14) = arg1;
     if (arg1 == 2) {

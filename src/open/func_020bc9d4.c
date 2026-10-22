@@ -24,7 +24,7 @@ s32 func_020bc9d4(AgentList *arg0, s16 arg1, s32 arg2) {
     s32 i;
     s64 d;
 
-    handle = ((s32 (*)(s16)) func_01ffdb08)(arg1);
+    handle = ((s32(*)(s16)) func_01ffdb08)(arg1);
     if (handle == 0) {
         return 0;
     }

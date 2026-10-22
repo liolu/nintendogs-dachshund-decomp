@@ -14,7 +14,7 @@ s32 func_0206fc80(u32 mask) {
     u16 bit;
     void (*h)(u8 *);
 
-    ret = 0;
+    ret   = 0;
     state = func_02080c28();
     if (data_0214f574 == 1) {
         p = (u8 *) func_02070118();
@@ -24,11 +24,11 @@ s32 func_0206fc80(u32 mask) {
                 if (mask & (*(volatile u16 *) (p + 8) & bit)) {
                     volatile u16 *flags = (volatile u16 *) (p + 8);
 
-                    ret = 1;
-                    *flags = *flags & ~bit;
-                    *(u32 *) (p + 4) = 0x10;
+                    ret                = 1;
+                    *flags             = *flags & ~bit;
+                    *(u32 *) (p + 4)   = 0x10;
                     *(u16 *) (p + 0xA) = bit;
-                    h = *(void (**)(u8 *)) (p + 0x10);
+                    h                  = *(void (**)(u8 *))(p + 0x10);
                     if (h != 0) {
                         h(p);
                     }

@@ -28,7 +28,7 @@ void func_02003250(s32 *arg0) {
     s32 j;
 
     found = 0;
-    i = 0;
+    i     = 0;
     do {
         func_02006350();
         v = data_0214d5fc;

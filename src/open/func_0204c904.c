@@ -35,16 +35,16 @@ void func_0204c904(void *arg0, s32 arg1) {
     s32 temp_q;
     s32 var_r0;
 
-    var_r9 = -1;
-    var_r8 = var_r9;
+    var_r9  = -1;
+    var_r8  = var_r9;
     temp_r5 = func_02036258(arg0);
     if (temp_r5 != NULL) {
         func_02027644(temp_r5, (u8 *) arg0 + 0x26C);
         *(Blk3 *) ((u8 *) arg0 + 0x3B4) = *(Blk3 *) ((u8 *) arg0 + 0x26C);
         func_0203910c(arg0);
         temp_r4 = func_02037130(arg0, 0x302);
-        var_r9 = func_0203260c(arg0);
-        var_r8 = func_020276f8(temp_r5);
+        var_r9  = func_0203260c(arg0);
+        var_r8  = func_020276f8(temp_r5);
     }
     func_020358c8(arg0);
     if (func_02028714(arg0, 0, 1) != 0) {

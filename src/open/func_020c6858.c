@@ -34,7 +34,7 @@ void func_020c6858(s32 *arg0, s32 *arg1, s32 arg2, s16 arg3) {
     func_0208831c(&file);
     if (func_02087fcc(&file, name) != 0) {
         size = file.startPosition - file.unk_20;
-        p = func_020038a8(arg2, size);
+        p    = func_020038a8(arg2, size);
         func_02087e70(&file, p, size);
         func_02087f84(&file);
     }
@@ -47,7 +47,7 @@ void func_020c6858(s32 *arg0, s32 *arg1, s32 arg2, s16 arg3) {
     func_0208831c(&file2);
     if (func_02087fcc(&file2, name) != 0) {
         size = file2.startPosition - file2.unk_20;
-        p = func_020038a8(arg2, size);
+        p    = func_020038a8(arg2, size);
         func_02087e70(&file2, p, size);
         func_02087f84(&file2);
     }

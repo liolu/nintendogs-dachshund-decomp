@@ -21,7 +21,7 @@ void func_020ee604(s32 arg0) {
     u16 idx;
     s32 i;
 
-    M2C_FIELD(arg0, s32 *, 0) = 0;
+    M2C_FIELD(arg0, s32 *, 0)     = 0;
     M2C_FIELD(arg0, s32 *, 0x2F4) = 0;
     M2C_FIELD(arg0, s32 *, 0x2F8) = 0;
     M2C_FIELD(arg0, s32 *, 0x2FC) = 0;
@@ -54,16 +54,16 @@ case_22:
     func_020f0ea0((u8 *) arg0 + 0x254);
     func_020f0ea0((u8 *) arg0 + 0x274);
     switch (M2C_FIELD(arg0, s16 *, 0x1CB8)) {
-    case 0:
-        break;
-    case 1:
-        func_020f0ea0((u8 *) arg0 + 0x294);
-        break;
-    case 2:
-        func_020f0ea0((u8 *) arg0 + 0x294);
-        func_020f0ea0((u8 *) arg0 + 0x2B4);
-        func_020f0ea0((u8 *) arg0 + 0x2D4);
-        break;
+        case 0:
+            break;
+        case 1:
+            func_020f0ea0((u8 *) arg0 + 0x294);
+            break;
+        case 2:
+            func_020f0ea0((u8 *) arg0 + 0x294);
+            func_020f0ea0((u8 *) arg0 + 0x2B4);
+            func_020f0ea0((u8 *) arg0 + 0x2D4);
+            break;
     }
     M2C_FIELD(arg0, s32 *, 0x2F4) = 1;
     func_020d6068(2, 8, 1);
@@ -74,16 +74,16 @@ case_b:
     func_020f0ea0((u8 *) arg0 + 0x254);
     func_020f0ea0((u8 *) arg0 + 0x274);
     switch (M2C_FIELD(arg0, s16 *, 0x1CB8)) {
-    case 0:
-        break;
-    case 1:
-        func_020f0ea0((u8 *) arg0 + 0x294);
-        break;
-    case 2:
-        func_020f0ea0((u8 *) arg0 + 0x294);
-        func_020f0ea0((u8 *) arg0 + 0x2B4);
-        func_020f0ea0((u8 *) arg0 + 0x2D4);
-        break;
+        case 0:
+            break;
+        case 1:
+            func_020f0ea0((u8 *) arg0 + 0x294);
+            break;
+        case 2:
+            func_020f0ea0((u8 *) arg0 + 0x294);
+            func_020f0ea0((u8 *) arg0 + 0x2B4);
+            func_020f0ea0((u8 *) arg0 + 0x2D4);
+            break;
     }
     goto tail;
 
@@ -95,16 +95,16 @@ def:
     func_020f1098((u8 *) arg0 + 0x254);
     func_020f1098((u8 *) arg0 + 0x274);
     switch (M2C_FIELD(arg0, s16 *, 0x1CB8)) {
-    case 0:
-        break;
-    case 1:
-        func_020f1098((u8 *) arg0 + 0x294);
-        break;
-    case 2:
-        func_020f1098((u8 *) arg0 + 0x294);
-        func_020f1098((u8 *) arg0 + 0x2B4);
-        func_020f1098((u8 *) arg0 + 0x2D4);
-        break;
+        case 0:
+            break;
+        case 1:
+            func_020f1098((u8 *) arg0 + 0x294);
+            break;
+        case 2:
+            func_020f1098((u8 *) arg0 + 0x294);
+            func_020f1098((u8 *) arg0 + 0x2B4);
+            func_020f1098((u8 *) arg0 + 0x2D4);
+            break;
     }
     func_02003d80(0x10);
     func_020e2460();
@@ -124,10 +124,9 @@ tail:
     for (i = 0; i < 3; i++) {
         obj = func_01ffdb08((s16) i);
         if (obj != 0) {
-            q = func_020449ac(func_020276f8(obj));
+            q   = func_020449ac(func_020276f8(obj));
             idx = (u16) (i + 6);
-            func_020e83d0(2, idx, func_020ebab8(2, idx),
-                          M2C_FIELD(q, s32 *, 0x88), M2C_FIELD(q, s32 *, 0x8C),
+            func_020e83d0(2, idx, func_020ebab8(2, idx), M2C_FIELD(q, s32 *, 0x88), M2C_FIELD(q, s32 *, 0x8C),
                           M2C_FIELD(q, s32 *, 0x90), 1, 1);
         }
     }

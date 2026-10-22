@@ -1,2 +1,1 @@
-void func_0207c208(void) {
-}
+void func_0207c208(void) {}

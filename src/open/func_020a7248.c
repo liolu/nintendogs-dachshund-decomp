@@ -24,8 +24,8 @@ int func_020a7248(int arg0, unsigned char *arg1) {
     if (x >= -0xCCD) {
         goto zero;
     }
- one:
+one:
     return 1;
- zero:
+zero:
     return 0;
 }

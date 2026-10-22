@@ -32,7 +32,7 @@ void func_02010a98(void *arg0) {
     u32 temp_r2;
     u16 temp_r0_5;
 
-    func_02022b6c((s32)arg0);
+    func_02022b6c((s32) arg0);
     if (M2C_FIELD(arg0, u8 *, 0xA4) != 0) {
         var_r4 = 1;
     } else {
@@ -82,10 +82,10 @@ void func_02010a98(void *arg0) {
         return;
     }
     if (M2C_FIELD(arg0, u16 *, 0xFC) > 0x64) {
-        temp_r3 = *(u32 **) data_0214da84;
-        temp_r2 = *temp_r3 * 0x10DCD + 1;
+        temp_r3   = *(u32 **) data_0214da84;
+        temp_r2   = *temp_r3 * 0x10DCD + 1;
         temp_r0_5 = (u16) ((u16) temp_r2 * 100u >> 16);
-        *temp_r3 = temp_r2;
+        *temp_r3  = temp_r2;
         if (temp_r0_5 != 0) {
             return;
         }

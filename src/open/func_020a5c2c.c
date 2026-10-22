@@ -24,7 +24,7 @@ void func_020a5c2c(s32 *arg0) {
         case 1:
         case 2:
         case 3: {
-            s32 r = func_020a7e24();
+            s32 r   = func_020a7e24();
             arg0[0] = 0;
             arg0[1] = 0;
             arg0[2] = r;

@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 extern void *data_0214d628;
 extern s32 func_02073a6c(s32, u32);
 extern void func_02073888(s32);
@@ -20,9 +20,9 @@ void func_02006c64(void *arg0, void *arg1) {
     if (M2C_FIELD(arg0, u16 *, 2) >= M2C_FIELD(arg0, u16 *, 0)) {
         return;
     }
-    idx = M2C_FIELD(arg0, u16 *, 2);
-    p = (s32 *) (M2C_FIELD(arg0, s32 *, 4) + (idx << 3));
-    p[0] = M2C_FIELD(arg1, s32 *, 0);
-    M2C_FIELD(p, u16 *, 4) = M2C_FIELD(arg1, u16 *, 4);
+    idx                       = M2C_FIELD(arg0, u16 *, 2);
+    p                         = (s32 *) (M2C_FIELD(arg0, s32 *, 4) + (idx << 3));
+    p[0]                      = M2C_FIELD(arg1, s32 *, 0);
+    M2C_FIELD(p, u16 *, 4)    = M2C_FIELD(arg1, u16 *, 4);
     M2C_FIELD(arg0, u16 *, 2) = M2C_FIELD(arg0, u16 *, 2) + 1;
 }

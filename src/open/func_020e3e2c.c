@@ -25,6 +25,6 @@ void func_020e3e2c(s32 arg0) {
     wk[1] = 0;
     wk[2] = 1;
     wk[3] = (s32) data_02144b50[arg0];
-    (*(void (**)(void *)) *(volatile s32 *) &wk[3])(wk + 4);
+    (*(void (**)(void *)) * (volatile s32 *) &wk[3])(wk + 4);
     return;
 }

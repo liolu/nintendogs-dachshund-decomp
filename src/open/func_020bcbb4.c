@@ -33,7 +33,7 @@ s32 func_020bcbb4(ScaleList *arg0, s32 arg1, s32 arg2) {
             if (arg0->entryB[i].f4 < 0) {
                 arg0->entryB[i].f4 = 0;
             }
-            result = 1;
+            result             = 1;
             arg0->entryB[i].f0 = (s32) (((s64) arg0->entryB[i].f0 * arg2 + 0x800) >> 12);
             arg0->entryB[i].f8 = (s32) (((s64) arg0->entryB[i].f8 * arg2 + 0x800) >> 12);
         }

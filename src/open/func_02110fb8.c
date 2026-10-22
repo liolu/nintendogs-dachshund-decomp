@@ -9,7 +9,7 @@ void func_02110fb8(void) {
 
     func_02111b88(p, 0xE);
     M2C_FIELD(p, u16 *, 4) = 0xA;
-    q = data_0215a04c;
+    q                      = data_0215a04c;
     M2C_FIELD(q, u16 *, 0x20) |= 1;
     M2C_FIELD(q, u16 *, 0x20) |= 2;
     M2C_FIELD(p, u16 *, 0x1C) = 0;

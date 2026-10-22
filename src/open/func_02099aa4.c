@@ -29,11 +29,11 @@ void func_02099aa4(void) {
     volatile u16 zero;
 
     data_02154f04 = 1;
-    lo = -0x8000;
-    hi = 0x7fff;
+    lo            = -0x8000;
+    hi            = 0x7fff;
     for (;;) {
         func_0207fdcc(data_02154f40, &msg, 1);
-        id = msg & 0xffffff;
+        id  = msg & 0xffffff;
         tag = msg & 0xff000000;
         res = func_02094814(data_021545d8, data_0215465c, &data_02154658, 0, data_021545fc);
         if (tag == 0x10000000) {

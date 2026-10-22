@@ -16,14 +16,14 @@ void func_021106d8(void) {
     s32 v;
 
     M2C_FIELD(M2C_FIELD(M2C_FIELD(data_0215a048, void **, 0), void **, 0x74), s32 *, 0x1C) = 0x1000;
-    r = func_020a5fcc();
-    v = (s32) M2C_FIELD(data_0215a048, s32 *, 0x10);
+    r                                                                                      = func_020a5fcc();
+    v     = (s32) M2C_FIELD(data_0215a048, s32 *, 0x10);
     in[0] = 0x5000;
     in[1] = 0x9000;
     in[2] = v;
     func_020c9bf0(r, in, out);
     func_0208fc74(0x31, 2, out);
-    v = (s32) M2C_FIELD(data_0215a048, s32 *, 0x10);
+    v     = (s32) M2C_FIELD(data_0215a048, s32 *, 0x10);
     in[0] = -0x6000;
     in[1] = 0;
     in[2] = v;

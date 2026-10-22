@@ -16,8 +16,8 @@ typedef struct {
     s32 idx;
 } Unk_020bad7c;
 s32 func_020bad7c(Unk_020bad7c *arg0) {
-    List *list = arg0->list;
-    s32 count = list->count;
+    List *list  = arg0->list;
+    s32 count   = list->count;
     Elem *elems = (Elem *) (list + 1);
 
     if (arg0->idx < count - 1) {

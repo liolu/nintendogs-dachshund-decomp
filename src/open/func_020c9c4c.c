@@ -60,12 +60,12 @@ void func_020c9c4c(Obj020c9c4c *o) {
     }
     func_0206ac98(o->unk6c, o->unk6e, o->unk70, o->unk74, o->unk78, 0x1000, 0, data_02150e60);
     data_02150e58.unkfc &= ~0x50;
-    dst = &data_02151098;
+    dst  = &data_02151098;
     *dst = o->unk30;
-    dst = &data_021510a4;
+    dst  = &data_021510a4;
     *dst = o->unk54;
-    src = &o->unk3c;
-    dst = &data_021510b0;
+    src  = &o->unk3c;
+    dst  = &data_021510b0;
     *dst = *src;
     func_0206ab00(&o->unk30, &o->unk54, src, 0, data_02150ea4);
     data_02150e58.unkfc &= ~0xE8;

@@ -15,10 +15,9 @@ void func_02091aa8(void *arg0, s32 arg1) {
     func_0208831c((FS_File *) file);
     func_0205ece8(buf, 0x80, data_0213cf38, data_0213cf14[arg1]);
     if (func_02087fcc((FS_File *) file, buf) != 0) {
-        func_02087e70((FS_File *) file, arg0,
-                      M2C_FIELD(file, u32 *, 0x24) - M2C_FIELD(file, u32 *, 0x20));
-        M2C_FIELD(p, u32 *, 0) = (u32) arg0;
-        M2C_FIELD(p, s16 *, 4) = arg1;
+        func_02087e70((FS_File *) file, arg0, M2C_FIELD(file, u32 *, 0x24) - M2C_FIELD(file, u32 *, 0x20));
+        M2C_FIELD(p, u32 *, 0)    = (u32) arg0;
+        M2C_FIELD(p, s16 *, 4)    = arg1;
         M2C_FIELD(p, u32 *, 0x34) = 1;
         M2C_FIELD(p, s16 *, 0x3C) = 0;
         M2C_FIELD(p, u32 *, 0x40) = 0;

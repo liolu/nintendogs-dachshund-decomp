@@ -20,7 +20,7 @@ void func_020b0e44(void *arg0, M2C_UNK arg1) {
             ok = 1;
         } else if (func_02034208(r6) != 0) {
             if (M2C_FIELD(arg0, s16 *, 0x90) == 3) {
-                rng = M2C_FIELD(data_021555f8, u32 *, 0) * 0x10DCD + 1;
+                rng                                = M2C_FIELD(data_021555f8, u32 *, 0) * 0x10DCD + 1;
                 M2C_FIELD(data_021555f8, u32 *, 0) = rng;
                 if ((u16) rng >= 0x4000) {
                     goto fail;
@@ -33,7 +33,7 @@ void func_020b0e44(void *arg0, M2C_UNK arg1) {
             goto fail;
         }
     } else {
-fail:
+    fail:
         ok = 0;
     }
     if (!ok) {

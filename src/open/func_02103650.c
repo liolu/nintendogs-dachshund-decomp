@@ -80,15 +80,15 @@ void func_02103650(void) {
     }
     m->r1.x = 0;
 
-    z = m->r0.z;
-    y = m->r0.y;
-    x = m->r0.x;
+    z    = m->r0.z;
+    y    = m->r0.y;
+    x    = m->r0.x;
     v1.x = x;
     v1.y = y;
     v1.z = z;
-    z = m->r1.z;
-    y = m->r1.y;
-    x = m->r1.x;
+    z    = m->r1.z;
+    y    = m->r1.y;
+    x    = m->r1.x;
     v2.x = x;
     v2.y = y;
     v2.z = z;

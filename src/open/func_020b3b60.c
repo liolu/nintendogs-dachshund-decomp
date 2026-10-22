@@ -33,11 +33,11 @@ void func_020b3b60(s32 *arg0, s32 arg1, s32 arg2) {
     s32 s1;
     s32 s2;
 
-    p = (Pose *) func_0200c488(0xF, arg1);
+    p             = (Pose *) func_0200c488(0xF, arg1);
     *(Vec *) arg0 = p->pos;
-    a0 = p->ang0;
-    a1 = p->ang1;
-    a2 = p->ang2;
+    a0            = p->ang0;
+    a1            = p->ang1;
+    a2            = p->ang2;
     {
         s32 i = a0 >> 4;
         s32 j = i * 2;
@@ -61,9 +61,9 @@ void func_020b3b60(s32 *arg0, s32 arg1, s32 arg2) {
     arg0[3] = p->pos.x + (s32) (((s64) arg2 * m[6] + 0x800) >> 12);
     arg0[4] = p->pos.y + (s32) (((s64) arg2 * m[7] + 0x800) >> 12);
     arg0[5] = p->pos.z + (s32) (((s64) arg2 * m[8] + 0x800) >> 12);
-    s2 = m[5];
-    s1 = m[4];
-    s0 = m[3];
+    s2      = m[5];
+    s1      = m[4];
+    s0      = m[3];
     arg0[6] = s0;
     arg0[7] = s1;
     arg0[8] = s2;

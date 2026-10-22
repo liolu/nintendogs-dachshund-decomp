@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 #pragma opt_strength_reduction off
 extern void *data_0214cf54;
 extern u8 data_0214cfe0[];
@@ -14,9 +14,8 @@ s32 func_0200962c(M2C_UNK arg0, s16 arg1, s8 arg2) {
     s16 i;
 
     for (i = 0; i < 7; i++) {
-        if ((M2C_FIELD(arg0 + i * 4, s32 *, 0x8FC) != 0)
-         && (M2C_FIELD(arg0 + i * 2, s16 *, 0x81C) == arg1)
-         && (M2C_FIELD(arg0 + i, s8 *, 0x838) == arg2)) {
+        if ((M2C_FIELD(arg0 + i * 4, s32 *, 0x8FC) != 0) && (M2C_FIELD(arg0 + i * 2, s16 *, 0x81C) == arg1) &&
+            (M2C_FIELD(arg0 + i, s8 *, 0x838) == arg2)) {
             return i;
         }
     }

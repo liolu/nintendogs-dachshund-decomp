@@ -14,17 +14,16 @@ void func_020d5a60(u8 *base, s32 value) {
 
     blank = 0;
     place = 1;
-    flag = 1;
+    flag  = 1;
     for (j = 0; j < *(u16 *) (base + 0x1a); j++) {
-        d = func_0205e15c(value, place);
+        d     = func_0205e15c(value, place);
         digit = d % 10;
-        flag = 1;
+        flag  = 1;
         if (*(s32 *) (base + 0x24) != 0 && j > 0 && d == 0) {
             blank = (s16) (blank - *(u16 *) (base + 0x1c));
-            flag = 0;
+            flag  = 0;
         }
-        func_020ec028(*(M2C_UNK *) base, (u16) (*(u16 *) (base + 0x18) + j),
-            *(u16 *) (base + 4 + digit * 2));
+        func_020ec028(*(M2C_UNK *) base, (u16) (*(u16 *) (base + 0x18) + j), *(u16 *) (base + 4 + digit * 2));
         func_020eb9fc(*(M2C_UNK *) base, (u16) (*(u16 *) (base + 0x18) + j), flag);
         place *= 10;
     }

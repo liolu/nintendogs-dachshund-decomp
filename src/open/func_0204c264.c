@@ -26,8 +26,8 @@ void func_0204c264(s32 arg0) {
         func_02027644(temp_r0, (void *) (arg0 + 0x3B4));
         dx = *(s32 *) sp0 - M2C_FIELD(arg0, s32 *, 0x2A0);
         dy = *(s32 *) (sp0 + 8) - M2C_FIELD(arg0, s32 *, 0x2A8);
-        p = (s32) (((s64) dx * M2C_FIELD(arg0, s32 *, 0x18C) + (1 << 11)) >> 12);
-        q = (s32) (((s64) dy * M2C_FIELD(arg0, s32 *, 0x194) + (1 << 11)) >> 12);
+        p  = (s32) (((s64) dx * M2C_FIELD(arg0, s32 *, 0x18C) + (1 << 11)) >> 12);
+        q  = (s32) (((s64) dy * M2C_FIELD(arg0, s32 *, 0x194) + (1 << 11)) >> 12);
         if (p + q > 0) {
             M2C_FIELD(arg0, s32 *, 0x26C) = M2C_FIELD(arg0, s32 *, 0x2A0) + (dx >> 2) - dy;
             M2C_FIELD(arg0, s32 *, 0x270) = M2C_FIELD(arg0, s32 *, 0x2A4);

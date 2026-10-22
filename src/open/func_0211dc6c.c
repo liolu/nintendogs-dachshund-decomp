@@ -17,8 +17,8 @@ void func_0211dc6c(s32 arg0) {
             if (M2C_FIELD(data_02159e64, s32 *, 0xA4) == 0) {
                 return;
             }
-            M2C_FIELD(arg0, s16 *, 0x2E) = 2;
-            M2C_FIELD(arg0, s16 *, 0x30) = 0;
+            M2C_FIELD(arg0, s16 *, 0x2E)  = 2;
+            M2C_FIELD(arg0, s16 *, 0x30)  = 0;
             M2C_FIELD(arg0, s16 *, 0x100) = 2;
             return;
         case 2:

@@ -20,7 +20,7 @@ s32 func_020d5cf0(u32 value, u16 *buf, s32 frac) {
     } else if (n <= frac) {
         n += frac - n + 1;
     }
-    pos = n;
+    pos   = n;
     count = 0;
     if (0 < n) {
         do {
@@ -31,7 +31,7 @@ s32 func_020d5cf0(u32 value, u16 *buf, s32 frac) {
                 buf[pos] = '.';
                 pos--;
                 if (value == 0) {
-                    count = n;
+                    count    = n;
                     buf[pos] = '0';
                 }
             }

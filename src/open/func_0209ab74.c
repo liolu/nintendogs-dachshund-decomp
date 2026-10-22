@@ -13,7 +13,7 @@ extern Unk_0209ab74 data_02147e8c[];
 
 s32 func_0209ab74(Unk_0209ab74 *arg0, s32 arg1, s32 arg2) {
     Unk_0209ab74 *p = data_02147e8c;
-    s32 count = 0;
+    s32 count       = 0;
     s32 match;
 
     while (p->id != -1) {

@@ -10,7 +10,7 @@ void func_0201cfb0(void *arg0) {
     s32 var_r0;
 
     temp_r0 = func_02028114(arg0);
-    var_r0 = (s32) (((s64) temp_r0 * -273 + 0x800) >> 12);
+    var_r0  = (s32) (((s64) temp_r0 * -273 + 0x800) >> 12);
     func_0202517c(arg0, 0x12, -var_r0);
     func_0201d1e0(arg0);
     func_02035978(arg0, 1);

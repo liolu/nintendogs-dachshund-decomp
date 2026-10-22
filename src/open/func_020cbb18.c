@@ -8,9 +8,9 @@ void func_020cbb18(u8 *arg0, s32 arg1, s32 arg2, u16 *arg3, u32 arg4, s32 arg5) 
     u32 i;
     u16 c;
 
-    p = *(u8 **) (arg0 + 8) + *(u32 *) (*(u32 *) (arg0 + 4) + (v & 0xFFFF) * 4);
+    p              = *(u8 **) (arg0 + 8) + *(u32 *) (*(u32 *) (arg0 + 4) + (v & 0xFFFF) * 4);
     arg3[arg4 - 1] = 0;
-    i = 0;
+    i              = 0;
     goto check;
 loop:
     c = *(u16 *) p;

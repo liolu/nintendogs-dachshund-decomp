@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 #pragma opt_strength_reduction off
 
 s32 func_020092e4(M2C_UNK, M2C_UNK);
@@ -18,15 +18,14 @@ s32 func_0200925c(M2C_UNK arg0, s16 arg1, s8 arg2) {
 
     p = (s8 *) arg0;
     for (i = 0; i < 7; i++) {
-        if ((M2C_FIELD(arg0 + i * 4, s32 *, 0x8FC) != 0)
-         && (M2C_FIELD(arg0 + i * 2, s16 *, 0x81C) == arg1)
-         && (arg2 == M2C_FIELD(p, s8 *, 0x838))) {
+        if ((M2C_FIELD(arg0 + i * 4, s32 *, 0x8FC) != 0) && (M2C_FIELD(arg0 + i * 2, s16 *, 0x81C) == arg1) &&
+            (arg2 == M2C_FIELD(p, s8 *, 0x838))) {
             goto found;
         }
         p++;
     }
     i = -1;
- found:
+found:
     if (i != -1) {
         return func_020092e4(arg0, i);
     }

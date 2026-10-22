@@ -13,12 +13,12 @@ void func_0210e3f4(s32 arg0) {
     s32 var_sp0;
 
     var_sp0 = func_02080978();
-    var_r4 = 0;
+    var_r4  = 0;
     if ((s32) M2C_FIELD(data_0215a044, s16 *, 0x20) > 0) {
         do {
-            var_r9 = (s32) M2C_FIELD(data_0215a044, s32 *, 0x24 + var_r4 * 4);
+            var_r9  = (s32) M2C_FIELD(data_0215a044, s32 *, 0x24 + var_r4 * 4);
             temp_r0 = func_020449ac(var_r4);
-            var_r8 = temp_r0;
+            var_r8  = temp_r0;
             func_020d2394((void *) var_r9, &var_sp0, arg0);
             func_02044710(var_r4, (void *) var_r9);
             if (var_r8 != 0) {

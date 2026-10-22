@@ -9,8 +9,8 @@ s32 func_02119cfc(s32 arg0, s16 arg1) {
 
     rank = 1;
     flag = 0;
-    i = 3;
-    p = (s16 *) (arg0 + 0x18) + 15;
+    i    = 3;
+    p    = (s16 *) (arg0 + 0x18) + 15;
     for (; i >= 1; i--, p -= 5) {
         if (arg1 < p[2]) {
             rank = p[0] + 1;

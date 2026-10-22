@@ -18,7 +18,7 @@ void *func_020fe444(s32 arg0) {
     data_0215a034 = func_020038a8(arg0, 0x14);
 #pragma opt_strength_reduction off
     for (i = 0; i < 3; i++) {
-        *(u16 *) ((u8 *) data_0215a034 + i * 2) = 0;
+        *(u16 *) ((u8 *) data_0215a034 + i * 2)     = 0;
         *(s32 *) ((u8 *) data_0215a034 + i * 4 + 8) = 0;
     }
     func_020fdc5c(arg0);

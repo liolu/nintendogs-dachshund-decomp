@@ -14,9 +14,9 @@ void func_0208ed84(s32 arg0, s32 arg1) {
     u8 *p;
     s32 old;
 
-    base = data_0215446c;
-    old  = *(s32 *) (base + 0x14);
-    *(u16 *) base         = (u16) arg0;
+    base                   = data_0215446c;
+    old                    = *(s32 *) (base + 0x14);
+    *(u16 *) base          = (u16) arg0;
     *(s32 *) (base + 0x18) = arg1;
     if (old != -1) {
         v = func_02091c0c(arg0);

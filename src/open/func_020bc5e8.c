@@ -29,20 +29,20 @@ void func_020bc5e8(s32 arg0) {
         if (M2C_FIELD(arg0, s32 **, 0xc)[i] == 1) {
             continue;
         }
-        max = M2C_FIELD(arg0, s32 *, 0x18);
-        min = max * percent / 100;
-        cur = &M2C_FIELD(arg0, VecFx32 **, 4)[i];
+        max  = M2C_FIELD(arg0, s32 *, 0x18);
+        min  = max * percent / 100;
+        cur  = &M2C_FIELD(arg0, VecFx32 **, 4)[i];
         next = &M2C_FIELD(arg0, VecFx32 **, 4)[i + 1];
         func_0206823c(cur, next, &diff);
         len = func_02068038(&diff);
         if (len > max) {
-            scale = func_02067ca0(max, len);
+            scale  = func_02067ca0(max, len);
             diff.x = FX_Mul(diff.x, scale);
             diff.y = FX_Mul(diff.y, scale);
             diff.z = FX_Mul(diff.z, scale);
             func_02068270(next, &diff, cur);
         } else if (len < min) {
-            scale = func_02067ca0(min, len);
+            scale  = func_02067ca0(min, len);
             diff.x = FX_Mul(diff.x, scale);
             diff.y = FX_Mul(diff.y, scale);
             diff.z = FX_Mul(diff.z, scale);

@@ -41,13 +41,13 @@ void func_020e63dc(s32 arg0) {
         }
         e += 2;
     }
-    v = M2C_FIELD(arg0, s32 *, 0x874) - 1;
+    v   = M2C_FIELD(arg0, s32 *, 0x874) - 1;
     cnt = M2C_FIELD(arg0, u16 *, 0x30);
     if (cnt < v) {
         if (M2C_FIELD(arg0, u16 *, 0xC) != 0) {
-            data_02144f68[M2C_FIELD(arg0, u16 *, 0x30)] = M2C_FIELD(arg0, u16 *, 0xC);
+            data_02144f68[M2C_FIELD(arg0, u16 *, 0x30)]     = M2C_FIELD(arg0, u16 *, 0xC);
             data_02144f68[M2C_FIELD(arg0, u16 *, 0x30) + 1] = 0;
-            M2C_FIELD(arg0, u16 *, 0x30) = M2C_FIELD(arg0, u16 *, 0x30) + 1;
+            M2C_FIELD(arg0, u16 *, 0x30)                    = M2C_FIELD(arg0, u16 *, 0x30) + 1;
             func_020e65dc(arg0);
         }
     } else if (cnt == v) {

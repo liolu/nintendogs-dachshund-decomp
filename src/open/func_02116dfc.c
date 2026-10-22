@@ -34,8 +34,8 @@ void func_02116dfc(u8 *arg0, s32 arg1, s32 arg2) {
             func_020e1674(arg2);
             break;
         case 21:
-            a = *(volatile u16 *) (arg0 + 0x10E);
-            b = *(volatile u16 *) (arg0 + 0x110);
+            a                       = *(volatile u16 *) (arg0 + 0x10E);
+            b                       = *(volatile u16 *) (arg0 + 0x110);
             *(u16 *) (arg0 + 0x112) = a;
             *(u16 *) (arg0 + 0x114) = b;
             func_02118c10(arg0);

@@ -61,9 +61,9 @@ s32 func_02074c60(UnkJntAnmResult *result, UnkAnmObj *anm, int jntID) {
     }
 
     ratioSum = 0;
-    count = 0;
-    last = anm;
-    p = anm;
+    count    = 0;
+    last     = anm;
+    p        = anm;
     do {
         if ((p->unk_1a[jntID] & 0x300) == 0x100) {
             last = p;

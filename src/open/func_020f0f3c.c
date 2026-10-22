@@ -26,10 +26,10 @@ void func_020f0f3c(void *arg0) {
     if (M2C_FIELD(arg0, s32 *, 0x14) == 0) {
         return;
     }
-    w = M2C_FIELD(arg0, u16 *, 0x1C);
-    y0 = M2C_FIELD(arg0, s16 *, 0x18);
-    x0 = M2C_FIELD(arg0, u16 *, 0xE);
-    y1 = M2C_FIELD(arg0, s16 *, 0x1A);
+    w    = M2C_FIELD(arg0, u16 *, 0x1C);
+    y0   = M2C_FIELD(arg0, s16 *, 0x18);
+    x0   = M2C_FIELD(arg0, u16 *, 0xE);
+    y1   = M2C_FIELD(arg0, s16 *, 0x1A);
     res1 = func_0205df50(M2C_FIELD(arg0, s16 *, 0xA) * (x0 - w) + y0 * w, x0);
     res2 = func_0205df50(M2C_FIELD(arg0, s16 *, 0xC) * (x0 - w) + y1 * w, x0);
     func_020f0df0(arg0, (s16) (res1 - y0), (s16) (res2 - y1));

@@ -3,7 +3,7 @@ extern void *data_02159e70;
 s32 func_02003a6c(void);
 s32 func_02003a34(void);
 s32 func_02116cb4(u8 *arg0) {
-    u16 f = *(u16 *) (arg0 + 0x2C);
+    u16 f   = *(u16 *) (arg0 + 0x2C);
     s32 ret = 1;
 
     if (f & 1) {

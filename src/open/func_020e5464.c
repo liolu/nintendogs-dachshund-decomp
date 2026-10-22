@@ -40,8 +40,8 @@ void func_020e5464(s32 arg0) {
     if (M2C_FIELD(arg0, s32 *, 0) != 1) {
         return;
     }
-    q = (u8 *) arg0 + 0x1C5C;
-    d = data_0214d624;
+    q  = (u8 *) arg0 + 0x1C5C;
+    d  = data_0214d624;
     v2 = M2C_FIELD(d, u16 *, 2);
     v0 = d[0];
     v1 = d[1];
@@ -49,19 +49,19 @@ void func_020e5464(s32 arg0) {
         return;
     }
     switch (M2C_FIELD(q, s32 *, 0)) {
-    case 0:
-    case 1:
-    case 2:
-        func_020e55ec(arg0, v0, v1);
-        break;
-    case 3:
-    case 4:
-        func_020e5d94(arg0, v0, v1);
-        break;
-    case 5:
-    case 6:
-    case 7:
-        func_020e5a3c(arg0, v0, v1);
-        break;
+        case 0:
+        case 1:
+        case 2:
+            func_020e55ec(arg0, v0, v1);
+            break;
+        case 3:
+        case 4:
+            func_020e5d94(arg0, v0, v1);
+            break;
+        case 5:
+        case 6:
+        case 7:
+            func_020e5a3c(arg0, v0, v1);
+            break;
     }
 }

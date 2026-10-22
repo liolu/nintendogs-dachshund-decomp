@@ -23,7 +23,7 @@ void func_020b2274(M2C_UNK arg0) {
     func_02044980(0);
     func_020a83c0(arg0);
     if (M2C_FIELD(data_0215a064, u16 *, 0x84) & 1) {
-        v = M2C_FIELD(data_0215a064, Vec3 *, 0x9c);
+        v                            = M2C_FIELD(data_0215a064, Vec3 *, 0x9c);
         M2C_FIELD(arg0, s32 *, 0xbc) = (M2C_FIELD(arg0, s32 *, 0xbc) >> 1) + (v.x >> 1);
         M2C_FIELD(arg0, s32 *, 0xc0) = (M2C_FIELD(arg0, s32 *, 0xc0) >> 1) + (v.y >> 1);
         M2C_FIELD(arg0, s32 *, 0xc4) = (M2C_FIELD(arg0, s32 *, 0xc4) >> 1) + (v.z >> 1);

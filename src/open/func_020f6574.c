@@ -28,12 +28,12 @@ void func_020f6574(s32 arg0, s32 arg1) {
 
     idx = M2C_FIELD(arg0, s16 *, 0x88);
     if ((idx & 3) == (M2C_FIELD(data_0214cd98, s32 *, 0x28) & 3)) {
-        i = (s16) (idx + 1);
-        end = 7;
+        i    = (s16) (idx + 1);
+        end  = 7;
         step = 1;
     } else {
-        i = 6;
-        end = idx;
+        i    = 6;
+        end  = idx;
         step = -1;
     }
     for (; i <= end; i = (s16) (i + step)) {

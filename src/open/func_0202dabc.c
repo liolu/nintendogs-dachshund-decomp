@@ -10,6 +10,6 @@ s32 func_0202dabc(M2C_UNK arg0) {
     s32 temp_r2;
 
     temp_r2 = M2C_FIELD(arg0, s16 *, 0x152);
-    var_r1 = *((u8 *) ((s8 *) &data_0213b3e7 + (temp_r2 * 8)));
-    return (s16) *((s32 *) ((s8 *) &data_02139dd0 + (var_r1 * 4)));
+    var_r1  = *((u8 *) ((s8 *) &data_0213b3e7 + (temp_r2 * 8)));
+    return (s16) * ((s32 *) ((s8 *) &data_02139dd0 + (var_r1 * 4)));
 }

@@ -10,7 +10,7 @@ s32 func_02090da0(s32 arg0, s32 arg1) {
 
     if (M2C_FIELD(g, s32 *, 0x8c) != 0) {
         M2C_FIELD(g, s32 *, 0x8c) = 0;
-        M2C_FIELD(g, s16 *, 0x2) = -1;
+        M2C_FIELD(g, s16 *, 0x2)  = -1;
     }
     t = M2C_FIELD(g, s32 *, 0x94);
     d = data_02154520;
@@ -32,11 +32,11 @@ s32 func_02090da0(s32 arg0, s32 arg1) {
         }
     }
     i = -1;
- out:
+out:
     if (i == -1) {
         return -2;
     }
     return i;
- neg1:
+neg1:
     return -1;
 }

@@ -8,7 +8,7 @@ s32 func_02022bac(u8 *arg0) {
     s32 t;
     s32 ok;
 
-    v = *(s16 *) (arg0 + 0xF0);
+    v  = *(s16 *) (arg0 + 0xF0);
     ok = 0;
     if (v > 0xC) {
         ok = v < 0x6F;

@@ -76,9 +76,9 @@ void func_02065598(void) {
     int state;
     OSThread *thread;
     OSThreadQueue *noQueue;
-    common = &data_0214ec20;
+    common  = &data_0214ec20;
     noQueue = NULL;
-    thread = &common->thread;
+    thread  = &common->thread;
 
     while (1) {
         state = func_02080c28();

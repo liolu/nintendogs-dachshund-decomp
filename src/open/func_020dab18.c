@@ -17,8 +17,8 @@ void func_020dab18(void) {
             q = p + 0x18;
             if (M2C_FIELD(q, s32 *, 0x20) != 0) {
                 M2C_FIELD(q, s32 *, 0x20) = 0;
-                func_020ec470(M2C_FIELD(q, s32 *, 0), M2C_FIELD(p, s32 *, 0x10),
-                              M2C_FIELD(q, u16 *, 0x1C) << 5, M2C_FIELD(p, s32 *, 0x14));
+                func_020ec470(M2C_FIELD(q, s32 *, 0), M2C_FIELD(p, s32 *, 0x10), M2C_FIELD(q, u16 *, 0x1C) << 5,
+                              M2C_FIELD(p, s32 *, 0x14));
             }
         }
     }

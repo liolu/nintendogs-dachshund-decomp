@@ -32,23 +32,23 @@ void func_020b300c(M2C_UNK arg0, M2C_UNK arg1) {
 
     t = func_01ffdb08(arg1);
     func_020b2a54(t, arg0 + 0xC);
-    a = data_0213ec60;
-    v = func_02028120(t);
+    a                            = data_0213ec60;
+    v                            = func_02028120(t);
     M2C_FIELD(arg0, s32 *, 0x10) = (s32) (((s64) v * a + 0x800) >> 12);
-    b = data_0213ec68;
-    w = func_02028120(t);
-    x = M2C_FIELD(arg0, s32 *, 0x14) + (s32) (((s64) w * b + 0x800) >> 12);
-    c = data_0213ec6c;
-    u = M2C_FIELD(arg0, s32 *, 0xC);
-    M2C_FIELD(arg0, s32 *, 0x0) = u;
-    M2C_FIELD(arg0, s32 *, 0x4) = c;
-    M2C_FIELD(arg0, s32 *, 0x8) = x;
+    b                            = data_0213ec68;
+    w                            = func_02028120(t);
+    x                            = M2C_FIELD(arg0, s32 *, 0x14) + (s32) (((s64) w * b + 0x800) >> 12);
+    c                            = data_0213ec6c;
+    u                            = M2C_FIELD(arg0, s32 *, 0xC);
+    M2C_FIELD(arg0, s32 *, 0x0)  = u;
+    M2C_FIELD(arg0, s32 *, 0x4)  = c;
+    M2C_FIELD(arg0, s32 *, 0x8)  = x;
     M2C_FIELD(arg0, s32 *, 0x18) = 0;
     M2C_FIELD(arg0, s32 *, 0x1C) = 0x1000;
     M2C_FIELD(arg0, s32 *, 0x20) = 0;
-    d = data_0213ec64;
-    v = func_02028120(t);
-    q = func_02067cbc(arg0 + 0xC, arg0);
-    s = func_02068654(func_02067ca0((s32) (((s64) v * d + 0x800) >> 12), q));
+    d                            = data_0213ec64;
+    v                            = func_02028120(t);
+    q                            = func_02067cbc(arg0 + 0xC, arg0);
+    s                            = func_02068654(func_02067ca0((s32) (((s64) v * d + 0x800) >> 12), q));
     M2C_FIELD(arg0, s32 *, 0x24) = (s32) (((s64) s * 0x1680000 + 0x80000) >> 20);
 }

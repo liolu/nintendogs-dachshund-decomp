@@ -18,10 +18,10 @@ void func_02119744(s16 *arg0, u32 arg1, u32 *arg2) {
         arg0[k] = k;
     }
     for (i = 0; i < arg1; i++) {
-        seed = *arg2 * 0x10DCD + 1;
+        seed  = *arg2 * 0x10DCD + 1;
         *arg2 = seed;
-        j = i + (u16) seed % (arg1 - i);
-        tmp = arg0[i];
+        j     = i + (u16) seed % (arg1 - i);
+        tmp   = arg0[i];
         if (tmp != 0x1F && arg0[j] != 0x1F) {
             arg0[i] = arg0[j];
             arg0[j] = tmp;

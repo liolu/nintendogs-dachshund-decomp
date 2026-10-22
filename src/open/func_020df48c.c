@@ -21,15 +21,15 @@ void func_020df48c(void *arg0) {
         func_020ccdc8(var_r4);
     }
     if (func_020cbf5c(var_r4) != 0) {
-        func_020db638(0, 4, 2, 2, 1, 3, (s32) (data_02159e70 + 0x4D22),
-                      M2C_FIELD(var_r4, s16 *, 0x14), M2C_FIELD(var_r4, s16 *, 0x58), 0);
+        func_020db638(0, 4, 2, 2, 1, 3, (s32) (data_02159e70 + 0x4D22), M2C_FIELD(var_r4, s16 *, 0x14),
+                      M2C_FIELD(var_r4, s16 *, 0x58), 0);
         func_020ddd00(M2C_FIELD(arg0, s32 *, 0x1C));
     }
     func_020df5c0(arg0, var_r4);
     if (M2C_FIELD(var_r4, s16 *, 0) == 2) {
-        M2C_FIELD(arg0, s32 *, 0xC) = 1;
+        M2C_FIELD(arg0, s32 *, 0xC)  = 1;
         M2C_FIELD(arg0, s32 *, 0x34) = 0;
-        M2C_FIELD(arg0, s32 *, 0) = 0;
+        M2C_FIELD(arg0, s32 *, 0)    = 0;
         return;
     }
     M2C_FIELD(arg0, s32 *, 0x34) = 0;

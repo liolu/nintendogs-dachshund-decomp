@@ -17,9 +17,9 @@ void func_020f45e4(s32 *out, s32 m[3][3]) {
 
     trace = m[0][0] + m[1][1] + m[2][2];
     if (trace > 0) {
-        q = func_02067c34(trace + 0x1000);
+        q      = func_02067c34(trace + 0x1000);
         out[0] = q >> 1;
-        w = func_02067ca0(0x800, q);
+        w      = func_02067ca0(0x800, q);
         out[1] = FX_Mul(m[1][2] - m[2][1], w);
         out[2] = FX_Mul(m[2][0] - m[0][2], w);
         out[3] = FX_Mul(m[0][1] - m[1][0], w);
@@ -31,18 +31,18 @@ void func_020f45e4(s32 *out, s32 m[3][3]) {
         if (m[2][2] > m[idx][idx]) {
             idx = 2;
         }
-        i = a[idx];
-        j = a[i];
-        q = func_02067c34(m[idx][idx] - (m[i][i] + m[j][j]) + 0x1000);
+        i      = a[idx];
+        j      = a[i];
+        q      = func_02067c34(m[idx][idx] - (m[i][i] + m[j][j]) + 0x1000);
         b[idx] = q >> 1;
-        w = q;
+        w      = q;
         if (q != 0) {
             w = func_02067ca0(0x800, q);
         }
-        t = m[i][j] - m[j][i];
+        t      = m[i][j] - m[j][i];
         out[0] = FX_Mul(t, w);
-        b[i] = FX_Mul(m[i][idx] + m[idx][i], w);
-        b[j] = FX_Mul(m[j][idx] + m[idx][j], w);
+        b[i]   = FX_Mul(m[i][idx] + m[idx][i], w);
+        b[j]   = FX_Mul(m[j][idx] + m[idx][j], w);
         out[1] = b[0];
         out[2] = b[1];
         out[3] = b[2];

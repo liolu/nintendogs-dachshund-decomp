@@ -26,16 +26,16 @@ void func_02019b40(s32 arg0) {
     if (r != 0) {
         func_0203e5ac(arg0, 2, 1);
         switch (*(s16 *) (r + 0x90)) {
-        case 4:
-            if (*(s8 *) (arg0 + 0x8B) != 5 && *(s8 *) (arg0 + 0x8B) != 4) {
-                *(s32 *) (arg0 + 0x948) = 1;
-            }
-            break;
-        case 7:
-            if (*(s8 *) (arg0 + 0x8B) != 5 && *(s8 *) (arg0 + 0x8B) != 4) {
-                *(s32 *) (arg0 + 0x948) = 8;
-            }
-            break;
+            case 4:
+                if (*(s8 *) (arg0 + 0x8B) != 5 && *(s8 *) (arg0 + 0x8B) != 4) {
+                    *(s32 *) (arg0 + 0x948) = 1;
+                }
+                break;
+            case 7:
+                if (*(s8 *) (arg0 + 0x8B) != 5 && *(s8 *) (arg0 + 0x8B) != 4) {
+                    *(s32 *) (arg0 + 0x948) = 8;
+                }
+                break;
         }
         res = func_ov003_02196338(arg0);
     } else {

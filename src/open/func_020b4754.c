@@ -17,10 +17,10 @@ void func_020b4754(M2C_S12 *arg0, M2C_S12 *arg1) {
     s32 e;
 
     *arg0 = *arg1;
-    v.f0 = -arg0->f0;
-    v.f1 = 0;
-    v.f2 = -arg0->f2;
-    e = data_0213eeb8;
+    v.f0  = -arg0->f0;
+    v.f1  = 0;
+    v.f2  = -arg0->f2;
+    e     = data_0213eeb8;
     func_02006a20((void *) &v, (void *) &v);
     w.f0 = arg0->f0;
     w.f1 = 0;

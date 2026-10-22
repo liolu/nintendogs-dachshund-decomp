@@ -15,7 +15,7 @@ void func_02124308(void) {
     u8 *p;
     s16 buf[2];
 
-    p = (u8 *) func_0202816c(func_01ffdb08(M2C_FIELD(data_0215a064, s16 *, 0x11C)));
+    p      = (u8 *) func_0202816c(func_01ffdb08(M2C_FIELD(data_0215a064, s16 *, 0x11C)));
     buf[0] = 0;
     buf[1] = 0x64;
     func_020cf19c(buf, 1);
@@ -47,14 +47,14 @@ void func_02124308(void) {
     buf[1] = 0;
     func_020cf19c(buf, 1);
     switch (p[3]) {
-    case 1:
-        buf[0] = 1;
-        buf[1] = 5;
-        break;
-    default:
-        buf[0] = 1;
-        buf[1] = 4;
-        break;
+        case 1:
+            buf[0] = 1;
+            buf[1] = 5;
+            break;
+        default:
+            buf[0] = 1;
+            buf[1] = 4;
+            break;
     }
     func_020cf19c(buf, 1);
     buf[0] = 0;

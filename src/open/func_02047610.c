@@ -16,9 +16,9 @@ void func_02047610(s32 arg0) {
     u16 lo;
     u16 hi;
 
-    next = *data_0214da84 * 0x10DCD + 1;
-    lo = next;
-    hi = (u32) lo * 0x32 >> 0x10;
+    next           = *data_0214da84 * 0x10DCD + 1;
+    lo             = next;
+    hi             = (u32) lo * 0x32 >> 0x10;
     *data_0214da84 = next;
     func_02048360(arg0, 8, hi == 0);
 }

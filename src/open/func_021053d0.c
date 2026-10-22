@@ -17,13 +17,13 @@ void func_021053d0(void *arg0, M2C_UNK arg1) {
         return;
     }
     func_020b1428(arg0, arg1, 0xD9D, 0xE6A, 0);
-    temp_r0 = (M2C_FIELD(data_021555f8, s32 *, 0) * 0x10DCD) + 1;
+    temp_r0                            = (M2C_FIELD(data_021555f8, s32 *, 0) * 0x10DCD) + 1;
     M2C_FIELD(data_021555f8, s32 *, 0) = temp_r0;
-    temp_r1 = ((s16) (u16) (temp_r0 & 0xFFF) << 1) - 0x1000;
+    temp_r1                            = ((s16) (u16) (temp_r0 & 0xFFF) << 1) - 0x1000;
     M2C_FIELD(arg0, s32 *, 0xB0) += FX_Mul(M2C_FIELD(arg0, s32 *, 0xB4), temp_r1);
-    temp_r0 = (M2C_FIELD(data_021555f8, s32 *, 0) * 0x10DCD) + 1;
+    temp_r0                            = (M2C_FIELD(data_021555f8, s32 *, 0) * 0x10DCD) + 1;
     M2C_FIELD(data_021555f8, s32 *, 0) = temp_r0;
-    temp_r1 = ((s16) (u16) (temp_r0 & 0xFFF) << 1) - 0x1000;
+    temp_r1                            = ((s16) (u16) (temp_r0 & 0xFFF) << 1) - 0x1000;
     M2C_FIELD(arg0, s32 *, 0xB8) += FX_Mul(M2C_FIELD(arg0, s32 *, 0xB4), temp_r1);
     if (M2C_FIELD(arg0, s32 *, 0xB0) > 0x99C) {
         M2C_FIELD(arg0, s32 *, 0xB0) = 0x99C;

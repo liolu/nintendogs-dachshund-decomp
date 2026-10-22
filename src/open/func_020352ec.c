@@ -3,7 +3,7 @@
 extern s16 data_02139b78[];
 s32 func_020352ec(s32 arg0, s32 arg1, s32 arg2) {
     u8 *base = (u8 *) (arg0 + arg1 * 2);
-    s16 v = data_02139b78[arg1 * 2];
+    s16 v    = data_02139b78[arg1 * 2];
     s16 a;
     s16 b;
     u8 *p;

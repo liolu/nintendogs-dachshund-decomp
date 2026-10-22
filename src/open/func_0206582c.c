@@ -26,8 +26,8 @@ int func_0206582c(int type) {
     *(u32 *) (g + 0x34) |= 4;
     func_02080c3c(irq);
     func_0206563c(type);
-    *(int *) (g + 0x28) = 0;
-    *(int *) (g + 0x2c) = 0;
+    *(int *) (g + 0x28)                       = 0;
+    *(int *) (g + 0x2c)                       = 0;
     *(int *) ((char *) &data_0214ec20 + 0xd0) = M2C_FIELD(&data_02153e78, s32 *, 8);
     func_02066388(g, (s32 *) 2, 1);
     *(int *) ((char *) (*(int **) g) + 0xc)  = 0;

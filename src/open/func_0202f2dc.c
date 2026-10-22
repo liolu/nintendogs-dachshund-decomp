@@ -24,8 +24,8 @@ void func_0202f2dc(u8 *arg0) {
     pos.unk_08 = M2C_FIELD(data_02150e58, u32 *, 0x64);
     if (M2C_FIELD(data_0214da84, s32 *, 0x64) == 0) {
         M2C_FIELD(data_0214da84, s32 *, 0x64) = data_0214da80[0];
-        src = (u8 *) M2C_FIELD(data_0215a064, u8 **, 0x1C) + 0x48;
-        *(Unk12 *) (data_0214da84 + 0x68) = *(Unk12 *) src;
+        src                                   = (u8 *) M2C_FIELD(data_0215a064, u8 **, 0x1C) + 0x48;
+        *(Unk12 *) (data_0214da84 + 0x68)     = *(Unk12 *) src;
         func_01ff8980((s32) (data_0214da84 + 0x68));
     }
     m = *(Unk12 *) (data_0214da84 + 0x68);

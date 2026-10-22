@@ -20,8 +20,8 @@ void func_0211100c(void) {
     Entry *e;
     func_02111b88(p, 0x12);
     *(unsigned short *) (p + 4) = 8;
-    b = data_0215a04c + 0x20;
-    e = (Entry *) b;
+    b                           = data_0215a04c + 0x20;
+    e                           = (Entry *) b;
     e[0].flags |= 1;
     e[0].flags |= 2;
     b = data_0215a04c + 0x20;

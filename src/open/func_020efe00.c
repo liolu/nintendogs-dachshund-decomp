@@ -19,28 +19,28 @@ void func_020efe00(s32 arg0) {
     s16 *prev_p;
 
     prev_p = (s16 *) (arg0 + 0x1CB8);
-    state = func_020ce6b4();
+    state  = func_020ce6b4();
     if (state != *prev_p) {
         switch (state) {
-        case 0:
-            func_020f0fd8(arg0 + 0x294);
-            func_020f0fd8(arg0 + 0x2B4);
-            func_020f0fd8(arg0 + 0x2D4);
-            func_020e24a8();
-            break;
-        case 1:
-            func_020f1098(arg0 + 0x294);
-            func_020f0fd8(arg0 + 0x2B4);
-            func_020f0fd8(arg0 + 0x2D4);
-            func_020e24a8();
-            break;
-        case 2:
-            func_020f1098(arg0 + 0x294);
-            func_020f1098(arg0 + 0x2B4);
-            func_020f1098(arg0 + 0x2D4);
-            M2C_FIELD(data_02159e70, s32 *, 0x5034) = 0;
-            func_020e251c();
-            break;
+            case 0:
+                func_020f0fd8(arg0 + 0x294);
+                func_020f0fd8(arg0 + 0x2B4);
+                func_020f0fd8(arg0 + 0x2D4);
+                func_020e24a8();
+                break;
+            case 1:
+                func_020f1098(arg0 + 0x294);
+                func_020f0fd8(arg0 + 0x2B4);
+                func_020f0fd8(arg0 + 0x2D4);
+                func_020e24a8();
+                break;
+            case 2:
+                func_020f1098(arg0 + 0x294);
+                func_020f1098(arg0 + 0x2B4);
+                func_020f1098(arg0 + 0x2D4);
+                M2C_FIELD(data_02159e70, s32 *, 0x5034) = 0;
+                func_020e251c();
+                break;
         }
     }
     if (state != 0) {

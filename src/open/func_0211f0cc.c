@@ -22,31 +22,31 @@ void func_0211f0cc(u8 *base) {
     for (j = 0; j < 3; j++) {
         p = row + *(s16 *) (base + 0x20);
         switch (j) {
-        case 0:
-        case 1:
-            if (sum > 0) {
-                f40 = *(s16 *) (base + 0x40);
-                t   = (s16) (f40 - sum);
-                if (t < 0) {
-                    t = 0;
+            case 0:
+            case 1:
+                if (sum > 0) {
+                    f40 = *(s16 *) (base + 0x40);
+                    t   = (s16) (f40 - sum);
+                    if (t < 0) {
+                        t = 0;
+                    }
+                    *p = *p - t * 20;
+                } else {
+                    *p = *p - 200;
                 }
-                *p = *p - t * 20;
-            } else {
-                *p = *p - 200;
-            }
-            break;
-        case 2:
-            if (sum > 0) {
-                f40 = *(s16 *) (base + 0x40);
-                t   = (s16) ((f40 * 120) / 100 - sum);
-                if (t < 0) {
-                    t = 0;
+                break;
+            case 2:
+                if (sum > 0) {
+                    f40 = *(s16 *) (base + 0x40);
+                    t   = (s16) ((f40 * 120) / 100 - sum);
+                    if (t < 0) {
+                        t = 0;
+                    }
+                    *p = *p - t * 20;
+                } else {
+                    *p = *p - 200;
                 }
-                *p = *p - t * 20;
-            } else {
-                *p = *p - 200;
-            }
-            break;
+                break;
         }
         if (*p < 0) {
             *p = 0;

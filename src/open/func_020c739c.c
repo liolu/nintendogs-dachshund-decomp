@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 extern u8 data_02140f58[];
 extern u8 data_02140f70[];
@@ -17,7 +17,7 @@ s32 func_020c739c(s32 arg0, s32 arg1) {
     u32 size;
 
     result = 0;
-    p = 0;
+    p      = 0;
     if (arg1 != 0x1b) {
         if (arg1 == 0x1f) {
             p = data_02140f70;
@@ -30,7 +30,7 @@ s32 func_020c739c(s32 arg0, s32 arg1) {
         func_0208831c(&file);
         if (func_02087fcc(&file, p) != 0) {
             size = file.startPosition - file.unk_20;
-            p = func_020038a8(arg0, size);
+            p    = func_020038a8(arg0, size);
             func_02087e70(&file, p, size);
             func_02087f84(&file);
             result = func_02078714(p, 0);

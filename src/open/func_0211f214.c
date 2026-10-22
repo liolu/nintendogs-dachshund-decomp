@@ -26,46 +26,46 @@ void func_0211f214(Unk211f214 *o, s32 arg1) {
     for (i = 0; i < 3; i++) {
         p = (s16 *) (base + o->unk20 * 2);
         switch (i) {
-        case 0:
-            *p -= o->unk2A * 10;
-            if (o->unk22 == 0) {
-                *p -= 0xC8;
-            } else {
-                d = (s16) (o->unk3C - o->unk28);
+            case 0:
+                *p -= o->unk2A * 10;
+                if (o->unk22 == 0) {
+                    *p -= 0xC8;
+                } else {
+                    d = (s16) (o->unk3C - o->unk28);
+                    if (d < 0) {
+                        d = 0;
+                    }
+                    *p -= d / 60 * 0x14;
+                }
+                break;
+            case 1:
+                d = (s16) (arg1 - o->unk02 - v);
                 if (d < 0) {
                     d = 0;
                 }
-                *p -= d / 60 * 0x14;
-            }
-            break;
-        case 1:
-            d = (s16) (arg1 - o->unk02 - v);
-            if (d < 0) {
-                d = 0;
-            }
-            *p -= d / 60 * 10;
-            if (o->unk22 == 0) {
-                *p -= 0xC8;
-            } else {
-                e = (s16) (o->unk3C - o->unk28);
-                if (e < 0) {
-                    e = 0;
+                *p -= d / 60 * 10;
+                if (o->unk22 == 0) {
+                    *p -= 0xC8;
+                } else {
+                    e = (s16) (o->unk3C - o->unk28);
+                    if (e < 0) {
+                        e = 0;
+                    }
+                    *p -= e / 60 * 0x14;
                 }
-                *p -= e / 60 * 0x14;
-            }
-            break;
-        case 2:
-            *p -= o->unk2A / 2 * 10;
-            if (o->unk22 == 0) {
-                *p -= 0xC8;
-            } else {
-                d = (s16) (o->unk3C - o->unk28);
-                if (d < 0) {
-                    d = 0;
+                break;
+            case 2:
+                *p -= o->unk2A / 2 * 10;
+                if (o->unk22 == 0) {
+                    *p -= 0xC8;
+                } else {
+                    d = (s16) (o->unk3C - o->unk28);
+                    if (d < 0) {
+                        d = 0;
+                    }
+                    *p -= d / 120 * 0x14;
                 }
-                *p -= d / 120 * 0x14;
-            }
-            break;
+                break;
         }
         if (*p < 0) {
             *p = 0;

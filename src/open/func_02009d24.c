@@ -18,10 +18,8 @@ void func_020fe4cc(void);
 extern M2C_UNK data_02138ed4;
 extern u8 data_02134fa8[];
 s32 func_02009d24(s32 *arg0, s32 *arg1, s32 *arg2) {
-    s32 x = (s32) (((s64) arg0[0] * arg1[0] + 0x800) >> 12)
-          + (s32) (((s64) arg0[2] * arg1[2] + 0x800) >> 12);
-    s32 y = (s32) (((s64) arg0[0] * arg2[0] + 0x800) >> 12)
-          + (s32) (((s64) arg0[2] * arg2[2] + 0x800) >> 12);
+    s32 x  = (s32) (((s64) arg0[0] * arg1[0] + 0x800) >> 12) + (s32) (((s64) arg0[2] * arg1[2] + 0x800) >> 12);
+    s32 y  = (s32) (((s64) arg0[0] * arg2[0] + 0x800) >> 12) + (s32) (((s64) arg0[2] * arg2[2] + 0x800) >> 12);
     s32 px = 0;
     s32 py;
 
@@ -34,7 +32,7 @@ s32 func_02009d24(s32 *arg0, s32 *arg1, s32 *arg2) {
         py = 1;
     } else {
         py = 0;
-        y = -y;
+        y  = -y;
     }
     if (x > y) {
         return px ? 0 : 3;

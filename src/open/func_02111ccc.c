@@ -4,7 +4,7 @@ void func_02111ccc(s32 arg0, s32 arg1, s32 arg2, s32 arg3, s32 arg4) {
     s16 *p;
     u8 *q;
 
-    p = (s16 *) (arg0 + 0x18);
+    p    = (s16 *) (arg0 + 0x18);
     p[0] = arg1;
     p[1] = -2;
     p[2] = arg2;

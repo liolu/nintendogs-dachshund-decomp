@@ -12,7 +12,7 @@ s32 func_020946d0(s32 arg0, u32 arg1) {
     }
     base = base + 0x94 + arg1 * 0x18;
     for (i = 0; i < 0x30; i++) {
-        ((u16 *) M2C_FIELD(base, s32 *, 0x14))[i + 2] = 0;
+        ((u16 *) M2C_FIELD(base, s32 *, 0x14))[i + 2]    = 0;
         ((u16 *) M2C_FIELD(base, s32 *, 0x14))[i + 0x32] = 0;
     }
     M2C_FIELD(base, s32 *, 4) = 0;

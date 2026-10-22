@@ -20,9 +20,9 @@ void *func_020a5ee4(s32 arg0) {
     func_020a7e78(arg0);
     func_020c9e1c(data_021555f4);
     func_020ca4b0((s32) data_021555f4, (s32) func_020a561c);
-    p = data_021555f4;
-    M2C_FIELD(p, u16 *, 0x6C) = (u16) M2C_FIELD(data_02124f68, s16 *, 0xC4);
-    M2C_FIELD(p, u16 *, 0x6E) = (u16) M2C_FIELD(data_02124f68, s16 *, 0xC6);
+    p                                     = data_021555f4;
+    M2C_FIELD(p, u16 *, 0x6C)             = (u16) M2C_FIELD(data_02124f68, s16 *, 0xC4);
+    M2C_FIELD(p, u16 *, 0x6E)             = (u16) M2C_FIELD(data_02124f68, s16 *, 0xC6);
     M2C_FIELD(data_021555f4, u32 *, 0x74) = 0x1000;
     M2C_FIELD(data_021555f4, u32 *, 0x78) = 0x2BC000;
     M2C_FIELD(data_021555f4, u32 *, 0x34) = 0x8000;

@@ -16,8 +16,8 @@ void func_020437e0(s32 arg0) {
         i = (s16) (i + 1);
     } while (i < 3);
 
-    base = data_0214da84;
+    base                           = data_0214da84;
     M2C_FIELD(base, s32 *, 0x7408) = func_020ca3a8(arg0, M2C_FIELD(base, s32 *, 0x7404));
-    base = data_0214da84;
+    base                           = data_0214da84;
     M2C_FIELD(base, s32 *, 0x741C) = func_020ca3a8(arg0, M2C_FIELD(base, s32 *, 0x7418));
 }

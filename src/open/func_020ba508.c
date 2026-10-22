@@ -54,10 +54,10 @@ void func_020ba508(Ctx *ctx) {
     s32 t;
     s64 m;
 
-    list = ctx->list;
-    idx = ctx->f8;
+    list  = ctx->list;
+    idx   = ctx->f8;
     elems = list->elems;
-    out = &ctx->out;
+    out   = &ctx->out;
 
     if (idx >= list->count - 1) {
         idx = list->count - 2;
@@ -65,9 +65,9 @@ void func_020ba508(Ctx *ctx) {
     } else {
         sel = ctx->f4;
     }
-    cur = &elems[idx];
+    cur   = &elems[idx];
     next1 = &elems[idx + 1];
-    t = func_02067ca0(sel, cur->f28, sizeof(Elem), idx + 1);
+    t     = func_02067ca0(sel, cur->f28, sizeof(Elem), idx + 1);
 
     if (idx == list->count - 2) {
         next2 = &elems[list->count - 1];

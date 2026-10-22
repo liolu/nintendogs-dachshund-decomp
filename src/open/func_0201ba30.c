@@ -21,17 +21,17 @@ void func_0201ba30(s32 arg0) {
     s8 temp_r0_4;
 
     temp_r0 = func_02028114(arg0);
-    var_r1 = (s32) (((s64) temp_r0 * 0x95 + 0x800) >> 12);
+    var_r1  = (s32) (((s64) temp_r0 * 0x95 + 0x800) >> 12);
     if (func_0202507c(arg0, 0xB, 0x1A, var_r1) == 0) {
         temp_r0 = func_02028114(arg0);
-        var_r1 = (s32) (((s64) temp_r0 * 0x64 + 0x800) >> 12);
+        var_r1  = (s32) (((s64) temp_r0 * 0x64 + 0x800) >> 12);
         func_0202507c(arg0, 0x2A, 0x3C, var_r1);
     }
     temp_r0 = func_02028114(arg0);
-    var_r1 = (s32) (((s64) temp_r0 * 0x5D + 0x800) >> 12);
+    var_r1  = (s32) (((s64) temp_r0 * 0x5D + 0x800) >> 12);
     if (func_02024d30(arg0, 6, 0x1C, -var_r1) == 0) {
         temp_r0 = func_02028114(arg0);
-        var_r1 = (s32) (((s64) temp_r0 * -421 + 0x800) >> 12);
+        var_r1  = (s32) (((s64) temp_r0 * -421 + 0x800) >> 12);
         func_02024d30(arg0, 0x2B, 0x42, -var_r1);
     }
     if (func_02026fd0(arg0) != 0) {

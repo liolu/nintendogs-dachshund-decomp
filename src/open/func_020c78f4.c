@@ -16,7 +16,7 @@ s32 func_020c78f4(s32 *arg0, s32 arg1, const char *arg2) {
     func_0208831c(&file);
     if (func_02087fcc(&file, arg2) != 0) {
         size = file.startPosition - file.unk_20;
-        buf = func_02003850(arg0, ((size + 0xF) & ~0xF) + 0x60, 0x10);
+        buf  = func_02003850(arg0, ((size + 0xF) & ~0xF) + 0x60, 0x10);
         if (buf != 0) {
             data = buf + 0x60;
             if (func_02087e70(&file, data, size) == size) {

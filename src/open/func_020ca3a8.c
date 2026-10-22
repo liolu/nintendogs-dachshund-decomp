@@ -24,12 +24,12 @@ void *func_020ca3a8(void *arg0, void *arg1) {
         node = (u8 *) func_0207d038(list, node);
     }
     if (entry == 0) {
-        entry                    = (u8 *) func_020038a8(arg0, 0x18);
-        *(u32 *) (entry + 0)     = (u32) data_02142c00;
-        *(u16 *) (entry + 4)     = 0;
-        *(u16 *) (entry + 6)     = 0;
-        *(u32 *) (entry + 8)     = 0;
-        *(u32 *) (entry + 0xC)   = 0;
+        entry                  = (u8 *) func_020038a8(arg0, 0x18);
+        *(u32 *) (entry + 0)   = (u32) data_02142c00;
+        *(u16 *) (entry + 4)   = 0;
+        *(u16 *) (entry + 6)   = 0;
+        *(u32 *) (entry + 8)   = 0;
+        *(u32 *) (entry + 0xC) = 0;
         func_0200657c(entry + 0x10);
         *(void **) (entry + 8) = arg1;
         *(u32 *) (entry + 0xC) = 0;

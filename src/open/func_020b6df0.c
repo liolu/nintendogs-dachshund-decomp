@@ -48,15 +48,15 @@ void func_020b6df0(Struct12 *arg0, Struct12 *arg1, Struct12 *arg2, Struct12 *arg
             func_01ff832c(t, arg4, arg0, arg0);
         }
         func_0206823c(arg0, arg2, &sub1);
-        n = func_020681f8(&sub1, arg4);
-        dd = func_020681f8(&sub1, arg3);
+        n   = func_020681f8(&sub1, arg4);
+        dd  = func_020681f8(&sub1, arg3);
         n11 = func_02067ca0(n, dd);
         func_0206823c(arg1, arg2, &sub2);
-        n = func_020681f8(&sub2, arg4);
-        dd = func_020681f8(&sub2, arg3);
+        n    = func_020681f8(&sub2, arg4);
+        dd   = func_020681f8(&sub2, arg3);
         best = func_02067ca0(n, dd);
     } else {
-        n11 = 0x64000;
+        n11  = 0x64000;
         best = -0x64000;
     }
     for (i = 0; i < 3; i++) {
@@ -75,21 +75,21 @@ void func_020b6df0(Struct12 *arg0, Struct12 *arg1, Struct12 *arg2, Struct12 *arg
                 func_01ff832c(t, arg4, &c1, &c1);
             }
             func_0206823c(&c1, arg2, &s1);
-            n = func_020681f8(&s1, arg4);
+            n  = func_020681f8(&s1, arg4);
             dd = func_020681f8(&s1, arg3);
             q1 = func_02067ca0(n, dd);
             if (q1 < n11) {
-                n11 = q1;
+                n11      = q1;
                 arg0->f0 = c1.f0;
                 arg0->f4 = c1.f4;
                 arg0->f8 = c1.f8;
             }
             func_0206823c(&c2, arg2, &s2);
-            n = func_020681f8(&s2, arg4);
+            n  = func_020681f8(&s2, arg4);
             dd = func_020681f8(&s2, arg3);
             q2 = func_02067ca0(n, dd);
             if (q2 > best) {
-                best = q2;
+                best     = q2;
                 arg1->f0 = c2.f0;
                 arg1->f4 = c2.f4;
                 arg1->f8 = c2.f8;

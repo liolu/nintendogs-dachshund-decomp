@@ -46,22 +46,22 @@ void func_02011218(void *arg0) {
     } else {
         offset = func_02028120((s32) arg0) >> 5;
 
-        temp_r3 = *(u32 **) data_0214da84;
-        temp_r2 = *temp_r3 * 0x10DCD + 1;
+        temp_r3   = *(u32 **) data_0214da84;
+        temp_r2   = *temp_r3 * 0x10DCD + 1;
         temp_r0_5 = (u16) ((u16) temp_r2 * 10u >> 16);
-        *temp_r3 = temp_r2;
+        *temp_r3  = temp_r2;
         p->unk3B4 = p->unk3B4 + offset * (temp_r0_5 - 5);
 
-        temp_r3 = *(u32 **) data_0214da84;
-        temp_r2 = *temp_r3 * 0x10DCD + 1;
+        temp_r3   = *(u32 **) data_0214da84;
+        temp_r2   = *temp_r3 * 0x10DCD + 1;
         temp_r0_5 = (u16) ((u16) temp_r2 * 10u >> 16);
-        *temp_r3 = temp_r2;
+        *temp_r3  = temp_r2;
         p->unk3B8 = p->unk3B8 + offset * (temp_r0_5 - 5);
 
-        temp_r3 = *(u32 **) data_0214da84;
-        temp_r2 = *temp_r3 * 0x10DCD + 1;
+        temp_r3   = *(u32 **) data_0214da84;
+        temp_r2   = *temp_r3 * 0x10DCD + 1;
         temp_r0_5 = (u16) ((u16) temp_r2 * 10u >> 16);
-        *temp_r3 = temp_r2;
+        *temp_r3  = temp_r2;
         p->unk3BC = p->unk3BC + offset * (temp_r0_5 - 5);
     }
     temp_r0 = func_020350fc(arg0);
@@ -101,10 +101,10 @@ void func_02011218(void *arg0) {
         return;
     }
     if (p->unkFC > 0x28) {
-        temp_r3 = *(u32 **) data_0214da84;
-        temp_r2 = *temp_r3 * 0x10DCD + 1;
+        temp_r3   = *(u32 **) data_0214da84;
+        temp_r2   = *temp_r3 * 0x10DCD + 1;
         temp_r0_5 = (u16) ((u16) temp_r2 * 40u >> 16);
-        *temp_r3 = temp_r2;
+        *temp_r3  = temp_r2;
         if (temp_r0_5 != 0) {
             return;
         }

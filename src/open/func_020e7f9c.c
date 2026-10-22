@@ -37,7 +37,7 @@ void func_020e7f9c(s32 arg0) {
             break;
         }
     }
-    i = 0;
+    i    = 0;
     slot = (s8 *) data_02159fe4 + 8;
     for (;;) {
         if (M2C_FIELD(slot, s32 *, 0) == arg0) {
@@ -46,8 +46,8 @@ void func_020e7f9c(s32 arg0) {
         if (M2C_FIELD(slot, s32 *, 8) == 0) {
             M2C_FIELD(slot, s32 *, 8) = data_02145278[i];
             ret = (s32 *) func_020c78f4((s32 *) M2C_FIELD(data_02159fe4, s32 *, 4), M2C_FIELD(slot, s32 *, 8), buf);
-            M2C_FIELD(slot, s32 *, 4) = M2C_FIELD(M2C_FIELD(ret, void **, 0x50), s32 *, 8);
-            M2C_FIELD(slot, s32 *, 0) = arg0;
+            M2C_FIELD(slot, s32 *, 4)   = M2C_FIELD(M2C_FIELD(ret, void **, 0x50), s32 *, 8);
+            M2C_FIELD(slot, s32 *, 0)   = arg0;
             M2C_FIELD(slot, s32 *, 0xC) = (s32) ret;
             return;
         }

@@ -14,13 +14,13 @@ void func_020f1e94(s32 arg0) {
         func_020f0d14((void *) (arg0 + 0xE4), 1);
         v = M2C_FIELD(data_02159fc4, s32 *, 8);
         switch (v) {
-        case 1:
-        case 2:
-            func_020f0d14((void *) (arg0 + 0x104), 0);
-            break;
-        default:
-            func_020f0d14((void *) (arg0 + 0x124), 0);
-            break;
+            case 1:
+            case 2:
+                func_020f0d14((void *) (arg0 + 0x104), 0);
+                break;
+            default:
+                func_020f0d14((void *) (arg0 + 0x124), 0);
+                break;
         }
         M2C_FIELD(arg0, s32 *, 0xB8) = (s16) -M2C_FIELD(data_0215a064, s16 *, 0x64);
         M2C_FIELD(arg0, s32 *, 0xBC) = M2C_FIELD(data_0215a064, s16 *, 0x68) * 100 / 60;

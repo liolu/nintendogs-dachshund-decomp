@@ -8,7 +8,7 @@ s32 func_020cabcc(s32 arg0, s32 arg1) {
     u32 idx;
     s32 *tbl;
 
-    sel = 0;
+    sel  = 0;
     mode = 0;
     if (arg0 != 0) {
         if (arg0 == 1) {

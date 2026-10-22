@@ -21,7 +21,7 @@ void func_020180f8(s32 arg0) {
     s8 temp_r0_4;
 
     temp_r0 = func_02028114(arg0);
-    var_r1 = (s32) (((s64) temp_r0 * 26 + 0x800) >> 12);
+    var_r1  = (s32) (((s64) temp_r0 * 26 + 0x800) >> 12);
     func_02024fe0(arg0, -var_r1);
     if (func_02026fd0(arg0) != 0) {
         M2C_FIELD(&data_02139a24, M2C_UNK(**)(s32), 4)(arg0);

@@ -13,9 +13,9 @@ void func_0200db3c(s32 p) {
     s8 i;
     s32 local[3];
 
-    r = func_02036164(p);
+    r     = func_02036164(p);
     found = -1;
-    dog = 0;
+    dog   = 0;
     if (r != 0) {
         *(S12 *) (p + 0x26C) = *(S12 *) (r + 8);
         func_0203910c(p);

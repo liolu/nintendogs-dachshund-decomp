@@ -7,11 +7,11 @@ void func_0200d620(void *arg0) {
     u16 var_r1;
     u16 var_r2;
 
-    temp_r1 = (*data_0214da84 * 0x10DCD) + 1;
+    temp_r1        = (*data_0214da84 * 0x10DCD) + 1;
     *data_0214da84 = temp_r1;
-    temp_r2 = (*data_0214da84 * 0x10DCD) + 1;
+    temp_r2        = (*data_0214da84 * 0x10DCD) + 1;
     *data_0214da84 = temp_r2;
-    var_r1 = (u16) (((u32) (u16) temp_r2 * 0xC8) >> 0x10);
-    var_r2 = (u16) (((u32) (u16) temp_r1 * 0xC8) >> 0x10);
+    var_r1         = (u16) (((u32) (u16) temp_r2 * 0xC8) >> 0x10);
+    var_r2         = (u16) (((u32) (u16) temp_r1 * 0xC8) >> 0x10);
     func_0200da50(arg0, var_r1 == 0, var_r2 == 0);
 }

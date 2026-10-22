@@ -20,11 +20,11 @@ void *func_02006cb4(s32 arg0, s32 arg1) {
 
     p = (u8 *) func_020038a8(arg0, 8);
     if (p != NULL) {
-        *(u16 *) (p + 0) = (u16) arg1;
-        *(u16 *) (p + 2) = 0;
+        *(u16 *) (p + 0)   = (u16) arg1;
+        *(u16 *) (p + 2)   = 0;
         *(void **) (p + 4) = (void *) func_020038a8(arg0, arg1 << 3);
-        *(u16 *) (p + 2) = 0;
-        fill = 0xC0;
+        *(u16 *) (p + 2)   = 0;
+        fill               = 0xC0;
         func_0206cbf8(fill, *(void **) (p + 4), *(u16 *) (p + 0) << 3);
     }
     return p;

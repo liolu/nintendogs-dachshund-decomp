@@ -12,8 +12,8 @@ void func_0209582c(s32 arg0, s32 arg1) {
     u32 bit;
     s32 *p;
 
-    p = (s32 *) ((u8 *) data_0215467c[arg0] + 0x94);
-    i = 0;
+    p   = (s32 *) ((u8 *) data_0215467c[arg0] + 0x94);
+    i   = 0;
     bit = 1;
     if ((arg1 ^ data_02154670[arg0]) == 0) {
         return;

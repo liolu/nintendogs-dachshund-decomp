@@ -14,9 +14,8 @@ s32 func_02090578(s32 arg0, s32 arg1, s32 arg2, s32 arg3) {
     base = data_0215449c;
     for (i = 0; i < 4; i = (s16) (i + 1)) {
         mask = (u16) (1 << i);
-        if ((M2C_FIELD(base, u16 *, 0x1C) & mask) != 0
-            && M2C_FIELD(base + i * 2, u16 *, 8) == arg1
-            && M2C_FIELD(base + i * 4, s32 *, 0x28) != 0) {
+        if ((M2C_FIELD(base, u16 *, 0x1C) & mask) != 0 && M2C_FIELD(base + i * 2, u16 *, 8) == arg1 &&
+            M2C_FIELD(base + i * 4, s32 *, 0x28) != 0) {
             M2C_FIELD(base, u16 *, 0x1E) |= mask;
             return i;
         }
@@ -30,14 +29,14 @@ s32 func_02090578(s32 arg0, s32 arg1, s32 arg2, s32 arg3) {
         }
     }
     j = -1;
- found:
+found:
     if (j != -1) {
         mask = (u16) (1 << j);
         p    = base + 0x28 + j * 4;
         func_02073328(p, arg0, arg1);
         func_02070e7c(p, arg2, arg3);
-        M2C_FIELD(base + j * 2, u16 *, 0)     = arg0;
-        M2C_FIELD(base + j * 2, u16 *, 8)     = arg1;
+        M2C_FIELD(base + j * 2, u16 *, 0) = arg0;
+        M2C_FIELD(base + j * 2, u16 *, 8) = arg1;
         M2C_FIELD(base, u16 *, 0x1C) |= mask;
         M2C_FIELD(base, u16 *, 0x1E) |= mask;
         M2C_FIELD(base + j * 2, u16 *, 0x10) = arg2;

@@ -11,12 +11,12 @@ void func_020bcfc0(void *arg0, s32 arg1, T *arg2) {
     T *dst;
     T *zero;
 
-    off = arg1 * 0xC;
-    dst = (T *) (M2C_FIELD(arg0, s32 *, 4) + off);
-    *dst = *arg2;
-    zero = (T *) (M2C_FIELD(arg0, s32 *, 8) + off);
-    zero->a = 0;
-    zero->b = 0;
-    zero->c = 0;
+    off                                         = arg1 * 0xC;
+    dst                                         = (T *) (M2C_FIELD(arg0, s32 *, 4) + off);
+    *dst                                        = *arg2;
+    zero                                        = (T *) (M2C_FIELD(arg0, s32 *, 8) + off);
+    zero->a                                     = 0;
+    zero->b                                     = 0;
+    zero->c                                     = 0;
     ((s32 *) M2C_FIELD(arg0, s32 *, 0xC))[arg1] = 1;
 }

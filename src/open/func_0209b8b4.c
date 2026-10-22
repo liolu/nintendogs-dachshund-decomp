@@ -5,7 +5,7 @@ void func_020dce6c(void);
 void func_0210320c(void);
 extern void *data_02159e70;
 void func_0209b8b4(s32 arg0) {
-    s32 *var_r4 = (s32 *)((s8 *) arg0 + 0x1CC0);
+    s32 *var_r4 = (s32 *) ((s8 *) arg0 + 0x1CC0);
     if (M2C_FIELD(data_02159e70, u16 *, 0x11160) != 0) {
         return;
     }

@@ -26,8 +26,8 @@ u32 func_0200615c(void) {
         return 0;
     }
     if (data_0214d5e0.unk_0x14 == 1) {
-        byte = *(u8 *) data_0214d5e0.unk_0x08;
-        h = data_0214d5e0.unk_0x18;
+        byte   = *(u8 *) data_0214d5e0.unk_0x08;
+        h      = data_0214d5e0.unk_0x18;
         result = 0;
         for (bit = 1, mask = 1; bit < 0x10000; bit <<= 1) {
             b = bit;

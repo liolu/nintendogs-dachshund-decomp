@@ -36,22 +36,22 @@ void func_0200f374(M2C_UNK arg0) {
         func_0203e5ac(arg0, 2, 1);
         sw = M2C_FIELD(r6, s16 *, 0x90);
         switch (sw) {
-        case 4:
-            b = M2C_FIELD(arg0, s8 *, 0x8B);
-            if (b != 5) {
-                if (b != 4) {
-                    M2C_FIELD(arg0, s32 *, 0x948) = 1;
+            case 4:
+                b = M2C_FIELD(arg0, s8 *, 0x8B);
+                if (b != 5) {
+                    if (b != 4) {
+                        M2C_FIELD(arg0, s32 *, 0x948) = 1;
+                    }
                 }
-            }
-            break;
-        case 7:
-            b = M2C_FIELD(arg0, s8 *, 0x8B);
-            if (b != 5) {
-                if (b != 4) {
-                    M2C_FIELD(arg0, s32 *, 0x948) = 8;
+                break;
+            case 7:
+                b = M2C_FIELD(arg0, s8 *, 0x8B);
+                if (b != 5) {
+                    if (b != 4) {
+                        M2C_FIELD(arg0, s32 *, 0x948) = 8;
+                    }
                 }
-            }
-            break;
+                break;
         }
         flag = func_ov003_02196338(arg0);
     } else {

@@ -15,19 +15,19 @@ void func_02014b14(s32 arg0, u8 arg1) {
         return;
     }
     switch (arg1) {
-    case 0:
-        break;
-    case 7:
-    case 9:
-    case 11:
-        *(u16 *) (arg0 + 0x12E) = 0xE000;
-        break;
-    case 8:
-    case 10:
-    case 12:
-        *(u16 *) (arg0 + 0x12E) = 0x2000;
-        break;
-    case 14:
-        break;
+        case 0:
+            break;
+        case 7:
+        case 9:
+        case 11:
+            *(u16 *) (arg0 + 0x12E) = 0xE000;
+            break;
+        case 8:
+        case 10:
+        case 12:
+            *(u16 *) (arg0 + 0x12E) = 0x2000;
+            break;
+        case 14:
+            break;
     }
 }

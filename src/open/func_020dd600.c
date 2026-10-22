@@ -11,9 +11,9 @@ s32 func_020dd600(void) {
     s32 r6;
 
     base = data_02159e70;
-    t = (u8 *) ((u32) base + 0x1DEC);
-    u = (u32 *) ((u32) t + 0x294);
-    ret = 1;
+    t    = (u8 *) ((u32) base + 0x1DEC);
+    u    = (u32 *) ((u32) t + 0x294);
+    ret  = 1;
     if (*(u32 *) (base + 0x5034) == 0) {
         p = data_0215a064;
         v = *(s16 *) ((u8 *) p + 0x7E);

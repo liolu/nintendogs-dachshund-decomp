@@ -19,8 +19,7 @@ void func_020436d8(s32 arg0) {
 
     j = 0;
     do {
-        p = (M2C_FIELD((u8 *) data_0214da84 + j, s8 *, 0x19) != 0) ?
-            ((u8 *) data_0214da84 + 0x1A4 + j * 0x85C) : 0;
+        p = (M2C_FIELD((u8 *) data_0214da84 + j, s8 *, 0x19) != 0) ? ((u8 *) data_0214da84 + 0x1A4 + j * 0x85C) : 0;
         if (p != 0) {
             e = M2C_FIELD((u8 *) data_0214da84 + j * 4, s32 *, 0x48);
             if (e != 0) {

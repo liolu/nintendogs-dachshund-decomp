@@ -28,17 +28,17 @@ void func_021008e0(void *arg0) {
     u8 *q;
 
     state = func_02044980(M2C_FIELD(arg0, s16 *, 0x9C));
-    p214 = M2C_FIELD(arg0, u8 **, 0x214);
+    p214  = M2C_FIELD(arg0, u8 **, 0x214);
     func_02044980(M2C_FIELD(arg0, s16 *, 0x9C));
 
-    buf0 = *(Vec *) (M2C_FIELD(data_0215a064, u8 **, 0x1C) + 0x48);
+    buf0        = *(Vec *) (M2C_FIELD(data_0215a064, u8 **, 0x1C) + 0x48);
     buf1.unk_00 = M2C_FIELD(data_02150e58, s32 *, 0x4C);
     buf1.unk_04 = M2C_FIELD(data_02150e58, s32 *, 0x58);
     buf1.unk_08 = M2C_FIELD(data_02150e58, s32 *, 0x64);
     buf2.unk_00 = M2C_FIELD(data_02150e58, s32 *, 0x50);
     buf2.unk_04 = M2C_FIELD(data_02150e58, s32 *, 0x5C);
     buf2.unk_08 = M2C_FIELD(data_02150e58, s32 *, 0x68);
-    buf3 = *(Vec *) (M2C_FIELD(data_0215a064, u8 **, 0x1C) + 0x30);
+    buf3        = *(Vec *) (M2C_FIELD(data_0215a064, u8 **, 0x1C) + 0x30);
 
     func_01ff832c(0x4000, &buf0, &buf3, (Vec *) ((u8 *) arg0 + 0xBC));
     func_01ff832c(-0x171, &buf1, (Vec *) ((u8 *) arg0 + 0xBC), (Vec *) ((u8 *) arg0 + 0xBC));

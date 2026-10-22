@@ -33,7 +33,7 @@ void func_02100a4c(void *arg0, Mtx33 *arg1) {
     a.x >>= 2;
     a.y >>= 2;
     a.z >>= 2;
-    b = *(Vec *) (M2C_FIELD(data_0215a064, u8 **, 0x1C) + 0x48);
+    b   = *(Vec *) (M2C_FIELD(data_0215a064, u8 **, 0x1C) + 0x48);
     c.x = b.x >> 2;
     c.y = b.y >> 2;
     c.z = b.z >> 1;

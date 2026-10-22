@@ -8,13 +8,13 @@ void func_0209d5f8(s32 arg0) {
     s32 flag;
     u8 *p;
 
-    p = (u8 *) arg0 + 0x1CC0;
-    v = func_0209b034((s16 *) func_020e8384(*(s16 *) (p + 8), *(s16 *) (p + 0xa)), *(s32 *) p);
-    msg = 0;
+    p    = (u8 *) arg0 + 0x1CC0;
+    v    = func_0209b034((s16 *) func_020e8384(*(s16 *) (p + 8), *(s16 *) (p + 0xa)), *(s32 *) p);
+    msg  = 0;
     flag = 0;
     if (*(s32 *) p == 2) {
         if ((M2C_FIELD(arg0, s32 *, 0x4) + 1) * v + M2C_FIELD(arg0, s32 *, 0x8) > 0x5F5E0FF) {
-            msg = 0x2455;
+            msg  = 0x2455;
             flag = 1;
         }
     } else {

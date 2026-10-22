@@ -24,9 +24,9 @@ s32 func_02120bc8(s32 arg0) {
     func_0211155c(sp1C);
     h = func_020038a8(func_02002e48(func_02002e50()), 0x2610);
     func_0211d6b8(h);
-    M2C_FIELD(h, s16 *, 0x260C) = -1;
+    M2C_FIELD(h, s16 *, 0x260C)      = -1;
     ((s16 *) ((s8 *) h + 0x260C))[1] = -1;
-    data_0215a080 = (void *) h;
+    data_0215a080                    = (void *) h;
     if (func_020cf6d4() != 0) {
         func_021114fc(*(s16 *) (arg0 + 6));
         func_02002fc0(sp0, &func_0210e4f0);

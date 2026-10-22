@@ -38,7 +38,7 @@ void func_0202321c(void *arg0) {
                         item = *((M2C_UNK *) ((s8 *) &data_02138ed4 + (id * 4)));
                     }
                     row = data_02134fa8 + ((M2C_FIELD(item, u8 *, 2) - 1) * 5);
-                    v = row[M2C_FIELD(M2C_FIELD(arg0, s32 *, 0x9E8), u8 *, 0x13) - 1];
+                    v   = row[M2C_FIELD(M2C_FIELD(arg0, s32 *, 0x9E8), u8 *, 0x13) - 1];
                     if (count < v) {
                         cat = 1;
                     } else {

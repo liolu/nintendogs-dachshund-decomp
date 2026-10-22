@@ -26,32 +26,32 @@ void func_021050a0(void *arg0) {
     UnkStruct_020fce34 local;
 
     switch (M2C_FIELD(arg0, s16 *, 0x90)) {
-    case 2:
-        func_020b27dc(arg0);
-        break;
-    case 3:
-        func_020b26f0(arg0, 0x50, 0x50, 0x70, 0x1EC, 0x800, 4);
-        func_020aff08(arg0, M2C_FIELD(arg0, s32 *, 0xF8), 0, 0,
-                      func_020b1d6c(M2C_FIELD(arg0, u16 *, 0xA0), M2C_FIELD(arg0, s32 *, 0xF8)),
-                      &func_02105568, &func_021053d0, 0, &func_021053b8, &func_021053ac);
-        break;
-    case 1:
-        func_02105260(arg0);
-        break;
-    case 4:
-        local = data_0214b0c8;
-        func_020b23f4(arg0, (M2C_UNK (*)(void *)) func_021051f0, &local);
-        break;
-    case 5:
-        func_020b2360(arg0, 0x1000);
-        break;
-    case 8:
-        func_020b2274(arg0);
-        break;
-    case 0:
-    case 6:
-    case 7:
-    default:
-        break;
+        case 2:
+            func_020b27dc(arg0);
+            break;
+        case 3:
+            func_020b26f0(arg0, 0x50, 0x50, 0x70, 0x1EC, 0x800, 4);
+            func_020aff08(arg0, M2C_FIELD(arg0, s32 *, 0xF8), 0, 0,
+                          func_020b1d6c(M2C_FIELD(arg0, u16 *, 0xA0), M2C_FIELD(arg0, s32 *, 0xF8)), &func_02105568,
+                          &func_021053d0, 0, &func_021053b8, &func_021053ac);
+            break;
+        case 1:
+            func_02105260(arg0);
+            break;
+        case 4:
+            local = data_0214b0c8;
+            func_020b23f4(arg0, (M2C_UNK(*)(void *)) func_021051f0, &local);
+            break;
+        case 5:
+            func_020b2360(arg0, 0x1000);
+            break;
+        case 8:
+            func_020b2274(arg0);
+            break;
+        case 0:
+        case 6:
+        case 7:
+        default:
+            break;
     }
 }

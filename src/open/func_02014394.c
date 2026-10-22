@@ -14,7 +14,7 @@ void func_02014394(M2C_UNK arg0) {
 
     func_0201d1e0(arg0);
     temp_r0 = M2C_FIELD(arg0, u8 *, 0x93);
-    var_r1 = 1;
+    var_r1  = 1;
     if (temp_r0 <= 0x18) {
         var_r2 = 1 << temp_r0;
         var_r0 = 0x1800003 & var_r2;

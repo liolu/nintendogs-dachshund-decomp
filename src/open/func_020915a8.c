@@ -19,8 +19,8 @@ s32 func_020915a8(s32 arg0, s32 arg1) {
 
     table = (Slot *) data_02154520;
     count = 0;
-    base = (Slot *) func_0204474c(arg0, arg1);
-    i = 0;
+    base  = (Slot *) func_0204474c(arg0, arg1);
+    i     = 0;
     while (i < 0x10) {
         v1 = base[i].val;
         v2 = table[i].val;

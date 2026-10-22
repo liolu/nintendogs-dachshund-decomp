@@ -7,7 +7,7 @@ extern void *data_0215a04c;
 extern u8 data_0214cad0[];
 s32 func_0211cda0(s32 arg0, s32 arg1) {
     s32 r4 = (s32) data_0214cad0;
-    s32 t = func_01ffdb08(M2C_FIELD(data_0215a04c, s16 *, 0xE));
+    s32 t  = func_01ffdb08(M2C_FIELD(data_0215a04c, s16 *, 0xE));
 
     switch (arg0) {
         case 0x30002:

@@ -38,43 +38,51 @@ void func_020b3ea4(Out3ea4 *arg0, void *arg1, s32 arg2, void *arg3, s32 a5, Vec3
 
     t = func_020681f8(&B, &F);
     u = func_020681f8(&B, &D);
-    if (u <= 0)
+    if (u <= 0) {
         u = -u;
+    }
     t = func_02067ca0(arg2 + u, t);
 
     u = func_020681f8(&C, &F);
     v = func_020681f8(&C, &D);
-    if (v <= 0)
+    if (v <= 0) {
         v = -v;
+    }
     u = func_02067ca0(a5 + v, u);
-    if (u > t)
+    if (u > t) {
         t = u;
+    }
 
     u = func_020681f8(&B, &F);
     v = func_020681f8(&B, &E);
-    if (v <= 0)
+    if (v <= 0) {
         v = -v;
+    }
     u = func_02067ca0(arg2 + v, u);
 
     v = func_020681f8(&C, &F);
     w = func_020681f8(&C, &E);
-    if (w <= 0)
+    if (w <= 0) {
         w = -w;
+    }
     v = func_02067ca0(a5 + w, v);
-    if (v > u)
+    if (v > u) {
         u = v;
+    }
 
-    v = func_02067ca0(t, a7);
+    v    = func_02067ca0(t, a7);
     flag = (v < u) ? (v = u, 1) : 0;
-    v = func_02068654(v);
-    v = (s32) (((s64) v * 0x1680000 + 0x80000) >> 20);
-    if (v < a8)
+    v    = func_02068654(v);
+    v    = (s32) (((s64) v * 0x1680000 + 0x80000) >> 20);
+    if (v < a8) {
         v = a8;
-    if (v > a9)
+    }
+    if (v > a9) {
         v = a9;
+    }
 
-    arg0->a = *a6;
-    arg0->b = A;
+    arg0->a   = *a6;
+    arg0->b   = A;
     arg0->f18 = 0;
     arg0->f1c = 0x1000;
     arg0->f20 = 0;

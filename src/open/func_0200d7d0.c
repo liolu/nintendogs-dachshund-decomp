@@ -22,13 +22,13 @@ void func_0200d7d0(s32 p) {
         flag = 1;
     }
 
-    x = 0;
+    x    = 0;
     none = (flag == 0);
     if (none) {
-        seed = data_0214da84;
-        r = *seed * 0x10DCD + 1;
+        seed  = data_0214da84;
+        r     = *seed * 0x10DCD + 1;
         *seed = r;
-        v = (u16) (((u32) (u16) r * 0xC8) >> 16);
+        v     = (u16) (((u32) (u16) r * 0xC8) >> 16);
         if (v == 0) {
             x = 1;
         }
@@ -36,10 +36,10 @@ void func_0200d7d0(s32 p) {
 
     y = 0;
     if (none) {
-        seed = data_0214da84;
-        r = *seed * 0x10DCD + 1;
+        seed  = data_0214da84;
+        r     = *seed * 0x10DCD + 1;
         *seed = r;
-        v = (u16) (((u32) (u16) r * 0xC8) >> 16);
+        v     = (u16) (((u32) (u16) r * 0xC8) >> 16);
         if (v == 0) {
             y = 1;
         }

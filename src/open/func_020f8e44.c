@@ -18,9 +18,9 @@ void func_020f8e44(s32 arg0, void *arg1) {
     s32 buf[12];
     UnkMain *main = (UnkMain *) data_027c0b64;
     UnkAngle *sub = main->unk_0x214;
-    s32 i = sub->angle >> 4;
-    s32 j = i * 2;
-    s32 k = j + 1;
+    s32 i         = sub->angle >> 4;
+    s32 j         = i * 2;
+    s32 k         = j + 1;
 
     func_01ff8020(buf, data_02124e68[j], data_02124e68[k]);
     func_01ff810c(buf, (s32) arg1, arg1);

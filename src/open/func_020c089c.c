@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 extern s32 data_02156eac;
 extern s32 data_02156eb8;
 extern s32 data_02156ebc;
@@ -50,55 +50,55 @@ void func_020c089c(void) {
     u16 sp[6];
 
     switch (data_02156eac) {
-    case 0:
-        if (data_02156eb8 == 0) {
-            if (data_02156ebc == 1) {
-                if (data_02156eb8 == 0) {
-                    if (func_020c0720(2, (s32) &sp[1])) {
-                        func_020c05a4((s32) func_020c0ddc, (s32) (void *) &sp[1]);
-                    }
-                }
-                data_02156eac = 1;
-            }
-        }
-        break;
-    case 1:
-        if (data_02156eb8 == 1) {
-            if (data_02156ebc == 0) {
-                if (data_02156eb8 == 1) {
-                    func_020c0548((s32) func_020c0db0, (s32) &sp[2]);
-                }
-                data_02156eac = 0;
-            } else {
-                data_02156ea8--;
-                if (data_02156ea8 <= 0) {
-                    data_02156ea8 = 0x3C;
-                    if (data_02156eb8 == 1) {
-                        data_02156eb4 = 0;
-                        if (func_020c04f0((s32) func_020c0d08, (s32) &sp[3])) {
-                            data_02156eb8 = 2;
+        case 0:
+            if (data_02156eb8 == 0) {
+                if (data_02156ebc == 1) {
+                    if (data_02156eb8 == 0) {
+                        if (func_020c0720(2, (s32) &sp[1])) {
+                            func_020c05a4((s32) func_020c0ddc, (s32) (void *) &sp[1]);
                         }
                     }
-                    data_02156eac = 2;
-                }
-            }
-        }
-        break;
-    case 2:
-        if (data_02156eb8 == 2) {
-            if (data_02156ebc == 0) {
-                data_02156eac = 1;
-                data_02156eb4 = 1;
-            } else {
-                data_02156ea8--;
-                if (data_02156ea8 <= 0 || data_02156ea0 != 0) {
-                    data_02156ea8 = 0x258;
-                    data_02156eb4 = 1;
                     data_02156eac = 1;
                 }
             }
-        }
-        break;
+            break;
+        case 1:
+            if (data_02156eb8 == 1) {
+                if (data_02156ebc == 0) {
+                    if (data_02156eb8 == 1) {
+                        func_020c0548((s32) func_020c0db0, (s32) &sp[2]);
+                    }
+                    data_02156eac = 0;
+                } else {
+                    data_02156ea8--;
+                    if (data_02156ea8 <= 0) {
+                        data_02156ea8 = 0x3C;
+                        if (data_02156eb8 == 1) {
+                            data_02156eb4 = 0;
+                            if (func_020c04f0((s32) func_020c0d08, (s32) &sp[3])) {
+                                data_02156eb8 = 2;
+                            }
+                        }
+                        data_02156eac = 2;
+                    }
+                }
+            }
+            break;
+        case 2:
+            if (data_02156eb8 == 2) {
+                if (data_02156ebc == 0) {
+                    data_02156eac = 1;
+                    data_02156eb4 = 1;
+                } else {
+                    data_02156ea8--;
+                    if (data_02156ea8 <= 0 || data_02156ea0 != 0) {
+                        data_02156ea8 = 0x258;
+                        data_02156eb4 = 1;
+                        data_02156eac = 1;
+                    }
+                }
+            }
+            break;
     }
     if (data_02156eb0 == 1) {
         func_020c0678((s32) &sp[0]);

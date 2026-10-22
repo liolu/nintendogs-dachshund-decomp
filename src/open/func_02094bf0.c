@@ -24,6 +24,6 @@ void func_02094bf0(void **arg0, u32 arg1) {
     temp_r7 = temp_r5 + temp_r4;
     func_0206cdc0(M2C_FIELD(temp_r6, const void **, 0x14), M2C_FIELD(temp_r7, void **, 0x14), 0x13C);
     M2C_FIELD(temp_r5, u32 *, temp_r4) = M2C_FIELD(temp_r6, u32 *, 0x0);
-    M2C_FIELD(temp_r7, u32 *, 0x4) = M2C_FIELD(temp_r6, u32 *, 0x4);
-    M2C_FIELD(temp_r7, u32 *, 0x8) = M2C_FIELD(temp_r6, u32 *, 0x8);
+    M2C_FIELD(temp_r7, u32 *, 0x4)     = M2C_FIELD(temp_r6, u32 *, 0x4);
+    M2C_FIELD(temp_r7, u32 *, 0x8)     = M2C_FIELD(temp_r6, u32 *, 0x8);
 }

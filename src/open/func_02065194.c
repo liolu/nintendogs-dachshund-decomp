@@ -18,8 +18,8 @@ s32 func_02065194(s32 arg0) {
     s32 old;
     s32 state;
 
-    state = func_02080c28();
-    old = M2C_FIELD(base, s32 *, 0x38);
+    state                        = func_02080c28();
+    old                          = M2C_FIELD(base, s32 *, 0x38);
     M2C_FIELD(base, s32 *, 0x38) = arg0;
     func_0207f3ec(base + 0x3C, M2C_FIELD(base, s32 *, 0x38));
     func_02080c3c(state);

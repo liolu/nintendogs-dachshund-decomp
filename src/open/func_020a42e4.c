@@ -85,8 +85,7 @@ void func_020a42e4(s8 *arg0) {
     func_020db55c();
     func_020db0fc(0, h3, h1, 0x15, 0);
     func_020daae8(0, 0x15);
-    func_020da6c4(0, h2, 0x15, 0, M2C_FIELD(data_02159e30, s32 *, 0xc), 0xf6e, 0,
-                  (s32) func_020a4704);
+    func_020da6c4(0, h2, 0x15, 0, M2C_FIELD(data_02159e30, s32 *, 0xc), 0xf6e, 0, (s32) func_020a4704);
     for (i = 0; i < 6; i++) {
         func_020db0fc(0, h3, h1, i + 0x16, 0);
     }
@@ -95,7 +94,7 @@ void func_020a42e4(s8 *arg0) {
         M2C_FIELD(arg0 + i * 2, s16 *, 0x68) = -1;
     }
     M2C_FIELD(arg0, s32 *, 0x88) = 0;
-    cnt = arg0 + 0x88;
+    cnt                          = arg0 + 0x88;
     for (j = 0; j < 0x14; j++) {
         if (func_02023778(handle, (s16) j) == 2) {
             if (*(u16 *) func_02024104(handle, (s16) j) != 1) {
@@ -105,20 +104,19 @@ void func_020a42e4(s8 *arg0) {
         }
     }
     M2C_FIELD(r4, s32 *, 4) = 0;
-    a[0] = M2C_FIELD(data_0213e4dc, u16 *, 0);
-    a[1] = M2C_FIELD(data_0213e4dc, u16 *, 2);
-    a[2] = M2C_FIELD(data_0213e4dc, u16 *, 4);
-    b = *(Q4 *) data_0213e4e4;
-    func_0209ff1c((s32) arg0, (s32) func_020a4680, &b, a, 3, 6, 0x28,
-                  M2C_FIELD(arg0, s32 *, 0x88), M2C_FIELD(r4, s32 *, 4));
+    a[0]                    = M2C_FIELD(data_0213e4dc, u16 *, 0);
+    a[1]                    = M2C_FIELD(data_0213e4dc, u16 *, 2);
+    a[2]                    = M2C_FIELD(data_0213e4dc, u16 *, 4);
+    b                       = *(Q4 *) data_0213e4e4;
+    func_0209ff1c((s32) arg0, (s32) func_020a4680, &b, a, 3, 6, 0x28, M2C_FIELD(arg0, s32 *, 0x88), M2C_FIELD(r4, s32 *, 4));
     if (func_020449c4((s16) M2C_FIELD(r4, s32 *, 0)) != 0) {
         for (i = 0; i < 6; i++) {
             func_020eb9fc(2, (u16) (i + 9), 0);
         }
         M2C_FIELD(arg0, s32 *, 0x94) = 6;
-        v = 1;
+        v                            = 1;
     } else {
-        v = 0;
+        v                            = 0;
         M2C_FIELD(arg0, s32 *, 0x94) = 0;
     }
     func_020d2c64(2, 0xf6f, v, (void *) func_020a4704, 1);

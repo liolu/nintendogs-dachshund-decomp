@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 extern void *data_0214cf54;
 extern u8 data_0214cfe0[];
 void func_0206cbc4(M2C_UNK, void *, M2C_UNK);

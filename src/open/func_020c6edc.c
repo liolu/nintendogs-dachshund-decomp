@@ -18,13 +18,13 @@ void func_020c6edc(s32 *arg0) {
     const char *path;
     s32 result;
 
-    path = data_02140ecc;
-    key = (s32)data_02140ee0;
+    path   = data_02140ecc;
+    key    = (s32) data_02140ee0;
     result = 0;
     func_0208831c(&file);
     if (func_02087fcc(&file, path) != 0) {
         size = file.startPosition - file.unk_20;
-        buf = func_02003850(arg0, ((size + 0xF) & ~0xF) + 0x60, 0x10);
+        buf  = func_02003850(arg0, ((size + 0xF) & ~0xF) + 0x60, 0x10);
         if (buf != 0) {
             data = buf + 0x60;
             if (func_02087e70(&file, data, size) == size) {

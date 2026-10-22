@@ -22,7 +22,7 @@ s32 func_0208a418(u8 *arg0, s16 arg1) {
             return slot;
         }
         ((s16 *) (arg0 + 0x12))[slot] = arg1;
-        mask = (u16) (1 << slot);
+        mask                          = (u16) (1 << slot);
         *(u16 *) (arg0 + 0x4) |= mask;
         *(u16 *) (arg0 + 0x6) |= mask;
         *(u16 *) (arg0 + 0x8) |= mask;

@@ -13,26 +13,26 @@ void func_020eb290(void) {
     UnkStruct0x10 *p;
     int i;
 
-    base = (UnkStruct0x10 *)((u8 *)data_02159e70 + 0x283C);
-    p = base + 0x80;
+    base = (UnkStruct0x10 *) ((u8 *) data_02159e70 + 0x283C);
+    p    = base + 0x80;
     for (i = 0; i < 0x80; i++, p++) {
         p->unk_04 = 1;
     }
 
-    base = (UnkStruct0x10 *)((u8 *)data_02159e70 + 0x283C);
-    p = base;
+    base = (UnkStruct0x10 *) ((u8 *) data_02159e70 + 0x283C);
+    p    = base;
     for (i = 0; i < 0x80; i++, p++) {
         p->unk_04 = 1;
     }
 
-    base = (UnkStruct0x10 *)((u8 *)data_02159e70 + 0x283C);
-    p = base + 0x180;
+    base = (UnkStruct0x10 *) ((u8 *) data_02159e70 + 0x283C);
+    p    = base + 0x180;
     for (i = 0; i < 0x80; i++, p++) {
         p->unk_04 = 1;
     }
 
-    base = (UnkStruct0x10 *)((u8 *)data_02159e70 + 0x283C);
-    p = base + 0x100;
+    base = (UnkStruct0x10 *) ((u8 *) data_02159e70 + 0x283C);
+    p    = base + 0x100;
     for (i = 0; i < 0x80; i++, p++) {
         p->unk_04 = 2;
     }

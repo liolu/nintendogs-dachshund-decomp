@@ -37,7 +37,7 @@ void func_020bcdf0(ScaleList *list, s32 m) {
         pos.f8 = (s32) (((s64) pos.f8 * m + 0x800) >> 12);
         func_02068270(&list->entryB[i], &pos, &list->entryB[i]);
         pb = &list->entryB[i];
-        v = pb->f0;
+        v  = pb->f0;
         if (v <= 0) {
             v = -v;
         }

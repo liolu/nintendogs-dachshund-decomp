@@ -34,7 +34,7 @@ load:
     obj = (W *) *(volatile u32 *) ((u8 *) data_021555f8 + idx * 4 + 4);
 join:
     ret = func_020b28d8();
-    sw = *(volatile s16 *) ((u8 *) obj + 0x90);
+    sw  = *(volatile s16 *) ((u8 *) obj + 0x90);
     if ((u16) ((s16) (sw - 2)) <= 1) {
         M2C_FIELD(&data_0213ef18, s32 *, 4) = 0;
         func_020b95d0(arg0, 0x10, -1, 0);

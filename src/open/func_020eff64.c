@@ -26,12 +26,13 @@ void func_020eff64(void) {
             continue;
         }
         work = func_020449ac(func_020276f8(work));
-        key = i + 7;
-        id1 = func_020ebab8(2, key);
-        func_020e83d0(2, key, id1, M2C_FIELD(work, s32 *, 0x88), M2C_FIELD(work, s32 *, 0x8C), M2C_FIELD(work, s32 *, 0x90), 1, 1);
+        key  = i + 7;
+        id1  = func_020ebab8(2, key);
+        func_020e83d0(2, key, id1, M2C_FIELD(work, s32 *, 0x88), M2C_FIELD(work, s32 *, 0x8C), M2C_FIELD(work, s32 *, 0x90), 1,
+                      1);
     }
     base = data_02159e70 + 0x1113C;
-    res = (s32) func_02006b68((void *) M2C_FIELD(base, s32 *, 0xC));
+    res  = (s32) func_02006b68((void *) M2C_FIELD(base, s32 *, 0xC));
     if (func_020e5304() != 0) {
         id1 = func_020ebab8(2, 0x10);
         id2 = func_020ebab8(2, 0x11);

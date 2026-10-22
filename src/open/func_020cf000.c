@@ -3,7 +3,7 @@
 extern void *data_02159e38;
 void *func_020cf000(s32 *arg0) {
     void *result = NULL;
-    s16 i = 0;
+    s16 i        = 0;
     s32 valid;
     s8 *p = (s8 *) M2C_FIELD(data_02159e38, s32 *, 0x1434) + 4;
 

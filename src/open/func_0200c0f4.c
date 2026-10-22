@@ -31,20 +31,18 @@ void func_0200c0f4(S *p) {
         p->y = 0;
     }
 
-    rng = func_02044148();
-    r = *rng * 0x10DCD + 1;
-    *rng = r;
-    p->vx = FX_Mul(p->vx, 0xE6A) - 0x80 + FX_Mul((s16) (u16) (r & 0xFFF), 0x100) +
-            FX_Mul(p->x, -4);
+    rng   = func_02044148();
+    r     = *rng * 0x10DCD + 1;
+    *rng  = r;
+    p->vx = FX_Mul(p->vx, 0xE6A) - 0x80 + FX_Mul((s16) (u16) (r & 0xFFF), 0x100) + FX_Mul(p->x, -4);
 
-    rng = func_02044148();
-    r = *rng * 0x10DCD + 1;
+    rng  = func_02044148();
+    r    = *rng * 0x10DCD + 1;
     *rng = r;
     p->b = FX_Mul(p->b, 0xE6A) - 0x80 + FX_Mul((s16) (u16) (r & 0xFFF), 0x100);
 
-    rng = func_02044148();
-    r = *rng * 0x10DCD + 1;
+    rng  = func_02044148();
+    r    = *rng * 0x10DCD + 1;
     *rng = r;
-    p->c = FX_Mul(p->c, 0xE6A) - 0x80 + FX_Mul((s16) (u16) (r & 0xFFF), 0x100) +
-           FX_Mul(p->z, -4);
+    p->c = FX_Mul(p->c, 0xE6A) - 0x80 + FX_Mul((s16) (u16) (r & 0xFFF), 0x100) + FX_Mul(p->z, -4);
 }

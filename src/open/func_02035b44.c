@@ -24,8 +24,7 @@ void func_02035b44(s32 arg0, s32 *arg1, s32 arg2, s32 arg3) {
             continue;
         }
         dist = func_02009bc0((s32 *) (item + 8), (s32 *) (arg0 + 0x2A0));
-        if (M2C_FIELD(arg0, s8 *, 0x8D) == 1
-            && M2C_FIELD(M2C_FIELD(arg0, void **, 0x9E8), s16 *, 0x1E) == 0x2710) {
+        if (M2C_FIELD(arg0, s8 *, 0x8D) == 1 && M2C_FIELD(M2C_FIELD(arg0, void **, 0x9E8), s16 *, 0x1E) == 0x2710) {
             dist -= 0x3E8000;
         } else {
             dist -= M2C_FIELD(arg0, s32 *, 0x29C);
@@ -48,7 +47,7 @@ void func_02035b44(s32 arg0, s32 *arg1, s32 arg2, s32 arg3) {
                 goto Lcopy;
             }
         }
-        *arg1 = dist;
+        *arg1                         = dist;
         M2C_FIELD(arg0, s16 *, 0x13E) = (s16) (i + 0xD);
     Lcopy:
         if (arg3 != 0) {

@@ -57,26 +57,26 @@ void func_0208ea64(void) {
     }
     if (*(s32 *) (base + 0x2c) != 0 && *(s32 *) (*(s32 *) (base + 0x2c)) != 0) {
         switch (func_02070c3c(*(s32 *) (base + 0x2c))) {
-        case 2:
-        case 0x1E:
-        case 0x1F:
-        case 0x20:
-        case 0x2A:
-        case 0x30:
-        case 0x31:
-        case 0x32:
-        case 0x33:
-        case 0x34:
-        case 0x35:
-        case 0x36:
-        case 0x37:
-            func_02070bec((void **) *(s32 *) (base + 0x2c), 0, &buf);
-            if (buf == 5) {
-                func_02091ce4();
-                *(s32 *) (base + 0x28) = 0;
-                *(s32 *) (base + 0x2c) = 0;
-            }
-            break;
+            case 2:
+            case 0x1E:
+            case 0x1F:
+            case 0x20:
+            case 0x2A:
+            case 0x30:
+            case 0x31:
+            case 0x32:
+            case 0x33:
+            case 0x34:
+            case 0x35:
+            case 0x36:
+            case 0x37:
+                func_02070bec((void **) *(s32 *) (base + 0x2c), 0, &buf);
+                if (buf == 5) {
+                    func_02091ce4();
+                    *(s32 *) (base + 0x28) = 0;
+                    *(s32 *) (base + 0x2c) = 0;
+                }
+                break;
         }
     } else {
         *(s32 *) (base + 0x28) = 0;

@@ -24,7 +24,8 @@ void func_020138fc(void *arg0) {
             if ((func_02027f68(arg0, 7) >> 9) < 5) {
                 v = func_020093f8(arg0, 0x3E, 2, 0, 0);
                 if (v != -1) {
-                    M2C_FIELD(M2C_FIELD(arg0, s32 *, 0x8FC + v * 4), s32 *, 0x44) = (s32) (((s64) func_02028120(arg0) * 0xE66 + 0x800) >> 12);
+                    M2C_FIELD(M2C_FIELD(arg0, s32 *, 0x8FC + v * 4), s32 *, 0x44) =
+                        (s32) (((s64) func_02028120(arg0) * 0xE66 + 0x800) >> 12);
                 }
             }
         }

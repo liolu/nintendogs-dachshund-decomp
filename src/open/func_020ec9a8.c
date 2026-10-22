@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 extern void func_02068770(s32);
 extern void func_020d6068(s32, s32, s32);
 extern void func_0207ca98(s32, s32, s32, s32);

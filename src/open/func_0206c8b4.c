@@ -34,10 +34,10 @@ void func_0206c8b4(u32 dmaNo, u32 src, u32 size, UnkDmaCallback callback, void *
     }
     while (data_0214f4a8.isBusy) {
     }
-    data_0214f4a8.isBusy = 1;
-    data_0214f4a8.dmaNo = dmaNo;
+    data_0214f4a8.isBusy   = 1;
+    data_0214f4a8.dmaNo    = dmaNo;
     data_0214f4a8.callback = callback;
-    data_0214f4a8.arg = arg;
+    data_0214f4a8.arg      = arg;
     func_0206c338(dmaNo, 0x38000000);
     func_0206c2c8(dmaNo, src, size, 0);
     func_0206c470(dmaNo);

@@ -10,9 +10,8 @@ void func_020447ac(s32 *arg0) {
     };
 
     if (M2C_FIELD(data_0214da84, s32 *, 0x64) == 0) {
-        M2C_FIELD(data_0214da84, s32 *, 0x64) = (s32) data_0214da80[0];
-        *(struct Unk12 *) (data_0214da84 + 0x68) =
-            *(struct Unk12 *) (*(u32 *) (data_0215a064 + 0x1C) + 0x48);
+        M2C_FIELD(data_0214da84, s32 *, 0x64)    = (s32) data_0214da80[0];
+        *(struct Unk12 *) (data_0214da84 + 0x68) = *(struct Unk12 *) (*(u32 *) (data_0215a064 + 0x1C) + 0x48);
         func_01ff8980((s32) (data_0214da84 + 0x68));
     }
     *(struct Unk12 *) arg0 = *(struct Unk12 *) (data_0214da84 + 0x68);

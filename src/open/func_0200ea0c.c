@@ -18,22 +18,22 @@ void func_0200ea0c(s32 p) {
 
     func_02035978((void *) p, 1);
 
-    seed = data_0214da84;
-    r = *seed * 0x10DCD + 1;
-    v = (u16) (((u32) (u16) r * 0x1F4) >> 16);
+    seed  = data_0214da84;
+    r     = *seed * 0x10DCD + 1;
+    v     = (u16) (((u32) (u16) r * 0x1F4) >> 16);
     *seed = r;
     if (v == 0) {
-        seed = data_0214da84;
-        k = (M2C_FIELD(data_0215a048, s32 *, 0xC) * 3) >> 2;
-        r = *seed * 0x10DCD + 1;
-        a = (s16) (u16) (r & 0xFFF);
-        *seed = r;
+        seed                       = data_0214da84;
+        k                          = (M2C_FIELD(data_0215a048, s32 *, 0xC) * 3) >> 2;
+        r                          = *seed * 0x10DCD + 1;
+        a                          = (s16) (u16) (r & 0xFFF);
+        *seed                      = r;
         M2C_FIELD(p, s32 *, 0x26C) = FX_Mul(a, k) - (k >> 1);
 
-        seed = data_0214da84;
-        r = *seed * 0x10DCD + 1;
-        a = (s16) (u16) (r & 0xFFF);
-        *seed = r;
+        seed                       = data_0214da84;
+        r                          = *seed * 0x10DCD + 1;
+        a                          = (s16) (u16) (r & 0xFFF);
+        *seed                      = r;
         M2C_FIELD(p, s32 *, 0x274) = FX_Mul(a, k) - (k >> 1);
     }
 

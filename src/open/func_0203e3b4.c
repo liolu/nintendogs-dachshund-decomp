@@ -53,9 +53,9 @@ M2C_UNK func_0203e3b4(s32 arg0) {
     if (M2C_FIELD(p, s16 *, 0xEA) == 0x47F) {
         goto invalid;
     }
-    flag = 0;
+    flag                         = 0;
     M2C_FIELD(arg0, u16 *, 0x20) = M2C_FIELD(arg0, u16 *, 0x20) & ~1;
-    v = (s32) (((s64) M2C_FIELD(M2C_FIELD(p, void **, 0x9E8), s32 *, 8) * 0xB54 + 0x800) >> 12);
+    v                            = (s32) (((s64) M2C_FIELD(M2C_FIELD(p, void **, 0x9E8), s32 *, 8) * 0xB54 + 0x800) >> 12);
     M2C_FIELD(arg0, s32 *, 0x24) = v;
     M2C_FIELD(arg0, s32 *, 0x28) = v;
     M2C_FIELD(arg0, s32 *, 0x2C) = v;
@@ -72,7 +72,7 @@ test:
         a.x = 0;
         a.y = 0x1000;
         a.z = 0;
-        b = *(V3 *) (p + 0x1A4);
+        b   = *(V3 *) (p + 0x1A4);
         func_0206810c(&a, &b, &c);
         func_01ff8980((s32) &c);
         func_0206810c(&c, &a, &b);
@@ -89,7 +89,7 @@ test:
         ((Node3C *) arg0)->mat = ((Node3C *) p)->mat;
     }
     *(V3 *) (arg0 + 0x30) = *(V3 *) (p + 0x33C);
-    tmp = *(V3 *) (p + 0x934);
+    tmp                   = *(V3 *) (p + 0x934);
     func_02068270(arg0 + 0x30, (s32) &tmp, arg0 + 0x30);
     M2C_FIELD(arg0, s32 *, 0x34) = M2C_FIELD(p, s32 *, 0x918);
     goto end;

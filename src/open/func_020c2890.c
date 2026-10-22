@@ -19,29 +19,28 @@ void func_020c2890(void *arg0) {
     s32 angle;
 
     func_020a7460(arg0);
-    M2C_FIELD(M2C_FIELD(arg0, void **, 0x18C), u16 *, 0x20) =
-        M2C_FIELD(M2C_FIELD(arg0, void **, 0x18C), u16 *, 0x20) | 1;
+    M2C_FIELD(M2C_FIELD(arg0, void **, 0x18C), u16 *, 0x20) = M2C_FIELD(M2C_FIELD(arg0, void **, 0x18C), u16 *, 0x20) | 1;
     switch (M2C_FIELD(data_0215a04c, u16 *, 0)) {
-    case 9:
-        if (func_ov004_0215a758() != 0) {
-            func_020afbc4(arg0);
-            return;
-        }
-        func_020afb54(arg0, M2C_FIELD(data_0215a078, s16 *, 2));
-        angle = func_01ffdb08(M2C_FIELD(data_0215a078, s16 *, 2));
-        break;
-    case 7:
-        func_020afb54(arg0, M2C_FIELD(data_0215a04c, s16 *, 0xE));
-        angle = func_01ffdb08(M2C_FIELD(data_0215a04c, s16 *, 0xE));
-        break;
-    case 0xB:
-        func_020afb54(arg0, M2C_FIELD(data_0215a04c, s16 *, 0x1C));
-        angle = func_01ffdb08(M2C_FIELD(data_0215a04c, s16 *, 0x1C));
-        break;
-    default:
-        func_020afb54(arg0, func_02042a2c());
-        angle = func_01ffdb08(func_02042a2c());
-        break;
+        case 9:
+            if (func_ov004_0215a758() != 0) {
+                func_020afbc4(arg0);
+                return;
+            }
+            func_020afb54(arg0, M2C_FIELD(data_0215a078, s16 *, 2));
+            angle = func_01ffdb08(M2C_FIELD(data_0215a078, s16 *, 2));
+            break;
+        case 7:
+            func_020afb54(arg0, M2C_FIELD(data_0215a04c, s16 *, 0xE));
+            angle = func_01ffdb08(M2C_FIELD(data_0215a04c, s16 *, 0xE));
+            break;
+        case 0xB:
+            func_020afb54(arg0, M2C_FIELD(data_0215a04c, s16 *, 0x1C));
+            angle = func_01ffdb08(M2C_FIELD(data_0215a04c, s16 *, 0x1C));
+            break;
+        default:
+            func_020afb54(arg0, func_02042a2c());
+            angle = func_01ffdb08(func_02042a2c());
+            break;
     }
     func_02027168(angle, mtx, 0xC);
     a[0] = mtx[6];

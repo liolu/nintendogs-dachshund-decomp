@@ -55,7 +55,7 @@ check:
     if (t == 0x16) {
         func_020bfa14(M2C_FIELD(data_02155660, u16 *, 0x3C), M2C_FIELD(data_02155660, s32 *, 0));
         if (M2C_FIELD(data_02155660, s32 *, 0x40) == 1) {
-            o = func_020c0834();
+            o                         = func_020c0834();
             M2C_FIELD(o, s16 *, 0x18) = func_020bfb6c();
         }
         func_020bfc20((s32) func_020be4cc, &w);

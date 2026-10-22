@@ -16,7 +16,7 @@ void func_020e9a20(s32 arg0, s32 arg1) {
     s32 i;
     u8 buf[0x20];
 
-    r7 = (u8 *) (data_02159e70 + 0xC4);
+    r7  = (u8 *) (data_02159e70 + 0xC4);
     cnt = 0;
     func_020ea1b4(buf, arg0);
     if (arg1 < 0 || arg1 >= 0x46) {

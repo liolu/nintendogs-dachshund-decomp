@@ -29,7 +29,7 @@ s32 func_0211b194(s32 arg0, s32 arg1, s32 arg2) {
     const char *ext;
     s32 idx;
 
-    p = func_020038a8(arg0, 0x3C);
+    p                   = func_020038a8(arg0, 0x3C);
     *(u16 *) (p + 0x00) = 0;
     *(u16 *) (p + 0x02) = arg1;
     *(s32 *) (p + 0x04) = 0;
@@ -43,51 +43,51 @@ s32 func_0211b194(s32 arg0, s32 arg1, s32 arg2) {
     *(s32 *) (p + 0x2C) = 0;
     *(s32 *) (p + 0x30) = 0;
 
-    ext = data_0214c9b0;
+    ext    = data_0214c9b0;
     prefix = 0;
     switch (arg1) {
-    case 0:
-        prefix = data_0214c9b8;
-        break;
-    case 1:
-        prefix = data_0214c9cc;
-        break;
-    case 2:
-        prefix = data_0214c9e0;
-        break;
+        case 0:
+            prefix = data_0214c9b8;
+            break;
+        case 1:
+            prefix = data_0214c9cc;
+            break;
+        case 2:
+            prefix = data_0214c9e0;
+            break;
     }
     idx = arg2 - 1;
     func_0205ece8(name, 0x40, data_0214c9f4, prefix, idx, ext);
     *(s32 *) (p + 0x08) = func_02006bd0(func_020c7790(name));
 
-    ext = data_0214ca00;
+    ext    = data_0214ca00;
     prefix = 0;
     switch (arg1) {
-    case 0:
-        prefix = data_0214ca08;
-        break;
-    case 1:
-        prefix = data_0214ca1c;
-        break;
-    case 2:
-        prefix = data_0214ca30;
-        break;
+        case 0:
+            prefix = data_0214ca08;
+            break;
+        case 1:
+            prefix = data_0214ca1c;
+            break;
+        case 2:
+            prefix = data_0214ca30;
+            break;
     }
     func_0205ece8(name, 0x40, data_0214ca44, prefix, idx, ext);
     *(s32 *) (p + 0x0C) = func_02006b9c(func_020c7790(name));
 
-    ext = data_0214ca50;
+    ext    = data_0214ca50;
     prefix = 0;
     switch (arg1) {
-    case 0:
-        prefix = data_0214ca58;
-        break;
-    case 1:
-        prefix = data_0214ca6c;
-        break;
-    case 2:
-        prefix = data_0214ca80;
-        break;
+        case 0:
+            prefix = data_0214ca58;
+            break;
+        case 1:
+            prefix = data_0214ca6c;
+            break;
+        case 2:
+            prefix = data_0214ca80;
+            break;
     }
     func_0205ece8(name, 0x40, data_0214ca94, prefix, idx, ext);
     *(s32 *) (p + 0x10) = func_02006b68(func_020c7790(name));
@@ -102,6 +102,6 @@ s32 func_0211b194(s32 arg0, s32 arg1, s32 arg2) {
     *(s32 *) (p + 0x30) = 0x82000;
     *(s32 *) (p + 0x34) = 0x100000;
     *(s32 *) (p + 0x38) = 0;
-    data_0215a06c = p;
+    data_0215a06c       = p;
     return (s32) p;
 }

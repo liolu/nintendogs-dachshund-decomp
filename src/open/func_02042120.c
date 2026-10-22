@@ -12,12 +12,12 @@ void func_02042120(s32 arg0, s32 arg1) {
     u16 v;
     s8 *p;
 
-    result = func_02114d0c(arg0, 0);
+    result        = func_02114d0c(arg0, 0);
     data_0214da80 = result;
     func_020ca4f4((void *) arg1, (void *) result);
     v = *(u16 *) data_0215a04c;
     if (v == 0 || v == 0x11 || v == 8 || v == 0x10) {
-        p = (s8 *) data_0214da84;
+        p                         = (s8 *) data_0214da84;
         M2C_FIELD(p, s32 *, 0x60) = func_0200c360(arg0, arg1);
         func_020ca4f4((void *) arg1, (void *) M2C_FIELD((s8 *) data_0214da84, s32 *, 0x60));
     }

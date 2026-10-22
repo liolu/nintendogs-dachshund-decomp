@@ -13,16 +13,16 @@ s32 func_0203560c(s32 arg0, s32 arg1) {
         goto Lzero;
     }
     switch (M2C_FIELD(arg1, s16 *, 0x96)) {
-    case 0:
-    case 1:
-    case 2:
-    case 0x11:
-        t = 1;
-        break;
-    default:
-Lzero:
-        t = 0;
-        break;
+        case 0:
+        case 1:
+        case 2:
+        case 0x11:
+            t = 1;
+            break;
+        default:
+        Lzero:
+            t = 0;
+            break;
     }
     if (t != 0) {
         return 0;

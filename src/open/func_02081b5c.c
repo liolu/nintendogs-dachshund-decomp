@@ -40,10 +40,10 @@ void func_02081b5c(UnkOwner *owner, const UnkVec32 *a, const UnkVec32 *b) {
     owner->mid.x = (b->x + a->x) / 2;
     owner->mid.y = (b->y + a->y) / 2;
     owner->mid.z = (b->z + a->z) / 2;
-    owner->dist = func_02067cbc(a, b) / 2;
-    diff.x = b->x - a->x;
-    diff.y = b->y - a->y;
-    diff.z = b->z - a->z;
+    owner->dist  = func_02067cbc(a, b) / 2;
+    diff.x       = b->x - a->x;
+    diff.y       = b->y - a->y;
+    diff.z       = b->z - a->z;
     func_02067ef8(&diff, &diff);
     owner->dir.x = diff.x;
     owner->dir.y = diff.y;

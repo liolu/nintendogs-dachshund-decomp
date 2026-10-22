@@ -29,7 +29,7 @@ void func_020c7bb0(s32 arg0) {
     }
     M2C_FIELD((s8 *) arg0, u16 *, 2) &= ~1;
     file = *(s32 *) (arg0 + 0xA0);
-    tex = func_0207832c(file);
+    tex  = func_0207832c(file);
     if (tex != 0) {
         func_020742d0(tex);
         func_020741d4(tex);

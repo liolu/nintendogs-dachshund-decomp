@@ -10,11 +10,11 @@ s16 func_020cf600(void) {
     s32 off;
     u32 base;
 
-    best = 0x89;
-    cur = M2C_FIELD(M2C_FIELD(data_02159e38, u32 *, 0x141C), s16 *, 0x7E);
+    best  = 0x89;
+    cur   = M2C_FIELD(M2C_FIELD(data_02159e38, u32 *, 0x141C), s16 *, 0x7E);
     found = 0;
-    i = 0;
-    off = 0;
+    i     = 0;
+    off   = 0;
     for (; i < 0xC8; i++, off += 4) {
         s8 *p = (s8 *) M2C_FIELD(data_02159e38, u32 *, 0x141C) + 0x248;
         s8 w;
@@ -36,8 +36,8 @@ s16 func_020cf600(void) {
         }
     }
     if (found == 0) {
-        cur = best;
-        base = M2C_FIELD(data_02159e38, u32 *, 0x141C);
+        cur                          = best;
+        base                         = M2C_FIELD(data_02159e38, u32 *, 0x141C);
         M2C_FIELD(base, s16 *, 0x7E) = best;
         *(u16 *) ((u8 *) base + 0x6AE) |= 1;
     }

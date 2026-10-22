@@ -21,91 +21,91 @@ void func_02005718(u8 *arg0, s32 sel) {
     *(u16 *) (arg0 + 0x18) = 0;
     *(u16 *) (arg0 + 0x1A) = 0;
     *(u16 *) (arg0 + 0x1C) = 0;
-    v = 6;
+    v                      = 6;
     switch (sel) {
-    case 0:
-    case 1:
-    case 3:
-        v = 1;
-        break;
-    case 2:
-    case 4:
-        v = 2;
-        break;
-    case 5:
-        v = 3;
-        break;
-    case 6:
-        break;
+        case 0:
+        case 1:
+        case 3:
+            v = 1;
+            break;
+        case 2:
+        case 4:
+            v = 2;
+            break;
+        case 5:
+            v = 3;
+            break;
+        case 6:
+            break;
     }
     *(u32 *) (arg0 + 0x20) = v;
     switch (v) {
-    case 1:
-        *(u16 *) (arg0 + 0x24) = 2;
-        *(u16 *) (arg0 + 0x28) = 0;
-        *(u16 *) (arg0 + 0x2A) = 0;
-        *(u16 *) (arg0 + 0x26) = 0;
-        *(u16 *) (arg0 + 0x2C) = 0;
-        *(u16 *) (arg0 + 0x2E) = 0;
-        break;
-    case 2:
-        *(u16 *) (arg0 + 0x24) = 2;
-        *(u16 *) (arg0 + 0x28) = 0;
-        *(u16 *) (arg0 + 0x26) = 0;
-        *(u16 *) (arg0 + 0x2A) = 0;
-        *(u16 *) (arg0 + 0x2C) = 0;
-        *(u16 *) (arg0 + 0x2E) = 0;
-        break;
-    case 3:
-        *(u16 *) (arg0 + 0x24) = 2;
-        *(u16 *) (arg0 + 0x26) = 0;
-        *(u16 *) (arg0 + 0x28) = 0;
-        *(u16 *) (arg0 + 0x2A) = 0;
-        *(u16 *) (arg0 + 0x2C) = 0;
-        break;
+        case 1:
+            *(u16 *) (arg0 + 0x24) = 2;
+            *(u16 *) (arg0 + 0x28) = 0;
+            *(u16 *) (arg0 + 0x2A) = 0;
+            *(u16 *) (arg0 + 0x26) = 0;
+            *(u16 *) (arg0 + 0x2C) = 0;
+            *(u16 *) (arg0 + 0x2E) = 0;
+            break;
+        case 2:
+            *(u16 *) (arg0 + 0x24) = 2;
+            *(u16 *) (arg0 + 0x28) = 0;
+            *(u16 *) (arg0 + 0x26) = 0;
+            *(u16 *) (arg0 + 0x2A) = 0;
+            *(u16 *) (arg0 + 0x2C) = 0;
+            *(u16 *) (arg0 + 0x2E) = 0;
+            break;
+        case 3:
+            *(u16 *) (arg0 + 0x24) = 2;
+            *(u16 *) (arg0 + 0x26) = 0;
+            *(u16 *) (arg0 + 0x28) = 0;
+            *(u16 *) (arg0 + 0x2A) = 0;
+            *(u16 *) (arg0 + 0x2C) = 0;
+            break;
     }
     v = 6;
     switch (sel) {
-    case 0:
-        v = 1;
-        break;
-    case 1:
-    case 2:
-        v = 2;
-        break;
-    case 3:
-    case 4:
-    case 5:
-        v = 3;
-        break;
-    case 6:
-        break;
+        case 0:
+            v = 1;
+            break;
+        case 1:
+        case 2:
+            v = 2;
+            break;
+        case 3:
+        case 4:
+        case 5:
+            v = 3;
+            break;
+        case 6:
+            break;
     }
     *(u32 *) (arg0 + 0x30) = v;
     switch (v) {
-    case 1:
-        *(u16 *) (arg0 + 0x34) = 2;
-        *(u16 *) (arg0 + 0x38) = 0;
-        *(u16 *) (arg0 + 0x3A) = 0;
-        *(u16 *) (arg0 + 0x36) = 0;
-        *(u16 *) (arg0 + 0x3C) = 0;
-        *(u16 *) (arg0 + 0x3E) = 0;
-        break;
-    case 2:
-        *(u16 *) (arg0 + 0x34) = 2;
-        *(u16 *) (arg0 + 0x38) = 0;
-        *(u16 *) (arg0 + 0x36) = 0;
-        *(u16 *) (arg0 + 0x3A) = 0;
-        *(u16 *) (arg0 + 0x3C) = 0;
-        *(u16 *) (arg0 + 0x3E) = 0;
-        break;
-    case 3:
-        *(u16 *) (arg0 + 0x34) = 2;
-        *(u16 *) (arg0 + 0x36) = 0;
-        *(u16 *) (arg0 + 0x38) = 0;
-        *(u16 *) (arg0 + 0x3A) = 0;
-        *(u16 *) (arg0 + 0x3C) = 0;
-        break;
+        case 1:
+            *(u16 *) (arg0 + 0x34) = 2;
+            *(u16 *) (arg0 + 0x38) = 0;
+            *(u16 *) (arg0 + 0x3A) = 0;
+            *(u16 *) (arg0 + 0x36) = 0;
+            *(u16 *) (arg0 + 0x3C) = 0;
+            *(u16 *) (arg0 + 0x3E) = 0;
+            break;
+        case 2:
+            *(u16 *) (arg0 + 0x34) = 2;
+            *(u16 *) (arg0 + 0x38) = 0;
+            *(u16 *) (arg0 + 0x36) = 0;
+            *(u16 *) (arg0 + 0x3A) = 0;
+            *(u16 *) (arg0 + 0x3C) = 0;
+            *(u16 *) (arg0 + 0x3E) = 0;
+            break;
+        case 3:
+            *(u16 *) (arg0 + 0x34) = 2;
+            *(u16 *) (arg0 + 0x36) = 0;
+            *(u16 *) (arg0 + 0x38) = 0;
+            *(u16 *) (arg0 + 0x3A) = 0;
+            *(u16 *) (arg0 + 0x3C) = 0;
+            break;
     }
     *(u32 *) (arg0 + 0x40) = 0;
     *(u32 *) (arg0 + 0x44) = 0;

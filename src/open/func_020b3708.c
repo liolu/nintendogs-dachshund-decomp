@@ -28,10 +28,10 @@ void func_020b3708(s32 arg0, s32 arg1) {
     if (arg1 == 0) {
         return;
     }
-    tmp = *(Struct12 *) (arg1 + 0xBC);
-    e4 = *(s32 *) (arg1 + 0xE4);
-    e8 = *(s32 *) (arg1 + 0xE8);
-    e0 = *(s32 *) (arg1 + 0xE0);
+    tmp    = *(Struct12 *) (arg1 + 0xBC);
+    e4     = *(s32 *) (arg1 + 0xE4);
+    e8     = *(s32 *) (arg1 + 0xE8);
+    e0     = *(s32 *) (arg1 + 0xE0);
     mat[0] = e0;
     mat[1] = e4;
     mat[2] = e8;
@@ -39,8 +39,8 @@ void func_020b3708(s32 arg0, s32 arg1) {
     mat[4] = 0x1000;
     mat[5] = 0;
     if (e4 > 0) {
-        v = e4 / 2;
-        d = (s64) e0 * e0 + (s64) v * v + (s64) e8 * e8;
+        v      = e4 / 2;
+        d      = (s64) e0 * e0 + (s64) v * v + (s64) e8 * e8;
         mat[1] = v;
         if (d >= data_02124d28) {
             func_02006a20(mat, mat);

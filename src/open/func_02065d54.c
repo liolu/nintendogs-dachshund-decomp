@@ -13,7 +13,7 @@ extern int func_02065e7c(void *g);
 extern unsigned int func_02080c28(void);
 extern void func_02080c3c(unsigned int flags);
 int func_02065d54(u32 a, int b, int c, int d, int e, int f, int g) {
-    u32 *s = (u32 *) data_0214ec20;
+    u32 *s  = (u32 *) data_0214ec20;
     char *t = data_0214f220;
     unsigned int irq;
 
@@ -26,10 +26,10 @@ int func_02065d54(u32 a, int b, int c, int d, int e, int f, int g) {
     }
     s[0xD] |= 4;
     func_02080c3c(irq);
-    s[9] = a;
-    s[6] = b + *(int *) data_0214f200;
-    s[7] = c;
-    s[8] = d;
+    s[9]   = a;
+    s[6]   = b + *(int *) data_0214f200;
+    s[7]   = c;
+    s[8]   = d;
     s[0xA] = e;
     s[0xB] = f;
     if (a <= 3) {

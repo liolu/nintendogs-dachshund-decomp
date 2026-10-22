@@ -18,7 +18,7 @@ s32 func_020906e8(s32 arg0, s32 arg1, s32 arg2, s32 arg3) {
         }
     }
     i = -1;
- found:
+found:
     if (i != -1) {
         p = base + 0x28 + i * 4;
         func_02073328(p, arg0, arg1);

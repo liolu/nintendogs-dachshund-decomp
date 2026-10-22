@@ -24,7 +24,7 @@ s32 func_0208f588(u8 arg0, s32 arg1, void *arg2) {
     u16 mask;
 
     base = data_0215449c;
-    idx = func_02090578(arg0, arg1, 0x7f, 0);
+    idx  = func_02090578(arg0, arg1, 0x7f, 0);
     if (idx != -1) {
         p = &data_021544c4[idx];
         if (*p != 0) {

@@ -11,7 +11,7 @@ typedef struct {
 } Blob;
 
 void func_02005690(u16 *arg0, u16 *arg1) {
-    *(Blob *) arg0 = *(Blob *) arg1;
+    *(Blob *) arg0                = *(Blob *) arg1;
     *(u32 *) ((u8 *) arg0 + 0x28) = 0;
     func_02005718((s32) ((u8 *) arg0 + 0x2C), *(u16 *) ((u8 *) arg1 + 0x8));
     func_02005718((s32) ((u8 *) arg0 + 0x78), *(u16 *) ((u8 *) arg1 + 0xC));

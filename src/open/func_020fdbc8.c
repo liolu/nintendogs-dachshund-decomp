@@ -9,10 +9,10 @@ void func_020fdbc8(void) {
     s32 off;
     s32 flag;
 
-    i = 0;
+    i   = 0;
     off = 0;
     do {
-        p = (u8 *) data_0215a030 + 0x30 + off;
+        p    = (u8 *) data_0215a030 + 0x30 + off;
         flag = (M2C_FIELD(p, u32 *, 0xC) & 0x10) != 0;
         if (flag) {
             func_02087e90(p);

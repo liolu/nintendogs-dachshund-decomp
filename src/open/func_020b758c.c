@@ -16,7 +16,7 @@ void func_020b758c(Vec3 *a, Vec3 *b, Vec3 *c, Vec3 *d, Vec3 *e, Vec3 *f) {
 
     func_0206823c(e, d, c);
     limit = data_02124d28;
-    m = (s64) c->x * c->x + (s64) c->y * c->y + (s64) c->z * c->z;
+    m     = (s64) c->x * c->x + (s64) c->y * c->y + (s64) c->z * c->z;
     if (m >= limit) {
         func_02006a20(c, c);
     }

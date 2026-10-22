@@ -9,11 +9,11 @@ void func_0210d9dc(s32 arg0, s32 arg1) {
     s32 temp_r1;
 
     func_020a7924(arg0, 0x73);
-    M2C_FIELD(arg0, M2C_UNK **, 0x1F4)     = &func_0210d850;
-    M2C_FIELD(arg0, M2C_UNK **, 0x1F8)     = &func_0210d7ec;
-    M2C_FIELD(arg0, M2C_UNK **, 0x1F0)     = &func_0210d948;
-    M2C_FIELD(arg0, s32 *, 0x214)          = func_020038a8((s32 *) arg1, 4);
-    temp_r1                                = M2C_FIELD(arg0, s32 *, 0x214);
+    M2C_FIELD(arg0, M2C_UNK **, 0x1F4) = &func_0210d850;
+    M2C_FIELD(arg0, M2C_UNK **, 0x1F8) = &func_0210d7ec;
+    M2C_FIELD(arg0, M2C_UNK **, 0x1F0) = &func_0210d948;
+    M2C_FIELD(arg0, s32 *, 0x214)      = func_020038a8((s32 *) arg1, 4);
+    temp_r1                            = M2C_FIELD(arg0, s32 *, 0x214);
     if (temp_r1 != 0) {
         *(M2C_UNK *) temp_r1 = 0;
     }

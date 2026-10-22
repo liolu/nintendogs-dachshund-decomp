@@ -31,7 +31,7 @@ u8 *func_020c69a0(s32 arg0, s16 arg1) {
     func_0208831c(&file);
     if (func_02087fcc(&file, name) != 0) {
         size = file.startPosition - file.unk_20;
-        p = func_020038a8(arg0, size);
+        p    = func_020038a8(arg0, size);
         func_02087e70(&file, p, size);
         func_02087f84(&file);
     }

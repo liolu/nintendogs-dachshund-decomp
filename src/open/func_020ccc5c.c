@@ -5,14 +5,14 @@ void func_020ccc5c(void *arg0) {
     s32 i;
     u32 j;
 
-    M2C_FIELD(arg0, s16 *, 0) = 1;
+    M2C_FIELD(arg0, s16 *, 0)    = 1;
     M2C_FIELD(arg0, s32 *, 0x30) = func_020cb9f8(M2C_FIELD(arg0, s32 *, 0x2C), M2C_FIELD(arg0, s32 *, 0x20));
-    M2C_FIELD(arg0, s16 *, 8) = 0;
+    M2C_FIELD(arg0, s16 *, 8)    = 0;
     M2C_FIELD(arg0, s16 *, 0x1A) = 1;
-    M2C_FIELD(arg0, s16 *, 0xC) = 0x1E;
+    M2C_FIELD(arg0, s16 *, 0xC)  = 0x1E;
     M2C_FIELD(arg0, s16 *, 0x10) = 0;
     M2C_FIELD(arg0, s16 *, 0x14) = 1;
-    M2C_FIELD(arg0, s16 *, 4) = (s16) M2C_FIELD(&data_02130da8, s16 *, 0xA);
+    M2C_FIELD(arg0, s16 *, 4)    = (s16) M2C_FIELD(&data_02130da8, s16 *, 0xA);
     for (i = 0; i < M2C_FIELD(arg0, s16 *, 0x58); i++) {
         ((s16 *) ((s8 *) arg0 + 0x5A))[i] = 0;
     }

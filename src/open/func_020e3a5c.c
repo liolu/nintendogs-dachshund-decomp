@@ -46,10 +46,11 @@ void func_020e3a5c(s32 arg0) {
         e += 0x10;
     }
     ids = data_02144a78;
-    e = (u8 *) arg0 + 0xF0;
+    e   = (u8 *) arg0 + 0xF0;
     for (i = 0; i < 0x14; i++) {
-        if (*ids == 0xFFFF)
+        if (*ids == 0xFFFF) {
             break;
+        }
         func_020d5a48(2, e, *ids, 0x100, 0);
         e += 0x10;
         ids++;

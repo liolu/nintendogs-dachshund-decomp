@@ -16,9 +16,9 @@ void func_0208cdac(s32 arg0, s32 arg1) {
     s32 o;
     s32 v;
 
-    base = data_02154350;
-    mode = *(s16 *) ((u8 *) data_0213cf48[arg0] + 2);
-    i = 0;
+    base                   = data_02154350;
+    mode                   = *(s16 *) ((u8 *) data_0213cf48[arg0] + 2);
+    i                      = 0;
     *(u16 *) (base + 0x36) = 0;
     *(u16 *) (base + 0x34) = (u16) arg1;
     if (mode == 0x12) {
@@ -52,31 +52,31 @@ void func_0208cdac(s32 arg0, s32 arg1) {
                 s32 flag = 0;
 
                 switch (mode - 0xb) {
-                case 0:
-                    if (v == 1) {
-                        flag = 1;
-                    }
-                    break;
-                case 1:
-                    if (v == 3) {
-                        flag = 1;
-                    }
-                    break;
-                case 2:
-                    if (v == 0) {
-                        flag = 1;
-                    }
-                    break;
-                case 3:
-                    if (v == 4) {
-                        flag = 1;
-                    }
-                    break;
-                case 4:
-                    if (v == 2) {
-                        flag = 1;
-                    }
-                    break;
+                    case 0:
+                        if (v == 1) {
+                            flag = 1;
+                        }
+                        break;
+                    case 1:
+                        if (v == 3) {
+                            flag = 1;
+                        }
+                        break;
+                    case 2:
+                        if (v == 0) {
+                            flag = 1;
+                        }
+                        break;
+                    case 3:
+                        if (v == 4) {
+                            flag = 1;
+                        }
+                        break;
+                    case 4:
+                        if (v == 2) {
+                            flag = 1;
+                        }
+                        break;
                 }
                 if (flag != 0) {
                     func_02091e84(o);

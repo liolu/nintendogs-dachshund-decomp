@@ -50,7 +50,7 @@ s32 func_02002e60(u8 *arg0, s32 arg1) {
     if (*(s32 *) (arg0 + 0x4) != -1) {
         func_02088760(0, *(s32 *) (arg0 + 0x4));
     }
-    result = ((s32 (*)(s32)) * (void **) (arg0 + 0x8))(arg1);
+    result = ((s32(*)(s32)) * (void **) (arg0 + 0x8))(arg1);
     if (*(s32 *) (arg0 + 0x4) != -1) {
         func_0208870c(0, *(s32 *) (arg0 + 0x4));
     }

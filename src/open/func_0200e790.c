@@ -11,7 +11,7 @@ void func_0200e790(M2C_UNK arg0) {
     func_02024e30(arg0, 0xB, v);
     M2C_FIELD(arg0, s16 *, 0x152) = M2C_FIELD(arg0, s16 *, 0x148);
     if (func_0203535c(arg0) != 0) {
-        work = arg0 + 0x100;
+        work                         = arg0 + 0x100;
         M2C_FIELD(work, s16 *, 0x52) = 0;
         func_0202fa5c(arg0, work, 0);
     }

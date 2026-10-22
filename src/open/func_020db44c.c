@@ -10,7 +10,7 @@ static inline void MI_CpuFill16(void *dest, u16 data, u32 size) {
 }
 
 void func_020db44c(s32 arg0, u32 arg1) {
-    s32 *p = (s32 *) ((s32) data_02159e74 + 4 + arg0 * 0x1B8);
+    s32 *p  = (s32 *) ((s32) data_02159e74 + 4 + arg0 * 0x1B8);
     u32 nib = arg1 & 0xF;
     u16 val = 0;
     s32 i;

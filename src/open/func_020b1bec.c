@@ -6,8 +6,7 @@ s32 func_020b1bec(s32 *arg0, s32 arg1, s32 arg2, s32 *arg3, s32 *arg4) {
     s32 t;
     s32 d;
 
-    sum = (s32) (((s64) arg0[0] * arg0[0] + 0x800) >> 12)
-        + (s32) (((s64) arg0[2] * arg0[2] + 0x800) >> 12);
+    sum = (s32) (((s64) arg0[0] * arg0[0] + 0x800) >> 12) + (s32) (((s64) arg0[2] * arg0[2] + 0x800) >> 12);
     if (sum > (s32) (((s64) arg2 * arg2 + 0x800) >> 12)) {
         t = func_02067c34(sum);
         d = func_02067ca0(arg2 - t, t);

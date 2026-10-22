@@ -53,8 +53,8 @@ void func_02003fa4(void) {
         q                  = *(u8 **) (p + 0x74);
         *(u32 *) 0x4000540 = (q[3] << 1) | q[2];
     }
-    p   = data_0214cd98;
-    now = func_02080978();
+    p                         = data_0214cd98;
+    now                       = func_02080978();
     M2C_FIELD(p, u32 *, 0xD4) = func_0205dd48((now - M2C_FIELD(p, u64 *, 0xC4)) * 0xFA00, 0x82EA);
     for (i = 0; i < M2C_FIELD(data_0214cd98, u16 *, 0); i++) {
         func_0207eb80(1, 1);
@@ -62,8 +62,8 @@ void func_02003fa4(void) {
     if (((FnTableC *) &data_0214d758)->fnC != NULL) {
         ((FnTableC *) &data_0214d758)->fnC(&data_0214d758);
     }
-    now = func_02080978();
-    p   = data_0214cd98;
+    now                 = func_02080978();
+    p                   = data_0214cd98;
     *(u64 *) (p + 0xCC) = now;
     if (old0 != ((Callbacks *) &data_0214ce78)->v18) {
         func_02068744(0x0400006C, ((Callbacks *) &data_0214ce78)->v18);

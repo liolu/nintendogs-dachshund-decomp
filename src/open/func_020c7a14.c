@@ -1,5 +1,5 @@
-#include "stdarg.h"
 #include "m2c.h"
+#include "stdarg.h"
 typedef struct FSFileID {
     void *arc;
     u32 fileID;

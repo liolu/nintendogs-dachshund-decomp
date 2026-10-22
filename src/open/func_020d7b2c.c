@@ -19,8 +19,8 @@ u8 *func_020d7b2c(s32 arg0, s32 arg1) {
     u8 *obj;
     volatile u16 fill;
 
-    obj = (u8 *) func_020038a8((s32 *) arg1, 0x1116C);
-    fill = 0;
+    obj           = (u8 *) func_020038a8((s32 *) arg1, 0x1116C);
+    fill          = 0;
     data_02159e70 = obj;
     func_0206cbc4(fill, (s32) obj, 0x1116C);
     M2C_FIELD(obj, s32 *, 0xA8) = arg0;
@@ -84,7 +84,7 @@ u8 *func_020d7b2c(s32 arg0, s32 arg1) {
     func_020d75f8();
     if (M2C_FIELD(obj, s32 *, 0xA8) == 0xF) {
         M2C_FIELD(data_02159e70 + 0x4000, s32 *, 0x848) = 0x2400;
-        M2C_FIELD(data_02159e70 + 0x5000, s32 *, 0x30) = 1;
+        M2C_FIELD(data_02159e70 + 0x5000, s32 *, 0x30)  = 1;
     }
     return obj;
 }

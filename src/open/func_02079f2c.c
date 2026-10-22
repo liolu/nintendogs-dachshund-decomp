@@ -10,11 +10,11 @@ void func_02079f2c(s32 arg0, u8 *arg1, s32 arg2) {
     s32 ret;
     s32 cnt;
 
-    base = arg2 + *(u32 *) (arg2 + 8);
+    base                  = arg2 + *(u32 *) (arg2 + 8);
     *(u32 *) (arg0 + 0xC) = data_0213cb08;
     *(u8 *) (arg0 + 0x19) = *(u8 *) (arg2 + 0x18);
-    pad = 0;
-    cnt = *(volatile u8 *) (arg0 + 0x19);
+    pad                   = 0;
+    cnt                   = *(volatile u8 *) (arg0 + 0x19);
     func_0206cbc4(pad, arg0 + 0x1A, cnt * 2, cnt);
     for (i = 0; i < arg1[9]; i++) {
         tbl = (s32) (arg1 + 8) + *(u16 *) (arg1 + 0xE);

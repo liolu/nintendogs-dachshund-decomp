@@ -20,6 +20,6 @@ void func_02074160(s32, s32);
 s32 func_0207836c(s32);
 void func_02073dc4(s32, s32);
 u32 func_020c8354(u32 arg0, s16 arg1) {
-    s16 var = *(s16 *)(arg0 + arg1 * 12 + 0x1AA);
-    return data_02141080[*(s16 *)(arg0 + var * 16 + 0x168)];
+    s16 var = *(s16 *) (arg0 + arg1 * 12 + 0x1AA);
+    return data_02141080[*(s16 *) (arg0 + var * 16 + 0x168)];
 }

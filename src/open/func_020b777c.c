@@ -18,10 +18,10 @@ void func_020b777c(const Vec *a, const Vec *b, s32 *len, u16 *pitch, u16 *yaw) {
     s32 dist;
 
     func_0206823c(a, b, &diff);
-    *len = func_02068038(&diff);
-    tx = ((s64) diff.x * diff.x + 0x800) >> 12;
-    tz = ((s64) diff.z * diff.z + 0x800) >> 12;
-    dist = func_02067c34(tx + tz);
+    *len   = func_02068038(&diff);
+    tx     = ((s64) diff.x * diff.x + 0x800) >> 12;
+    tz     = ((s64) diff.z * diff.z + 0x800) >> 12;
+    dist   = func_02067c34(tx + tz);
     *pitch = func_02068480(diff.y, dist);
-    *yaw = func_02068480(diff.x, diff.z);
+    *yaw   = func_02068480(diff.x, diff.z);
 }

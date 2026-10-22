@@ -158,23 +158,23 @@ void func_02077434(NNSG3dRS *rs, NNSG3dRenderObj *pRenderObj) {
     fill = 0;
     func_0206cc3c(fill, rs, sizeof(NNSG3dRS));
     rs->isMatCached[2] = 1;
-    rs->flag = 1;
+    rs->flag           = 1;
     if (pRenderObj->ptrUserSbc != 0) {
         rs->c = pRenderObj->ptrUserSbc;
     } else {
-        rs->c = (u8 *)pRenderObj->resMdl + pRenderObj->resMdl->ofsSbc;
+        rs->c = (u8 *) pRenderObj->resMdl + pRenderObj->resMdl->ofsSbc;
     }
-    rs->pRenderObj = pRenderObj;
+    rs->pRenderObj   = pRenderObj;
     rs->pResNodeInfo = &pRenderObj->resMdl->nodeInfo;
-    rs->pResMat = (NNSG3dResMat *)((u8 *)pRenderObj->resMdl + pRenderObj->resMdl->ofsMat);
-    rs->pResShp = (NNSG3dResShp *)((u8 *)pRenderObj->resMdl + pRenderObj->resMdl->ofsShp);
+    rs->pResMat      = (NNSG3dResMat *) ((u8 *) pRenderObj->resMdl + pRenderObj->resMdl->ofsMat);
+    rs->pResShp      = (NNSG3dResShp *) ((u8 *) pRenderObj->resMdl + pRenderObj->resMdl->ofsShp);
     rs->funcJntScale = data_0213cb74[pRenderObj->resMdl->info.scalingRule];
-    rs->funcJntMtx = data_0213cb68[pRenderObj->resMdl->info.scalingRule];
-    rs->funcTexMtx = data_0213cb80[pRenderObj->resMdl->info.texMtxMode];
-    rs->posScale = pRenderObj->resMdl->info.posScale;
-    rs->invPosScale = pRenderObj->resMdl->info.invPosScale;
+    rs->funcJntMtx   = data_0213cb68[pRenderObj->resMdl->info.scalingRule];
+    rs->funcTexMtx   = data_0213cb80[pRenderObj->resMdl->info.texMtxMode];
+    rs->posScale     = pRenderObj->resMdl->info.posScale;
+    rs->invPosScale  = pRenderObj->resMdl->info.invPosScale;
     if (pRenderObj->cbFunc != 0 && pRenderObj->cbCmd < 32) {
-        rs->cbVecFunc[pRenderObj->cbCmd] = pRenderObj->cbFunc;
+        rs->cbVecFunc[pRenderObj->cbCmd]   = pRenderObj->cbFunc;
         rs->cbVecTiming[pRenderObj->cbCmd] = pRenderObj->cbTiming;
     }
     if (pRenderObj->flag & 1) {

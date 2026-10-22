@@ -5,10 +5,10 @@ s32 func_0207ed20(s32 arg0) {
     u16 old;
     s32 value;
 
-    old   = *control;
+    old      = *control;
     *control = 0;
-    value = *data;
-    *data = arg0;
+    value    = *data;
+    *data    = arg0;
     (void) *control;
     *control = old;
     return value;

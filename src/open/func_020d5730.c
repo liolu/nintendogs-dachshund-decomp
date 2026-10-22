@@ -12,30 +12,30 @@ void func_020d5730(void) {
     s32 ok;
 
     switch (*p) {
-    case 0:
-        break;
-    case 1:
-        func_020d57f4(p);
-        break;
-    case 2:
-        if (func_020c189c() == 1) {
-            func_020bf148();
-            *p = 3;
-        } else {
-            if (func_020c189c() == 5) {
-                switch (func_020bee8c()) {
-                case 0x14:
-                    ok = 1;
-                    goto test;
+        case 0:
+            break;
+        case 1:
+            func_020d57f4(p);
+            break;
+        case 2:
+            if (func_020c189c() == 1) {
+                func_020bf148();
+                *p = 3;
+            } else {
+                if (func_020c189c() == 5) {
+                    switch (func_020bee8c()) {
+                        case 0x14:
+                            ok = 1;
+                            goto test;
+                    }
+                }
+                ok = 0;
+            test:
+                if (ok) {
+                    func_020c19f4();
                 }
             }
-            ok = 0;
-        test:
-            if (ok) {
-                func_020c19f4();
-            }
-        }
-        break;
+            break;
     }
     if (func_020c0ab8() != 0) {
         func_020c19ac();

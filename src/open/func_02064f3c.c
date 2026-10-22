@@ -12,7 +12,7 @@ s32 func_02064f3c(s32 a0, s32 a1, s32 a2, s32 a3, u16 a4, u16 a5, u16 a6, s32 a7
     u16 v;
 
     base = func_02063dd0();
-    r = func_02063cb0(2, 7, 8);
+    r    = func_02063cb0(2, 7, 8);
     if (r) {
         return r;
     }

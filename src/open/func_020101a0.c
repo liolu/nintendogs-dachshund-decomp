@@ -64,10 +64,10 @@ void func_020101a0(void *arg0) {
         return;
     }
     if (M2C_FIELD(arg0, u16 *, 0xFC) > var_r4) {
-        temp_r3 = *(u32 **) data_0214da84;
-        temp_r2 = *temp_r3 * 0x10DCD + 1;
+        temp_r3   = *(u32 **) data_0214da84;
+        temp_r2   = *temp_r3 * 0x10DCD + 1;
         temp_r0_5 = (u16) ((u16) temp_r2 * 120u >> 16);
-        *temp_r3 = temp_r2;
+        *temp_r3  = temp_r2;
         if (temp_r0_5 != 0) {
             return;
         }

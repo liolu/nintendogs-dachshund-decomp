@@ -25,19 +25,19 @@ s32 func_0209a9fc(Unk_0209a9fc *arg0, s32 arg1, s32 arg2) {
     s32 count;
 
     count = 0;
-    p = data_02147e8c;
+    p     = data_02147e8c;
     func_020e82bc();
     while (p->id != -1) {
         matches = 0;
         if (arg2 == 4) {
             for (n = 0; n < func_020d04f8(); n++) {
                 obj = NULL;
-                i = -1;
-                j = 0;
+                i   = -1;
+                j   = 0;
                 do {
-                    i = (s16)(i + 1);
-                    while (i < 3 && *(u16 *)func_020d049c(i) == 0xFFFF) {
-                        i = (s16)(i + 1);
+                    i = (s16) (i + 1);
+                    while (i < 3 && *(u16 *) func_020d049c(i) == 0xFFFF) {
+                        i = (s16) (i + 1);
                     }
                 } while (j++ < n);
                 if (i >= 3) {
@@ -46,7 +46,7 @@ s32 func_0209a9fc(Unk_0209a9fc *arg0, s32 arg1, s32 arg2) {
                 if (i >= 0) {
                     obj = func_020d049c(i);
                 }
-                if (M2C_FIELD(p, s16 *, 2) == *(s16 *)((u8 *)obj + 6)) {
+                if (M2C_FIELD(p, s16 *, 2) == *(s16 *) ((u8 *) obj + 6)) {
                     matches++;
                 }
             }

@@ -11,7 +11,7 @@ void func_0201cea4(M2C_UNK arg0) {
     s32 v;
 
     temp_r0 = func_02028114(arg0);
-    v = (s32) (((s64) temp_r0 * 0x102 + 0x800) >> 12);
+    v       = (s32) (((s64) temp_r0 * 0x102 + 0x800) >> 12);
     func_02024d30(arg0, 0x1E, 0x31, v);
     func_0201d1e0(arg0);
     func_02035978(arg0, 1);

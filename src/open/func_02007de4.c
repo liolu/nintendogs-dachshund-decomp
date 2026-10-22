@@ -17,6 +17,6 @@ void func_02007de4(int arg0) {
     *(unsigned int *) (arg0 + 0x20) = q[0] + *(unsigned int *) (*(unsigned int *) (*(unsigned int *) (arg0 + 0x18)) + 4);
     *(unsigned int *) (arg0 + 0x24) = q[1] + *(unsigned int *) (*(unsigned int *) (*(unsigned int *) (arg0 + 0x18)) + 8);
     *(unsigned int *) (arg0 + 0x28) = q[2] + *(unsigned int *) (*(unsigned int *) (*(unsigned int *) (arg0 + 0x18)) + 0xC);
-    v = func_02028120((int) p);
-    *(int *) (arg0 + 0x54) = (v << 16) >> 16;
+    v                               = func_02028120((int) p);
+    *(int *) (arg0 + 0x54)          = (v << 16) >> 16;
 }

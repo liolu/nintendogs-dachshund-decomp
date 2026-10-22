@@ -15,8 +15,8 @@ void func_020fc408(s32 arg0, s32 arg1) {
     if (ay <= 0) {
         ay = -ay;
     }
-    d = ay + ax;
-    v = (s32) (((s64) (0x666 + d * 8) * 0xCD + 0x800) >> 12);
+    d                    = ay + ax;
+    v                    = (s32) (((s64) (0x666 + d * 8) * 0xCD + 0x800) >> 12);
     ((s32 *) arg0)[0x2D] = ((s32 *) arg0)[0x2D] + v;
     if (((s32 *) arg0)[0x2D] > 0x666) {
         ((s32 *) arg0)[0x2D] = 0x666;

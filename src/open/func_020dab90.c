@@ -2,11 +2,11 @@
 extern void *data_02159e74;
 void func_0206cbc4(u16, void *, u32);
 void func_020dab90(s32 arg0, s32 arg1, u32 arg2) {
-    s32 *p = (s32 *) ((s32) data_02159e74 + 4 + arg1 * 0x1B8);
-    s8 *q = (s8 *) p + 0x18;
+    s32 *p   = (s32 *) ((s32) data_02159e74 + 4 + arg1 * 0x1B8);
+    s8 *q    = (s8 *) p + 0x18;
     s32 size = p[5];
-    u32 nib = arg2 & 0xF;
-    u16 val = 0;
+    u32 nib  = arg2 & 0xF;
+    u16 val  = 0;
     s32 i;
     u16 *dst;
     volatile u16 v;

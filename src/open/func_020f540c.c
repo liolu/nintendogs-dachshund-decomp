@@ -15,15 +15,15 @@ void func_020f540c(s32 arg0) {
     s32 x, y, z;
     s32 zero = 0;
 
-    x = *(s32 *) (arg0 + 0xC8);
-    z = *(s32 *) (arg0 + 0xD0);
-    y = *(s32 *) (arg0 + 0xCC);
+    x   = *(s32 *) (arg0 + 0xC8);
+    z   = *(s32 *) (arg0 + 0xD0);
+    y   = *(s32 *) (arg0 + 0xCC);
     a.x = x;
     a.y = y;
     a.z = z;
-    x = *(s32 *) (arg0 + 0xD4);
-    z = *(s32 *) (arg0 + 0xDC);
-    y = *(s32 *) (arg0 + 0xD8);
+    x   = *(s32 *) (arg0 + 0xD4);
+    z   = *(s32 *) (arg0 + 0xDC);
+    y   = *(s32 *) (arg0 + 0xD8);
     b.x = x;
     b.y = y;
     b.z = z;
@@ -40,7 +40,7 @@ void func_020f540c(s32 arg0) {
     *(s32 *) (arg0 + 0xE0) = c.x;
     *(s32 *) (arg0 + 0xE4) = c.y;
     *(s32 *) (arg0 + 0xE8) = c.z;
-    p[7] = zero;
-    p[8] = zero;
-    p[9] = zero;
+    p[7]                   = zero;
+    p[8]                   = zero;
+    p[9]                   = zero;
 }

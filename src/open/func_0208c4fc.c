@@ -8,7 +8,7 @@ void func_0208c4fc(void) {
     s8 *arg;
 
     base = data_02154350;
-    arg = data_02154358;
+    arg  = data_02154358;
     if (M2C_FIELD(base, s32 *, 0x44) == 0) {
         func_02073328(arg, 0x30, 7);
         M2C_FIELD(base, s32 *, 0x40) = 0;

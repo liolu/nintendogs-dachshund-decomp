@@ -19,37 +19,37 @@ void func_020a7af4(void) {
     u8 *p = (u8 *) data_021555fc;
 
     switch (*(s16 *) (p + 8)) {
-    case 0:
-        if ((u16) (*(volatile u16 *) &data_0214d5fc[1] & 0x20)) {
-            *(u16 *) p -= 0x100;
-        }
-        if ((u16) (*(volatile u16 *) &data_0214d5fc[1] & 0x10)) {
-            *(u16 *) p += 0x100;
-        }
-        if ((u16) (*(volatile u16 *) &data_0214d5fc[1] & 0x80)) {
-            *(s32 *) (p + 4) -= 0x400;
+        case 0:
+            if ((u16) (*(volatile u16 *) &data_0214d5fc[1] & 0x20)) {
+                *(u16 *) p -= 0x100;
+            }
+            if ((u16) (*(volatile u16 *) &data_0214d5fc[1] & 0x10)) {
+                *(u16 *) p += 0x100;
+            }
+            if ((u16) (*(volatile u16 *) &data_0214d5fc[1] & 0x80)) {
+                *(s32 *) (p + 4) -= 0x400;
+                if (*(s32 *) (p + 4) < data_0213e8f0) {
+                    *(s32 *) (p + 4) = data_0213e8f0;
+                }
+            }
+            if ((u16) (*(volatile u16 *) &data_0214d5fc[1] & 0x40)) {
+                *(s32 *) (p + 4) += 0x400;
+                if (*(s32 *) (p + 4) > data_0213e8f4) {
+                    *(s32 *) (p + 4) = data_0213e8f4;
+                }
+            }
             if (*(s32 *) (p + 4) < data_0213e8f0) {
                 *(s32 *) (p + 4) = data_0213e8f0;
             }
-        }
-        if ((u16) (*(volatile u16 *) &data_0214d5fc[1] & 0x40)) {
-            *(s32 *) (p + 4) += 0x400;
             if (*(s32 *) (p + 4) > data_0213e8f4) {
                 *(s32 *) (p + 4) = data_0213e8f4;
             }
-        }
-        if (*(s32 *) (p + 4) < data_0213e8f0) {
-            *(s32 *) (p + 4) = data_0213e8f0;
-        }
-        if (*(s32 *) (p + 4) > data_0213e8f4) {
-            *(s32 *) (p + 4) = data_0213e8f4;
-        }
-        break;
-    case 1:
-        *(s32 *) (p + 4) = data_0213e8fc;
-        break;
-    case 2:
-        break;
+            break;
+        case 1:
+            *(s32 *) (p + 4) = data_0213e8fc;
+            break;
+        case 2:
+            break;
     }
     buf[0] = 0;
     buf[1] = 0;

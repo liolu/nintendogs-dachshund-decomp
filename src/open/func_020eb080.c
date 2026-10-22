@@ -13,7 +13,7 @@ void func_020eb080(s32 arg0, s32 arg1) {
     }
     *(u32 *) (data_02159e70 + 0x4890) = arg0;
     *(u32 *) (data_02159e70 + 0x4894) = arg1;
-    mode = 4;
+    mode                              = 4;
     if (((*(volatile u16 *) 0x04000304 & 0x8000) >> 0xF) == 1) {
         mode = 3;
     } else if (((*(volatile u16 *) 0x04000304 & 0x8000) >> 0xF) == 0) {

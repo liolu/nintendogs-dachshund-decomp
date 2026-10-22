@@ -24,7 +24,7 @@ void func_020b7674(s32 a0, s32 a1, s32 a2, s32 a3, s32 a4) {
     mat.z = 0;
     func_0206823c((s32 *) a4, (s32 *) a3, (s32 *) v2);
     limit = data_02124d28;
-    d = (s64) v2->x * v2->x + (s64) v2->y * v2->y + (s64) v2->z * v2->z;
+    d     = (s64) v2->x * v2->x + (s64) v2->y * v2->y + (s64) v2->z * v2->z;
     if (d >= limit) {
         func_02006a20((s32 *) v2, (s32 *) v2);
     }

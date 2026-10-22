@@ -20,14 +20,14 @@ void func_02004170(s32 arg0) {
         }
         data_02134f5c();
         func_02003fa4();
-        fn = (void (**)(void)) ((u8 *) &data_02134f5c + 0xC);
+        fn = (void (**)(void))((u8 *) &data_02134f5c + 0xC);
         (*fn)();
         now = func_02080978();
         p   = data_0214cd98;
         M2C_FIELD(p, u32 *, 0x28)++;
-        p = data_0214cd98;
+        p                         = data_0214cd98;
         M2C_FIELD(p, u32 *, 0xD8) = func_0205dd48((now - M2C_FIELD(p, u64 *, 0xCC)) * 0xFA00, 0x82EA);
-        p = data_0214cd98;
+        p                         = data_0214cd98;
         M2C_FIELD(p, u32 *, 0xDC) = func_0205dd48((now - M2C_FIELD(p, u64 *, 0xC4)) * 0xFA00, 0x82EA);
         arg0--;
     } while (arg0 > 0);

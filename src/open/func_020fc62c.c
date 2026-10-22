@@ -16,30 +16,31 @@ void func_020afbf4(s32);
 void func_020fc724(s32);
 void func_020fc62c(void *arg0) {
     switch (M2C_FIELD(arg0, s16 *, 0x90)) {
-    case 0:
-        break;
-    case 1:
-        break;
-    case 2: {
-        s32 *temp;
-        s32 temp_r4;
+        case 0:
+            break;
+        case 1:
+            break;
+        case 2: {
+            s32 *temp;
+            s32 temp_r4;
 
-        if (func_020e2a64() == 0) {
+            if (func_020e2a64() == 0) {
+                return;
+            }
+            temp = (s32 *) M2C_FIELD(arg0, s32 *, 0x214);
+            func_020afbf4((s32) arg0);
+            temp_r4 = func_02085d28(M2C_FIELD(temp, s32 *, 0x14));
+            func_0207ca98(0x23, 0, func_02085d30(M2C_FIELD(temp, s32 *, 0x14)), temp_r4);
+            func_0207ca98(0x19, 0, M2C_FIELD(temp, s32 *, 0x34) + 0xC, M2C_FIELD(M2C_FIELD(temp, s32 *, 0x34), s32 *, 0x8));
+            func_0207ca98(0x15, 0, M2C_FIELD(M2C_FIELD(temp, s32 *, 0x2C), s32 *, 0x14),
+                          M2C_FIELD(M2C_FIELD(temp, s32 *, 0x2C), s32 *, 0x10));
+            func_0207ca98(0x1E, 0, M2C_FIELD(M2C_FIELD(temp, s32 *, 0x28), s32 *, 0xC), 0x1C0);
+            func_0207ca98(0x1F, 0, M2C_FIELD(M2C_FIELD(temp, s32 *, 0x30), s32 *, 0xC), 0x1C0);
+            M2C_FIELD(temp, s32 *, 0x2B8) = 1;
             return;
         }
-        temp = (s32 *) M2C_FIELD(arg0, s32 *, 0x214);
-        func_020afbf4((s32) arg0);
-        temp_r4 = func_02085d28(M2C_FIELD(temp, s32 *, 0x14));
-        func_0207ca98(0x23, 0, func_02085d30(M2C_FIELD(temp, s32 *, 0x14)), temp_r4);
-        func_0207ca98(0x19, 0, M2C_FIELD(temp, s32 *, 0x34) + 0xC, M2C_FIELD(M2C_FIELD(temp, s32 *, 0x34), s32 *, 0x8));
-        func_0207ca98(0x15, 0, M2C_FIELD(M2C_FIELD(temp, s32 *, 0x2C), s32 *, 0x14), M2C_FIELD(M2C_FIELD(temp, s32 *, 0x2C), s32 *, 0x10));
-        func_0207ca98(0x1E, 0, M2C_FIELD(M2C_FIELD(temp, s32 *, 0x28), s32 *, 0xC), 0x1C0);
-        func_0207ca98(0x1F, 0, M2C_FIELD(M2C_FIELD(temp, s32 *, 0x30), s32 *, 0xC), 0x1C0);
-        M2C_FIELD(temp, s32 *, 0x2B8) = 1;
-        return;
-    }
-    case 3:
-        func_020fc724((s32) arg0);
-        break;
+        case 3:
+            func_020fc724((s32) arg0);
+            break;
     }
 }

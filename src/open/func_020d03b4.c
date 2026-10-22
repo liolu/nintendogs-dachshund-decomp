@@ -13,8 +13,8 @@ s32 func_02022ddc(void *, s16, u8);
 extern void *data_02159e70;
 void func_020ccd00(s32, s32, s32, s32);
 void func_020d03b4(s16 arg0) {
-    s32 bits = -1;
-    s32 obj = *(s32 *) ((s8 *) data_02159e38 + arg0 * 0x18 + 0x1000 + 0x44C);
-    *(s16 *) ((s8 *) obj + 0xA) = bits;
+    s32 bits                             = -1;
+    s32 obj                              = *(s32 *) ((s8 *) data_02159e38 + arg0 * 0x18 + 0x1000 + 0x44C);
+    *(s16 *) ((s8 *) obj + 0xA)          = bits;
     *(u16 *) ((s8 *) obj + 0x800 + 0xFE) = *(u16 *) ((s8 *) obj + 0x800 + 0xFE) | 1;
 }

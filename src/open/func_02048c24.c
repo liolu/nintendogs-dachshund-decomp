@@ -6,7 +6,7 @@ void func_02048c24(s32 arg0) {
     s32 var;
 
     var = 0;
-    if (((s32 (*)(s32, s32 *, s32, s32, s32, s32)) func_02048fe4)(arg0, &var, 0, 0xB7, 0xBA, 0x29C) != 0) {
+    if (((s32(*)(s32, s32 *, s32, s32, s32, s32)) func_02048fe4)(arg0, &var, 0, 0xB7, 0xBA, 0x29C) != 0) {
         return;
     }
     if (var < (s32) (((s64) func_02028120(arg0) * 0x300C + 0x800) >> 12)) {

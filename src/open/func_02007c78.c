@@ -1,6 +1,6 @@
 /* compiler: 1.2/sp2p3 */
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 typedef struct {
     /* 0x000 */ u8 pad000[0x24];
@@ -31,8 +31,8 @@ void func_02007c78(s32 arg0, s32 arg1) {
         idx = 0;
     }
     *(u32 *) 0x4001000 = (*(u32 *) 0x4001000 & ~0xE000) | 0x2000;
-    a = *(s16 *) (arg0 + idx * 2 + 0x24);
-    b = *(s16 *) (arg0 + idx * 2 + 0x1A4);
+    a                  = *(s16 *) (arg0 + idx * 2 + 0x24);
+    b                  = *(s16 *) (arg0 + idx * 2 + 0x1A4);
     *(u16 *) 0x4001040 = (u16) ((((u32) a << 8) & 0xFF00) | ((u32) b & 0xFF));
     *(u16 *) 0x4001044 = 0xC0;
     if (*(s16 *) (arg0 + idx * 2 + 0x1A4) >= 0xFF) {

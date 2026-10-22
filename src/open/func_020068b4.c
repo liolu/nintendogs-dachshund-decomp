@@ -19,10 +19,10 @@ u8 *func_020068b4(u32 arg0, u16 *arg1) {
     if (arg1 == 0) {
         zero[0] = 0;
         zero[1] = 0;
-        arg1 = zero;
+        arg1    = zero;
     }
-    old = func_0207d41c(arg0, *arg1);
-    p = func_020038a8(arg0, 0x3C);
+    old                 = func_0207d41c(arg0, *arg1);
+    p                   = func_020038a8(arg0, 0x3C);
     *(s32 *) (p + 0x00) = 2;
     *(u16 *) (p + 0x04) = 0;
     *(u16 *) (p + 0x06) = 0;

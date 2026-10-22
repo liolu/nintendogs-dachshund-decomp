@@ -19,10 +19,10 @@ void func_020ebb0c(s32 arg0, s32 arg1, s32 arg2) {
     u8 *p;
     s32 i;
 
-    elem = (u8 *) data_02159e70 + 0x1DEC + arg0 * 0x294;
-    idx = M2C_FIELD(M2C_FIELD(elem, s32 *, 8) + arg1 * 8, s32 *, 0xC);
+    elem  = (u8 *) data_02159e70 + 0x1DEC + arg0 * 0x294;
+    idx   = M2C_FIELD(M2C_FIELD(elem, s32 *, 8) + arg1 * 8, s32 *, 0xC);
     count = func_02085d64(M2C_FIELD(elem, s32 *, 0xC), idx);
-    p = (u8 *) func_02085d3c(M2C_FIELD((u8 *) data_02159e70 + arg0 * 0x294 + 0x1000, s32 *, 0xDF8), idx);
+    p     = (u8 *) func_02085d3c(M2C_FIELD((u8 *) data_02159e70 + arg0 * 0x294 + 0x1000, s32 *, 0xDF8), idx);
 
     for (i = 0; i < count; i++) {
         ((UnkElem *) p)->nibble = arg2;

@@ -29,12 +29,12 @@ void func_020a99c0(s32 arg0, s32 arg1, M2C_S12 *arg2, s32 *arg3, M2C_S12 *arg4) 
     func_0206823c(arg1, &local, arg4);
     arg4->f1 = 0;
     func_02006a20(arg4, arg4, 0);
-    arg3[0] = 0;
-    arg3[1] = 0x1000;
-    arg3[2] = 0;
-    temp_c = M2C_FIELD(data_02150e58, s32 *, 0x64);
-    temp_b = M2C_FIELD(data_02150e58, s32 *, 0x58);
-    temp_a = M2C_FIELD(data_02150e58, s32 *, 0x4C);
+    arg3[0]  = 0;
+    arg3[1]  = 0x1000;
+    arg3[2]  = 0;
+    temp_c   = M2C_FIELD(data_02150e58, s32 *, 0x64);
+    temp_b   = M2C_FIELD(data_02150e58, s32 *, 0x58);
+    temp_a   = M2C_FIELD(data_02150e58, s32 *, 0x4C);
     arg2->f0 = temp_a;
     arg2->f1 = temp_b;
     arg2->f2 = temp_c;

@@ -16,8 +16,8 @@ void func_020f12fc(s32 arg0) {
     s32 v;
     s32 r6;
 
-    q = (s8 *) M2C_FIELD(data_0215a044, s32 *, 4);
-    p = (s8 *) (arg0 + 0x150);
+    q                            = (s8 *) M2C_FIELD(data_0215a044, s32 *, 4);
+    p                            = (s8 *) (arg0 + 0x150);
     M2C_FIELD(arg0, s32 *, 0x30) = (u16) ((M2C_FIELD(q, s16 *, 2) + 0x3B) / 60);
     func_020d5a60((void *) (arg0 + 8), M2C_FIELD(arg0, s32 *, 0x30));
     func_020f0d14((void *) (arg0 + 0x40), 1);
@@ -26,7 +26,7 @@ void func_020f12fc(s32 arg0) {
         func_020f0fd8((void *) (arg0 + 0x40));
         func_020f0fd8((void *) (arg0 + 0x60));
     } else if (M2C_FIELD(p, s32 *, 0x20) != 0) {
-        r6 = ((s32 (*)(s32)) func_020ec078)(0);
+        r6 = ((s32(*)(s32)) func_020ec078)(0);
         func_020db44c(M2C_FIELD(arg0, s32 *, 0x34), 0);
         func_020da98c(1, r6, 4, 0, M2C_FIELD(p, s32 *, 0x1C));
         M2C_FIELD(p, s32 *, 0x20) = 0;
@@ -39,7 +39,7 @@ void func_020f12fc(s32 arg0) {
         return;
     }
     M2C_FIELD(arg0, s32 *, 0x3C) = v - 1;
-    v = M2C_FIELD(arg0, s32 *, 0x3C);
+    v                            = M2C_FIELD(arg0, s32 *, 0x3C);
     if (v == 0x75) {
         func_020d6068(0, 4, 1);
         return;

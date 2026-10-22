@@ -28,7 +28,7 @@ void func_020a826c(void *arg0, s32 arg1, s32 arg2, s32 arg3) {
     val.f1 = buf.f[1];
     val.f2 = buf.f[2];
     if (M2C_FIELD(arg0, s32 *, 0x164) == 0) {
-        val.f1 = 0;
+        val.f1                       = 0;
         M2C_FIELD(arg0, s32 *, 0xB0) = (s32) (((s64) val.f0 * 0x19A + 0x800) >> 12);
         M2C_FIELD(arg0, s32 *, 0xB4) = (s32) (((s64) val.f1 * 0x19A + 0x800) >> 12);
         M2C_FIELD(arg0, s32 *, 0xB8) = (s32) (((s64) val.f2 * 0x19A + 0x800) >> 12);
@@ -37,7 +37,7 @@ void func_020a826c(void *arg0, s32 arg1, s32 arg2, s32 arg3) {
         M2C_FIELD(arg0, s32 *, 0xB0) = M2C_FIELD(arg0, s32 *, 0xB0) << arg1;
         M2C_FIELD(arg0, s32 *, 0xB4) = arg3 + (M2C_FIELD(arg0, s32 *, 0xB4) << arg2);
         M2C_FIELD(arg0, s32 *, 0xB8) = M2C_FIELD(arg0, s32 *, 0xB8) << arg1;
-        val.f1 = 0;
+        val.f1                       = 0;
         func_01ff832c(0x333, &val, (s8 *) arg0 + 0xB0, (M2C_UNK) ((s8 *) arg0 + 0xB0));
     }
 }

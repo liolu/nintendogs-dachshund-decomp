@@ -22,29 +22,29 @@ u8 func_02091c0c(s32 arg0) {
         tbl = (u8 *) data_0212baf0 + func_0208ee68(p) * 4;
     } else {
         switch (M2C_FIELD(p, u32 *, 4)) {
-        case 3:
-        case 4:
-        case 5:
-            tbl = (u8 *) data_0212bc10 + v * 4;
-            break;
-        case 6:
-        case 7:
-        case 8:
-            tbl = (u8 *) data_0212bb90 + v * 4;
-            break;
-        case 9:
-        case 10:
-        case 11:
-            tbl = (u8 *) data_0212bc90 + v * 4;
-            break;
-        case 1:
-        case 2:
-        case 12:
-            tbl = (u8 *) data_0212bb10 + v * 4;
-            break;
-        default:
-            tbl = (u8 *) data_0212bc10 + v * 4;
-            break;
+            case 3:
+            case 4:
+            case 5:
+                tbl = (u8 *) data_0212bc10 + v * 4;
+                break;
+            case 6:
+            case 7:
+            case 8:
+                tbl = (u8 *) data_0212bb90 + v * 4;
+                break;
+            case 9:
+            case 10:
+            case 11:
+                tbl = (u8 *) data_0212bc90 + v * 4;
+                break;
+            case 1:
+            case 2:
+            case 12:
+                tbl = (u8 *) data_0212bb10 + v * 4;
+                break;
+            default:
+                tbl = (u8 *) data_0212bc10 + v * 4;
+                break;
         }
     }
     return tbl[arg0];

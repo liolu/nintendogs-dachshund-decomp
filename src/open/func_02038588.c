@@ -3,9 +3,9 @@ extern void *data_0215a048;
 extern u8 data_02139ffc[];
 extern u8 data_02135014[];
 void func_02038588(s32 arg0, s32 arg1) {
-    s32 k = *(u16 *) ((u8 *) data_0215a048 + 6);
+    s32 k   = *(u16 *) ((u8 *) data_0215a048 + 6);
     s32 sel = *(s32 *) (data_02139ffc + k * 4);
-    s32 v = M2C_FIELD(M2C_FIELD(arg0, s32 *, 0x9E8), s32 *, 0xC);
+    s32 v   = M2C_FIELD(M2C_FIELD(arg0, s32 *, 0x9E8), s32 *, 0xC);
     s16 cat;
     s8 *p;
     s16 x;

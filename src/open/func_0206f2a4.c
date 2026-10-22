@@ -1,8 +1,8 @@
 #include "m2c.h"
 void func_0206cdc0(const void *src, void *dst, unsigned int size);
 void func_0206cd2c(void *dst, u8 value, u32 size);
-int func_0206f2a4(unsigned char *dst, unsigned short a1, unsigned char a2, unsigned int a3, unsigned int a4,
-                  const void *a5, unsigned int a6) {
+int func_0206f2a4(unsigned char *dst, unsigned short a1, unsigned char a2, unsigned int a3, unsigned int a4, const void *a5,
+                  unsigned int a6) {
     unsigned char hdr = 5;
     unsigned short s  = a1;
     unsigned char *p1, *p2, *p3, *p4, *p5;

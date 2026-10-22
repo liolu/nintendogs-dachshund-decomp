@@ -14,6 +14,6 @@ void func_02037ed0(M2C_UNK arg0) {
         return;
     }
     M2C_FIELD(arg0, s16 *, 0x152) = temp_r2;
-    temp_r1 = M2C_FIELD(arg0, s16 *, 0x148);
+    temp_r1                       = M2C_FIELD(arg0, s16 *, 0x148);
     data_02139cb4[temp_r1 - 0x11](arg0);
 }

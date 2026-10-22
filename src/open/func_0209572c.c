@@ -12,8 +12,7 @@ s32 func_0209572c(s32 arg0) {
     }
     bit = 1 << arg0;
     if (data_0213d170 & bit) {
-        old = *(s32 *) (base + 0x80) ? *(s32 *) base
-                                     : *(s32 *) (base + 0x84);
+        old                    = *(s32 *) (base + 0x80) ? *(s32 *) base : *(s32 *) (base + 0x84);
         *(s32 *) (base + 0x80) = 0;
         *(s32 *) (base + 0x84) = -1;
     }

@@ -12,13 +12,13 @@ void func_020bd3bc(s32 arg0, s32 arg1) {
     s32 row[3];
     s32 m1[12];
     s32 m2[12];
-    s32 rec = func_0200c488(0, 0);
+    s32 rec     = func_0200c488(0, 0);
     u16 angle_x = *(u16 *) (rec + 2);
     u16 angle_y = *(u16 *) (rec + 4);
     u16 angle_z = *(u16 *) (rec + 6);
-    s32 i = angle_x >> 4;
-    s32 j = i * 2;
-    s32 k = j + 1;
+    s32 i       = angle_x >> 4;
+    s32 j       = i * 2;
+    s32 k       = j + 1;
 
     func_01ff8000(m1, data_02124e68[j], data_02124e68[k]);
     i = angle_y >> 4;

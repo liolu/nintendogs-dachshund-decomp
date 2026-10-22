@@ -18,7 +18,7 @@ s32 func_02034b38(s32 arg0) {
         }
         if (var_r0 != NULL) {
             temp_r2 = M2C_FIELD(var_r0, s16 *, 0x96);
-            var_r1 = 1;
+            var_r1  = 1;
             if (temp_r2 != 0) {
                 if (temp_r2 != 1) {
                     var_r1 = 0;

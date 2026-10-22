@@ -23,16 +23,16 @@ void func_020a7c84(void) {
     s32 v[3];
     s32 w[3];
 
-    p = (s8 *) func_0200c488(0xD, 0);
+    p    = (s8 *) func_0200c488(0xD, 0);
     v[0] = -M2C_FIELD(p, s32 *, 8);
     v[1] = -M2C_FIELD(p, s32 *, 0xC);
     v[2] = -M2C_FIELD(p, s32 *, 0x10);
     v[1] = data_0213e8fc;
-    q = data_021555fc;
+    q    = data_021555fc;
     w[0] = 0;
     w[1] = 0;
     w[2] = 0;
     func_020b777c((s32) v, (s32) w, (s32) &b, (s32) &s, (s32) &s.c);
-    *(u16 *) q = s.c;
+    *(u16 *) q             = s.c;
     M2C_FIELD(q, s32 *, 4) = v[1];
 }

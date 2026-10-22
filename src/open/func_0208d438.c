@@ -28,7 +28,7 @@ s32 func_0208d438(s32 arg0, s32 arg1) {
         }
         func_02070f18(0x13, 0x40, 0);
         M2C_FIELD(p, s32 *, 0x10) = 0;
-common:
+    common:
         h = M2C_FIELD(data_0215422c, s32 *, 4);
         if (M2C_FIELD(data_0215422c, u16 *, 0x18) != 0x18) {
             func_02089248();

@@ -35,9 +35,9 @@ extern u16 data_021462dc[];
 extern u16 data_0214634c[];
 extern u16 data_02144f68[];
 void func_020e3878(s32 arg0) {
-    s8 *ptr = (s8 *) data_02159e70;
+    s8 *ptr   = (s8 *) data_02159e70;
     s32 state = M2C_FIELD(ptr, s32 *, 0xB8);
-    s8 *base = ptr + 0xC4;
+    s8 *base  = ptr + 0xC4;
 
     if (state == 2) {
         M2C_FIELD(base + 0x200, u16 *, 0x70) = 1;

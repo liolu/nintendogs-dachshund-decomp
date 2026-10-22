@@ -37,7 +37,7 @@ s32 func_0208b5c4(s32 arg0, s32 arg1) {
     idx = func_02089d60((void *) arg0);
     if (idx != -1) {
         *(s16 *) (arg0 + idx * 2 + 0x12) = arg1;
-        bit = (u16) (1 << idx);
+        bit                              = (u16) (1 << idx);
         *(u16 *) (arg0 + 4) |= bit;
         *(u16 *) (arg0 + 6) |= bit;
         *(u16 *) (arg0 + 8) |= bit;

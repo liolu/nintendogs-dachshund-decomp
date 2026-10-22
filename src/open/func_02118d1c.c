@@ -16,8 +16,8 @@ s32 func_02118d1c(s32 arg0) {
         v = M2C_FIELD(data_021555f8 + idx * 4, s32 *, 4);
     }
     if (v != 0) {
-        r = (func_020abb3c(v) << 4) >> 16;
-        b1 = *(s16 *) (arg0 + 0x7C);
+        r      = (func_020abb3c(v) << 4) >> 16;
+        b1     = *(s16 *) (arg0 + 0x7C);
         buf[0] = 0;
         buf[1] = b1;
         func_020cf19c((M2C_UNK) buf, r);

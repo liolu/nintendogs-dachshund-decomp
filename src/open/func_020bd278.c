@@ -24,7 +24,7 @@ void func_020bd278(void *arg0, void *arg1) {
     s32 x;
 
     *(u16 *) ((s8 *) arg0 + 0x5C) = (u16) func_020b29bc(-1);
-    var_r6 = func_01ffdb08(*(s16 *) ((s8 *) arg0 + 0x5C));
+    var_r6                        = func_01ffdb08(*(s16 *) ((s8 *) arg0 + 0x5C));
     func_020b34c8(buf8, *(s16 *) ((s8 *) arg0 + 0x5C));
     func_02027540(var_r6, buf30);
     x = func_02068038(buf30);

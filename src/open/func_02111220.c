@@ -21,15 +21,15 @@ void func_02111220(int id) {
     Entry *e;
     func_02111b88(p, 0xC);
     *(unsigned short *) (p + 4) = 4;
-    *(short *) (p + 0xE) = id;
+    *(short *) (p + 0xE)        = id;
 
     idx = *(short *) (p + 0xE);
-    e = ((T *) data_0215a04c)->entries + idx;
+    e   = ((T *) data_0215a04c)->entries + idx;
     e->flags |= 1;
     e->idx = idx;
 
     next = (*(short *) (p + 0xE) + 1) % 3;
-    e = ((T *) data_0215a04c)->entries + next;
+    e    = ((T *) data_0215a04c)->entries + next;
     e->flags |= 1;
     e->flags |= 2;
     *(short *) (p + 0x1C) = next;

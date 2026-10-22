@@ -16,10 +16,10 @@ void func_02003e4c(void);
 
 void func_020d5430(void) {
     s32 active = 1;
-    s32 a = 0;
-    s16 timer = 0;
-    s32 mode = 0;
-    s32 b = 0;
+    s32 a      = 0;
+    s16 timer  = 0;
+    s32 mode   = 0;
+    s32 b      = 0;
     s32 r;
 
     if (func_02002330() == 1) {
@@ -39,7 +39,7 @@ void func_020d5430(void) {
         r = func_020cec94();
         if (r == 1) {
             if (timer <= 0) {
-                mode = 1;
+                mode  = 1;
                 timer = 0xE10;
             }
         } else {
@@ -47,7 +47,7 @@ void func_020d5430(void) {
             if (data_02159e6c != NULL && M2C_FIELD(data_02159e6c, s16 *, 4) != 0) {
                 if (b == 0) {
                     mode = 2;
-                    b = 1;
+                    b    = 1;
                 }
             }
         }
@@ -64,12 +64,12 @@ void func_020d5430(void) {
             }
         } else {
             switch (mode) {
-            case 1:
-                func_0208feac();
-                break;
-            case 2:
-                func_02089098();
-                break;
+                case 1:
+                    func_0208feac();
+                    break;
+                case 2:
+                    func_02089098();
+                    break;
             }
             mode = 0;
             if (func_02089050() == 0) {

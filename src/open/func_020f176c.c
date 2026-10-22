@@ -14,15 +14,15 @@ void func_020f176c(s32 arg0) {
         if (M2C_FIELD(arg0, s32 *, 4) == i * 0x28) {
             func_020f1098((void *) (arg0 + 0xa8 + i * 0x20));
             switch (i) {
-            case 0:
-                func_020dd9c4();
-                break;
-            case 1:
-                func_020dd9b4();
-                break;
-            case 2:
-                func_020dd9a4();
-                break;
+                case 0:
+                    func_020dd9c4();
+                    break;
+                case 1:
+                    func_020dd9b4();
+                    break;
+                case 2:
+                    func_020dd9a4();
+                    break;
             }
         }
     }

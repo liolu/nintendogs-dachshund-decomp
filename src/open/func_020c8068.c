@@ -13,7 +13,7 @@ void *func_020c8068(M2C_UNK arg0, M2C_UNK arg1, M2C_UNK arg2, s32 arg3) {
     s32 j;
     s32 *q;
 
-    r4 = (s32 *) func_020038a8(arg0, 0x108);
+    r4                      = (s32 *) func_020038a8(arg0, 0x108);
     M2C_FIELD(r4, u16 *, 0) = 0;
     M2C_FIELD(r4, u16 *, 2) = 0;
     func_0208831c((s32) r4 + 4);
@@ -38,7 +38,7 @@ void *func_020c8068(M2C_UNK arg0, M2C_UNK arg1, M2C_UNK arg2, s32 arg3) {
     M2C_FIELD(r4, s32 *, 0xB4) = 0;
     M2C_FIELD(r4, s32 *, 0xB8) = 0;
     M2C_FIELD(r4, s32 *, 0xBC) = 0;
-    q = (s32 *) ((s8 *) r4 + 0xC0);
+    q                          = (s32 *) ((s8 *) r4 + 0xC0);
     for (i = 0; i < 6; i++, q = (s32 *) ((s8 *) q + 0xC)) {
         M2C_FIELD(q, u16 *, 0) = 1;
         M2C_FIELD(q, u16 *, 2) = 0;

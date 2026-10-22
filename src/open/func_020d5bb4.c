@@ -15,7 +15,7 @@ void func_020d5bb4(s32 arg0, s32 arg1, s32 arg2, u16 arg3, u16 arg4, s32 arg5, s
     s32 i;
     s32 v;
 
-    *(s32 *) (arg0 + 0x0) = arg1;
+    *(s32 *) (arg0 + 0x0)  = arg1;
     *(u16 *) (arg0 + 0x18) = arg3;
     *(u16 *) (arg0 + 0x1A) = arg4;
     *(u16 *) (arg0 + 0x1C) = arg7;

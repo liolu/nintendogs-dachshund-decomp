@@ -17,10 +17,10 @@ void func_020a80bc(void *arg0, M2C_UNK arg1, M2C_UNK arg2) {
     void *p;
 
     func_02044980(M2C_FIELD(arg0, s16 *, 0x9C));
-    p = data_0215a064;
+    p       = data_0215a064;
     temp_r0 = (s8 *) M2C_FIELD(p, void **, 0x1C) + 0x48;
-    buf0 = *(M2C_S12 *) temp_r0;
+    buf0    = *(M2C_S12 *) temp_r0;
     temp_r0 = (s8 *) M2C_FIELD(p, void **, 0x1C) + 0x30;
-    buf1 = *(M2C_S12 *) temp_r0;
+    buf1    = *(M2C_S12 *) temp_r0;
     func_01ff832c(arg2, &buf0, &buf1, arg1);
 }

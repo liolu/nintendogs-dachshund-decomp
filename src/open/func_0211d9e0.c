@@ -18,7 +18,7 @@ void func_0211d9e0(s32 arg0) {
     func_0206cbc4(pad3, (void *) (arg0 + 0x2110), 0x500);
     M2C_FIELD(arg0, s16 *, 0x2610) = -1;
     M2C_FIELD(arg0, s16 *, 0x2612) = -1;
-    pad4 = 0;
+    pad4                           = 0;
     func_0206cbc4(pad4, (void *) (arg0 + 0x2614), 0xA4);
     M2C_FIELD(arg0, s16 *, 0x74F0) = -1;
 }

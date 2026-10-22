@@ -22,7 +22,7 @@ void func_020a9624(Vec *ref, Vec *v, s32 scale, Vec *out) {
     neg.x = -v->x;
     neg.y = -v->y;
     neg.z = -v->z;
-    dot = func_020681f8(ref, &neg);
+    dot   = func_020681f8(ref, &neg);
     if (dot < 0) {
         dot = 0;
     }

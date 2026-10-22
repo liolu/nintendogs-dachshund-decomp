@@ -20,29 +20,29 @@ void func_02102934(void *arg0) {
     UnkStruct_020fa0d4 local;
 
     switch (M2C_FIELD(arg0, s16 *, 0x90)) {
-    case 2:
-        func_02102c84(arg0);
-        break;
-    case 3:
-        func_02102bd8(arg0);
-        break;
-    case 1:
-        func_02102a7c(arg0);
-        break;
-    case 4:
-        local = data_02149f8c;
-        func_020b23f4(arg0, (M2C_UNK (*)(void *)) func_02102a08, &local);
-        break;
-    case 5:
-        func_020b2360(arg0, 0x1000);
-        break;
-    case 8:
-        func_020b2274(arg0);
-        break;
-    case 0:
-    case 6:
-    case 7:
-    default:
-        break;
+        case 2:
+            func_02102c84(arg0);
+            break;
+        case 3:
+            func_02102bd8(arg0);
+            break;
+        case 1:
+            func_02102a7c(arg0);
+            break;
+        case 4:
+            local = data_02149f8c;
+            func_020b23f4(arg0, (M2C_UNK(*)(void *)) func_02102a08, &local);
+            break;
+        case 5:
+            func_020b2360(arg0, 0x1000);
+            break;
+        case 8:
+            func_020b2274(arg0);
+            break;
+        case 0:
+        case 6:
+        case 7:
+        default:
+            break;
     }
 }

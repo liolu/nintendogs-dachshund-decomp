@@ -15,9 +15,10 @@ s32 func_0202db08(s32 arg0, s32 arg1) {
     s32 r;
 
     if (M2C_FIELD(data_0215a064, s32 *, 0x94) * M2C_FIELD(data_0215a064, s32 *, 0x94) +
-        M2C_FIELD(data_0215a064, s32 *, 0x98) * M2C_FIELD(data_0215a064, s32 *, 0x98) > 0x19) {
+            M2C_FIELD(data_0215a064, s32 *, 0x98) * M2C_FIELD(data_0215a064, s32 *, 0x98) >
+        0x19) {
         ret = func_02068480(M2C_FIELD(data_0215a064, s32 *, 0x94), M2C_FIELD(data_0215a064, s32 *, 0x98));
-        ok = 1;
+        ok  = 1;
     } else {
         ok = 0;
     }

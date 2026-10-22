@@ -20,10 +20,10 @@ void func_020b2e1c(s32 arg0, s32 arg1) {
     buf.unk4 = 0;
     buf.unk8 = 0;
     func_020b780c((void *) arg0, &buf, data_0215a048[3], 0, arg1);
-    *(s32 *) (arg0 + 4) = 0x14000;
-    a = *(s32 *) (arg0 + 0);
-    b = *(s32 *) (arg0 + 8);
-    *(s32 *) (arg0 + 0xC) = -a;
+    *(s32 *) (arg0 + 4)    = 0x14000;
+    a                      = *(s32 *) (arg0 + 0);
+    b                      = *(s32 *) (arg0 + 8);
+    *(s32 *) (arg0 + 0xC)  = -a;
     *(s32 *) (arg0 + 0x10) = 0;
     *(s32 *) (arg0 + 0x14) = -b;
     *(s32 *) (arg0 + 0x18) = 0;

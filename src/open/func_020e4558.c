@@ -53,15 +53,15 @@ void func_020e4558(s32 arg0) {
         }
     }
     switch (*ptr) {
-    case 1:
-        func_020eb9fc(0, 0x16, 1);
-        break;
-    case 2:
-        func_020eb9fc(0, 0x15, 1);
-        break;
-    case 3:
-        func_020eb9fc(0, 0x14, 1);
-        break;
+        case 1:
+            func_020eb9fc(0, 0x16, 1);
+            break;
+        case 2:
+            func_020eb9fc(0, 0x15, 1);
+            break;
+        case 3:
+            func_020eb9fc(0, 0x14, 1);
+            break;
     }
     if (ptr[2] > 0) {
         ptr[2] = ptr[2] - 1;

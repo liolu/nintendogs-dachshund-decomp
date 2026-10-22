@@ -26,7 +26,7 @@ void func_02073888(Hdr *h) {
         return;
     }
     h->offC = p + (s32) h;
-    p = h->offC;
+    p       = h->offC;
     *(s32 *) (p + 4) += p;
     h->offC = p;
 }

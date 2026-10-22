@@ -8,11 +8,11 @@ void func_021116b4(s32 arg0, s32 arg1, s32 arg2) {
 
     p = data_0215a04c;
     func_02111b88(p, 4);
-    *(u16 *) (p + 4) = 3;
-    *(u16 *) (p + 6) = 2;
-    *(u16 *) (p + 8) = (u16) arg2;
+    *(u16 *) (p + 4)   = 3;
+    *(u16 *) (p + 6)   = 2;
+    *(u16 *) (p + 8)   = (u16) arg2;
     *(u16 *) (p + 0xE) = (u16) arg1;
-    idx = *(s16 *) (p + 0xE);
+    idx                = *(s16 *) (p + 0xE);
     M2C_FIELD(p + 0x20 + idx * 0x14, u16 *, 0) |= 1;
     M2C_FIELD(p + 0x20 + idx * 0x14, s16 *, 2) = idx;
     if (arg0 != 0) {

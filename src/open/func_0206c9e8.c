@@ -30,10 +30,10 @@ void func_0206c9e8(void) {
     if (size >= 0x1D8) {
         size = 0x1D8;
     }
-    src = data_0214f4a8.src;
-    remaining = data_0214f4a8.size - size;
+    src                = data_0214f4a8.src;
+    remaining          = data_0214f4a8.size - size;
     data_0214f4a8.size = remaining;
-    data_0214f4a8.src = src + size;
+    data_0214f4a8.src  = src + size;
     if (!remaining) {
         func_0207ee54(data_0214f4a8.dmaNo, func_0206c974, 0);
         func_01ffdc44(data_0214f4a8.dmaNo, src, 0x4000400, -0x3BC00000 | (size >> 2));

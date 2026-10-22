@@ -19,9 +19,9 @@ void func_02046ce0(s32 arg0) {
     if (func_0204722c(arg0, 1) != 0) {
         return;
     }
-    p = (u32 *) data_0214da84;
-    t = *p * 0x10DCD + 1;
-    q = (u16) t * 50;
+    p  = (u32 *) data_0214da84;
+    t  = *p * 0x10DCD + 1;
+    q  = (u16) t * 50;
     *p = t;
     if ((u16) (q >> 16) == 0) {
         func_0204f918(arg0);

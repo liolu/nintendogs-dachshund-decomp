@@ -27,10 +27,10 @@ s32 func_020c7a6c(s32 arg0, s16 arg1) {
     u32 *tbl;
 
     base = (u8 *) arg0 + 0xC0;
-    idx = arg1 * 12;
-    v = *(u16 *) (base + idx);
-    tbl = (u32 *) (base + idx + (v << 2));
-    s = tbl[1];
+    idx  = arg1 * 12;
+    v    = *(u16 *) (base + idx);
+    tbl  = (u32 *) (base + idx + (v << 2));
+    s    = tbl[1];
     if (s != 0) {
         s += 0x5000;
         *(s16 *) (s + 0x46) = *(s16 *) (s + 0x46) - 1;

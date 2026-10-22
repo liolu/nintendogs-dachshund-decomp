@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 extern s32 data_0214cf5c;
 extern s32 data_0214cf58;
 void func_0208831c(void *file);
@@ -29,13 +29,13 @@ void func_02006074(s32 arg0, const char *arg1, const char *arg2) {
     func_0208831c(file);
     func_02087fcc(file, arg1);
     size = *(u32 *) (file + 0x24) - *(u32 *) (file + 0x20);
-    buf = func_020038a8(arg0, size);
+    buf  = func_020038a8(arg0, size);
     func_02087e70(file, buf, size);
     func_02087f84(file);
     data_0214cf5c = func_02006b9c((s32) buf);
     func_02087fcc(file, arg2);
     size = *(u32 *) (file + 0x24) - *(u32 *) (file + 0x20);
-    buf = func_020038a8(arg0, size);
+    buf  = func_020038a8(arg0, size);
     func_02087e70(file, buf, size);
     func_02087f84(file);
     data_0214cf58 = (s32) func_02006b68((s32) buf);

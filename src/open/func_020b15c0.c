@@ -50,9 +50,9 @@ void func_020b15c0(s32 arg0, Vec *arg1, s32 arg2) {
             }
         }
     }
-    v = *arg1;
+    v  = *arg1;
     sq = (s64) v.x * v.x + (s64) v.y * v.y + (s64) v.z * v.z;
-    h = sq < data_02124d28 ? 0 : func_02006a20(&v, &out);
+    h  = sq < data_02124d28 ? 0 : func_02006a20(&v, &out);
     if (h != 0) {
         func_020a9624((Vec *) (arg0 + 0xB0), &out, arg2, (Vec *) (arg0 + 0xB0));
     }

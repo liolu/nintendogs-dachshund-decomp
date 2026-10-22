@@ -12,6 +12,6 @@ s32 func_0200c488(s32 arg0, s32 arg1) {
         return 0;
     }
     base = data_0214da7c;
-    sum = arg1 + ((Pair *) M2C_FIELD(base, s32 *, 0x20))[arg0].a;
+    sum  = arg1 + ((Pair *) M2C_FIELD(base, s32 *, 0x20))[arg0].a;
     return M2C_FIELD(base, s32 *, 0x14) + sum * 0x40;
 }

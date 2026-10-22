@@ -24,8 +24,8 @@ static inline u8 *ArcInfoItem(u8 *arc, u32 offset) {
 }
 
 void *func_02071bb8(s32 index) {
-    u8 *arc = data_0215087c;
-    u8 *info = M2C_FIELD(arc, u8 **, 0x88);
+    u8 *arc      = data_0215087c;
+    u8 *info     = M2C_FIELD(arc, u8 **, 0x88);
     Table *table = (Table *) InfoItem(info, M2C_FIELD(info, u32 *, 0x1C));
 
     if (table == NULL) {

@@ -49,15 +49,15 @@ void func_020a0378(A0378 *arg0) {
         func_020eb9fc(2, arg0->unk4, 0);
         func_020eb9fc(2, arg0->unk4 + 2, 1);
     }
-    n = arg0->unk44 - arg0->unk3C + 2;
-    t48 = arg0->unk48;
-    a = arg0->unkC * (n - t48);
+    n    = arg0->unk44 - arg0->unk3C + 2;
+    t48  = arg0->unk48;
+    a    = arg0->unkC * (n - t48);
     base = arg0->unk4;
-    idx = base + 7;
-    b = func_0205df50(a, n);
-    c = func_0205df50(arg0->unk10 * t48, n);
-    m = b + c;
-    m = m - func_020ebe24(2, idx);
+    idx  = base + 7;
+    b    = func_0205df50(a, n);
+    c    = func_0205df50(arg0->unk10 * t48, n);
+    m    = b + c;
+    m    = m - func_020ebe24(2, idx);
     func_020ebcb4(2, idx, 0, m);
     func_020ebcb4(2, base + 8, 0, m);
     v = arg0->unk5C;

@@ -10,7 +10,7 @@ void func_0203e138(s32 arg0, s16 arg1) {
         return;
     }
     flag = 1;
-    i = 0;
+    i    = 0;
     base = data_0214da84;
     do {
         if ((i < 0) || (i >= 3)) {

@@ -64,22 +64,22 @@ void func_0204b164(void *arg0) {
         return;
     }
     switch (func_02027700(arg0, temp_r4)) {
-    case 1:
-        func_02035fd8(arg0);
-        func_0202fa5c(arg0);
-        return;
-    case 0:
-        func_02035fd8(arg0);
-        func_0202fa5c(arg0);
-        return;
-    case -1:
-        if ((func_0204469c() & 0x100) == 0) {
+        case 1:
+            func_02035fd8(arg0);
             func_0202fa5c(arg0);
             return;
-        }
-        break;
-    default:
-        return;
+        case 0:
+            func_02035fd8(arg0);
+            func_0202fa5c(arg0);
+            return;
+        case -1:
+            if ((func_0204469c() & 0x100) == 0) {
+                func_0202fa5c(arg0);
+                return;
+            }
+            break;
+        default:
+            return;
     }
     if ((u8) ((s8) (M2C_FIELD(arg0, s8 *, 0x8B) - 4)) <= 1) {
         return;

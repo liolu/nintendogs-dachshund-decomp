@@ -13,7 +13,7 @@ s32 func_020066f0(u32 arg0, s32 arg1) {
     temp_r2 = M2C_FIELD(data_0214d628, s32 *, 0x28);
     if ((temp_r2 != 0) && (arg0 < (u32) M2C_FIELD(data_0214d628, u16 *, 0xA))) {
         ((s32 *) temp_r2)[arg0] = arg1;
-        var_r12 = 1;
+        var_r12                 = 1;
     }
     return var_r12;
 }

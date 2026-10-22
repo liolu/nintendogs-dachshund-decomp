@@ -18,15 +18,15 @@ void func_020e1c10(s32 arg0, s32 arg1) {
     p = data_02159e70;
     if (M2C_FIELD(p, s32 *, 0xB8) == 2) {
         M2C_FIELD(p, s32 *, 0x1D0C) = 2;
-        tmp = M2C_FIELD(p, s32 *, 0x1D0C);
-        q = (s32 *) ((char *) p + 0x1D0C);
+        tmp                         = M2C_FIELD(p, s32 *, 0x1D0C);
+        q                           = (s32 *) ((char *) p + 0x1D0C);
         if (tmp != 4) {
             q[1] = tmp;
         }
     }
     func_020dd9e4();
-    base = data_02159fc4 + 0x160;
-    M2C_FIELD(base, s32 *, 4) = arg0;
+    base                         = data_02159fc4 + 0x160;
+    M2C_FIELD(base, s32 *, 4)    = arg0;
     M2C_FIELD(base, s32 *, 0x18) = arg1;
     M2C_FIELD(base, s32 *, 0x1C) = func_020d63cc(0, 0, 0x1AF6, 0);
     M2C_FIELD(base, s32 *, 0x20) = 1;

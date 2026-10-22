@@ -11,7 +11,7 @@ s32 func_020872d8(s32 arg0) {
     s32 var_r6;
     s32 temp_r5;
 
-    var_r6 = 0;
+    var_r6  = 0;
     temp_r5 = func_02080c28();
     if (M2C_FIELD(arg0, s32 *, 0x10) & 8) {
         var_r0 = 1;
@@ -25,7 +25,7 @@ s32 func_020872d8(s32 arg0) {
     }
     if (var_r7 == 0) {
         M2C_FIELD(arg0, s32 *, 0x10) = M2C_FIELD(arg0, s32 *, 0x10) & ~8;
-        var_r6 = func_02087ad8(arg0);
+        var_r6                       = func_02087ad8(arg0);
     }
     func_02080c3c(temp_r5);
     if (var_r6 != 0) {

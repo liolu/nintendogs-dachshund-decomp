@@ -20,8 +20,8 @@ s32 func_0209a5a0(Unk_0209a5a0 *arg0, s32 arg1, s32 arg2) {
     s32 ret;
 
     count = 0;
-    ret = func_020cece8();
-    p = data_02147e8c;
+    ret   = func_020cece8();
+    p     = data_02147e8c;
     func_020e82bc(ret);
     while (p->id != -1) {
         if (*(s16 *) &p->unk_0x00 == arg2 && p->unk_0x0C != 0) {

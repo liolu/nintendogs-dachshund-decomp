@@ -48,7 +48,7 @@ s32 func_020d25ac(s32 arg0) {
     if (data_02159e38->f06 > 0) {
         switch (data_02159e38->f08) {
             case 0:
-                e = &data_02159e38->seq[data_02159e38->f04];
+                e                  = &data_02159e38->seq[data_02159e38->f04];
                 data_02159e38->f08 = 1;
                 if (e->f10 != 0) {
                     q = (SeqBuf *) func_020d28d8(0, 0);
@@ -70,7 +70,7 @@ s32 func_020d25ac(s32 arg0) {
                 if (data_02159e38->f04 >= data_02159e38->f06) {
                     data_02159e38->f08 = 2;
                     data_02159e38->f04 = 0;
-                    e = &data_02159e38->seq[data_02159e38->f04];
+                    e                  = &data_02159e38->seq[data_02159e38->f04];
                     if (e->f10 != 0) {
                         q = (SeqBuf *) func_020d28d8(0, 0);
                         func_020d29f4(func_020d29d4(q, 0), q->f04, 1);

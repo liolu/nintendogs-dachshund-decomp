@@ -12,7 +12,7 @@ extern M2C_UNK data_027c0000;
 extern u32 func_0207ed54(u32 mask);
 
 void func_0207ec80(u32 arg0) {
-    u32 mask = 1 << data_0213ce24[arg0];
+    u32 mask                 = 1 << data_0213ce24[arg0];
     void (*callback)(void *) = data_02153e04[arg0].func;
 
     data_02153e04[arg0].func = NULL;

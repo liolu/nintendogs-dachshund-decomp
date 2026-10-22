@@ -31,7 +31,7 @@ void func_020af294(s32 arg0) {
     v.y = M2C_FIELD(&data_02150e58, s32 *, 0x58);
     v.z = M2C_FIELD(&data_02150e58, s32 *, 0x64);
     func_01ff832c(0x3000, &v, &u, &v);
-    p = trail;
+    p   = trail;
     v.y = 0;
     for (i = 0; i < 0xB; i = (s16) (i + 1)) {
         func_0206823c(&v, &u, &w);

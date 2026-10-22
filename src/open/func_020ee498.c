@@ -25,14 +25,14 @@ void func_020ee498(void *arg0) {
     if (M2C_FIELD(arg0, s32 *, 0x2F4) != 0) {
         if ((s32) M2C_FIELD(arg0, s32 *, 0) <= 0x19) {
             func_020d6068(2, 8, 1);
-            angle = (u16) ((((u32) (M2C_FIELD(arg0, s32 *, 0) << 16)) >> 1) / 25 + 0xC000);
-            sin = *(s16 *) (data_02124e68 + ((angle >> 4) * 4));
-            v = (s32) (((u32) ((sin + 0x1000) * 12) << 4) >> 16);
-            a = v << 7;
-            b = v * -200;
+            angle                         = (u16) ((((u32) (M2C_FIELD(arg0, s32 *, 0) << 16)) >> 1) / 25 + 0xC000);
+            sin                           = *(s16 *) (data_02124e68 + ((angle >> 4) * 4));
+            v                             = (s32) (((u32) ((sin + 0x1000) * 12) << 4) >> 16);
+            a                             = v << 7;
+            b                             = v * -200;
             M2C_FIELD(arg0, s32 *, 0x2F8) = a / 25;
             M2C_FIELD(arg0, s32 *, 0x2FC) = b / 25;
-            M2C_FIELD(arg0, s32 *, 0) = M2C_FIELD(arg0, s32 *, 0) + 1;
+            M2C_FIELD(arg0, s32 *, 0)     = M2C_FIELD(arg0, s32 *, 0) + 1;
             return;
         }
         M2C_FIELD(data_02159e70, s32 *, 0xC838) = 1;

@@ -23,15 +23,15 @@ void func_02105260(void *arg0) {
     M2C_FIELD(arg0, s32 *, 0xB4) -= 0x52;
     func_02068270(arg0 + 0xBC, arg0 + 0xB0, arg0 + 0xBC);
     func_020a7ea0(arg0, 0x1FF8);
-    x = M2C_FIELD(arg0, s32 *, 0xC8);
-    z = M2C_FIELD(arg0, s32 *, 0xD0);
-    y = M2C_FIELD(arg0, s32 *, 0xCC);
+    x       = M2C_FIELD(arg0, s32 *, 0xC8);
+    z       = M2C_FIELD(arg0, s32 *, 0xD0);
+    y       = M2C_FIELD(arg0, s32 *, 0xCC);
     vec_a.x = x;
     vec_a.y = y;
     vec_a.z = z;
-    x = M2C_FIELD(arg0, s32 *, 0xD4);
-    z = M2C_FIELD(arg0, s32 *, 0xDC);
-    y = M2C_FIELD(arg0, s32 *, 0xD8);
+    x       = M2C_FIELD(arg0, s32 *, 0xD4);
+    z       = M2C_FIELD(arg0, s32 *, 0xDC);
+    y       = M2C_FIELD(arg0, s32 *, 0xD8);
     vec_b.x = x;
     vec_b.y = y;
     vec_b.z = z;
@@ -49,6 +49,6 @@ void func_02105260(void *arg0) {
     M2C_FIELD(arg0, s32 *, 0xE4) = vec_c.y;
     M2C_FIELD(arg0, s32 *, 0xE8) = vec_c.z;
     func_020aff08(arg0, M2C_FIELD(arg0, s32 *, 0xF8), 0, 0,
-                  func_020b1d6c(M2C_FIELD(arg0, u16 *, 0xA0), M2C_FIELD(arg0, s32 *, 0xF8)),
-                  &func_02105568, &func_021053d0, 0, &func_021053b8, &func_021053ac);
+                  func_020b1d6c(M2C_FIELD(arg0, u16 *, 0xA0), M2C_FIELD(arg0, s32 *, 0xF8)), &func_02105568, &func_021053d0, 0,
+                  &func_021053b8, &func_021053ac);
 }

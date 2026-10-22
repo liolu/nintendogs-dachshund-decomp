@@ -36,7 +36,7 @@ s32 func_0202d930(u8 *arg0, s32 arg1, s32 arg2, u32 arg3, u8 arg4, s32 arg5) {
                     v = data_0213a60c[b5].v[arg2];
                     if (v != -1) {
                         *(s16 *) (arg0 + 0xEA) = v;
-                        ok = 1;
+                        ok                     = 1;
                     } else {
                         ok = 0;
                     }
@@ -44,7 +44,7 @@ s32 func_0202d930(u8 *arg0, s32 arg1, s32 arg2, u32 arg3, u8 arg4, s32 arg5) {
                     v = data_0213a100[b5].v[arg2];
                     if (v != -1) {
                         *(s16 *) (arg0 + 0xEA) = v;
-                        ok = 1;
+                        ok                     = 1;
                     } else {
                         ok = 0;
                     }
@@ -52,10 +52,10 @@ s32 func_0202d930(u8 *arg0, s32 arg1, s32 arg2, u32 arg3, u8 arg4, s32 arg5) {
             } else {
                 if (arg1 == 0) {
                     *(s16 *) (arg0 + 0xEA) = data_0213a25c[b5].v[arg2];
-                    ok = 1;
+                    ok                     = 1;
                 } else {
                     *(s16 *) (arg0 + 0xEA) = data_0213a36c[b5].v[arg2];
-                    ok = 1;
+                    ok                     = 1;
                 }
             }
             if (ok == 0) {

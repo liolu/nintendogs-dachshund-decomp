@@ -36,10 +36,10 @@ void func_020b35b4(s32 arg0, s32 arg1) {
                 func_02068270((s32) dst, &m, (s32) dst);
                 *(Struct12 *) (dst + 3) = tmp;
             } else {
-                tmp = *(Struct12 *) (arg1 + 0xBC);
-                x = *(s32 *) (arg1 + 0xE0);
-                z = *(s32 *) (arg1 + 0xE8);
-                y = *(s32 *) (arg1 + 0xE4);
+                tmp    = *(Struct12 *) (arg1 + 0xBC);
+                x      = *(s32 *) (arg1 + 0xE0);
+                z      = *(s32 *) (arg1 + 0xE8);
+                y      = *(s32 *) (arg1 + 0xE4);
                 mat[0] = x;
                 mat[1] = y;
                 mat[2] = z;

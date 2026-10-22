@@ -23,9 +23,9 @@ void func_02099544(u8 *arg0) {
         p += 4;
         for (; i < (count = data_0213d1ac); i += 2) {
             if ((u32) (func_0205e15c(i, count / 40) >> 32) == 0) {
-                u32 j = (u32) func_0205e15c(i, count / 40);
+                u32 j            = (u32) func_0205e15c(i, count / 40);
                 struct Pair *dst = (struct Pair *) (data_02154e50 + j * 2);
-                *dst = *(struct Pair *) local;
+                *dst             = *(struct Pair *) local;
             }
             func_020977a0(p, temp, 2, local);
             p++;

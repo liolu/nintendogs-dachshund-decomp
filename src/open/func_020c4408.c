@@ -28,44 +28,44 @@ void func_020c4408(void *arg0) {
     M2C_UNK a2;
 
     switch (M2C_FIELD(arg0, s16 *, 0x90)) {
-    case 2:
-        func_020b27dc(arg0);
-        val = data_02140c18;
-        a2 = M2C_FIELD(arg0, s32 *, 0xDC);
-        a1 = M2C_FIELD(arg0, s32 *, 0xD8);
-        a0 = M2C_FIELD(arg0, s32 *, 0xD4);
-        vec[0] = a0;
-        vec[1] = a1;
-        vec[2] = a2;
-        a2 = M2C_FIELD(arg0, s32 *, 0xE8);
-        a1 = M2C_FIELD(arg0, s32 *, 0xE4);
-        a0 = M2C_FIELD(arg0, s32 *, 0xE0);
-        vec[3] = a0;
-        vec[4] = a1;
-        vec[5] = a2;
-        func_01ff832c(-val, vec, (void *) ((u8 *) arg0 + 0xBC), (void *) ((u8 *) arg0 + 0xBC));
-        func_01ff832c(-data_02140c14, &vec[3], (void *) ((u8 *) arg0 + 0xBC), (void *) ((u8 *) arg0 + 0xBC));
-        break;
-    case 3:
-        func_020c471c(arg0);
-        break;
-    case 1:
-        func_020c45c0(arg0);
-        break;
-    case 4:
-        local = data_02140c1c;
-        func_020b23f4(arg0, (M2C_UNK (*)(void *)) func_020c454c, &local);
-        break;
-    case 5:
-        func_020b2360(arg0, 0x1000);
-        break;
-    case 8:
-        func_020b2274(arg0);
-        break;
-    case 0:
-    case 6:
-    case 7:
-    default:
-        break;
+        case 2:
+            func_020b27dc(arg0);
+            val    = data_02140c18;
+            a2     = M2C_FIELD(arg0, s32 *, 0xDC);
+            a1     = M2C_FIELD(arg0, s32 *, 0xD8);
+            a0     = M2C_FIELD(arg0, s32 *, 0xD4);
+            vec[0] = a0;
+            vec[1] = a1;
+            vec[2] = a2;
+            a2     = M2C_FIELD(arg0, s32 *, 0xE8);
+            a1     = M2C_FIELD(arg0, s32 *, 0xE4);
+            a0     = M2C_FIELD(arg0, s32 *, 0xE0);
+            vec[3] = a0;
+            vec[4] = a1;
+            vec[5] = a2;
+            func_01ff832c(-val, vec, (void *) ((u8 *) arg0 + 0xBC), (void *) ((u8 *) arg0 + 0xBC));
+            func_01ff832c(-data_02140c14, &vec[3], (void *) ((u8 *) arg0 + 0xBC), (void *) ((u8 *) arg0 + 0xBC));
+            break;
+        case 3:
+            func_020c471c(arg0);
+            break;
+        case 1:
+            func_020c45c0(arg0);
+            break;
+        case 4:
+            local = data_02140c1c;
+            func_020b23f4(arg0, (M2C_UNK(*)(void *)) func_020c454c, &local);
+            break;
+        case 5:
+            func_020b2360(arg0, 0x1000);
+            break;
+        case 8:
+            func_020b2274(arg0);
+            break;
+        case 0:
+        case 6:
+        case 7:
+        default:
+            break;
     }
 }

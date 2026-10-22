@@ -8,7 +8,7 @@ void func_020a6610(void) {
     s32 var_r6;
 
     var_r6 = 0;
- loop_1:
+loop_1:
     if ((var_r6 < 0) || ((s32) M2C_FIELD(data_021555f8, s16 *, 0x20) <= var_r6)) {
         var_r0 = 0;
     } else {
@@ -28,9 +28,9 @@ void func_020a6610(void) {
         M2C_FIELD(data_021555f8, s16 *, 0x2C) = 0;
     }
     var_r6 = 0;
- loop_2:
+loop_2:
     M2C_FIELD((data_021555f8 + (var_r6 * 4)), s32 *, 4) = 0;
-    var_r6 = (s32) (s16) (var_r6 + 1);
+    var_r6                                              = (s32) (s16) (var_r6 + 1);
     if (var_r6 < 7) {
         goto loop_2;
     }

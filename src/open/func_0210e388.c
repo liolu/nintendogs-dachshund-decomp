@@ -6,7 +6,7 @@ extern void *data_0215a044;
 
 s32 func_0210e388(void) {
     s32 res = 1;
-    s32 i = 0;
+    s32 i   = 0;
 
     if ((s32) M2C_FIELD(data_0215a044, s16 *, 0x20) > 0) {
         do {

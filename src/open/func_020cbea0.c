@@ -17,9 +17,9 @@ void func_020cbea0(M2C_UNK arg0, s32 arg1) {
     if (*(u32 *) ((u8 *) data_02159e30 + arg1 * 4 + 4) != 0) {
         return;
     }
-    obj = (void *) func_020038a8(arg0, 0x2C);
+    obj  = (void *) func_020038a8(arg0, 0x2C);
     name = data_02143b9c[arg1];
-    sub = NULL;
+    sub  = NULL;
     if (sub != NULL) {
         func_0205ece8(buf, 0x40, data_02143bf0, sub, name);
     } else {

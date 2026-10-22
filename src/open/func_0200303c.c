@@ -19,14 +19,14 @@ void func_0200303c(void) {
 
     func_0200313c();
     func_02005928();
-    M2C_FIELD(&data_0214cd5c, u8 **, 0xC) = (u8 *) (BuildInfo - 0xb00);
+    M2C_FIELD(&data_0214cd5c, u8 **, 0xC)  = (u8 *) (BuildInfo - 0xb00);
     M2C_FIELD(&data_0214cd5c, s32 *, 0x10) = func_0208050c(0);
     func_02003110();
-    d = func_0208050c(0);
-    d = func_02080520(0) - d;
+    d                                      = func_0208050c(0);
+    d                                      = func_02080520(0) - d;
     M2C_FIELD(&data_0214cd5c, s32 *, 0x14) = func_02003960(func_0208050c(0), d);
-    d = func_0208050c(4);
-    d = func_02080520(4) - d;
+    d                                      = func_0208050c(4);
+    d                                      = func_02080520(4) - d;
     if (d == 0) {
         M2C_FIELD(&data_0214cd5c, s32 *, 0x34) = 0;
     } else {

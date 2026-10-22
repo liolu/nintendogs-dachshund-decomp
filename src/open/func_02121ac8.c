@@ -34,45 +34,45 @@ void func_02121ac8(s32 arg0) {
     s16 w;
 
     switch (M2C_FIELD(arg0, s16 *, 0x2E)) {
-    case 0:
-        func_02116da0(arg0);
-        return;
-    case 1:
-        g = (St *) data_02159e64;
-        if (g->fA4 == 0) {
-            return;
-        }
-        v = g->f94;
-        switch (v) {
-        case 3:
-        case 4:
-            w = g->f9a;
-            break;
-        default:
-            w = 0;
-            break;
-        }
-        switch (w) {
         case 0:
-            M2C_FIELD(arg0, s16 *, 0x2E) = 2;
-            M2C_FIELD(arg0, s16 *, 0x30) = 0;
-            M2C_FIELD((u8 *) arg0 + 0x100, s16 *, 0) = 2;
+            func_02116da0(arg0);
             return;
         case 1:
-            func_02116dec(arg0, M2C_FIELD(arg0, s16 *, 0x80));
-            func_02116d20(arg0, 0);
-            func_020e2890();
+            g = (St *) data_02159e64;
+            if (g->fA4 == 0) {
+                return;
+            }
+            v = g->f94;
+            switch (v) {
+                case 3:
+                case 4:
+                    w = g->f9a;
+                    break;
+                default:
+                    w = 0;
+                    break;
+            }
+            switch (w) {
+                case 0:
+                    M2C_FIELD(arg0, s16 *, 0x2E)             = 2;
+                    M2C_FIELD(arg0, s16 *, 0x30)             = 0;
+                    M2C_FIELD((u8 *) arg0 + 0x100, s16 *, 0) = 2;
+                    return;
+                case 1:
+                    func_02116dec(arg0, M2C_FIELD(arg0, s16 *, 0x80));
+                    func_02116d20(arg0, 0);
+                    func_020e2890();
+                    return;
+            }
             return;
-        }
-        return;
-    case 2:
-    case 3:
-        break;
-    case 4:
-        if (func_02116cb4(arg0) == 0) {
+        case 2:
+        case 3:
+            break;
+        case 4:
+            if (func_02116cb4(arg0) == 0) {
+                return;
+            }
+            func_02116f14(arg0);
             return;
-        }
-        func_02116f14(arg0);
-        return;
     }
 }

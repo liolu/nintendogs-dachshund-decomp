@@ -26,8 +26,8 @@ s32 func_02124ad8(void) {
     s32 p;
     s32 flag;
 
-    flag = 1;
-    h = func_02002e48(func_02002e50());
+    flag    = 1;
+    h       = func_02002e48(func_02002e50());
     pair[0] = 0xFF;
     pair[1] = 0;
     func_020068b4(h, (s32) pair);
@@ -42,7 +42,7 @@ s32 func_02124ad8(void) {
     cfg[5] = 0;
     cfg[7] = 0xF;
     cfg[8] = 0x70;
-    p = func_0200562c(h, (s32) cfg);
+    p      = func_0200562c(h, (s32) cfg);
     func_020055fc(p + 0x2C, 1, 0, 0, 1, 5, 1, 0);
     func_020042d8(p);
     func_020058f0();

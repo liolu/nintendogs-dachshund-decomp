@@ -13,8 +13,8 @@ void func_020fe4cc(void);
 void func_020eae18(u16 arg0, u16 arg1, u16 arg2) {
     u8 *p = (u8 *) data_02159e70 + 0xC840;
 
-    *(s32 *) (p + 4) = 3;
-    *(u16 *) (p + 8) = arg0;
+    *(s32 *) (p + 4)   = 3;
+    *(u16 *) (p + 8)   = arg0;
     *(u16 *) (p + 0xA) = arg1;
     *(u16 *) (p + 0xC) = arg2;
     func_020d6068(2, 8, 1);

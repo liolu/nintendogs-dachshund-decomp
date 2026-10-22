@@ -33,34 +33,34 @@ void func_020c0ba4(u8 *arg0) {
     }
     m = *(u16 *) (arg0 + 8);
     switch (m) {
-    case 5: {
-        Obj *q;
-        u16 out;
-        func_020c081c();
-        if (func_02080ed4() != 0) {
-            data_02156ea0 = 2;
+        case 5: {
+            Obj *q;
+            u16 out;
+            func_020c081c();
+            if (func_02080ed4() != 0) {
+                data_02156ea0 = 2;
+            }
+            func_020801f4(func_020c081c(), 0xC0);
+            data_02156ea4 = func_020bfba4(data_02156ea4);
+            q             = func_020c0828();
+            q->f4         = data_02156ea4;
+            q             = func_020c0828();
+            q->f6         = func_020bfafc();
+            if (func_020c0088((M2C_UNK) func_020c0ba4, &out) != 0) {
+                return;
+            }
+            break;
         }
-        func_020801f4(func_020c081c(), 0xC0);
-        data_02156ea4 = func_020bfba4(data_02156ea4);
-        q = func_020c0828();
-        q->f4 = data_02156ea4;
-        q = func_020c0828();
-        q->f6 = func_020bfafc();
-        if (func_020c0088((M2C_UNK) func_020c0ba4, &out) != 0) {
+        case 4: {
+            Obj *q;
+            u16 out;
+            data_02156ea4 = func_020bfba4(data_02156ea4);
+            q             = func_020c0828();
+            q->f4         = data_02156ea4;
+            q             = func_020c0828();
+            q->f6         = func_020bfafc();
+            func_020c0088((M2C_UNK) func_020c0ba4, &out);
             return;
         }
-        break;
-    }
-    case 4: {
-        Obj *q;
-        u16 out;
-        data_02156ea4 = func_020bfba4(data_02156ea4);
-        q = func_020c0828();
-        q->f4 = data_02156ea4;
-        q = func_020c0828();
-        q->f6 = func_020bfafc();
-        func_020c0088((M2C_UNK) func_020c0ba4, &out);
-        return;
-    }
     }
 }

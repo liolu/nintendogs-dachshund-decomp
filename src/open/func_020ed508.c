@@ -51,7 +51,7 @@ void func_020ed508(void *arg0) {
     M2C_FIELD(data_02159e70, s32 *, 0xC838) = 3;
     M2C_FIELD(data_02159e70, s32 *, 0xC83C) = 0;
     func_020d6240(0x2C, &data_02145eec, &data_02145f00, &data_02145f14, &data_02145f18);
-    M2C_FIELD(arg0, s32 *, 0) = 0;
+    M2C_FIELD(arg0, s32 *, 0)      = 0;
     M2C_FIELD(arg0, s32 *, 0x1CAC) = -1;
     func_020e13f4();
     func_020f0ca4((u8 *) arg0 + 8, 2, 0, 1, 0, 3, 0, 2, 2, 0xA, 0xA);

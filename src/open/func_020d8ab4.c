@@ -23,11 +23,11 @@ void func_020d8ab4(s32 arg0) {
     if (!(M2C_FIELD(&data_0214d624, u16 *, 2) & 2)) {
         return;
     }
-    b0 = M2C_FIELD(&data_0214d624, u8 *, 0);
-    b1 = M2C_FIELD(&data_0214d624, u8 *, 1);
+    b0     = M2C_FIELD(&data_0214d624, u8 *, 0);
+    b1     = M2C_FIELD(&data_0214d624, u8 *, 1);
     var_r7 = (s16) b0;
     var_r6 = (s16) b1;
-    ret = func_020eb5a4(2, var_r7, var_r6);
+    ret    = func_020eb5a4(2, var_r7, var_r6);
     switch (ret) {
         case 3:
             func_020f0bfc((void *) (arg0 + 0xB8), var_r7, var_r6);

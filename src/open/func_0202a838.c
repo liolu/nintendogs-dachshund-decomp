@@ -12,11 +12,11 @@ s32 func_0202a838(s32 arg0) {
     buf[0] = data_02150e58[0x13];
     buf[1] = data_02150e58[0x16];
     buf[2] = data_02150e58[0x19];
-    v = func_020681f8(arg0 + 0x2A0, buf) > 0 ? func_020681f8(arg0 + 0x2A0, buf) : -func_020681f8(arg0 + 0x2A0, buf);
+    v      = func_020681f8(arg0 + 0x2A0, buf) > 0 ? func_020681f8(arg0 + 0x2A0, buf) : -func_020681f8(arg0 + 0x2A0, buf);
     if (v > 0x8000) {
-        seed = data_0214da84;
-        n = *seed * 0x10DCD + 1;
-        r = (u16) ((u32) (u16) n * 3 >> 16);
+        seed  = data_0214da84;
+        n     = *seed * 0x10DCD + 1;
+        r     = (u16) ((u32) (u16) n * 3 >> 16);
         *seed = n;
         switch (r) {
             case 0:
@@ -30,9 +30,9 @@ s32 func_0202a838(s32 arg0) {
                 return 1;
         }
     }
-    seed = data_0214da84;
-    n = *seed * 0x10DCD + 1;
-    r = (u16) ((u32) (u16) n * 2 >> 16);
+    seed  = data_0214da84;
+    n     = *seed * 0x10DCD + 1;
+    r     = (u16) ((u32) (u16) n * 2 >> 16);
     *seed = n;
     switch (r) {
         case 0:

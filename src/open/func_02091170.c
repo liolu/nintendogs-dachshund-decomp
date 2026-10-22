@@ -5,13 +5,13 @@ void func_02091170(void) {
     unsigned char *p = data_021544e0;
     short i;
 
-    *(int *) (q + 0x84) = 0;
+    *(int *) (q + 0x84)   = 0;
     *(short *) (q + 0x88) = 0;
     *(short *) (q + 0x8A) = 0;
 #pragma opt_strength_reduction off
     for (i = 0; i < 0x10; i++) {
-        *(unsigned short *) (p + (unsigned)i * 4) = 0xFFFF;
-        *(short *) (p + i * 4 + 2) = -1;
+        *(unsigned short *) (p + (unsigned) i * 4) = 0xFFFF;
+        *(short *) (p + i * 4 + 2)                 = -1;
     }
     *(int *) (q + 0x8C) = 0;
     *(int *) (q + 0x90) = 0;

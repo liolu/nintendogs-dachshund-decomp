@@ -23,7 +23,7 @@ void func_0204ab90(s32 arg0) {
         return;
     }
     if (temp_r4 != 0) {
-        v = M2C_FIELD(temp_r4, s16 *, 0xEA);
+        v   = M2C_FIELD(temp_r4, s16 *, 0xEA);
         var = ((v >= 0x282) && (v <= 0x284));
         if (var != 0) {
             var = 1;
@@ -31,7 +31,7 @@ void func_0204ab90(s32 arg0) {
         }
         var = ((v >= 0x259) && (v <= 0x25F));
         if (var != 0) {
-            w = M2C_FIELD(temp_r4, s16 *, 0xEE);
+            w   = M2C_FIELD(temp_r4, s16 *, 0xEE);
             var = ((w >= 0x282) && (w <= 0x284));
             if (var != 0) {
                 var = 1;

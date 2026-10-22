@@ -70,10 +70,10 @@ void func_020a1e88(void) {
     func_020da98c(0, h2, 8, 0, handle);
     {
         u16 buf[4] = {0};
-        buf[0] = func_020cdf80() + 0x30;
-        buf[1] = 0x2F;
-        buf[2] = 0x35;
-        buf[3] = 0;
+        buf[0]     = func_020cdf80() + 0x30;
+        buf[1]     = 0x2F;
+        buf[2]     = 0x35;
+        buf[3]     = 0;
         func_020db0fc(0, h3, h1, 9, 0);
         func_020daae8(0, 9);
         func_020da98c(0, h2, 9, 1, (s32) buf);

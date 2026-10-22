@@ -13,8 +13,8 @@ void func_020ba460(s32 arg0) {
 
     switch (*(s32 *) (arg0 + 0xC)) {
         case 0:
-            off = *(s32 *) arg0 + *(s32 *) (arg0 + 8) * 0x2C;
-            *(S40 *) (arg0 + (unsigned)0x10) = *(S40 *) (off + 0x20);
+            off                               = *(s32 *) arg0 + *(s32 *) (arg0 + 8) * 0x2C;
+            *(S40 *) (arg0 + (unsigned) 0x10) = *(S40 *) (off + 0x20);
             break;
         case 1:
             func_020baa2c((void *) arg0);

@@ -4,7 +4,7 @@ extern void *data_02159e38;
 
 s32 func_020ce510(s32 *arg0, u8 *arg1) {
     s32 result = 1;
-    s16 i = 0;
+    s16 i      = 0;
     s32 found;
     s32 match;
     s16 j;
@@ -15,7 +15,7 @@ s32 func_020ce510(s32 *arg0, u8 *arg1) {
         if (*(s8 *) (p + 0xE) != 0) {
             if (!(arg0[0] == *(s32 *) p && arg0[1] == *(s32 *) (p + 4))) {
                 match = 1;
-                j = 0;
+                j     = 0;
                 {
                     u8 *b = arg1;
                     u8 *a = p;

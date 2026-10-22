@@ -17,8 +17,8 @@ void func_020b2d2c(s32 arg0, s32 arg1, s32 arg2, s32 arg3) {
     buf.unk4 = 0;
     buf.unk8 = 0;
     func_020b780c((void *) arg0, &buf, arg1, 0, arg2);
-    *(s32 *) (arg0 + 4) = arg3;
-    *(s32 *) (arg0 + 0xC) = 0;
+    *(s32 *) (arg0 + 4)    = arg3;
+    *(s32 *) (arg0 + 0xC)  = 0;
     *(s32 *) (arg0 + 0x10) = 0;
     *(s32 *) (arg0 + 0x14) = 0;
     *(s32 *) (arg0 + 0x18) = 0;

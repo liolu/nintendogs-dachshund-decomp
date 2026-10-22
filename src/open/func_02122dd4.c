@@ -17,9 +17,9 @@ s32 func_02122dd4(s32 arg0) {
     s32 again;
     s32 v;
 
-    ret = 0;
+    ret   = 0;
     again = 1;
-    h = func_02002e48(func_02002e50());
+    h     = func_02002e48(func_02002e50());
     if (arg0 != 0) {
         func_02111b58(h);
     }

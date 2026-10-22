@@ -173,14 +173,14 @@ s32 func_020e047c(s32 arg0, s32 arg1) {
             }
             break;
         case 0x1770:
-            temp = M2C_FIELD(data_0215a044, s32 *, 4);
+            temp   = M2C_FIELD(data_0215a044, s32 *, 4);
             var_r4 = (u16) (M2C_FIELD(temp, s16 *, 0) == 6 ? M2C_FIELD(temp, s16 *, 0x20) : 0);
             break;
         case 0x1771:
             var_r4 = func_020e1a70();
             break;
         case 0x1772:
-            p = (u32 *) ((u8 *) data_02159fc4 + 0x184);
+            p      = (u32 *) ((u8 *) data_02159fc4 + 0x184);
             temp_a = M2C_FIELD(data_02159fc4, u32 *, 0x184);
             temp_b = p[1];
             temp_c = p[2];

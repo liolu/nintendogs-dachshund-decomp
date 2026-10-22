@@ -18,7 +18,7 @@ void func_020a5334(s32 arg0, s32 arg1) {
     v = *(u16 *) ((s8 *) p + 0x5C);
     {
         s16 name[19] = {0};
-        s16 num[4]    = {0};
+        s16 num[4]   = {0};
 
         func_020daae8(0, arg0 + 0xC);
         func_020da540(0, u, arg0 + 0xC, arg0, 0, 2, (s32) p + 0xC);

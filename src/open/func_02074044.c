@@ -61,12 +61,12 @@ void func_02074044(void *mat, UnkHeader *data, UnkResTex *tex, UnkResDictTexData
     for (i = 0; i < data->numIdx; i++) {
         u32 sizeW;
         u32 sizeH;
-        u16 *eh   = (u16 *) ((u8 *) mat + 4 + *(u16 *) ((u8 *) mat + 0xa));
+        u16 *eh     = (u16 *) ((u8 *) mat + 4 + *(u16 *) ((u8 *) mat + 0xa));
         UnkObj *obj = (UnkObj *) ((u8 *) mat + *(u32 *) ((u8 *) eh + eh[0] * idxTbl[i] + 4));
 
         obj->prmTexPltt |= texData->imageKey + plttBase;
-        sizeW = texData->size & 0x7ff;
-        sizeH = (texData->size >> 0xb) & 0x7ff;
+        sizeW     = texData->size & 0x7ff;
+        sizeH     = (texData->size >> 0xb) & 0x7ff;
         obj->magW = (sizeW == obj->origW) ? 0x1000 : func_02067ca0(sizeW << 12, obj->origW << 12);
         obj->magH = (sizeH == obj->origH) ? 0x1000 : func_02067ca0(sizeH << 12, obj->origH << 12);
     }

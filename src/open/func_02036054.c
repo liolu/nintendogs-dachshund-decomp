@@ -1,6 +1,6 @@
 #include "m2c.h"
 
-extern u8 * volatile data_0214da84;
+extern u8 *volatile data_0214da84;
 
 void func_02036054(void) {
     s16 i;

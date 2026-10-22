@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 s32 func_0205df50(s32);
 extern void *data_0214cd98;
 extern void (*data_02134f5c)(void);
@@ -18,10 +18,10 @@ void func_02005c84(u8 *arg0) {
         case 1:
             p[4]++;
             lim = *(volatile s16 *) (arg0 + 0xa);
-            v = *(volatile s16 *) (arg0 + 8);
+            v   = *(volatile s16 *) (arg0 + 8);
             if (v >= lim) {
                 *(u16 *) (arg0 + 4) = 2;
-                p[0xC] = 0;
+                p[0xC]              = 0;
             } else {
                 p[0xC] = 0x10 - func_0205df50(v << 4);
             }
@@ -35,10 +35,10 @@ void func_02005c84(u8 *arg0) {
         case 3:
             p[4]++;
             lim = *(volatile s16 *) (arg0 + 0xa);
-            v = *(volatile s16 *) (arg0 + 8);
+            v   = *(volatile s16 *) (arg0 + 8);
             if (v >= lim) {
                 *(u16 *) (arg0 + 4) = 0;
-                p[0xC] = 0x10;
+                p[0xC]              = 0x10;
             } else {
                 p[0xC] = func_0205df50(v << 4);
             }

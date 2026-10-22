@@ -26,14 +26,14 @@ void func_020f1fbc(void *arg0) {
     M2C_UNK c;
     M2C_UNK d;
 
-    M2C_FIELD(arg0, s32 *, 0) = 0;
-    M2C_FIELD(arg0, s32 *, 0xB8) = M2C_FIELD(data_0215a064, s16 *, 0x64);
-    t = M2C_FIELD(data_0215a064, s16 *, 0x68);
-    M2C_FIELD(arg0, s32 *, 0xBC) = t;
-    M2C_FIELD(arg0, s32 *, 0xC0) = func_ov006_021600ec(t) * 100;
-    M2C_FIELD(arg0, s32 *, 0xC) = 0;
-    M2C_FIELD(arg0, s32 *, 0x10) = 0;
-    M2C_FIELD(arg0, s32 *, 0x14) = 0;
+    M2C_FIELD(arg0, s32 *, 0)     = 0;
+    M2C_FIELD(arg0, s32 *, 0xB8)  = M2C_FIELD(data_0215a064, s16 *, 0x64);
+    t                             = M2C_FIELD(data_0215a064, s16 *, 0x68);
+    M2C_FIELD(arg0, s32 *, 0xBC)  = t;
+    M2C_FIELD(arg0, s32 *, 0xC0)  = func_ov006_021600ec(t) * 100;
+    M2C_FIELD(arg0, s32 *, 0xC)   = 0;
+    M2C_FIELD(arg0, s32 *, 0x10)  = 0;
+    M2C_FIELD(arg0, s32 *, 0x14)  = 0;
     M2C_FIELD(arg0, s32 *, 0x184) = 0;
     if (M2C_FIELD(data_02159e70, s32 *, 0xA8) == 8) {
         func_020ec2f4(0, 0);

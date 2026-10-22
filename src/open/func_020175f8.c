@@ -20,10 +20,10 @@ void func_020175f8(s32 arg0) {
     s8 temp_r0_4;
 
     temp_r0 = func_02028114(arg0);
-    var_r1 = (s32) (((s64) temp_r0 * 0xA3 + 0x800) >> 12);
+    var_r1  = (s32) (((s64) temp_r0 * 0xA3 + 0x800) >> 12);
     if (func_02024d30(arg0, 0xB, 0x24, -var_r1) == 0) {
         temp_r0 = func_02028114(arg0);
-        var_r1 = (s32) (((s64) temp_r0 * 0x5E + 0x800) >> 12);
+        var_r1  = (s32) (((s64) temp_r0 * 0x5E + 0x800) >> 12);
         func_02024d30(arg0, 0x2E, 0x50, -var_r1);
     }
     if (func_02026fd0(arg0) != 0) {

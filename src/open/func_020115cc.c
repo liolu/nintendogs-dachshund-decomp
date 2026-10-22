@@ -55,10 +55,10 @@ void func_020115cc(void *arg0) {
         return;
     }
     if (M2C_FIELD(arg0, u16 *, 0xFC) > 0x28) {
-        temp_r3 = *(u32 **) data_0214da84;
-        temp_r2 = *temp_r3 * 0x10DCD + 1;
+        temp_r3   = *(u32 **) data_0214da84;
+        temp_r2   = *temp_r3 * 0x10DCD + 1;
         temp_r0_5 = (u16) ((u16) temp_r2 * 40u >> 16);
-        *temp_r3 = temp_r2;
+        *temp_r3  = temp_r2;
         if (temp_r0_5 != 0) {
             return;
         }

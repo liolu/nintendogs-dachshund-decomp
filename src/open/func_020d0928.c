@@ -33,12 +33,12 @@ void func_020d0928(s32 arg0) {
     s32 r;
     register u32 j;
 
-    found = 0;
+    found              = 0;
     data_02159e38->f00 = 1;
-    h = data_02159e38;
-    h->f04 = 0;
-    h->f06 = 0;
-    h->f08 = 0;
+    h                  = data_02159e38;
+    h->f04             = 0;
+    h->f06             = 0;
+    h->f08             = 0;
     func_02065144(data_02159e34);
     r = 0;
     e = func_020d28d8(0, 0);

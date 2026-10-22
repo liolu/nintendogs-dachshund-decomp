@@ -28,9 +28,9 @@ void func_020e82bc(void) {
         if (M2C_FIELD(obj, s16 *, 0) == -1) {
             continue;
         }
-        key = M2C_FIELD(obj, s16 *, 0);
+        key  = M2C_FIELD(obj, s16 *, 0);
         key2 = M2C_FIELD(obj, s8 *, 2);
-        t = data_02147e8c;
+        t    = data_02147e8c;
         while (M2C_FIELD(t, s16 *, 4) != -1) {
             if (M2C_FIELD(t, s16 *, 2) == key && M2C_FIELD(t, s16 *, 0) == key2) {
                 goto found;

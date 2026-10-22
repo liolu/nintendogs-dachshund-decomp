@@ -105,16 +105,16 @@ void func_020b6a24(M2C_UNK arg0, M2C_UNK arg1, s32 arg2, M2C_UNK arg3) {
     if (d < q2) {
         d = q2;
     }
-    s = func_02068654(d);
+    s                            = func_02068654(d);
     M2C_FIELD(arg0, s32 *, 0x24) = (s32) (((s64) s * 0x1680000 + 0x80000) >> 20);
     if (count == 1 && arg3 == 0) {
         M2C_FIELD(arg0, s32 *, 0x24) = data_0213eeb4;
     } else if (M2C_FIELD(arg0, s32 *, 0x24) > data_0213eebc) {
         M2C_FIELD(arg0, s32 *, 0x24) = data_0213eebc;
     }
-    *(Struct12 *) arg0 = target;
-    *(Struct12 *) ((u32)arg0 + 0xC) = dir;
-    M2C_FIELD(arg0, s32 *, 0x18) = 0;
-    M2C_FIELD(arg0, s32 *, 0x1C) = 0x1000;
-    M2C_FIELD(arg0, s32 *, 0x20) = 0;
+    *(Struct12 *) arg0               = target;
+    *(Struct12 *) ((u32) arg0 + 0xC) = dir;
+    M2C_FIELD(arg0, s32 *, 0x18)     = 0;
+    M2C_FIELD(arg0, s32 *, 0x1C)     = 0x1000;
+    M2C_FIELD(arg0, s32 *, 0x20)     = 0;
 }

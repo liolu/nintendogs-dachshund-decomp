@@ -32,7 +32,7 @@ s32 func_020a139c(A139C *arg0) {
     arg0->unk5C = func_0205df50(arg0->unk58 * arg0->unk40, arg0->unk54);
     if (arg0->unk58 == arg0->unk54) {
         arg0->unk5C = 0;
-        flag = 1;
+        flag        = 1;
     } else if (arg0->unk4C > arg0->unk48) {
         arg0->unk5C = -arg0->unk5C;
     }

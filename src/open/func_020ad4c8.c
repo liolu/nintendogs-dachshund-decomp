@@ -20,7 +20,7 @@ void func_020ad4c8(s32 arg0) {
             p = (s32 *) M2C_FIELD(arg0, s32 *, 0x214);
             func_020a7fdc(arg0, (void *) (arg0 + 0xC8));
             *(s32 *) (arg0 + 0xA8) = 0;
-            p[3] = data_0213eaa0;
+            p[3]                   = data_0213eaa0;
             break;
         case 4:
             func_020ad578(arg0);

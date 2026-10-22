@@ -19,7 +19,7 @@ loop_1:
     }
     if (var_r4 != NULL) {
         temp_r6 = M2C_FIELD(var_r4, void **, 0x9e8);
-        var_r6 = M2C_FIELD(temp_r6, s32 *, 8);
+        var_r6  = M2C_FIELD(temp_r6, s32 *, 8);
         var_r3 += (s32) ((((s64) var_r6 * 0x1004) + 0x800) >> 12);
     }
     var_r2 = (s16) (var_r2 + 1);

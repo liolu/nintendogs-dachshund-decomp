@@ -16,22 +16,22 @@ void func_020c81b8(s32 arg0, s32 arg1) {
     s32 n;
     volatile u32 fill;
 
-    p = (s16 *) func_020038a8(arg0, 8);
-    *p = (s16) (arg1 * 4 + 1);
-    n = *p;
+    p                = (s16 *) func_020038a8(arg0, 8);
+    *p               = (s16) (arg1 * 4 + 1);
+    n                = *p;
     *(s32 *) (p + 2) = (s32) func_020038a8(arg0, n * 0x5048u);
-    i = 0;
+    i                = 0;
     if (*p > 0) {
         off = 0;
         do {
-            arr = (s8 *) *(s32 *) (p + 2);
+            arr   = (s8 *) *(s32 *) (p + 2);
             entry = arr + off;
-            fill = 0;
+            fill  = 0;
             func_0206cc3c(fill, entry, 0x5000);
             func_0208831c(entry + 0x5000);
             *(u16 *) (entry + 0x5044) = 0xFFFF;
             *(s16 *) (entry + 0x5046) = 0;
-            i = (s16) (i + 1);
+            i                         = (s16) (i + 1);
             off += 0x5048;
         } while (i < *p);
     }

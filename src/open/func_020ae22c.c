@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 extern s32 data_021545bc[7];
 extern void *data_02159e70;
 extern u8 data_0212c174[];

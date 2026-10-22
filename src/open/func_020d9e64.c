@@ -17,9 +17,9 @@ void func_020d9e64(s32 arg0, s32 arg1) {
     u16 id2;
     s32 handle;
 
-    q = (s8 *) data_02159e70 + 0xC4;
+    q   = (s8 *) data_02159e70 + 0xC4;
     id3 = arg0 + 0xF;
-    id = arg0;
+    id  = arg0;
     id2 = arg0 + 6;
     if (arg1 < 0 || arg1 >= 0x46) {
         arg1 = 0;
@@ -28,7 +28,7 @@ void func_020d9e64(s32 arg0, s32 arg1) {
     n = *(u16 *) (r + 0xC);
     {
         u16 buf[4] = {0};
-        handle = func_020d640c(2, 0, *(u16 *) (r + 6), 0);
+        handle     = func_020d640c(2, 0, *(u16 *) (r + 6), 0);
         func_020daae8(0, id);
         func_020da98c(0, M2C_FIELD(data_02159e70, s32 *, 0x232C), id, id2, handle);
         buf[0] = 0x78;

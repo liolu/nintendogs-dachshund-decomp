@@ -18,14 +18,14 @@ void func_020c0d08(void) {
         return;
     }
     func_020bf9a8(data_02156ea4);
-    data_02156ea4 = func_020bfba4(data_02156ea4);
-    temp = func_020c0828();
+    data_02156ea4             = func_020bfba4(data_02156ea4);
+    temp                      = func_020c0828();
     M2C_FIELD(temp, s16 *, 4) = data_02156ea4;
-    temp = func_020c0828();
+    temp                      = func_020c0828();
     M2C_FIELD(temp, s16 *, 6) = func_020bfafc();
-    ret = (func_020c0088((s32)func_020c0ba4, (s32)&sp[0]) != 0);
+    ret                       = (func_020c0088((s32) func_020c0ba4, (s32) &sp[0]) != 0);
     if (ret != 0) {
         return;
     }
-    func_020c0448((s32)func_020c0cdc, (s32)&sp[1]);
+    func_020c0448((s32) func_020c0cdc, (s32) &sp[1]);
 }

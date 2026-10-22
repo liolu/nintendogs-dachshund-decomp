@@ -11,8 +11,8 @@ M2C_UNK func_0206ee38(M2C_UNK arg0, M2C_UNK arg1) {
     M2C_UNK *node;
     s32 t;
 
-    node = (M2C_UNK *)func_02070064();
-    if ((u32)arg0 < 0x3E8) {
+    node = (M2C_UNK *) func_02070064();
+    if ((u32) arg0 < 0x3E8) {
         return arg1;
     }
     while (node != 0) {
@@ -22,7 +22,7 @@ M2C_UNK func_0206ee38(M2C_UNK arg0, M2C_UNK arg1) {
                 while (arg1 == data_0213cae0 || arg1 == data_0213cae8) {
                     arg1++;
                     temp = func_02070144();
-                    t = (s32)func_0205df50(M2C_FIELD(node, s32 *, 4) + temp - 1, func_02070144()) - 1;
+                    t    = (s32) func_0205df50(M2C_FIELD(node, s32 *, 4) + temp - 1, func_02070144()) - 1;
                     i++;
                     if (arg1 > t) {
                         arg1 = 0;
@@ -37,7 +37,7 @@ M2C_UNK func_0206ee38(M2C_UNK arg0, M2C_UNK arg1) {
             data_0213cae0 = arg1;
             return arg1;
         }
-        node = (M2C_UNK *)M2C_FIELD(node, s32 *, 0x28);
+        node = (M2C_UNK *) M2C_FIELD(node, s32 *, 0x28);
     }
     return -1;
 }

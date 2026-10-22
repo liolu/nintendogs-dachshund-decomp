@@ -24,19 +24,19 @@ void func_02111134(int id, void *base) {
 
     func_02111b88(p, 0xB);
     *(unsigned short *) (p + 4) = 5;
-    *(short *) (p + 0xE) = id;
+    *(short *) (p + 0xE)        = id;
 
     idx = *(short *) (p + 0xE);
-    e = ((T *) data_0215a04c)->entries + idx;
+    e   = ((T *) data_0215a04c)->entries + idx;
     e->flags |= 1;
     e->idx = idx;
 
     next = (*(short *) (p + 0xE) + 1) % 3;
-    e = ((T *) data_0215a04c)->entries + next;
+    e    = ((T *) data_0215a04c)->entries + next;
     e->flags |= 1;
     e->flags |= 2;
-    e->a = base;
-    e->b = (unsigned char *) base + 0x85C;
-    e->c = (unsigned char *) base + 0x210C;
+    e->a                  = base;
+    e->b                  = (unsigned char *) base + 0x85C;
+    e->c                  = (unsigned char *) base + 0x210C;
     *(short *) (p + 0x1C) = next;
 }

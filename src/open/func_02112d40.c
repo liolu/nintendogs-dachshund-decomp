@@ -40,7 +40,7 @@ void func_02112d40(s32 arg0) {
     s32 b;
     s32 c;
 
-    h = func_02002e48(func_02002e50());
+    h       = func_02002e48(func_02002e50());
     pair[0] = 0xFF;
     pair[1] = 0;
     func_020068b4(h, (s32) pair);
@@ -52,16 +52,16 @@ void func_02112d40(s32 arg0) {
     func_020cbea0(h, 1);
     r4 = func_02113024(h);
     func_020075b8(h);
-    data_0215a054 = (u8 *) func_02112f84(h, arg0);
-    a = func_020c7790(data_0214c910);
-    b = func_020c7790(data_0214c920);
-    c = func_020c7790(data_0214c930);
+    data_0215a054                   = (u8 *) func_02112f84(h, arg0);
+    a                               = func_020c7790(data_0214c910);
+    b                               = func_020c7790(data_0214c920);
+    c                               = func_020c7790(data_0214c930);
     *(s32 *) (data_0215a054 + 0x10) = func_02006b9c(a);
     *(s32 *) (data_0215a054 + 0x14) = func_02006b68(b);
     func_02073a38(c, (s32) (data_0215a054 + 0x18));
-    a = func_020c7790(data_0214c940);
-    b = func_020c7790(data_0214c950);
-    c = func_020c7790(data_0214c960);
+    a                               = func_020c7790(data_0214c940);
+    b                               = func_020c7790(data_0214c950);
+    c                               = func_020c7790(data_0214c960);
     *(s32 *) (data_0215a054 + 0x1C) = func_02006b9c(a);
     *(s32 *) (data_0215a054 + 0x20) = func_02006b68(b);
     func_02073a38(c, (s32) (data_0215a054 + 0x24));

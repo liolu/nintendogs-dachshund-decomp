@@ -13,13 +13,13 @@ void func_020d6068(M2C_UNK, M2C_UNK, M2C_UNK);
 s32 func_020ea364(s32 arg0) {
     s32 i;
     s32 found = 0;
-    s32 best = -1;
+    s32 best  = -1;
 
     for (i = 0; i < 3; i = (s16) (i + 1)) {
         if (func_01ffdb08(i) != 0) {
             if (best < 0) {
                 found = 1;
-                best = i;
+                best  = i;
             } else {
                 found = 0;
             }

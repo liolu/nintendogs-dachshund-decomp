@@ -6,7 +6,7 @@ typedef struct {
 
 extern void *data_02159e70;
 
-static inline PsgCh * GetPsgCh(s32 idx) {
+static inline PsgCh *GetPsgCh(s32 idx) {
     return (PsgCh *) ((u8 *) data_02159e70 + 0x1DEC) + idx;
 }
 
@@ -45,10 +45,10 @@ void func_020eb128(s32 arg0) {
 
         if (d == 0) {
             M2C_FIELD(q, s32 *, 0x10) = 0;
-            M2C_FIELD(q, s32 *, 0) = 0;
+            M2C_FIELD(q, s32 *, 0)    = 0;
         } else {
             M2C_FIELD(q, s32 *, 0x10) = M2C_FIELD(func_02006b68((void *) d), s32 *, 0xC);
-            M2C_FIELD(q, s32 *, 0) = 1;
+            M2C_FIELD(q, s32 *, 0)    = 1;
         }
     }
     func_020ec134(3, (void *) c);
@@ -69,10 +69,10 @@ void func_020eb128(s32 arg0) {
 
         if (d == 0) {
             M2C_FIELD(q, s32 *, 0x10) = 0;
-            M2C_FIELD(q, s32 *, 0) = 0;
+            M2C_FIELD(q, s32 *, 0)    = 0;
         } else {
             M2C_FIELD(q, s32 *, 0x10) = M2C_FIELD(func_02006b68((void *) d), s32 *, 0xC);
-            M2C_FIELD(q, s32 *, 0) = 1;
+            M2C_FIELD(q, s32 *, 0)    = 1;
         }
     }
     func_020ec134(1, (void *) c);

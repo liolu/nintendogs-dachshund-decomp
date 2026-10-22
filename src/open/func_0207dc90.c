@@ -45,8 +45,8 @@ u32 func_0207dc90(FrameHeap *heap, void *memBlock, u32 newSize) {
     u32 oldSize;
     volatile u32 fill;
 
-    newSize = (newSize ?: 1);
-    newSize = (newSize + 3) & ~3;
+    newSize  = (newSize ?: 1);
+    newSize  = (newSize + 3) & ~3;
     newStart = newSize + (u32) memBlock;
     oldSize  = (u32) data->free.start - (u32) memBlock;
     if (newSize == oldSize) {

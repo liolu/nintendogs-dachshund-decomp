@@ -82,8 +82,8 @@ void func_02081380(SPLManager *mgr) {
     }
     do {
         flags = e->flags;
-        p = *e->unk18;
-        next = e->next;
+        p     = *e->unk18;
+        next  = e->next;
         if (((WordBits *) &e->flags)->b4 == 0) {
             if (e->unk38 >= p->unk32) {
                 e->flags = flags | 0x10;
@@ -93,8 +93,8 @@ void func_02081380(SPLManager *mgr) {
         if (((WordBits *) &e->flags)->b2 == 0) {
             func_02081e6c(mgr, e);
         }
-        if ((((WordBits *) &p->unk00)->b14 != 0) && p->unk38 != 0 &&
-                (((WordBits *) &e->flags)->b4 != 0) && e->unk38 > p->unk38 ||
+        if ((((WordBits *) &p->unk00)->b14 != 0) && p->unk38 != 0 && (((WordBits *) &e->flags)->b4 != 0) &&
+                e->unk38 > p->unk38 ||
             ((WordBits *) &e->flags)->b0 != 0) {
             if (e->unk0C == 0 && e->unk14 == 0) {
                 r = func_02085a98(&mgr->first, e);

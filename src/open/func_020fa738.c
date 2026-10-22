@@ -14,25 +14,25 @@ void func_020fa738(void *arg0) {
     u8 *p = (u8 *) arg0;
 
     switch (*(s16 *) (p + 0x90)) {
-    case 0:
-        break;
-    case 1:
-        func_020fa81c();
-        break;
-    case 2:
-        func_020b27dc();
-        break;
-    case 3: {
-        u8 *s = *(u8 **) (p + 0x214);
-        u8 *r = *(u8 **) (s + 0x0);
-        s32 t;
+        case 0:
+            break;
+        case 1:
+            func_020fa81c();
+            break;
+        case 2:
+            func_020b27dc();
+            break;
+        case 3: {
+            u8 *s = *(u8 **) (p + 0x214);
+            u8 *r = *(u8 **) (s + 0x0);
+            s32 t;
 
-        func_020b26f0(p, *(s32 *) (r + 0x48), *(s32 *) (r + 0x4C), *(s32 *) (r + 0x50),
-                      *(s32 *) (r + 0x54), *(s32 *) (r + 0x58), 4);
-        t = func_020b1d6c(*(u16 *) (p + 0xA0), *(s32 *) (p + 0xF8));
-        func_020aff08(p, *(s32 *) (p + 0xF8), p + 0xFC, p + 0x108, t, func_020faa28, 0,
-                      func_020fa9f4, func_020fa9d8, func_020fa978);
-        break;
-    }
+            func_020b26f0(p, *(s32 *) (r + 0x48), *(s32 *) (r + 0x4C), *(s32 *) (r + 0x50), *(s32 *) (r + 0x54),
+                          *(s32 *) (r + 0x58), 4);
+            t = func_020b1d6c(*(u16 *) (p + 0xA0), *(s32 *) (p + 0xF8));
+            func_020aff08(p, *(s32 *) (p + 0xF8), p + 0xFC, p + 0x108, t, func_020faa28, 0, func_020fa9f4, func_020fa9d8,
+                          func_020fa978);
+            break;
+        }
     }
 }

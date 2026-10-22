@@ -25,7 +25,7 @@ M2C_UNK func_020c7a3c(M2C_UNK arg0, s16 arg1) {
     u16 v;
 
     base = (s32) arg0 + 0xC0;
-    idx = arg1 * 12;
-    v = *(u16 *) (base + idx);
+    idx  = arg1 * 12;
+    v    = *(u16 *) (base + idx);
     return func_02078714(*(M2C_UNK *) (base + idx + ((v ^ 1) << 2) + 4), 0);
 }

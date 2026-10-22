@@ -15,8 +15,8 @@ void func_0202f694(void *arg0) {
     void *temp_r0_2;
 
     *(M2C_S12 *) ((s8 *) arg0 + 0x26C) = *(M2C_S12 *) ((s8 *) arg0 + 0x2A0);
-    temp_r0 = M2C_FIELD(data_0215a064, void **, 0x1C);
-    temp_r0_2 = (s8 *) temp_r0 + 0x30;
+    temp_r0                            = M2C_FIELD(data_0215a064, void **, 0x1C);
+    temp_r0_2                          = (s8 *) temp_r0 + 0x30;
     *(M2C_S12 *) ((s8 *) arg0 + 0x278) = *(M2C_S12 *) temp_r0_2;
     func_02037130(arg0, 0x300);
 }

@@ -34,7 +34,7 @@ void func_0200313c(void) {
     u8 *p = &data_0214cd5c;
 
     func_02080284();
-    now = func_02080978();
+    now              = func_02080978();
     *(u64 *) (p + 4) = now;
     cur              = M2C_FIELD(&data_02153e78, s32 *, 8);
     *(s32 *) p       = cur;
@@ -52,7 +52,7 @@ void func_0200313c(void) {
     func_0207ef2c(2, func_020033f8);
     func_0207ed9c(1);
     func_0207ed9c(2);
-    old                          = *(volatile u16 *) 0x4000208;
+    old                         = *(volatile u16 *) 0x4000208;
     *(volatile u16 *) 0x4000208 = 1;
     func_02080c14(1, old);
     func_02068894(1);

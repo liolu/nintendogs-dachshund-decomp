@@ -59,7 +59,7 @@ s32 func_0202333c(void *arg0) {
                         item = *((M2C_UNK *) ((s8 *) &data_02138ed4 + (id * 4)));
                     }
                     row = data_02134fa8 + ((M2C_FIELD(item, u8 *, 2) - 1) * 5);
-                    v = row[M2C_FIELD(M2C_FIELD(arg0, s32 *, 0x9E8), u8 *, 0x13) - 1];
+                    v   = row[M2C_FIELD(M2C_FIELD(arg0, s32 *, 0x9E8), u8 *, 0x13) - 1];
                     if (count < v) {
                         cat = 1;
                     } else {
@@ -71,12 +71,11 @@ s32 func_0202333c(void *arg0) {
         if (cat == 2) {
             continue;
         }
-        if ((key.unk0 != 0 || key.unk4 != 0)
-            && func_020d058c((u8 *) elem + 8, (u8 *) &key) == 0) {
+        if ((key.unk0 != 0 || key.unk4 != 0) && func_020d058c((u8 *) elem + 8, (u8 *) &key) == 0) {
             continue;
         }
         best = j;
-        key = *(Key *) ((u8 *) elem + 8);
+        key  = *(Key *) ((u8 *) elem + 8);
     }
     return best;
 }

@@ -29,12 +29,12 @@ void func_02090e7c(void) {
             }
             i = -1;
         found:
-            n = 0xFFFF;
-            g = data_021544dc;
+            n                            = 0xFFFF;
+            g                            = data_021544dc;
             M2C_FIELD(base, s32 *, 0x84) = n;
             if (M2C_FIELD(g, s32 *, 0x8C) != 0) {
                 M2C_FIELD(g, s32 *, 0x8C) = 0;
-                M2C_FIELD(g, s16 *, 2) = -1;
+                M2C_FIELD(g, s16 *, 2)    = -1;
             }
             if (i == -1) {
                 M2C_FIELD(base, s32 *, 0x98) = 1;

@@ -18,10 +18,8 @@ s32 func_02027884(void *arg0, void *arg1) {
 
     p0 = M2C_FIELD(arg0, u8 **, 0x9E8);
     p1 = M2C_FIELD(arg1, u8 **, 0x9E8);
-    v = *(u32 *) (data_0213942c
-                  + M2C_FIELD(p0, u16 *, 0) * 0x4C
-                  + M2C_FIELD(p1, u16 *, 0) * 4);
-    x = *(s16 *) ((u8 *) arg0 + M2C_FIELD(arg1, s8 *, 0x88) * 2 + 0x132);
+    v  = *(u32 *) (data_0213942c + M2C_FIELD(p0, u16 *, 0) * 0x4C + M2C_FIELD(p1, u16 *, 0) * 4);
+    x  = *(s16 *) ((u8 *) arg0 + M2C_FIELD(arg1, s8 *, 0x88) * 2 + 0x132);
     switch (v) {
         case 3:
             x = (s16) (x + 2000);
@@ -78,9 +76,9 @@ s32 func_02027884(void *arg0, void *arg1) {
     } else if (x <= 7000) {
         n += 3;
     }
-    temp = *data_0214da84 * 0x10DCD + 1;
+    temp           = *data_0214da84 * 0x10DCD + 1;
     *data_0214da84 = temp;
-    count = (s32) (u16) (((u32) (u16) temp * 100) >> 16);
+    count          = (s32) (u16) (((u32) (u16) temp * 100) >> 16);
     for (i = 0; i < 3; i++) {
         count -= data_02139014[n];
         if (count < 0) {

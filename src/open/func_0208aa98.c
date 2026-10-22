@@ -31,7 +31,7 @@ void func_0208aa98(s32 arg0) {
             }
         }
     }
-    var_r6 = data_02129418[arg0];
+    var_r6           = data_02129418[arg0];
     data_02154300[1] = arg0;
     func_02089248();
     func_0207306c(var_r6, var_a);
@@ -39,9 +39,9 @@ void func_0208aa98(s32 arg0) {
         func_02097cac(func_020722d0(data_0215422c[1], 0x13950, 0, 0, 0), func_02088f64(), 0x4E, 0, 0xD, 1);
         func_02098bac(func_02088f64(), 0x4E, 1);
     }
-    var_r7 = 0;
+    var_r7  = 0;
     var_r5c = 0;
-    var_r6 = 1;
+    var_r6  = 1;
     do {
         func_02090454(var_r7 + 0x1F, var_r6, var_r5c);
         var_r7++;

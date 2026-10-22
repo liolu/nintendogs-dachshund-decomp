@@ -14,18 +14,18 @@ extern void *data_02159e74;
 extern s32 data_02159e38;
 s32 func_020d0010(s32 base, s32 which, s32 x, s32 y) {
     s32 flag = 0;
-    s16 *p = NULL;
+    s16 *p   = NULL;
 
     switch (which) {
-    case 0:
-        p = (s16 *) (base + 0x7D0);
-        break;
-    case 1:
-        p = (s16 *) (base + 0x7D8);
-        break;
-    case 2:
-        p = (s16 *) (base + 0x7E0);
-        break;
+        case 0:
+            p = (s16 *) (base + 0x7D0);
+            break;
+        case 1:
+            p = (s16 *) (base + 0x7D8);
+            break;
+        case 2:
+            p = (s16 *) (base + 0x7E0);
+            break;
     }
 
     if (x > p[0]) {

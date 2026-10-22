@@ -29,11 +29,11 @@ s32 func_0204bec0(s32 arg0) {
         func_02027644((void *) temp_r4, arg0 + 0x278);
         func_02037130(arg0, 0x302);
     }
-    temp_r1 = *(s16 *)(arg0 + 0x152);
+    temp_r1 = *(s16 *) (arg0 + 0x152);
     switch (temp_r1) {
         case 0x167:
             temp_r0 = func_02028114(arg0);
-            func_0202507c(arg0, 9, 0x11, (s32)(((s64)temp_r0 * -630 + 0x800) >> 12));
+            func_0202507c(arg0, 9, 0x11, (s32) (((s64) temp_r0 * -630 + 0x800) >> 12));
             if (func_0203535c(arg0) != 0) {
                 func_0203e5ac((void *) arg0, 0, 0x17e);
                 func_02026b9c(arg0);

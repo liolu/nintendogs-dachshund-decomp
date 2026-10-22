@@ -23,7 +23,7 @@ s32 func_0206eda0(u32 arg0, s32 arg1) {
             if (i == arg0) {
                 return arg1 * func_02070144() + (s32) node;
             }
-            i = i + 1;
+            i    = i + 1;
             node = *(s32 **) ((u8 *) node + 0x28);
         }
         return 0;

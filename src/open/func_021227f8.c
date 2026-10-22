@@ -28,53 +28,53 @@ void func_021227f8(s32 arg0) {
     u16 i;
 
     switch (M2C_FIELD(arg0, s16 *, 0x2A)) {
-    case 0:
-        if (M2C_FIELD(data_02159e64, s32 *, 0xA4) == 0) {
-            return;
-        }
-        switch (M2C_FIELD(data_02159e64, s16 *, 0x9A)) {
         case 0:
-            if (M2C_FIELD(data_0215a04c, u16 *, 0) != 0x11) {
-                M2C_FIELD(arg0, u16 *, 0x2A) = 1;
-                func_020d2c64(0, 0x4B0, 0, (s32) func_02122d20, 0);
-            } else {
-                func_02116dec(arg0, 0x19);
-                func_02116d20(arg0, 0);
+            if (M2C_FIELD(data_02159e64, s32 *, 0xA4) == 0) {
+                return;
             }
-            f = M2C_FIELD(arg0, s16 *, 0x112);
-            v = func_01ffdb08(f);
-            base = func_0202816c(v);
-            t = M2C_FIELD(arg0, s16 *, 0x114) * 0x3C + (base + 0x90);
-            func_020d0108(t, func_020e5458());
-            func_020cfb98(base, (s32) data_0214d750 + 0x1C, (s32) data_0214d750 + 0x2C);
-            func_02028174(v);
+            switch (M2C_FIELD(data_02159e64, s16 *, 0x9A)) {
+                case 0:
+                    if (M2C_FIELD(data_0215a04c, u16 *, 0) != 0x11) {
+                        M2C_FIELD(arg0, u16 *, 0x2A) = 1;
+                        func_020d2c64(0, 0x4B0, 0, (s32) func_02122d20, 0);
+                    } else {
+                        func_02116dec(arg0, 0x19);
+                        func_02116d20(arg0, 0);
+                    }
+                    f    = M2C_FIELD(arg0, s16 *, 0x112);
+                    v    = func_01ffdb08(f);
+                    base = func_0202816c(v);
+                    t    = M2C_FIELD(arg0, s16 *, 0x114) * 0x3C + (base + 0x90);
+                    func_020d0108(t, func_020e5458());
+                    func_020cfb98(base, (s32) data_0214d750 + 0x1C, (s32) data_0214d750 + 0x2C);
+                    func_02028174(v);
+                    return;
+                case 1:
+                    func_02116dec(arg0, 0x16);
+                    func_02116d20(arg0, 0);
+                    func_020e77dc();
+                    return;
+            }
             return;
         case 1:
-            func_02116dec(arg0, 0x16);
+            if (M2C_FIELD(data_02159e64, s16 *, 0x6C) != 2) {
+                return;
+            }
+            f = M2C_FIELD(arg0, s16 *, 0x112);
+            func_02041e98((s8) f);
+            func_020d1b74(f);
+            func_020d1bc4(0, 0, 0);
+            func_020d08e8();
+            func_020d0c6c(0, 0, 0, 1);
+            idx = (u16) f;
+            func_020d0c6c(1, idx, 0, 1);
+            for (i = 0; i < 0x14; i++) {
+                func_020d0c6c(2, idx, i, 1);
+            }
+            func_020d08c8();
+            func_020d2c38();
+            func_02116dec(arg0, 0x19);
             func_02116d20(arg0, 0);
-            func_020e77dc();
             return;
-        }
-        return;
-    case 1:
-        if (M2C_FIELD(data_02159e64, s16 *, 0x6C) != 2) {
-            return;
-        }
-        f = M2C_FIELD(arg0, s16 *, 0x112);
-        func_02041e98((s8) f);
-        func_020d1b74(f);
-        func_020d1bc4(0, 0, 0);
-        func_020d08e8();
-        func_020d0c6c(0, 0, 0, 1);
-        idx = (u16) f;
-        func_020d0c6c(1, idx, 0, 1);
-        for (i = 0; i < 0x14; i++) {
-            func_020d0c6c(2, idx, i, 1);
-        }
-        func_020d08c8();
-        func_020d2c38();
-        func_02116dec(arg0, 0x19);
-        func_02116d20(arg0, 0);
-        return;
     }
 }

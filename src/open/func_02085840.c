@@ -13,30 +13,30 @@ void func_02085840(u16 *arg0, u8 *arg1) {
     s32 b;
 
     switch (arg0[1]) {
-    case 0:
-        i = arg0[0] >> 4;
-        j = i * 2;
-        k = j + 1;
-        a = data_02124e68[j];
-        b = data_02124e68[k];
-        func_020667fc(buf, a, b);
-        break;
-    case 1:
-        i = arg0[0] >> 4;
-        j = i * 2;
-        k = j + 1;
-        a = data_02124e68[j];
-        b = data_02124e68[k];
-        func_02066818(buf, a, b);
-        break;
-    case 2:
-        i = arg0[0] >> 4;
-        j = i * 2;
-        k = j + 1;
-        a = data_02124e68[j];
-        b = data_02124e68[k];
-        func_02066834(buf, a, b);
-        break;
+        case 0:
+            i = arg0[0] >> 4;
+            j = i * 2;
+            k = j + 1;
+            a = data_02124e68[j];
+            b = data_02124e68[k];
+            func_020667fc(buf, a, b);
+            break;
+        case 1:
+            i = arg0[0] >> 4;
+            j = i * 2;
+            k = j + 1;
+            a = data_02124e68[j];
+            b = data_02124e68[k];
+            func_02066818(buf, a, b);
+            break;
+        case 2:
+            i = arg0[0] >> 4;
+            j = i * 2;
+            k = j + 1;
+            a = data_02124e68[j];
+            b = data_02124e68[k];
+            func_02066834(buf, a, b);
+            break;
     }
     func_0206684c(arg1 + 0x14, buf, arg1 + 0x14);
 }

@@ -84,9 +84,9 @@ void func_02082690(Unk02082690 *obj, Unk02082690Handle *handle, Unk02082690Vec *
     obj->unk_2C = obj->unk_30;
     obj->unk_38 = 0;
     obj->unk_3A = 0;
-    d = obj->unk_18->desc;
-    v1 = *(volatile u16 *) &d->unk_1C;
-    v2 = *(volatile u16 *) &d->unk_1E;
+    d           = obj->unk_18->desc;
+    v1          = *(volatile u16 *) &d->unk_1C;
+    v2          = *(volatile u16 *) &d->unk_1E;
     obj->unk_3C = v1;
     obj->unk_3E = v2;
     obj->unk_40 = d->unk_20;

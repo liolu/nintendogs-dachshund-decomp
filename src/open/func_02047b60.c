@@ -16,10 +16,10 @@ void func_02047b60(M2C_UNK arg0) {
     s32 w;
 
     temp_r0 = func_02028114(arg0);
-    v = -(s32) (((s64) temp_r0 * 0x5D + 0x800) >> 12);
+    v       = -(s32) (((s64) temp_r0 * 0x5D + 0x800) >> 12);
     if (func_02024e30(arg0, 0x16, v) == 0) {
         temp_r1 = func_02028114(arg0);
-        w = -(s32) (((s64) temp_r1 * 0xBA + 0x800) >> 12);
+        w       = -(s32) (((s64) temp_r1 * 0xBA + 0x800) >> 12);
         func_02024d30(arg0, 0x17, 0x2C, w);
     }
     func_020485c4(arg0, 8);

@@ -4,7 +4,7 @@ extern u8 data_02154350[];
 extern u8 data_02154354[];
 void func_02070e7c(u8 *, s32, s32);
 s32 func_0208cf5c(s32 arg0, s32 arg1) {
-    u8 *p = (u8 *) data_02154350;
+    u8 *p    = (u8 *) data_02154350;
     u16 *dst = (u16 *) (p + 0x24);
 
     *dst = (u16) arg0;

@@ -22,60 +22,60 @@ void func_020d57f4(s16 *arg0) {
     s32 ok;
 
     handle = func_02080c28();
-    flag1 = func_020c1750();
-    flag2 = func_020c1794();
+    flag1  = func_020c1750();
+    flag2  = func_020c1794();
     if (func_020c189c() == 5) {
         switch (func_020bee8c()) {
-        case 0x14:
-            ok = 1;
-            goto test;
+            case 0x14:
+                ok = 1;
+                goto test;
         }
     }
     ok = 0;
 test:
     func_02080c3c(handle);
     switch (arg0[3]) {
-    case 1:
-        if (func_020c1988() != 0) {
-            func_020c1b28(0);
-            func_020c1b0c(*(s32 *) ((u8 *) arg0 + 0xC), *(s32 *) ((u8 *) arg0 + 0x10));
-            arg0[3] = 2;
-        }
-        break;
-    case 2:
-        if (func_020c1a70() != 0) {
-            arg0[3] = 3;
-        }
-        break;
-    case 3:
-        flag2 = 0;
-        if (func_020c1848() != 0) {
-            if (func_020c1780() != 0) {
+        case 1:
+            if (func_020c1988() != 0) {
+                func_020c1b28(0);
+                func_020c1b0c(*(s32 *) ((u8 *) arg0 + 0xC), *(s32 *) ((u8 *) arg0 + 0x10));
+                arg0[3] = 2;
+            }
+            break;
+        case 2:
+            if (func_020c1a70() != 0) {
+                arg0[3] = 3;
+            }
+            break;
+        case 3:
+            flag2 = 0;
+            if (func_020c1848() != 0) {
+                if (func_020c1780() != 0) {
+                    flag2 = 1;
+                }
+            } else if (func_020c1824() != 0) {
                 flag2 = 1;
             }
-        } else if (func_020c1824() != 0) {
-            flag2 = 1;
-        }
-        if (flag2 != 0) {
-            if (func_020c17a8() != 0) {
-                arg0[3] = 4;
-            }
-        }
-        break;
-    case 4:
-        if (func_020bee78() != 0) {
             if (flag2 != 0) {
+                if (func_020c17a8() != 0) {
+                    arg0[3] = 4;
+                }
+            }
+            break;
+        case 4:
+            if (func_020bee78() != 0) {
+                if (flag2 != 0) {
+                    arg0[3] = 5;
+                }
+            } else if (flag1 != 0) {
                 arg0[3] = 5;
             }
-        } else if (flag1 != 0) {
-            arg0[3] = 5;
-        }
-        break;
-    case 5:
-        arg0[0] = 2;
-        arg0[2] = 1;
-        func_020c19f4();
-        break;
+            break;
+        case 5:
+            arg0[0] = 2;
+            arg0[2] = 1;
+            func_020c19f4();
+            break;
     }
     if (arg0[3] == 5) {
         return;

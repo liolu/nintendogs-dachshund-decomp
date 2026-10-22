@@ -34,22 +34,22 @@ Unk02081974 *func_02081974(void *(*fn)(s32), s32 a, s32 b, s32 c, u16 d, u16 e) 
 
     obj = (Unk02081974 *) fn(0x3C);
     func_0206cd2c(obj, 0, 0x3C);
-    obj->unk_28 = a;
-    obj->unk_2A = b;
+    obj->unk_28     = a;
+    obj->unk_2A     = b;
     obj->bits_00_05 = d;
     obj->bits_06_11 = e;
     obj->bits_12_17 = obj->bits_00_05;
     obj->bits_18_23 = c;
     obj->bits_24_31 = 0;
-    obj->fn = fn;
-    obj->unk_08 = 0;
-    obj->unk_10 = 0;
-    obj->unk_18 = 0;
-    obj->unk_04 = 0;
-    obj->unk_0C = 0;
-    obj->unk_14 = 0;
-    obj->unk_30 = 0;
-    rows = (u8 *) fn(a * 0x78);
+    obj->fn         = fn;
+    obj->unk_08     = 0;
+    obj->unk_10     = 0;
+    obj->unk_18     = 0;
+    obj->unk_04     = 0;
+    obj->unk_0C     = 0;
+    obj->unk_14     = 0;
+    obj->unk_30     = 0;
+    rows            = (u8 *) fn(a * 0x78);
     func_0206cd2c(rows, 0, a * 0x78);
     for (i = 0; i < a; i++) {
         func_02085b48(&obj->unk_0C, rows);

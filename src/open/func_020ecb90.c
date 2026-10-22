@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 extern void func_02068770(s32);
 extern void func_020d6068(s32, s32, s32);
 extern void func_0207ca98(s32, s32, s32, s32);
@@ -26,7 +26,7 @@ void func_020ecb90(s32 arg0) {
     *(u32 *) 0x4001018 = 0;
     *(u16 *) 0x400100A &= ~0x40;
     *(u16 *) 0x400100C &= ~0x40;
-    *(u16 *) 0x400100A = (*(u16 *) 0x400100A & ~0x3) | 2;
-    *(u16 *) 0x400100C = (*(u16 *) 0x400100C & ~0x3) | 3;
+    *(u16 *) 0x400100A        = (*(u16 *) 0x400100A & ~0x3) | 2;
+    *(u16 *) 0x400100C        = (*(u16 *) 0x400100C & ~0x3) | 3;
     M2C_FIELD(arg0, s32 *, 0) = 0;
 }

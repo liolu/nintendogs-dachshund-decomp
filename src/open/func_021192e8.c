@@ -19,9 +19,9 @@ void func_021192e8(void) {
     s32 e;
     s32 f;
 
-    dx = data_0214d624[0] - 0x7f;
-    dy = -data_0214d624[1];
-    r = func_020a5fcc();
+    dx    = data_0214d624[0] - 0x7f;
+    dy    = -data_0214d624[1];
+    r     = func_020a5fcc();
     c0[0] = M2C_FIELD(data_02150e58, s32 *, 0x4C);
     c0[1] = M2C_FIELD(data_02150e58, s32 *, 0x58);
     c0[2] = M2C_FIELD(data_02150e58, s32 *, 0x64);
@@ -31,9 +31,9 @@ void func_021192e8(void) {
     c2[0] = M2C_FIELD(data_02150e58, s32 *, 0x54);
     c2[1] = M2C_FIELD(data_02150e58, s32 *, 0x60);
     c2[2] = M2C_FIELD(data_02150e58, s32 *, 0x6C);
-    d = func_02067ca0(M2C_FIELD(r, s16 *, 0x6C), M2C_FIELD(r, s16 *, 0x6E));
-    e = (s32) (((s64) M2C_FIELD(r, s32 *, 0x74) * d + 0x800) >> 12);
-    f = (s32) (((s64) e * M2C_FIELD(r, s32 *, 0x70) + 0x800) >> 12);
+    d     = func_02067ca0(M2C_FIELD(r, s16 *, 0x6C), M2C_FIELD(r, s16 *, 0x6E));
+    e     = (s32) (((s64) M2C_FIELD(r, s32 *, 0x74) * d + 0x800) >> 12);
+    f     = (s32) (((s64) e * M2C_FIELD(r, s32 *, 0x70) + 0x800) >> 12);
     func_02067d44(-0x12000, c2, (s8 *) r + 0x30, a);
     func_02067d44(f * dx * 20 / 128, c0, a, a);
     func_02067d44(e * dy * 20 / 192, c1, a, a);

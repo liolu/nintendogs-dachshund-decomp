@@ -37,8 +37,8 @@ void func_02088468(u32 dma_no) {
     RomRegion *arm9;
     RomRegion *arm7;
 
-    data_021541c0 = dma_no;
-    data_021541bc = func_0207efdc();
+    data_021541c0        = dma_no;
+    data_021541bc        = func_0207efdc();
     data_021541c4.offset = 0;
     data_021541c4.length = 0;
     data_021541cc.offset = 0;
@@ -64,6 +64,5 @@ void func_02088468(u32 dma_no) {
     if (arm7->offset == -1 || arm7->offset == 0) {
         return;
     }
-    func_020875f8(&data_021541d4, 0, arm7->offset, arm7->length, arm9->offset, arm9->length,
-                  &func_020886b0, &func_020886a8);
+    func_020875f8(&data_021541d4, 0, arm7->offset, arm7->length, arm9->offset, arm9->length, &func_020886b0, &func_020886a8);
 }

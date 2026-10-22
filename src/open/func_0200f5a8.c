@@ -22,7 +22,7 @@ void func_0200f5a8(M2C_UNK arg0) {
     x = func_02028114(arg0);
     v = (s32) (((s64) x * 0x1EB + 0x800) >> 12);
     func_02024f08(arg0, 1, v);
-    r4 = func_0203535c(arg0);
+    r4    = func_0203535c(arg0);
     thing = func_020361f0(arg0);
     if (thing != 0) {
         func_02027644((void *) thing, arg0 + 0x3B4);

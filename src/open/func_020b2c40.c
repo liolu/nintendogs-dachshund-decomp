@@ -20,9 +20,9 @@ s32 func_020b2c40(Vec *v) {
     s32 r;
 
     count = 0;
-    v->x = 0;
-    v->y = 0;
-    v->z = 0;
+    v->x  = 0;
+    v->y  = 0;
+    v->z  = 0;
     for (i = 0; i < 3; i++) {
         p = func_01ffdb08(i);
         if (p != 0 && func_02033edc() == 0) {
@@ -32,7 +32,7 @@ s32 func_020b2c40(Vec *v) {
         }
     }
     if (count > 0) {
-        r = func_02067c84(count << 12);
+        r    = func_02067c84(count << 12);
         v->x = ((s64) v->x * r + 0x800) >> 12;
         v->y = ((s64) v->y * r + 0x800) >> 12;
         v->z = ((s64) v->z * r + 0x800) >> 12;

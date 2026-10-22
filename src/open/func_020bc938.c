@@ -8,7 +8,7 @@ s32 func_020bc938(s32 *arg0, s32 arg1, s32 arg2) {
     s32 h;
 
     found = 0;
-    h = func_01ffdb08(arg1);
+    h     = func_01ffdb08(arg1);
     if (h == 0) {
         return 0;
     }

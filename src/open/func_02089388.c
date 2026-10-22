@@ -21,7 +21,7 @@ void func_02089388(void) {
     func_0208d540();
     func_02090ac0();
     func_02091f0c();
-    q = p;
+    q                         = p;
     M2C_FIELD(q, u16 *, 0x1A) = M2C_FIELD(q, u16 *, 0x1A) + 1;
     if (M2C_FIELD(q, u16 *, 0x1A) >= 3) {
         M2C_FIELD(q, u16 *, 0x1A) = 0;

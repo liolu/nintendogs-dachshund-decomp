@@ -9,10 +9,10 @@ void func_020ac8bc(void *arg0, void *arg1) {
     s32 x;
     s32 v;
 
-    x = M2C_FIELD(arg0, s32 *, 0xB4);
+    x   = M2C_FIELD(arg0, s32 *, 0xB4);
     sub = M2C_FIELD(arg0, void **, 0x214);
     if (x < 0) {
-        v = (s32) (((s64) M2C_FIELD(sub, s32 *, 0x0) * data_0213ea70 + 0x800) >> 12);
+        v                          = (s32) (((s64) M2C_FIELD(sub, s32 *, 0x0) * data_0213ea70 + 0x800) >> 12);
         M2C_FIELD(sub, s32 *, 0x0) = v;
     }
 

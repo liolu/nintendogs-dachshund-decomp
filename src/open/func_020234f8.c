@@ -1,6 +1,8 @@
 #include "m2c.h"
 
-typedef struct { u8 pad[0x3C]; } Entry;
+typedef struct {
+    u8 pad[0x3C];
+} Entry;
 
 s32 func_02027884(M2C_UNK, M2C_UNK);                /* extern */
 extern M2C_UNK data_021390a8;
@@ -24,8 +26,7 @@ s32 func_020234f8(s32 arg0, u16 arg1, u8 arg2) {
         } else {
             entry = (Entry *) ((u8 *) M2C_FIELD(arg0, u32 *, 0x9E8) + 0x90) + i;
         }
-        if (entry != 0 && M2C_FIELD(entry, u16 *, 0) == arg1 &&
-            M2C_FIELD(entry, u8 *, 0x28) == arg2) {
+        if (entry != 0 && M2C_FIELD(entry, u16 *, 0) == arg1 && M2C_FIELD(entry, u8 *, 0x28) == arg2) {
             return i;
         }
         i = (s16) (i + 1);

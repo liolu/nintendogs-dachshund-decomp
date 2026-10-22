@@ -159,10 +159,10 @@ void func_02077618(NNSG3dResMdl *mdl, u32 matID, u32 shpID, BOOL draw) {
             return;
         }
 
-        data.cmd           = 0x30 | (0x31 << 8) | (0x29 << 16);
-        data.diffAmb       = mat->diffAmb;
-        data.specEmi       = mat->specEmi;
-        data.polyAttr      = mat->polyAttr;
+        data.cmd      = 0x30 | (0x31 << 8) | (0x29 << 16);
+        data.diffAmb  = mat->diffAmb;
+        data.specEmi  = mat->specEmi;
+        data.polyAttr = mat->polyAttr;
 
         if (mat->flag & 0x20) {
             data.polyAttr &= ~0x1f0000;

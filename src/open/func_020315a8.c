@@ -6,38 +6,60 @@ s32 func_020315a8(s32 arg0, s32 arg1) {
 
     switch (arg1) {
         case 0:
-            temp = (*data_0214da84 * 0x10DCD) + 1;
+            temp           = (*data_0214da84 * 0x10DCD) + 1;
             *data_0214da84 = temp;
-            r = (u16) (((u32) (u16) temp * 6) >> 16);
+            r              = (u16) (((u32) (u16) temp * 6) >> 16);
             switch (r) {
-                case 0: M2C_FIELD(arg0, s16 *, 0xEA) = 0x5B; return 1;
-                case 1: M2C_FIELD(arg0, s16 *, 0xEA) = 0xA1; return 1;
-                case 2: M2C_FIELD(arg0, s16 *, 0xEA) = 0xA2; return 1;
-                default: M2C_FIELD(arg0, s16 *, 0xEA) = 0x257; return 1;
+                case 0:
+                    M2C_FIELD(arg0, s16 *, 0xEA) = 0x5B;
+                    return 1;
+                case 1:
+                    M2C_FIELD(arg0, s16 *, 0xEA) = 0xA1;
+                    return 1;
+                case 2:
+                    M2C_FIELD(arg0, s16 *, 0xEA) = 0xA2;
+                    return 1;
+                default:
+                    M2C_FIELD(arg0, s16 *, 0xEA) = 0x257;
+                    return 1;
             }
         case 1:
             M2C_FIELD(arg0, s16 *, 0xEA) = 0xAC;
             return 1;
         case 2:
-            temp = (*data_0214da84 * 0x10DCD) + 1;
+            temp           = (*data_0214da84 * 0x10DCD) + 1;
             *data_0214da84 = temp;
-            r = (u16) (((u32) (u16) temp * 3) >> 16);
+            r              = (u16) (((u32) (u16) temp * 3) >> 16);
             switch (r) {
-                case 0: M2C_FIELD(arg0, s16 *, 0xEA) = 0x83; return 1;
-                case 1: M2C_FIELD(arg0, s16 *, 0xEA) = 0x85; return 1;
-                case 2: M2C_FIELD(arg0, s16 *, 0xEA) = 0xB2; return 1;
-                default: break;
+                case 0:
+                    M2C_FIELD(arg0, s16 *, 0xEA) = 0x83;
+                    return 1;
+                case 1:
+                    M2C_FIELD(arg0, s16 *, 0xEA) = 0x85;
+                    return 1;
+                case 2:
+                    M2C_FIELD(arg0, s16 *, 0xEA) = 0xB2;
+                    return 1;
+                default:
+                    break;
             }
             break;
         case 3:
-            temp = (*data_0214da84 * 0x10DCD) + 1;
+            temp           = (*data_0214da84 * 0x10DCD) + 1;
             *data_0214da84 = temp;
-            r = (u16) (((u32) (u16) temp * 3) >> 16);
+            r              = (u16) (((u32) (u16) temp * 3) >> 16);
             switch (r) {
-                case 0: M2C_FIELD(arg0, s16 *, 0xEA) = 0x84; return 1;
-                case 1: M2C_FIELD(arg0, s16 *, 0xEA) = 0x86; return 1;
-                case 2: M2C_FIELD(arg0, s16 *, 0xEA) = 0xB3; return 1;
-                default: break;
+                case 0:
+                    M2C_FIELD(arg0, s16 *, 0xEA) = 0x84;
+                    return 1;
+                case 1:
+                    M2C_FIELD(arg0, s16 *, 0xEA) = 0x86;
+                    return 1;
+                case 2:
+                    M2C_FIELD(arg0, s16 *, 0xEA) = 0xB3;
+                    return 1;
+                default:
+                    break;
             }
             break;
         case 4:

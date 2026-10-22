@@ -13,12 +13,12 @@ s32 func_02041914(s32 arg0) {
     s32 dy;
     s32 qy;
 
-    q = (s32 *) ((u8 *) data_0214d750 + 0x2C);
-    p = M2C_FIELD(arg0, u8 **, 0x9E8);
-    a = (s16) (q[0] - *(volatile u8 *) (p + 0x75));
-    dy = *(volatile u8 *) (p + 0x74);
-    qy = q[1];
-    b = (s16) (qy - dy);
+    q      = (s32 *) ((u8 *) data_0214d750 + 0x2C);
+    p      = M2C_FIELD(arg0, u8 **, 0x9E8);
+    a      = (s16) (q[0] - *(volatile u8 *) (p + 0x75));
+    dy     = *(volatile u8 *) (p + 0x74);
+    qy     = q[1];
+    b      = (s16) (qy - dy);
     tbl[0] = data_02139a78[0];
     tbl[1] = data_02139a78[1];
     tbl[2] = data_02139a78[2];

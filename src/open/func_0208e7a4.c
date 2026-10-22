@@ -18,7 +18,7 @@ void func_0208e7a4(s32 arg0) {
     if (*(s16 *) ((s8 *) p + 0x16) != -1) {
         ((void (*)(M2C_UNK)) func_020721a0)(temp_r4);
     }
-    v = func_02072278(temp_r4);
+    v                          = func_02072278(temp_r4);
     *(s16 *) ((s8 *) p + 0x16) = v;
     func_02073034(arg0, temp_r4);
     func_020733c0(q, arg0);

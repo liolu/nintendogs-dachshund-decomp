@@ -19,14 +19,14 @@ s32 func_020a147c(void *arg0, s32 arg1) {
     temp_r2 = M2C_FIELD(arg0, s32 *, 0x10);
     temp_r7 = temp_r2 - temp_r4;
     temp_r0 = M2C_FIELD(arg0, s32 *, 0x48);
-    var_r0 = temp_r0;
+    var_r0  = temp_r0;
     temp_r9 = 0;
     if (temp_r8 >= 0) {
         temp_r6 = temp_r9;
         temp_r5 = temp_r9;
         do {
             temp_r11 = temp_r4 + func_0205df50(temp_r6 + temp_r7, temp_r8);
-            temp_r0 = temp_r4 + func_0205df50(temp_r5, temp_r8);
+            temp_r0  = temp_r4 + func_0205df50(temp_r5, temp_r8);
             if (temp_r0 <= arg1 && arg1 < temp_r11) {
                 var_r0 = temp_r9;
                 break;

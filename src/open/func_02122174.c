@@ -24,7 +24,7 @@ s32 func_02122174(s32 arg0) {
     }
     if (func_020429fc() != 0 && v != 0) {
         obj = func_01ffdb08(func_02042a2c());
-        r = func_02027f68(obj, 3);
+        r   = func_02027f68(obj, 3);
         if (*data_0215a04c == 0) {
             func_0208e824(0x3D);
         }

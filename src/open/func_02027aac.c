@@ -1,7 +1,7 @@
 #include "m2c.h"
 
 void func_02027aac(s32 arg0, s32 arg1, s32 arg2) {
-    u16 v = ((u16 *) arg0)[arg1 + 0x9C];
+    u16 v  = ((u16 *) arg0)[arg1 + 0x9C];
     s16 hi = v + 5000;
     s16 lo = v - 5000;
 

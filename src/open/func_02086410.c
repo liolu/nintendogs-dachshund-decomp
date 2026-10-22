@@ -19,11 +19,11 @@ s32 func_02086410(u8 *arg0, u32 arg1) {
     u16 h2;
 
     count = *(u16 *) (arg0 + 0x1a);
-    acc = 0;
-    i = 0;
+    acc   = 0;
+    i     = 0;
     if (count > 0) {
         ranges = *(volatile u16 **) (arg0 + 8);
-        plain = (u16 *) ranges;
+        plain  = (u16 *) ranges;
         do {
             lo = ranges[i * 2];
             if (lo <= arg1) {

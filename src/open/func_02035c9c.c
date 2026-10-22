@@ -33,7 +33,7 @@ void func_02035c9c(M2C_UNK arg0, M2C_UNK arg1, M2C_UNK arg2, M2C_UNK arg3) {
     var_sp4 = 0;
     var_sp8 = 0;
     var_spc = 0;
-    var_r4 = 0;
+    var_r4  = 0;
 loop_1:
     if ((var_r4 < 0) || ((s32) M2C_FIELD(data_021555f8, s16 *, 0x20) <= var_r4)) {
         var_r8 = (void *) var_sp0;
@@ -54,7 +54,7 @@ loop_1:
     if ((var_r0 != 0) || (var_sp4 != 0)) {
         goto block_18;
     }
-    pos = *(M2C_S12 *) ((s8 *) var_r8 + 0xBC);
+    pos    = *(M2C_S12 *) ((s8 *) var_r8 + 0xBC);
     var_r2 = (s32) func_02009bc0((s32 *) &pos, (s32 *) ((s8 *) arg0 + 0x2A0)) - (s32) func_02038620(arg0, (M2C_UNK) var_r8);
     if (var_r2 >= M2C_FIELD(arg1, s32 *, 0)) {
         goto block_18;
@@ -74,7 +74,7 @@ check:
         goto copy;
     }
 store:
-    M2C_FIELD(arg1, s32 *, 0) = var_r2;
+    M2C_FIELD(arg1, s32 *, 0)     = var_r2;
     M2C_FIELD(arg0, s16 *, 0x13E) = (s16) (var_r4 + 3);
 copy:
     if (arg3 != 0) {

@@ -16,7 +16,7 @@ void func_020c1b80(s32 arg0, s32 arg1, s32 arg2) {
     u32 size;
 
     func_020bf57c(arg0, data_0212c5cc, arg2);
-    data_02156ec0 = (void *) func_020038a8((s32 *) arg0, 0x134);
+    data_02156ec0                          = (void *) func_020038a8((s32 *) arg0, 0x134);
     M2C_FIELD(data_02156ec0, s32 *, 0x120) = arg1;
     M2C_FIELD(data_02156ec0, s32 *, 0x114) = arg2;
     M2C_FIELD(data_02156ec0, u16 *, 0x10A) = 1;
@@ -25,9 +25,9 @@ void func_020c1b80(s32 arg0, s32 arg1, s32 arg2) {
     for (i = 0; i < 2; i++) {
         ((s32 *) data_02156ec0)[i + 0x10] = 0;
         ((s32 *) data_02156ec0)[i + 0x20] = func_020038a8((s32 *) arg0, 0x28);
-        x = M2C_FIELD(data_02156ec0, s32 *, 0x114);
-        a = ((x + 0x1F1) / 0x1F2 + 0x1F) & ~0x3;
-        size = 0;
+        x                                 = M2C_FIELD(data_02156ec0, s32 *, 0x114);
+        a                                 = ((x + 0x1F1) / 0x1F2 + 0x1F) & ~0x3;
+        size                              = 0;
         if (a != 0) {
             size = a;
         }

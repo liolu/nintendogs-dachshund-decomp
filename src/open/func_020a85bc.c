@@ -41,22 +41,22 @@ void func_020a85bc(void *arg0) {
     s32 s;
 
     handle = func_01ffdb08(M2C_FIELD(arg0, s16 *, 0x98));
-    vel = M2C_FIELD(arg0, s32 *, 0x128);
-    row = (s32 *) (data_0213e90c + func_02028108(handle) * 8);
+    vel    = M2C_FIELD(arg0, s32 *, 0x128);
+    row    = (s32 *) (data_0213e90c + func_02028108(handle) * 8);
     func_02027658(handle, &src);
     func_0202755c(handle, &b98);
     mvec.x = b98.w[6];
     mvec.y = b98.w[7];
     mvec.z = b98.w[8];
-    s = func_02028120(handle);
+    s      = func_02028120(handle);
     func_01ff832c(vel + (s32) (((s64) row[1] * s + 0x800) >> 12), &mvec, &src, &out);
     if (func_02034cf8(handle) != 0) {
         s32 wx;
         s32 wz;
 
         func_0202755c(handle, &b14);
-        wx = b14.w[6];
-        wz = b14.w[8];
+        wx                           = b14.w[6];
+        wz                           = b14.w[8];
         M2C_FIELD(arg0, s32 *, 0xB4) = 0xCD;
         M2C_FIELD(arg0, s32 *, 0xB0) = (s32) (((s64) wx * 0xCD + 0x800) >> 12);
         M2C_FIELD(arg0, s32 *, 0xB8) = (s32) (((s64) wz * 0xCD + 0x800) >> 12);
@@ -66,7 +66,7 @@ void func_020a85bc(void *arg0) {
     M2C_FIELD(arg0, s32 *, 0xB8) += (s32) (((s64) (out.z - M2C_FIELD(arg0, s32 *, 0xC4)) * 0x333 + 0x800) >> 12);
     func_02068270((s32) ((u8 *) arg0 + 0xBC), (s32) ((u8 *) arg0 + 0xB0), (s32) ((u8 *) arg0 + 0xBC));
     if (M2C_FIELD(arg0, s32 *, 0x168) == 1) {
-        pv = (s32 *) &p44;
+        pv    = (s32 *) &p44;
         pv[0] = 0;
         pv[1] = 0;
         pv[2] = 0;
@@ -77,7 +77,7 @@ void func_020a85bc(void *arg0) {
         return;
     }
     {
-        pv = (s32 *) &p50;
+        pv    = (s32 *) &p50;
         pv[0] = 0;
         pv[1] = 0;
         pv[2] = 0;

@@ -39,18 +39,18 @@ void func_0209a3ac(s32 arg0) {
     s32 row;
     s32 col;
 
-    p = data_02147e8c;
+    p                     = data_02147e8c;
     *(TblA_0209a3ac *) ta = data_0213d1b0;
     *(TblB_0209a3ac *) tb = data_0213d1bc;
-    data_021555ec = func_02080978();
+    data_021555ec         = func_02080978();
 
     for (; p->id != -1; p++) {
         if ((p->unk_0x14 & 0x3F) == 0) {
             continue;
         }
-        r = data_021555ec * 0x10DCD + 1;
+        r             = data_021555ec * 0x10DCD + 1;
         data_021555ec = r;
-        p->unk_0x16 = ta[(u16) ((((u32) (u16) r) * 5) >> 16)];
+        p->unk_0x16   = ta[(u16) ((((u32) (u16) r) * 5) >> 16)];
         if ((p->unk_0x14 & 0x38) != 0) {
             col = 0;
             row = (arg0 >= 0x2710) ? 2 : ((arg0 >= 0x12C) ? 1 : 0);
@@ -61,7 +61,7 @@ void func_0209a3ac(s32 arg0) {
             } else if (p->unk_0x14 & 0x8) {
                 col = 0;
             }
-            r = data_021555ec * 0x10DCD + 1;
+            r             = data_021555ec * 0x10DCD + 1;
             data_021555ec = r;
             if (tb[row][col] <= (u16) ((((u32) (u16) r) * 100) >> 16)) {
                 p->unk_0x16 = 0;

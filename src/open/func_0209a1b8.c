@@ -6,7 +6,7 @@ s32 func_0209a1b8(s32 arg0) {
     s16 i;
 
     count = 0;
-    i = -1;
+    i     = -1;
 top:
     i = (s16) (i + 1);
     goto test;

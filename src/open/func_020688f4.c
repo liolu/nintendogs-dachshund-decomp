@@ -38,7 +38,7 @@ void func_020688f4(void) {
 
         func_0206cbf8(zero1, (void *) 0x04000008, 0x60);
         *(volatile u16 *) 0x0400006C = 0;
-        zero2 = 0;
+        zero2                        = 0;
         func_0206cbf8(zero2, (void *) 0x04001000, 0x70);
     }
 

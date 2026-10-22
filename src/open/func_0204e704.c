@@ -20,8 +20,7 @@ s32 func_0204e704(u8 *arg0, u8 *arg1) {
     if ((func_0204469c() & 0x100) == 0) {
         return func_0202fa5c(arg0);
     }
-    if ((u8) (s8) (((Obj *) arg0)->x8b - 4) <= 1 ||
-        (u8) (s8) (((Obj *) arg1)->x8b - 4) <= 1) {
+    if ((u8) (s8) (((Obj *) arg0)->x8b - 4) <= 1 || (u8) (s8) (((Obj *) arg1)->x8b - 4) <= 1) {
         return 0;
     }
     func_02035fcc(arg0, (s16) (s32) ((Obj *) arg1)->x88);

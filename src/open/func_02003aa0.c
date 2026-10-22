@@ -26,14 +26,14 @@ void func_02003aa0(u32 arg0, u32 arg1) {
         if (arg1 != 0) {
             ((void (*)(void)) arg1)();
         }
-        fn = (void (**)(void)) ((u8 *) &data_02134f5c + 0xC);
+        fn = (void (**)(void))((u8 *) &data_02134f5c + 0xC);
         (*fn)();
         now = func_02080978();
         p   = data_0214cd98;
         M2C_FIELD(p, u32 *, 0x28)++;
-        p = data_0214cd98;
+        p                         = data_0214cd98;
         M2C_FIELD(p, u32 *, 0xD8) = func_0205dd48((now - M2C_FIELD(p, u64 *, 0xCC)) * 0xFA00, 0x82EA);
-        p = data_0214cd98;
+        p                         = data_0214cd98;
         M2C_FIELD(p, u32 *, 0xDC) = func_0205dd48((now - M2C_FIELD(p, u64 *, 0xC4)) * 0xFA00, 0x82EA);
         if (*(u16 *) ((u8 *) &data_0214ce78 + 4) != 0 || *(u16 *) ((u8 *) &data_0214cd9c + 4) != 0) {
             continue;

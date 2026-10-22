@@ -6,7 +6,7 @@ s32 func_0208c9ac(s32 arg0) {
     u8 *base;
     s32 *other;
 
-    base = data_02154350;
+    base  = data_02154350;
     other = data_02154358;
     if (M2C_FIELD(base, s32 *, 0x40) != 0) {
         M2C_FIELD(base, s32 *, 0x40) = 0;

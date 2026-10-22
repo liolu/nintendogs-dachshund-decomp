@@ -21,8 +21,8 @@ void func_020b103c(void *arg0, void *arg1, s32 arg2, s32 arg3) {
     s32 sum;
 
     ref = *(Vec *) ((u8 *) arg0 + 0xB0);
-    b8 = M2C_FIELD(arg0, s32 *, 0xB8);
-    b0 = M2C_FIELD(arg0, s32 *, 0xB0);
+    b8  = M2C_FIELD(arg0, s32 *, 0xB8);
+    b0  = M2C_FIELD(arg0, s32 *, 0xB0);
     if (b8 <= 0) {
         b8 = -b8;
     }
@@ -41,7 +41,7 @@ void func_020b103c(void *arg0, void *arg1, s32 arg2, s32 arg3) {
     neg.x = -M2C_FIELD(arg0, s32 *, 0xBC);
     neg.y = -M2C_FIELD(arg0, s32 *, 0xC0);
     neg.z = -M2C_FIELD(arg0, s32 *, 0xC4);
-    mag = (s64) neg.x * neg.x + (s64) neg.y * neg.y + (s64) neg.z * neg.z;
+    mag   = (s64) neg.x * neg.x + (s64) neg.y * neg.y + (s64) neg.z * neg.z;
     if (mag >= data_02124d28) {
         func_02006a20(&neg, &neg);
     }

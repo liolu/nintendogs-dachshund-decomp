@@ -40,7 +40,7 @@ void func_02119ed8(s32 arg0) {
             M2C_FIELD(arg0, s16 *, 4)    = 1;
             M2C_FIELD(arg0, s32 *, 0xC)  = 1;
             M2C_FIELD(arg0, s32 *, 0x18) = 0xA;
-            temp = M2C_FIELD(arg0, void **, 0x1C);
+            temp                         = M2C_FIELD(arg0, void **, 0x1C);
             if (temp != NULL) {
                 M2C_FIELD(temp, s16 *, 8) = M2C_FIELD(data_0215a064, s16 *, 0x7C);
             }
@@ -49,7 +49,7 @@ void func_02119ed8(s32 arg0) {
             M2C_FIELD(arg0, s16 *, 4)    = 1;
             M2C_FIELD(arg0, s32 *, 0xC)  = 1;
             M2C_FIELD(arg0, s32 *, 0x18) = 0xB;
-            temp = M2C_FIELD(arg0, void **, 0x1C);
+            temp                         = M2C_FIELD(arg0, void **, 0x1C);
             if (temp != NULL) {
                 M2C_FIELD(temp, s16 *, 8) = M2C_FIELD(data_0215a064, s16 *, 0x7C);
             }
@@ -58,7 +58,7 @@ void func_02119ed8(s32 arg0) {
             M2C_FIELD(arg0, s16 *, 4)    = 1;
             M2C_FIELD(arg0, s32 *, 0xC)  = 1;
             M2C_FIELD(arg0, s32 *, 0x18) = 0x18;
-            temp = M2C_FIELD(arg0, void **, 0x1C);
+            temp                         = M2C_FIELD(arg0, void **, 0x1C);
             if (temp != NULL) {
                 M2C_FIELD(temp, s16 *, 8) = M2C_FIELD(data_0215a064, s16 *, 0x7C);
             }
@@ -97,9 +97,9 @@ void func_02119ed8(s32 arg0) {
             M2C_FIELD(arg0, s16 *, 4)    = 1;
             M2C_FIELD(arg0, s32 *, 0xC)  = 1;
             M2C_FIELD(arg0, s32 *, 0x18) = 0x16;
-            temp = M2C_FIELD(arg0, void **, 0x1C);
+            temp                         = M2C_FIELD(arg0, void **, 0x1C);
             if (temp != NULL) {
-                M2C_FIELD(temp, s16 *, 4) = M2C_FIELD(data_0215a064, s16 *, 0x11A);
+                M2C_FIELD(temp, s16 *, 4)                           = M2C_FIELD(data_0215a064, s16 *, 0x11A);
                 M2C_FIELD(M2C_FIELD(arg0, void **, 0x1C), s16 *, 6) = M2C_FIELD(data_0215a064, s16 *, 0x11C);
             }
             break;

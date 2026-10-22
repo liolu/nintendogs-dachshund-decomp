@@ -29,13 +29,13 @@ void func_0207e398(u8 *arg0, const u8 *arg1, int arg2, const u8 *arg3, int arg4)
     if (arg0 == 0 || arg1 == 0 || arg2 == 0 || arg3 == 0 || arg4 == 0) {
         return;
     }
-    p = arg3;
+    p   = arg3;
     len = arg4;
     if (arg4 > 0x40) {
         func_0207eb18(&ctx);
         func_0207e970(&ctx, arg3, arg4);
         func_0207ea5c(&ctx, keyp);
-        p = keyp;
+        p   = keyp;
         len = 0x14;
     }
     for (i = 0; i < len; i++) {

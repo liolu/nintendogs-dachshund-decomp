@@ -18,7 +18,7 @@ void func_020c2c3c(Vec *v, s32 max) {
         return;
     }
     ratio = func_02067ca0(max, len);
-    v->x = ((s64) v->x * ratio + 0x800) >> 12;
-    v->y = ((s64) v->y * ratio + 0x800) >> 12;
-    v->z = ((s64) v->z * ratio + 0x800) >> 12;
+    v->x  = ((s64) v->x * ratio + 0x800) >> 12;
+    v->y  = ((s64) v->y * ratio + 0x800) >> 12;
+    v->z  = ((s64) v->z * ratio + 0x800) >> 12;
 }

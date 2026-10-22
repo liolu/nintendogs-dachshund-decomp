@@ -9,7 +9,7 @@ s32 func_02094740(s32 **arg0, u32 arg1, s32 arg2, s32 arg3, s16 arg4) {
     if (arg0 == 0 || *arg0 == 0) {
         return 0;
     }
-    if (arg1 >= (u32) *(*arg0)) {
+    if (arg1 >= (u32) * (*arg0)) {
         return 0;
     }
     r = func_020940a0(arg2, &arg3, 0, arg4);

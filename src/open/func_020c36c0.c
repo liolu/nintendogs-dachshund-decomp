@@ -33,38 +33,38 @@ void func_020c36c0(s32 arg0, s32 arg1) {
     }
     *(s32 *) arg0 = arg1;
     switch (*(s32 *) arg0) {
-    case 0:
-        func_020c2fec(arg0, 1);
-        break;
-    case 1:
-        x = func_020a7e24();
-        y = func_020a7e14();
-        tmp[1] = y;
-        tmp[0] = 0;
-        tmp[2] = x;
-        *(s16 *) (arg0 + 0x42) = (s16) func_020b29bc(-1);
-        func_020b50d0(arg0 + 4, tmp, *(s16 *) (arg0 + 0x42));
-        break;
-    case 2:
-        if (M2C_FIELD(data_0215a048, u16 *, 6) != 0x12) {
-            *(s32 *) (arg0 + 0x34) = data_02140bfc;
-            a = data_02140bf0;
-            b = data_02140bf4;
-            f = (func_02061d7c() << 12) / 0x7FFF;
-            d = a - b;
-            v = b + (s32) (((s64) d * f + 0x800) >> 12);
-            *(s16 *) (arg0 + 0x38) = (s16) (((s64) v * 0xB60B60B60BLL + 0x80000000000LL) >> 44);
-            *(s32 *) (arg0 + 0x3C) = data_02140bec;
-        } else {
-            *(s32 *) (arg0 + 0x34) = data_02140bd8;
-            a2 = data_02140bcc;
-            b2 = data_02140bd0;
-            f = (func_02061d7c() << 12) / 0x7FFF;
-            d = a2 - b2;
-            v = b2 + (s32) (((s64) d * f + 0x800) >> 12);
-            *(s16 *) (arg0 + 0x38) = (s16) (((s64) v * 0xB60B60B60BLL + 0x80000000000LL) >> 44);
-            *(s32 *) (arg0 + 0x3C) = data_02140c10;
-        }
-        break;
+        case 0:
+            func_020c2fec(arg0, 1);
+            break;
+        case 1:
+            x                      = func_020a7e24();
+            y                      = func_020a7e14();
+            tmp[1]                 = y;
+            tmp[0]                 = 0;
+            tmp[2]                 = x;
+            *(s16 *) (arg0 + 0x42) = (s16) func_020b29bc(-1);
+            func_020b50d0(arg0 + 4, tmp, *(s16 *) (arg0 + 0x42));
+            break;
+        case 2:
+            if (M2C_FIELD(data_0215a048, u16 *, 6) != 0x12) {
+                *(s32 *) (arg0 + 0x34) = data_02140bfc;
+                a                      = data_02140bf0;
+                b                      = data_02140bf4;
+                f                      = (func_02061d7c() << 12) / 0x7FFF;
+                d                      = a - b;
+                v                      = b + (s32) (((s64) d * f + 0x800) >> 12);
+                *(s16 *) (arg0 + 0x38) = (s16) (((s64) v * 0xB60B60B60BLL + 0x80000000000LL) >> 44);
+                *(s32 *) (arg0 + 0x3C) = data_02140bec;
+            } else {
+                *(s32 *) (arg0 + 0x34) = data_02140bd8;
+                a2                     = data_02140bcc;
+                b2                     = data_02140bd0;
+                f                      = (func_02061d7c() << 12) / 0x7FFF;
+                d                      = a2 - b2;
+                v                      = b2 + (s32) (((s64) d * f + 0x800) >> 12);
+                *(s16 *) (arg0 + 0x38) = (s16) (((s64) v * 0xB60B60B60BLL + 0x80000000000LL) >> 44);
+                *(s32 *) (arg0 + 0x3C) = data_02140c10;
+            }
+            break;
     }
 }

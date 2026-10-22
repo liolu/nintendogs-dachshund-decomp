@@ -10,7 +10,7 @@ void func_020f63c8(void *arg0, void *arg1) {
     if (x >= 0) {
         return;
     }
-    v = -(s32) (((s64) x * 0x1004 + 0x800) >> 12);
+    v                            = -(s32) (((s64) x * 0x1004 + 0x800) >> 12);
     M2C_FIELD(arg0, s32 *, 0xB4) = v;
     if (M2C_FIELD(p, s32 *, 0x14) != 0) {
         return;

@@ -29,66 +29,66 @@ void func_020e7a74(s32 arg0) {
     s32 r;
 
     switch (M2C_FIELD(arg0, s32 *, 8)) {
-    case 0:
-        if (M2C_FIELD(data_02159e70, s32 *, 0x48B8) == 1) {
-            M2C_FIELD(arg0, s32 *, 8) = 2;
-            return;
-        }
-        if (M2C_FIELD(data_02159e70, s32 *, 0x4860) == 0) {
-            return;
-        }
-        b0 = data_0214d624[1];
-        b1 = data_0214d624[0];
-        r = func_020eb5a4(2, b1, b0);
-        if ((M2C_FIELD(data_0214d624, u16 *, 2) & 2) == 0) {
-            return;
-        }
-        switch (r) {
-        case 1:
-            M2C_FIELD(arg0, s32 *, 0xC) = 0;
-            break;
-        case 3:
-            M2C_FIELD(arg0, s32 *, 0xC) = 1;
-            break;
-        case 4:
-            M2C_FIELD(arg0, s32 *, 0xC) = 2;
-            break;
         case 0:
-            M2C_FIELD(arg0, s32 *, 0xC) = 3;
-            break;
-        case 2:
-            M2C_FIELD(arg0, s32 *, 0xC) = 4;
-            break;
-        case 5:
-            M2C_FIELD(arg0, s32 *, 0xC) = 5;
-            break;
-        case 6:
-            M2C_FIELD(arg0, s32 *, 0xC) = 6;
-            break;
-        }
-        if (M2C_FIELD(arg0, s32 *, 0xC) != -1) {
-            M2C_FIELD(arg0, u16 *, 0x1C18) = b1;
-            M2C_FIELD(arg0, u16 *, 0x1C1A) = b0;
-            func_020eb9fc(2, (u16) (r + 0xE), 1);
-            func_020ddbd8();
-            func_020e23fc(0);
-            M2C_FIELD(arg0, s32 *, 8) = 1;
-        }
-        return;
-    case 1:
-        M2C_FIELD(arg0, s32 *, 0) = M2C_FIELD(arg0, s32 *, 0) + 1;
-        if (M2C_FIELD(arg0, s32 *, 0) <= 0xA) {
+            if (M2C_FIELD(data_02159e70, s32 *, 0x48B8) == 1) {
+                M2C_FIELD(arg0, s32 *, 8) = 2;
+                return;
+            }
+            if (M2C_FIELD(data_02159e70, s32 *, 0x4860) == 0) {
+                return;
+            }
+            b0 = data_0214d624[1];
+            b1 = data_0214d624[0];
+            r  = func_020eb5a4(2, b1, b0);
+            if ((M2C_FIELD(data_0214d624, u16 *, 2) & 2) == 0) {
+                return;
+            }
+            switch (r) {
+                case 1:
+                    M2C_FIELD(arg0, s32 *, 0xC) = 0;
+                    break;
+                case 3:
+                    M2C_FIELD(arg0, s32 *, 0xC) = 1;
+                    break;
+                case 4:
+                    M2C_FIELD(arg0, s32 *, 0xC) = 2;
+                    break;
+                case 0:
+                    M2C_FIELD(arg0, s32 *, 0xC) = 3;
+                    break;
+                case 2:
+                    M2C_FIELD(arg0, s32 *, 0xC) = 4;
+                    break;
+                case 5:
+                    M2C_FIELD(arg0, s32 *, 0xC) = 5;
+                    break;
+                case 6:
+                    M2C_FIELD(arg0, s32 *, 0xC) = 6;
+                    break;
+            }
+            if (M2C_FIELD(arg0, s32 *, 0xC) != -1) {
+                M2C_FIELD(arg0, u16 *, 0x1C18) = b1;
+                M2C_FIELD(arg0, u16 *, 0x1C1A) = b0;
+                func_020eb9fc(2, (u16) (r + 0xE), 1);
+                func_020ddbd8();
+                func_020e23fc(0);
+                M2C_FIELD(arg0, s32 *, 8) = 1;
+            }
             return;
-        }
-        M2C_FIELD(arg0, s32 *, 0) = 0;
-        M2C_FIELD(arg0, s32 *, 8) = -1;
-        func_020e1710(M2C_FIELD(arg0, s32 *, 0xC), -1);
-        return;
-    case 2:
-        if (M2C_FIELD(data_02159e70, s32 *, 0x48BC) == 1) {
-            M2C_FIELD(data_02159e70, s32 *, 0x486C) = 1;
+        case 1:
+            M2C_FIELD(arg0, s32 *, 0) = M2C_FIELD(arg0, s32 *, 0) + 1;
+            if (M2C_FIELD(arg0, s32 *, 0) <= 0xA) {
+                return;
+            }
+            M2C_FIELD(arg0, s32 *, 0) = 0;
             M2C_FIELD(arg0, s32 *, 8) = -1;
-        }
-        return;
+            func_020e1710(M2C_FIELD(arg0, s32 *, 0xC), -1);
+            return;
+        case 2:
+            if (M2C_FIELD(data_02159e70, s32 *, 0x48BC) == 1) {
+                M2C_FIELD(data_02159e70, s32 *, 0x486C) = 1;
+                M2C_FIELD(arg0, s32 *, 8)               = -1;
+            }
+            return;
     }
 }

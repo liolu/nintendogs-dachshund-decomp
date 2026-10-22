@@ -21,11 +21,11 @@ void func_020eb8d4(s32 arg0, volatile u16 *arg1, s32 arg2) {
     u16 n;
 
     while (*arg1 != 0xFFFF) {
-        elem = (u8 *) data_02159e70 + 0x1DEC + arg0 * 0x294;
-        n = *arg1;
-        idx = M2C_FIELD(M2C_FIELD(elem, s32 *, 8) + n * 8, s32 *, 0xC);
+        elem  = (u8 *) data_02159e70 + 0x1DEC + arg0 * 0x294;
+        n     = *arg1;
+        idx   = M2C_FIELD(M2C_FIELD(elem, s32 *, 8) + n * 8, s32 *, 0xC);
         count = func_02085d64(M2C_FIELD(elem, s32 *, 0xC), idx);
-        p = (u8 *) func_02085d3c(M2C_FIELD((u8 *) data_02159e70 + arg0 * 0x294 + 0x1000, s32 *, 0xDF8), idx);
+        p     = (u8 *) func_02085d3c(M2C_FIELD((u8 *) data_02159e70 + arg0 * 0x294 + 0x1000, s32 *, 0xDF8), idx);
 
         for (i = 0; i < count; i++) {
             ((UnkElem *) p)->nibble = arg2;

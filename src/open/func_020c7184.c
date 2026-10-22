@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 typedef struct {
     u8 pad0[0x20];
@@ -30,7 +30,7 @@ s32 func_020c7184(s32 arg0, s32 arg1) {
     result = 0;
     func_0208831c(&file);
     if (func_02087fcc(&file, name) != 0) {
-        size = file.startPosition - file.unk_20;
+        size   = file.startPosition - file.unk_20;
         result = func_020038a8(arg0, size);
         func_02087e70(&file, result, size);
         func_02087f84(&file);

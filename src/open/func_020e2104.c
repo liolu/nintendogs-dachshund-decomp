@@ -13,9 +13,9 @@ void func_020e2104(s32 arg0, s32 arg1) {
         return;
     }
     func_020e3e2c(2);
-    p = (s32 *) ((u8 *) data_02159e70 + 0x53A8);
-    p[0] = arg0;
-    p[1] = arg1;
-    p[2] = 0x5A;
+    p                                      = (s32 *) ((u8 *) data_02159e70 + 0x53A8);
+    p[0]                                   = arg0;
+    p[1]                                   = arg1;
+    p[2]                                   = 0x5A;
     M2C_FIELD(data_02159e70, s32 *, 0x2FC) = arg1;
 }

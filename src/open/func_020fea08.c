@@ -29,7 +29,7 @@ void func_020fea08(void *arg0) {
         *(volatile u16 *) 0x400100E = (*(volatile u16 *) 0x400100E & ~3) | 1;
         *(volatile u32 *) 0x4001000 = *(volatile u32 *) 0x4001000 & ~0xE000;
         *(volatile u16 *) 0x4001050 = 0;
-        M2C_FIELD(p, u32 *, 0x154) = 0;
+        M2C_FIELD(p, u32 *, 0x154)  = 0;
     }
     i = ((s32) M2C_FIELD(p, u16 *, 0xC) >> 4) * 2;
     j = i + 1;
@@ -37,9 +37,7 @@ void func_020fea08(void *arg0) {
     i = ((s32) M2C_FIELD(p, u16 *, 0x1C) >> 4) * 2;
     j = i + 1;
     func_02066718(&m2, ((s16 *) data_02124e68)[i], ((s16 *) data_02124e68)[j]);
-    func_0206a3dc((volatile u32 *) 0x4001020, &m1, data_02131708[0], data_02131708[1],
-                  data_02131710[0], data_02131710[1]);
-    func_0206a3dc((volatile u32 *) 0x4001030, &m2, data_02131708[2], data_02131708[3],
-                  data_02131710[2], data_02131710[3]);
+    func_0206a3dc((volatile u32 *) 0x4001020, &m1, data_02131708[0], data_02131708[1], data_02131710[0], data_02131710[1]);
+    func_0206a3dc((volatile u32 *) 0x4001030, &m2, data_02131708[2], data_02131708[3], data_02131710[2], data_02131710[3]);
     *(volatile u32 *) 0x4001014 = (data_02131710[4] & 0x1FF) | ((data_02131710[5] << 16) & 0x1FF0000);
 }

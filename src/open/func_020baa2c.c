@@ -49,8 +49,8 @@ void func_020baa2c(Ctx *ctx) {
     s64 m;
     s64 d;
 
-    list = ctx->list;
-    idx = ctx->f8;
+    list  = ctx->list;
+    idx   = ctx->f8;
     elems = list->elems;
 
     t = func_0205df50(ctx->f4 << 12, elems[idx].f28);
@@ -60,7 +60,7 @@ void func_020baa2c(Ctx *ctx) {
         return;
     }
 
-    cur = &elems[idx];
+    cur  = &elems[idx];
     next = &elems[idx + 1];
 
     ctx->out.v0.x = cur->v0.x + (s32) (((s64) (next->v0.x - cur->v0.x) * t + 0x800) >> 12);
@@ -78,6 +78,6 @@ void func_020baa2c(Ctx *ctx) {
         func_02006a20(&ctx->out.v2, &ctx->out.v2);
     }
 
-    d = next->f24 - cur->f24;
+    d            = next->f24 - cur->f24;
     ctx->out.f34 = cur->f24 + (s32) ((t * d + 0x800) >> 12);
 }

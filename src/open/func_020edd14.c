@@ -30,27 +30,27 @@ void func_020edd14(Edd14Obj *arg0) {
     f32 y;
     f32 z;
 
-    ret = func_020eb5a4(0, data_0214d624[0], data_0214d624[1]);
-    flag = (*(u16 *) (data_0214d624 + 2) & 2) != 0;
+    ret        = func_020eb5a4(0, data_0214d624[0], data_0214d624[1]);
+    flag       = (*(u16 *) (data_0214d624 + 2) & 2) != 0;
     arg0->unk0 = 0;
     if (flag) {
         switch (ret) {
-        case 0:
-            arg0->mode = 2;
-            arg0->unk0 = 2;
-            func_020ebbdc(0, 0, 2, 2);
-            func_020ebb0c(0, 0, 0);
-            arg0->timer = 10;
-            func_020dd914();
-            break;
-        case 1:
-            arg0->mode = 1;
-            arg0->unk0 = 1;
-            func_020ebbdc(0, 1, 2, 2);
-            func_020ebb0c(0, 0, 1);
-            arg0->timer = 10;
-            func_020dd914();
-            break;
+            case 0:
+                arg0->mode = 2;
+                arg0->unk0 = 2;
+                func_020ebbdc(0, 0, 2, 2);
+                func_020ebb0c(0, 0, 0);
+                arg0->timer = 10;
+                func_020dd914();
+                break;
+            case 1:
+                arg0->mode = 1;
+                arg0->unk0 = 1;
+                func_020ebbdc(0, 1, 2, 2);
+                func_020ebb0c(0, 0, 1);
+                arg0->timer = 10;
+                func_020dd914();
+                break;
         }
     }
     if (arg0->timer > 0) {
@@ -69,9 +69,9 @@ void func_020edd14(Edd14Obj *arg0) {
     }
     if (arg0->flag != 0) {
         tv = *(s16 *) (data_02124e68 + ((arg0->counter >> 4) << 2));
-        v = (f32) tv;
-        x = v / 4096.0f;
-        y = (4096.0f + x) / 2.0f;
+        v  = (f32) tv;
+        x  = v / 4096.0f;
+        y  = (4096.0f + x) / 2.0f;
         if (y) {
             z = 4096.0f * y + 0.5f;
         } else {
@@ -83,7 +83,7 @@ void func_020edd14(Edd14Obj *arg0) {
         }
         arg0->counter += 0x800;
     } else {
-        arg0->value = 0x1000;
+        arg0->value   = 0x1000;
         arg0->counter = 0;
     }
 }

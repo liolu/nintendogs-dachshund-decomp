@@ -55,7 +55,7 @@ void func_020f6474(Obj *arg0, s32 arg1) {
         b8 = -b8;
     }
     sum = b0 + b4 + b8;
-    v = (u32) (((s64) sum * arg0->f24 + 0x800) >> 12);
+    v   = (u32) (((s64) sum * arg0->f24 + 0x800) >> 12);
     if (M2C_FIELD(p, s32 *, 0x14) == 0) {
         func_0208b948(&arg0->f190, 2, (s32) v);
     }

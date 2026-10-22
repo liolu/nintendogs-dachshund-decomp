@@ -22,10 +22,10 @@ s32 func_020a60fc(s32 arg0) {
                 if (a == M2C_FIELD(p, s16 *, 0x94)) {
                     if (func_020a73dc(p) != 0) {
                         best = 0xFFFF;
-                        idx = i;
+                        idx  = i;
                     } else if ((s32) M2C_FIELD(p, u16 *, 0x9E) > best) {
                         best = M2C_FIELD(p, u16 *, 0x9E);
-                        idx = i;
+                        idx  = i;
                     }
                 }
             }

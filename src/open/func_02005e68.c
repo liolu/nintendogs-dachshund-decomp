@@ -14,7 +14,7 @@ void func_02005e68(s32 arg0, s32 arg1, const char *fmt, ...) {
     if (data_0214cf54 == 0) {
         return;
     }
-    y = arg1;
+    y  = arg1;
     ap = (va_list) ((char *) ((u32) &fmt & ~3U) + (((sizeof(fmt) + 3U) & ~3U)));
     func_0205ed18(data_0214cf60, 0x80, fmt, ap);
     x = arg0;

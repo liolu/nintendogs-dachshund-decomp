@@ -7,8 +7,8 @@ void func_02114c5c(void *arg0) {
     u16 id;
     s16 f;
 
-    p = (u8 *) arg0 + 0x100;
-    q = (u8 *) arg0 + 0x128;
+    p  = (u8 *) arg0 + 0x100;
+    q  = (u8 *) arg0 + 0x128;
     id = *(u16 *) (p + 0x28);
     if (id == 0xFFFF) {
         return;
@@ -19,7 +19,7 @@ void func_02114c5c(void *arg0) {
     } else {
         func_020d2c64(id, *(s32 *) (q + 4), 0, (s32) func_021179f8, 0);
     }
-    *(u16 *) q = 0xFFFF;
+    *(u16 *) q       = 0xFFFF;
     *(u16 *) (q + 2) = 0;
     *(s32 *) (q + 4) = -1;
 }

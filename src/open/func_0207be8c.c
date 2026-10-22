@@ -46,8 +46,8 @@ void func_0207be8c(UnkMatAnmResult *anm) {
     } else {
         buf.cmd = 0x101810;
     }
-    buf.mtxMode = 3;
-    buf.mtxMode2 = 2;
+    buf.mtxMode   = 3;
+    buf.mtxMode2  = 2;
     buf.m.m[3][2] = 0;
     buf.m.m[2][3] = 0;
     buf.m.m[2][2] = 0;

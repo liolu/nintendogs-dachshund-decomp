@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 s32 func_02080c28();                                /* extern */
 M2C_UNK func_02080c3c(s32);                         /* extern */
 extern u16 data_0215566c;
@@ -48,7 +48,7 @@ s32 func_020c05c8(M2C_UNK arg0, M2C_UNK arg1, M2C_UNK arg2, u16 *arg3) {
         *arg3 = 0x17;
         return 0;
     }
-    *arg3 = ((u16 (*)(M2C_UNK)) arg1)(arg2);
+    *arg3 = ((u16(*)(M2C_UNK)) arg1)(arg2);
     if (*arg3 == 2) {
         data_0215567c = 1;
         func_02080c3c(temp_r4);

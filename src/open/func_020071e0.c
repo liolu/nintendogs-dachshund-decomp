@@ -56,6 +56,6 @@ void func_020071e0(s32 arg0, u8 *arg1) {
     if (ok == 0) {
         return;
     }
-    *(Four *) (arg1 + 0x1C) = *(Four *) arg1;
+    *(Four *) (arg1 + 0x1C)  = *(Four *) arg1;
     *(Three *) (arg1 + 0x2C) = *(Three *) (arg1 + 0x10);
 }

@@ -62,10 +62,10 @@ void func_02015184(void *arg0, s32 arg1) {
         }
     }
     if (M2C_FIELD(arg0, u16 *, 0xFC) > 0x64) {
-        temp_r3 = *(u32 **) data_0214da84;
-        temp_r2 = *temp_r3 * 0x10DCD + 1;
+        temp_r3   = *(u32 **) data_0214da84;
+        temp_r2   = *temp_r3 * 0x10DCD + 1;
         temp_r0_5 = (u16) ((u16) temp_r2 * 0x64u >> 16);
-        *temp_r3 = temp_r2;
+        *temp_r3  = temp_r2;
         if (temp_r0_5 == 0) {
             func_0202fa6c(arg0, (s16) arg1);
             return;

@@ -30,7 +30,7 @@ void func_020e51dc(s32 *out, s32 arg1, s32 arg2) {
     s32 result;
 
     out[0] = arg2;
-    key = M2C_FIELD(data_02159e70, u32 *, 0x1113C);
+    key    = M2C_FIELD(data_02159e70, u32 *, 0x1113C);
     if (data_02144de4[key].unk0 != 0) {
         func_0205ece8(name, 0x40, data_02144e24, data_02144de8[key * 4]);
     } else {

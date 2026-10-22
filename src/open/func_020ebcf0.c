@@ -28,7 +28,7 @@ s32 func_020ebcf0(void *arg0) {
         }
         if (temp_r5 != 0) {
             sp[temp_r0] = temp_r6;
-            temp_r0 = temp_r0 + 1;
+            temp_r0     = temp_r0 + 1;
         }
     }
     return temp_r0;

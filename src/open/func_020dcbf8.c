@@ -9,7 +9,7 @@ void func_020dcbf8(s32 arg0, s32 arg1) {
     zero = 0;
     func_0206cbc4(zero, arg0, 0x22c);
     *(s32 *) (arg0 + 0x0) = arg1;
-    v = 1;
+    v                     = 1;
     *(s32 *) (arg0 + 0x4) = 1;
     if (((*(u16 *) 0x4000304 & 0x8000) >> 0xf) != 0) {
         v = 0;

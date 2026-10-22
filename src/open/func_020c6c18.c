@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 typedef struct {
     u8 pad0[0x20];
@@ -42,14 +42,14 @@ void func_020c6c18(s32 arg0, s32 arg1, s32 *arg2) {
     sec = data_02140e54;
     key = (s32) data_02140d88[arg1];
     func_0205ece8(name, 0x40, data_02140e58, key);
-    result = 0;
+    result  = 0;
     arg2[0] = 0;
     arg2[1] = 0;
     arg2[2] = 0;
     func_0208831c(&file);
     if (func_02087fcc(&file, name) != 0) {
         size = file.startPosition - file.unk_20;
-        buf = func_02003850(arg0, ((size + 0xF) & ~0xF) + 0x60, 0x10);
+        buf  = func_02003850(arg0, ((size + 0xF) & ~0xF) + 0x60, 0x10);
         if (buf != 0) {
             data = buf + 0x60;
             if (func_02087e70(&file, (u8 *) data, size) == size) {

@@ -8,7 +8,7 @@ s32 func_020419ec(s32 arg0) {
 
     idx = 0;
     max = 0;
-    i = 0;
+    i   = 0;
     for (; i < 5; i++) {
         v = *(s16 *) (arg0 + ((i << 0x10) >> 0xF) + 0x50);
         if (max <= v) {

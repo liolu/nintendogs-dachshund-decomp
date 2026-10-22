@@ -23,7 +23,7 @@ s32 func_020466b0(u8 *arg0, s32 arg1, s32 arg2) {
         return 1;
     }
     if (temp != 0) {
-        v = *(s16 *) ((u8 *) temp + 0xEA);
+        v  = *(s16 *) ((u8 *) temp + 0xEA);
         ok = (v >= 0x2CD) && (v <= 0x2D7);
         if (ok != 0) {
             goto check;
@@ -31,7 +31,7 @@ s32 func_020466b0(u8 *arg0, s32 arg1, s32 arg2) {
     }
     func_0203e5e8(arg0, (s16) (arg1 + 0x2F9));
     return 1;
- check:
+check:
     if (*(s16 *) (arg0 + 0xFA) != 0x1F) {
         return 0;
     }

@@ -6,8 +6,8 @@
 
 typedef char *va_list;
 
-#define va_start(ap, last) ((ap) = (va_list)(&(last) + 1))
-#define va_arg(ap, type)   ((ap) += sizeof(type), *(type *)((ap) - sizeof(type)))
-#define va_end(ap)         ((void) (ap))
+#define va_start(ap, last) ((ap) = (va_list) (&(last) + 1))
+#define va_arg(ap, type) ((ap) += sizeof(type), *(type *) ((ap) - sizeof(type)))
+#define va_end(ap) ((void) (ap))
 
 #endif

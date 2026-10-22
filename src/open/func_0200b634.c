@@ -25,14 +25,14 @@ void func_0200b634(VecFx32 *out, VecFx32 *p1, VecFx32 *p2, VecFx32 *p3, VecFx32 
         *out = *p3;
         return;
     }
-    nz = FX_Mul(n->z, p3->z - p1->z);
-    nx = FX_Mul(n->x, p3->x - p1->x);
-    ny = FX_Mul(n->y, p3->y - p1->y);
-    t = den ? func_02067ca0(nx + ny + nz, den) : nx + ny + nz;
-    dx = p2->x - p1->x;
+    nz     = FX_Mul(n->z, p3->z - p1->z);
+    nx     = FX_Mul(n->x, p3->x - p1->x);
+    ny     = FX_Mul(n->y, p3->y - p1->y);
+    t      = den ? func_02067ca0(nx + ny + nz, den) : nx + ny + nz;
+    dx     = p2->x - p1->x;
     out->x = p1->x + FX_Mul(dx, t);
-    dy = p2->y - p1->y;
+    dy     = p2->y - p1->y;
     out->y = p1->y + FX_Mul(dy, t);
-    dz = p2->z - p1->z;
+    dz     = p2->z - p1->z;
     out->z = p1->z + FX_Mul(dz, t);
 }

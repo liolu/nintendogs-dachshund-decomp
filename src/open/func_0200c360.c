@@ -29,22 +29,22 @@ S *func_0200c360(s32 arg0) {
     func_020ca530(p, 0xFF);
     p->mode = 1;
 
-    rng = func_02044148();
-    r = *rng * 0x10DCD + 1;
+    rng  = func_02044148();
+    r    = *rng * 0x10DCD + 1;
     *rng = r;
-    a = (s16) (u16) (r & 0xFFF);
+    a    = (s16) (u16) (r & 0xFFF);
     p->x = FX_Mul(a, 0x14000) - 0xA000;
     p->y = 0x3000;
 
-    rng = func_02044148();
-    r = *rng * 0x10DCD + 1;
+    rng  = func_02044148();
+    r    = *rng * 0x10DCD + 1;
     *rng = r;
-    a = (s16) (u16) (r & 0xFFF);
+    a    = (s16) (u16) (r & 0xFFF);
     p->z = FX_Mul(a, 0x14000) - 0xA000;
 
     p->vx = 0;
-    p->b = 0;
-    p->c = 0;
+    p->b  = 0;
+    p->c  = 0;
 
     func_020ca4b0(p, (void *) func_0200c0f4);
     return p;

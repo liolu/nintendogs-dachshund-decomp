@@ -22,8 +22,8 @@ void func_020f7908(s32 arg0) {
     emtr = M2C_FIELD(arg0, void **, 0x214);
     func_02081174(data_0215a02c != NULL ? *data_0215a02c : 0, M2C_FIELD(emtr, s32 *, 0x1C));
     M2C_FIELD(emtr, s32 *, 0x1C) = 0;
-    *(Vec *) &data_0215a020 = *(Vec *) ((s8 *) arg0 + 0xBC);
-    data_0215a01c = M2C_FIELD(emtr, s32 *, 0xC) >> 5;
+    *(Vec *) &data_0215a020      = *(Vec *) ((s8 *) arg0 + 0xBC);
+    data_0215a01c                = M2C_FIELD(emtr, s32 *, 0xC) >> 5;
     func_02081208(data_0215a02c != NULL ? *data_0215a02c : 0, 0x14, func_020f7a60);
     M2C_FIELD(emtr, s32 *, 0x4) = 0;
     func_020c9bf0(func_020a5fcc(), (s32) ((s8 *) arg0 + 0xBC), vec.v);

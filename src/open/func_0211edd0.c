@@ -8,8 +8,8 @@ s16 func_0211edd0(u8 *arg0) {
     u8 *p;
 
     sum2 = 0;
-    k = 0;
-    p = arg0;
+    k    = 0;
+    p    = arg0;
     for (; k < 3; k++) {
         sum1 = 0;
         for (i = 0; i < 5; i++) {

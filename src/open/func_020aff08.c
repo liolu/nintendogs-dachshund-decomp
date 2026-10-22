@@ -33,7 +33,7 @@ void func_020aff08(Obj *self, s32 a1, s32 a2, s32 a3, s32 a4, s32 cb5, s32 cb6, 
     s32 obj;
     s32 moved;
 
-    pv = (s32 *) &vec1;
+    pv    = (s32 *) &vec1;
     pv[0] = 0;
     pv[1] = 0;
     pv[2] = 0;
@@ -67,7 +67,7 @@ void func_020aff08(Obj *self, s32 a1, s32 a2, s32 a3, s32 a4, s32 cb5, s32 cb6, 
     }
     if (self->state == 1) {
         if (self->unk8A != 4) {
-            pv = (s32 *) &vec2;
+            pv    = (s32 *) &vec2;
             pv[0] = 0;
             pv[1] = 0;
             pv[2] = 0;
@@ -91,7 +91,7 @@ void func_020aff08(Obj *self, s32 a1, s32 a2, s32 a3, s32 a4, s32 cb5, s32 cb6, 
     if (self->state != 1) {
         return;
     }
-    pv = (s32 *) &vec4;
+    pv    = (s32 *) &vec4;
     pv[0] = 0;
     pv[1] = 0;
     pv[2] = 0;

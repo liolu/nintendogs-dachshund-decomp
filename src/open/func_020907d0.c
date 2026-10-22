@@ -32,11 +32,11 @@ s32 func_020907d0(s32 arg0, s32 arg1) {
                     }
                     if (arg0 >= 0x3d && arg0 <= 0x41) {
                         switch (arg1) {
-                        case 9:
-                        case 10:
-                        case 11:
-                        case 12:
-                            continue;
+                            case 9:
+                            case 10:
+                            case 11:
+                            case 12:
+                                continue;
                         }
                         return -1;
                     }
@@ -54,12 +54,12 @@ s32 func_020907d0(s32 arg0, s32 arg1) {
         }
     }
     j = -1;
- found:
+found:
     if (j != -1) {
         p = base + 0x28 + j * 4;
         func_02073328(p, arg0, arg1);
-        M2C_FIELD(base + j * 2, u16 *, 0) = arg0;
-        M2C_FIELD(base + j * 2, u16 *, 8) = arg1;
+        M2C_FIELD(base + j * 2, u16 *, 0)    = arg0;
+        M2C_FIELD(base + j * 2, u16 *, 8)    = arg1;
         M2C_FIELD(base + j * 2, u16 *, 0x10) = 0x7F;
         if (M2C_FIELD(data_0215422c, s32 *, 0x1C) != 0) {
             func_02070e7c(p, 0, 0);

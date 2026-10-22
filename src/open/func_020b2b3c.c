@@ -27,8 +27,8 @@ void func_020b2b3c(s16 *arg0, s16 *arg1, void *arg2, void *arg3, void *arg4) {
 
     *arg1 = -1;
     *arg0 = -1;
-    min = 0x64000;
-    max = -0x64000;
+    min   = 0x64000;
+    max   = -0x64000;
     for (i = 0; i < 3; i++) {
         f = func_01ffdb08(i);
         if (f == 0) {
@@ -42,13 +42,13 @@ void func_020b2b3c(s16 *arg0, s16 *arg1, void *arg2, void *arg3, void *arg4) {
         func_0206823c(&w, arg2, &v);
         dot1 = func_020681f8(&v, (Vec *) arg4);
         dot2 = func_020681f8(&v, (Vec *) arg3);
-        r = func_02067ca0(dot1, dot2);
+        r    = func_02067ca0(dot1, dot2);
         if (r < min) {
             *arg0 = i;
-            min = r;
+            min   = r;
         }
         if (r > max) {
-            max = r;
+            max   = r;
             *arg1 = i;
         }
     }

@@ -18,22 +18,22 @@ void func_020ac754(void *arg0, M2C_UNK arg1) {
         return;
     }
     switch (M2C_FIELD(arg0, s16 *, 0x90)) {
-    case 0:
-    case 2:
-    case 4:
-    case 5:
-    case 8:
-        func_020afbc4(arg0);
-        break;
-    case 1:
-    case 3:
-        if (func_02033f30(temp) != 0 || func_02033ee8(temp) != 0) {
-            func_021147a4(2);
-        } else {
-            func_021147a4(1);
-        }
-        func_020afb54(arg0, arg1);
-        M2C_FIELD(data_0215a064, s32 *, 0x50) = 0;
-        break;
+        case 0:
+        case 2:
+        case 4:
+        case 5:
+        case 8:
+            func_020afbc4(arg0);
+            break;
+        case 1:
+        case 3:
+            if (func_02033f30(temp) != 0 || func_02033ee8(temp) != 0) {
+                func_021147a4(2);
+            } else {
+                func_021147a4(1);
+            }
+            func_020afb54(arg0, arg1);
+            M2C_FIELD(data_0215a064, s32 *, 0x50) = 0;
+            break;
     }
 }

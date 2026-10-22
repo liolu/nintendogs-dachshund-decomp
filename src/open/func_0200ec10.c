@@ -15,7 +15,7 @@ void func_0200ec10(s32 arg0) {
     s32 var_r4;
     s32 temp;
 
-    i = 0;
+    i      = 0;
     var_r4 = -1;
     M2C_FIELD(arg0, u16 *, 0x106)++;
     M2C_FIELD(arg0, s32 *, 0x26C) = 0;

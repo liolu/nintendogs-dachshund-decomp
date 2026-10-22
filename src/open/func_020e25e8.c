@@ -12,15 +12,15 @@ void func_020e25e8(void) {
         return;
     }
     switch (M2C_FIELD(base, s32 *, 0x1AC)) {
-    case 2:
-    case 3:
-        func_020f0fd8((s32) (base + 0x198));
-        break;
+        case 2:
+        case 3:
+            func_020f0fd8((s32) (base + 0x198));
+            break;
     }
     switch (M2C_FIELD(base, s32 *, 0x1CC)) {
-    case 2:
-    case 3:
-        func_020f0fd8((s32) (base + 0x1B8));
-        break;
+        case 2:
+        case 3:
+            func_020f0fd8((s32) (base + 0x1B8));
+            break;
     }
 }

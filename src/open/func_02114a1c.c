@@ -19,8 +19,8 @@ s32 func_02114a1c(void) {
 
     if (M2C_FIELD(data_0215a064, s16 *, 0x58) == -2) {
         temp_r12 = M2C_FIELD(data_0215a064, s16 *, 0x7A);
-        var_r3 = M2C_FIELD(data_0215a048, s32 *, 0xC);
-        ret = 0;
+        var_r3   = M2C_FIELD(data_0215a048, s32 *, 0xC);
+        ret      = 0;
         if (((s32) temp_r12 < 0) || ((s32) M2C_FIELD(data_021555f8, s16 *, 0x20) <= (s32) temp_r12)) {
             var_r2 = NULL;
         } else {

@@ -35,10 +35,10 @@ void func_020b450c(s32 dst, s32 *src, s32 arg2) {
     s32 n;
 
     *(Copy3 *) dst = *(Copy3 *) src;
-    v[0] = -M2C_FIELD(dst, s32 *, 0x0);
-    v[1] = 0;
-    v[2] = -M2C_FIELD(dst, s32 *, 0x8);
-    g1 = data_0213eeb8;
+    v[0]           = -M2C_FIELD(dst, s32 *, 0x0);
+    v[1]           = 0;
+    v[2]           = -M2C_FIELD(dst, s32 *, 0x8);
+    g1             = data_0213eeb8;
     func_02006a20(v, v, &data_0213eeb8);
     w[0] = M2C_FIELD(dst, s32 *, 0x0);
     w[1] = 0;
@@ -47,9 +47,9 @@ void func_020b450c(s32 dst, s32 *src, s32 arg2) {
     M2C_FIELD(dst, s32 *, 0x18) = 0;
     M2C_FIELD(dst, s32 *, 0x1C) = 0x1000;
     M2C_FIELD(dst, s32 *, 0x20) = 0;
-    min = 0x64000;
-    count = 0;
-    max = 0;
+    min                         = 0x64000;
+    count                       = 0;
+    max                         = 0;
     for (i = 0; i < 3; i++) {
         r = func_01ffdb08((s16) i);
         if (r != 0) {
@@ -64,15 +64,15 @@ void func_020b450c(s32 dst, s32 *src, s32 arg2) {
         }
     }
     res = func_020a7e48();
-    t = func_02033bf4() / 2;
+    t   = func_02033bf4() / 2;
     if (count == 3) {
-        val = t * 7 / 6;
+        val                        = t * 7 / 6;
         M2C_FIELD(dst, s32 *, 0x4) = data_0213ed20 + (s32) (((s64) data_0213ed1c * val + 0x800) >> 12);
     } else if (count == 2) {
-        val = t * 3 / 2;
+        val                        = t * 3 / 2;
         M2C_FIELD(dst, s32 *, 0x4) = data_0213ed28 + (s32) (((s64) data_0213ed24 * val + 0x800) >> 12);
     } else {
-        val = t * 2;
+        val                        = t * 2;
         M2C_FIELD(dst, s32 *, 0x4) = data_0213ed30 + (s32) (((s64) data_0213ed2c * val + 0x800) >> 12);
     }
     x = (s32) (((s64) func_02068480(func_02067ca0(val, arg2), res) * 0x1680000 + 0x80000) >> 20);

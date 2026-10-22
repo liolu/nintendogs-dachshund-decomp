@@ -1,9 +1,9 @@
 #include "m2c.h"
 extern void *data_0215a044;
 s16 *func_0210df10(s32 arg0, s32 arg1) {
-    s16 *res = 0;
-    s16 i = 0;
-    s16 last = -1;
+    s16 *res  = 0;
+    s16 i     = 0;
+    s16 last  = -1;
     s16 count = 0;
     s16 *e;
     s16 v;
@@ -14,7 +14,7 @@ s16 *func_0210df10(s32 arg0, s32 arg1) {
         if (v != 0) {
             if (last != v) {
                 count = 0;
-                last = v;
+                last  = v;
             } else {
                 count = (s16) (count + 1);
             }

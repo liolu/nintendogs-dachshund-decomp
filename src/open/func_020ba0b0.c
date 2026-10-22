@@ -8,7 +8,7 @@ void func_020ba0b0(s32 arg0, s32 arg1) {
     } Vec3;
 
     func_020b777c(arg0, arg0 + 0xC, arg1 + 0x1C, arg1 + 0x18, arg1 + 0x1A);
-    *(Vec3 *) (arg1 + 0) = *(Vec3 *) (arg0 + 0xC);
+    *(Vec3 *) (arg1 + 0)   = *(Vec3 *) (arg0 + 0xC);
     *(Vec3 *) (arg1 + 0xC) = *(Vec3 *) (arg0 + 0x18);
     *(s32 *) (arg1 + 0x20) = *(s32 *) (arg0 + 0x24);
 }

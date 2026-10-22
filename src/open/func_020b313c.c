@@ -11,15 +11,15 @@ void func_020b313c(u32 *arg0) {
     u32 b;
     u32 c;
 
-    c = data_0213ec7c;
-    b = data_0213edfc;
-    a = data_0213ec48;
+    c       = data_0213ec7c;
+    b       = data_0213edfc;
+    a       = data_0213ec48;
     arg0[0] = a;
     arg0[1] = b;
     arg0[2] = c;
-    c = data_02155628;
-    b = data_0213ec74;
-    a = data_0213ec78;
+    c       = data_02155628;
+    b       = data_0213ec74;
+    a       = data_0213ec78;
     arg0[3] = a;
     arg0[4] = b;
     arg0[5] = c;

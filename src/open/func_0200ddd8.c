@@ -18,10 +18,10 @@ void func_0200ddd8(s32 p) {
         if (func_0200c488(0xB, i) != 0) {
             func_02035fcc(p, (s16) (i + 0xD));
 
-            seed = data_0214da84;
-            r = *seed * 0x10DCD + 1;
+            seed  = data_0214da84;
+            r     = *seed * 0x10DCD + 1;
             *seed = r;
-            v = (u16) (((u32) (u16) r * 5) >> 16);
+            v     = (u16) (((u32) (u16) r * 5) >> 16);
             if (v == 0) {
                 break;
             }

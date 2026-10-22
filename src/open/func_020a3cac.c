@@ -11,19 +11,19 @@ s32 func_020a3cac(s32 arg0) {
     }
     mode = p[7];
     switch (mode) {
-    case 0:
-        result = (s32) ((u8 *) p + 0xEC + p[3] * 16);
-        break;
-    case 1:
-        result = (s32) ((u8 *) p + 0x11C + p[4] * 16);
-        break;
-    case 2:
-        if (p[3] >= 0) {
+        case 0:
             result = (s32) ((u8 *) p + 0xEC + p[3] * 16);
-        } else if (p[4] >= 0) {
+            break;
+        case 1:
             result = (s32) ((u8 *) p + 0x11C + p[4] * 16);
-        }
-        break;
+            break;
+        case 2:
+            if (p[3] >= 0) {
+                result = (s32) ((u8 *) p + 0xEC + p[3] * 16);
+            } else if (p[4] >= 0) {
+                result = (s32) ((u8 *) p + 0x11C + p[4] * 16);
+            }
+            break;
     }
     return result;
 }

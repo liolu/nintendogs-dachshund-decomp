@@ -65,7 +65,7 @@ void func_0209f9c0(u8 *arg0) {
     func_020db55c();
     for (i = 0; i < 7; i++) {
         handle = func_020d640c(2, 0, 4000, i);
-        id = i;
+        id     = i;
         func_020db0fc(0, h3, h1, id, 0);
         func_020daae8(0, id);
         func_020da98c(0, h2, id, id, handle);

@@ -10,18 +10,18 @@ void func_0207a86c(s32 arg0, u8 *arg1, s32 arg2) {
     s32 ret;
     s32 cnt;
 
-    base = arg2 + *(u32 *)(arg2 + 8);
-    *(u32 *)(arg0 + 0xC) = data_0213cb04;
-    *(u8 *)(arg0 + 0x19) = *(u8 *)(arg2 + 0x18);
-    *(u32 *)(arg0 + 8) = (u32) arg1;
-    pad = 0;
-    cnt = *(volatile u8 *)(arg0 + 0x19);
+    base                  = arg2 + *(u32 *) (arg2 + 8);
+    *(u32 *) (arg0 + 0xC) = data_0213cb04;
+    *(u8 *) (arg0 + 0x19) = *(u8 *) (arg2 + 0x18);
+    *(u32 *) (arg0 + 8)   = (u32) arg1;
+    pad                   = 0;
+    cnt                   = *(volatile u8 *) (arg0 + 0x19);
     func_0206cbc4(pad, arg0 + 0x1A, cnt * 2, cnt);
     for (i = 0; i < arg1[0xD]; i++) {
         tbl = (s32) (arg1 + 0xC) + *(u16 *) (arg1 + 0x12);
-        ret = func_0207837c(base + 4, tbl + *(u16 *)(tbl + 2) + i * 0x10);
+        ret = func_0207837c(base + 4, tbl + *(u16 *) (tbl + 2) + i * 0x10);
         if (ret >= 0) {
-            *(u16 *)(arg0 + ret * 2 + 0x1A) = i | 0x100;
+            *(u16 *) (arg0 + ret * 2 + 0x1A) = i | 0x100;
         }
     }
 }

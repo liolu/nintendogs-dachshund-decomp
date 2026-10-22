@@ -15,7 +15,7 @@ s32 func_020b0f74(s32 arg0, s32 arg1) {
             }
             if (func_02034208(idx) != 0) {
                 if (*(s16 *) (arg0 + 0x90) == 3) {
-                    t = (*data_021555f8 * 0x10DCD) + 1;
+                    t              = (*data_021555f8 * 0x10DCD) + 1;
                     *data_021555f8 = t;
                     if ((u16) t < 0x4000) {
                         return 1;

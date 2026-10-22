@@ -47,7 +47,7 @@ void func_020aadf8(s32 arg0, u8 *arg1) {
     Vec v0;
     Vec v1;
     UnkMain *main = (UnkMain *) data_027c0b64;
-    u8 *sub = main->unk_0x214;
+    u8 *sub       = main->unk_0x214;
     s32 m;
     s32 w;
     s32 v;
@@ -63,9 +63,9 @@ void func_020aadf8(s32 arg0, u8 *arg1) {
     func_02067010((Mtx43 *) buf, w, w, (s32) (((s64) v * m + 0x800) >> 12));
     func_0206ccdc((const Mtx43 *) (sub + 0x20), (Mtx43 *) arg1);
     func_01ff810c((const Mtx43 *) buf, (const Mtx43 *) arg1, (Mtx43 *) arg1);
-    x = v0.x;
-    z = v0.z;
-    y = v0.y;
+    x                      = v0.x;
+    z                      = v0.z;
+    y                      = v0.y;
     *(s32 *) (arg1 + 0x24) = x;
     *(s32 *) (arg1 + 0x28) = y;
     *(s32 *) (arg1 + 0x2C) = z;

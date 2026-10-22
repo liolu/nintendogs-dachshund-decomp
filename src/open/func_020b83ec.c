@@ -32,34 +32,46 @@ void func_020b83ec(B83ec *arg0, u8 *arg1) {
         v1c.x = 0;
         v1c.y = 0x1000;
         v1c.z = 0;
-        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x40))
+        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x40)) {
             func_01ff832c(0x400, &v4, arg1 + 0x3C, arg1 + 0x3C);
-        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x80))
+        }
+        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x80)) {
             func_01ff832c(-0x400, &v4, arg1 + 0x3C, arg1 + 0x3C);
-        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x20))
+        }
+        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x20)) {
             func_01ff832c(0x400, &v10, arg1 + 0x3C, arg1 + 0x3C);
-        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x10))
+        }
+        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x10)) {
             func_01ff832c(-0x400, &v10, arg1 + 0x3C, arg1 + 0x3C);
-        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x400))
+        }
+        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x400)) {
             func_01ff832c(0x400, &v1c, arg1 + 0x3C, arg1 + 0x3C);
-        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x800))
+        }
+        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x800)) {
             func_01ff832c(-0x400, &v1c, arg1 + 0x3C, arg1 + 0x3C);
+        }
     } else {
-        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x20))
+        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x20)) {
             arg0->f2 -= 0x100;
-        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x10))
+        }
+        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x10)) {
             arg0->f2 += 0x100;
-        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x80))
+        }
+        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x80)) {
             arg0->f0 -= 0x100;
-        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x40))
+        }
+        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x40)) {
             arg0->f0 += 0x100;
+        }
         if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x400)) {
             arg0->f4 -= 0x400;
-            if (arg0->f4 <= 0x1000)
+            if (arg0->f4 <= 0x1000) {
                 arg0->f4 = 0x1000;
+            }
         }
-        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x800))
+        if ((u16) (*(u16 *) (data_0214d5fc + 2) & 0x800)) {
             arg0->f4 += 0x400;
+        }
         if ((u32) arg0->f0 > 0x3F00 && (u32) arg0->f0 <= 0x8000) {
             arg0->f0 = 0x3F00;
         } else if ((u32) arg0->f0 < 0xC100 && (u32) arg0->f0 > 0x8000) {

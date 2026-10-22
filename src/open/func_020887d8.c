@@ -23,29 +23,29 @@ void func_020887d8(UnkStruct_020887d8 *arg0) {
         UnkNode_020887d8 *pNull = NULL;
         UnkNode_020887d8 *headB = NULL;
         UnkNode_020887d8 *tailB;
-        s32 size = (s32)arg0->unk_08;
-        s32 start = (s32)arg0->unk_04;
-        s32 c = (s32)arg0->unk_0c;
-        s32 end = start + size;
-        s32 t = size + c;
+        s32 size  = (s32) arg0->unk_08;
+        s32 start = (s32) arg0->unk_04;
+        s32 c     = (s32) arg0->unk_0c;
+        s32 end   = start + size;
+        s32 t     = size + c;
         s32 end2;
         u32 irq;
         UnkNode_020887d8 *head;
         UnkNode_020887d8 *cur;
 
-        t = t - size;
+        t     = t - size;
         tailB = NULL;
-        end2 = end + t;
-        irq = func_02080c28();
-        head = data_0214dfb0;
+        end2  = end + t;
+        irq   = func_02080c28();
+        head  = data_0214dfb0;
         prevA = NULL;
-        cur = head;
+        cur   = head;
 
         if (cur != NULL) {
             do {
-                u32 func = (u32)cur->func;
+                u32 func               = (u32) cur->func;
                 UnkNode_020887d8 *next = cur->next;
-                u32 arg = (u32)cur->arg;
+                u32 arg                = (u32) cur->arg;
                 if ((func >= start && func < end) || (arg >= end && arg < end2)) {
                     if (tailB != NULL) {
                         tailB->next = cur;
@@ -54,10 +54,10 @@ void func_020887d8(UnkStruct_020887d8 *arg0) {
                     }
                     if (head == cur) {
                         data_0214dfb0 = next;
-                        head = next;
+                        head          = next;
                     }
                     cur->next = pNull;
-                    tailB = cur;
+                    tailB     = cur;
                     if (prevA != NULL) {
                         prevA->next = next;
                     }
@@ -72,7 +72,7 @@ void func_020887d8(UnkStruct_020887d8 *arg0) {
             return;
         }
         do {
-            void (*func)(void *) = headB->func;
+            void (*func)(void *)   = headB->func;
             UnkNode_020887d8 *next = headB->next;
             if (func != NULL) {
                 func(headB->arg);

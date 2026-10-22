@@ -18,8 +18,7 @@ void func_02007a74(u8 *arg0) {
     }
     M2C_FIELD(arg0, s16 *, 6) = M2C_FIELD(arg0, s16 *, 6) + 1;
     if (M2C_FIELD(arg0, s16 *, 6) <= M2C_FIELD(arg0, s16 *, 8)) {
-        q = func_0205df50(M2C_FIELD(arg0, s32 *, 0x18) * M2C_FIELD(arg0, s16 *, 6),
-                          M2C_FIELD(arg0, s16 *, 8));
+        q = func_0205df50(M2C_FIELD(arg0, s32 *, 0x18) * M2C_FIELD(arg0, s16 *, 6), M2C_FIELD(arg0, s16 *, 8));
         x = (s32) (((s64) q * q + 0x800) >> 12);
 
         v = M2C_FIELD(arg0, s16 *, 0x1E) - (q >> 12);
@@ -27,7 +26,7 @@ void func_02007a74(u8 *arg0) {
             v = 0;
         }
         M2C_FIELD(arg0, s16 *, 0x20) = v;
-        v = M2C_FIELD(arg0, s16 *, 0x1E) + (q >> 12);
+        v                            = M2C_FIELD(arg0, s16 *, 0x1E) + (q >> 12);
         if (v >= 0xC0) {
             v = 0xBF;
         }
@@ -38,7 +37,7 @@ void func_02007a74(u8 *arg0) {
             v = (i - M2C_FIELD(arg0, s16 *, 0x1E)) << 12;
             v = x - (s32) (((s64) v * v + 0x800) >> 12);
             if (v > 0) {
-                v = func_02067c34(v) >> 12;
+                v           = func_02067c34(v) >> 12;
                 a[i + 0x12] = M2C_FIELD(arg0, s16 *, 0x1C) - v;
                 if (a[i + 0x12] < 0) {
                     a[i + 0x12] = 0;
@@ -54,10 +53,10 @@ void func_02007a74(u8 *arg0) {
         }
         return;
     }
-    M2C_FIELD(arg0, u16 *, 4) = 2;
+    M2C_FIELD(arg0, u16 *, 4)    = 2;
     M2C_FIELD(arg0, s32 *, 0x10) = 0;
     M2C_FIELD(arg0, s32 *, 0x14) = 0;
-    *(volatile u32 *) 0x4001000 = *(volatile u32 *) 0x4001000 & ~0xE000;
-    *(volatile u16 *) 0x4001050 = 0;
-    *(volatile u32 *) 0x4001000 = *(volatile u32 *) 0x4001000 & ~0x800;
+    *(volatile u32 *) 0x4001000  = *(volatile u32 *) 0x4001000 & ~0xE000;
+    *(volatile u16 *) 0x4001050  = 0;
+    *(volatile u32 *) 0x4001000  = *(volatile u32 *) 0x4001000 & ~0x800;
 }

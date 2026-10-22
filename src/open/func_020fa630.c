@@ -22,8 +22,8 @@ void func_020fa630(void *arg0, M2C_UNK arg1) {
     M2C_FIELD(arg0, M2C_UNK **, 0x1F4) = &func_020fa584;
     M2C_FIELD(arg0, M2C_UNK **, 0x1F8) = &func_020fa0d4;
     M2C_FIELD(arg0, M2C_UNK **, 0x1F0) = &func_020fa624;
-    M2C_FIELD(arg0, s32 *, 0x214) = (s32) func_020038a8(arg1, 0x234);
-    p = M2C_FIELD(arg0, s32 **, 0x214);
+    M2C_FIELD(arg0, s32 *, 0x214)      = (s32) func_020038a8(arg1, 0x234);
+    p                                  = M2C_FIELD(arg0, s32 **, 0x214);
     if (arg0 != 0) {
         base = (u8 *) (M2C_FIELD(M2C_FIELD(arg0, void **, 0x1C), s32 *, 0x8) + 0x40);
         for (i = 0; i < 7; i++) {

@@ -8,7 +8,7 @@ void func_0208eea4(s32 arg0) {
     if (func_02091bb8() == 0xff) {
         return;
     }
-    p = data_0215446c;
+    p                      = data_0215446c;
     M2C_FIELD(p, u16 *, 4) = 0;
     if (arg0 == 0x18) {
         M2C_FIELD(p, u32 *, 0x14) = 1;

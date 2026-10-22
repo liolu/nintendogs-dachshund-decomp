@@ -16,7 +16,7 @@ s32 func_020903bc(s32 arg0) {
     base = (s32 *) data_0215449c;
     for (i = 0; i < 4; i = (s16) (i + 1)) {
         mask = (u16) (1 << i);
-        off = i * 4;
+        off  = i * 4;
         if (*(s32 *) ((u8 *) base + off + 0x28) != 0) {
             if ((*(u16 *) ((u8 *) base + 0x1A) & mask) != 0) {
                 func_02070f88((u8 *) base + 0x28 + off, arg0);

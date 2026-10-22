@@ -18,18 +18,18 @@ void func_0208599c(S *arg0, void *arg1, s32 *arg2) {
         return;
     }
 
-    rnd = (data_021541a4 * 0x5EEDF715) + 0x1B0CB173;
+    rnd           = (data_021541a4 * 0x5EEDF715) + 0x1B0CB173;
     data_021541a4 = rnd;
-    h = arg0->x;
+    h             = arg0->x;
     arg2[0] += ((s32) (h * (rnd >> 23)) - (h << 8)) >> 8;
 
-    rnd = (data_021541a4 * 0x5EEDF715) + 0x1B0CB173;
+    rnd           = (data_021541a4 * 0x5EEDF715) + 0x1B0CB173;
     data_021541a4 = rnd;
-    h = arg0->y;
+    h             = arg0->y;
     arg2[1] += ((s32) (h * (rnd >> 23)) - (h << 8)) >> 8;
 
-    rnd = (data_021541a4 * 0x5EEDF715) + 0x1B0CB173;
+    rnd           = (data_021541a4 * 0x5EEDF715) + 0x1B0CB173;
     data_021541a4 = rnd;
-    h = arg0->z;
+    h             = arg0->z;
     arg2[2] += ((s32) (h * (rnd >> 23)) - (h << 8)) >> 8;
 }

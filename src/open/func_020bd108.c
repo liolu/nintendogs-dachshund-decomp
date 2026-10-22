@@ -23,20 +23,20 @@ void func_020bd108(Ctx *ctx, M2C_UNK heap, s32 count, s32 stride) {
     Vec *e2;
     s32 i;
 
-    ctx->arr1 = func_020038a8(heap, count * 12);
-    ctx->arr4 = func_020038a8(heap, count * 12);
-    ctx->arr2 = func_020038a8(heap, count * 12);
-    ctx->arr3 = func_020038a8(heap, count * 4);
+    ctx->arr1  = func_020038a8(heap, count * 12);
+    ctx->arr4  = func_020038a8(heap, count * 12);
+    ctx->arr2  = func_020038a8(heap, count * 12);
+    ctx->arr3  = func_020038a8(heap, count * 4);
     ctx->count = count;
     for (i = 0; i < count; i++) {
-        e1 = &ctx->arr1[i];
-        e1->x = 0;
-        e1->y = -i * stride;
-        e1->z = 0;
-        e2 = &ctx->arr2[i];
-        e2->x = 0;
-        e2->y = 0;
-        e2->z = 0;
+        e1           = &ctx->arr1[i];
+        e1->x        = 0;
+        e1->y        = -i * stride;
+        e1->z        = 0;
+        e2           = &ctx->arr2[i];
+        e2->x        = 0;
+        e2->y        = 0;
+        e2->z        = 0;
         ctx->arr3[i] = 0;
     }
     ctx->unk_14 = 0;

@@ -4,7 +4,7 @@ extern s16 data_02154234[];
 void func_020721a0(void *a);
 s32 func_0208927c(s32 arg0) {
     M2C_UNK *p = &data_0215422c;
-    s16 *base = data_02154234;
+    s16 *base  = data_02154234;
     s32 i;
     s32 j;
 

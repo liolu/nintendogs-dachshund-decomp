@@ -36,16 +36,16 @@ void func_0210e770(void) {
 
     func_0211bd4c();
     h = M2C_FIELD(data_0215a044, u8 **, 4);
-    (*(void (**)(void *)) (h + 0x10))(h);
+    (*(void (**)(void *))(h + 0x10))(h);
 
-    p = M2C_FIELD(data_0215a044, u8 **, 0xC);
+    p                      = M2C_FIELD(data_0215a044, u8 **, 0xC);
     M2C_FIELD(p, u16 *, 2) = 0;
-    fill1 = 0xC0;
+    fill1                  = 0xC0;
     func_0206cbf8(fill1, M2C_FIELD(p, void **, 4), M2C_FIELD(p, u16 *, 0) << 3);
 
-    p = M2C_FIELD(data_0215a044, u8 **, 0x10);
+    p                      = M2C_FIELD(data_0215a044, u8 **, 0x10);
     M2C_FIELD(p, u16 *, 2) = 0;
-    fill2 = 0xC0;
+    fill2                  = 0xC0;
     func_0206cbf8(fill2, M2C_FIELD(p, void **, 4), M2C_FIELD(p, u16 *, 0) << 3);
 
     if (data_02159e70 != NULL) {

@@ -12,7 +12,7 @@ s32 func_0206eb90(s32 arg0, s32 arg1, s32 arg2) {
     s32 temp;
     s32 temp2;
 
-    temp = func_02070154(arg0, arg1, arg2);
+    temp   = func_02070154(arg0, arg1, arg2);
     var_18 = M2C_FIELD(arg0, s32 *, 0x18);
     if (arg1 < M2C_FIELD(arg0, s32 *, 4)) {
         if (arg1 == M2C_FIELD(arg0, s32 *, 4) - 1) {

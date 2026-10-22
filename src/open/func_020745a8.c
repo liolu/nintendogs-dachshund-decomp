@@ -8,8 +8,8 @@ void func_020745a8(M2C_UNK arg0, M2C_UNK arg1) {
 
     zero = 0;
     func_0206cbf8(zero, (void *) arg0, 0x54);
-    M2C_FIELD(arg0, s32 *, 0xC) = data_0213cb14;
+    M2C_FIELD(arg0, s32 *, 0xC)  = data_0213cb14;
     M2C_FIELD(arg0, s32 *, 0x14) = data_0213cb10;
     M2C_FIELD(arg0, s32 *, 0x1C) = data_0213cb0c;
-    M2C_FIELD(arg0, s32 *, 0x4) = arg1;
+    M2C_FIELD(arg0, s32 *, 0x4)  = arg1;
 }

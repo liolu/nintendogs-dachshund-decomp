@@ -7,7 +7,7 @@ extern u32 data_0214f498;
 extern u32 data_0213cadc;
 #pragma thumb off
 void func_0206bdd8(void *src, u32 size) {
-    u32 dma = data_0213cadc;
+    u32 dma    = data_0213cadc;
     void *dest = (void *) data_0214f498;
 
     if (dma != (u32) -1) {

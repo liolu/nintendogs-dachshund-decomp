@@ -17,11 +17,11 @@ s32 func_020c710c(s32 *arg0) {
     u32 size;
     const char *path;
 
-    path = data_02140f00;
+    path   = data_02140f00;
     result = 0;
     func_0208831c(&file);
     if (func_02087fcc(&file, path) != 0) {
-        size = file.startPosition - file.unk_20;
+        size   = file.startPosition - file.unk_20;
         result = func_020038a8(arg0, size);
         func_02087e70(&file, result, size);
         func_02087f84(&file);

@@ -24,16 +24,16 @@ void func_0211e29c(s32 arg0) {
     state = func_ov006_021601e8();
     limit = func_ov006_021601d4();
     switch (state) {
-    case 2:
-    case 4:
-    case 6:
-    case 8:
-    case 9:
-        M2C_FIELD(arg0, s16 *, 0x64) -= 5;
-        if (M2C_FIELD(arg0, s16 *, 0x64) < -99) {
-            M2C_FIELD(arg0, s16 *, 0x64) = -99;
-        }
-        break;
+        case 2:
+        case 4:
+        case 6:
+        case 8:
+        case 9:
+            M2C_FIELD(arg0, s16 *, 0x64) -= 5;
+            if (M2C_FIELD(arg0, s16 *, 0x64) < -99) {
+                M2C_FIELD(arg0, s16 *, 0x64) = -99;
+            }
+            break;
     }
     if (M2C_FIELD(data_0215a044, s16 *, 0x0) != 0) {
         if (state != 0) {

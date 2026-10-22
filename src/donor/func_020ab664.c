@@ -8,8 +8,7 @@ typedef unsigned long long ulonglong;
 typedef unsigned int uint;
 typedef long long longlong;
 extern uint func_020ab664(int param_1, int param_2);
-uint func_020ab664(int param_1, int param_2)
-{
+uint func_020ab664(int param_1, int param_2) {
     longlong lVar1;
 
     lVar1 = (longlong) param_1 * (longlong) param_2 + 0x800;

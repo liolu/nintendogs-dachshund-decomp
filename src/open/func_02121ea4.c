@@ -32,25 +32,25 @@ void func_02121ea4(s32 arg0) {
         return;
     }
     switch (func_020ee348()) {
-    case 2:
-        func_02116dec(arg0, 4);
-        func_02116d20(arg0, 0);
-        return;
-    case 3:
-        func_02116dec(arg0, 9);
-        func_02116d20(arg0, 0);
-        return;
-    case 4:
-        func_02116dd8(arg0, 0);
-        func_02116d20(arg0, 0);
-        return;
-    case 5:
-        func_02116dd8(arg0, 1);
-        func_02116d20(arg0, 0);
-        return;
-    case 6:
-        func_02116dd8(arg0, 2);
-        func_02116d20(arg0, 0);
-        return;
+        case 2:
+            func_02116dec(arg0, 4);
+            func_02116d20(arg0, 0);
+            return;
+        case 3:
+            func_02116dec(arg0, 9);
+            func_02116d20(arg0, 0);
+            return;
+        case 4:
+            func_02116dd8(arg0, 0);
+            func_02116d20(arg0, 0);
+            return;
+        case 5:
+            func_02116dd8(arg0, 1);
+            func_02116d20(arg0, 0);
+            return;
+        case 6:
+            func_02116dd8(arg0, 2);
+            func_02116d20(arg0, 0);
+            return;
     }
 }

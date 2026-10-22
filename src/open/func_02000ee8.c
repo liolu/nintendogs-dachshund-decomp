@@ -61,10 +61,10 @@ void func_02000ee8(void) {
     *(vu16 *) 0x04000204 = (*(vu16 *) 0x04000204 & ~0x8000) | (exmem << 15);
     func_02000c54(cycles);
     func_02000bac(*(u16 *) (data_0214cbc0 + 2), lock);
-    info = (u8 *) 0x027FFC30;
+    info                = (u8 *) 0x027FFC30;
     *(u16 *) (info + 0) = *(u16 *) (data_0214cbe0 + 0xbe);
     for (i = 0; i < 3; i++) {
-        p = data_0214cbe0 + i;
+        p                        = data_0214cbe0 + i;
         *(u8 *) (0x027FFC32 + i) = p[0xb5];
     }
     *(u16 *) (info + 6) = *(u16 *) (data_0214cbe0 + 0xb0);

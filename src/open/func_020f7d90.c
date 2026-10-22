@@ -19,22 +19,22 @@ void func_020f7d90(s32 arg0) {
     s32 p;
 
     count = func_020a6d60(0x45);
-    i = 0;
+    i     = 0;
     if (count > 0) {
-        end = arg0 + count * 0xc;
-        p = arg0;
+        end  = arg0 + count * 0xc;
+        p    = arg0;
         vmat = 0;
         v18c = 0;
-        v9c = 0;
-        vca = 0xa;
+        v9c  = 0;
+        vca  = 0xa;
         do {
-            obj = M2C_FIELD(p, s32 *, 0x1b0);
+            obj                         = M2C_FIELD(p, s32 *, 0x1b0);
             M2C_FIELD(obj, s16 *, 0x9c) = (s16) v9c;
             func_020f7c5c(obj, M2C_FIELD(arg0, s32 *, 0x28));
             if (i == 0) {
                 func_020ca7a0(obj, vca);
                 M2C_FIELD(obj, s32 *, 0x18c) = v18c;
-                M2C_FIELD(obj, s16 *, 0xa6) = (s16) v18c;
+                M2C_FIELD(obj, s16 *, 0xa6)  = (s16) v18c;
             } else {
                 sub = M2C_FIELD(end + i * 0xc, s32 *, 0x1a4);
                 func_020a78ac(obj, sub);

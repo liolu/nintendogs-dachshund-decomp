@@ -7,7 +7,7 @@ s32 func_020ced34(void) {
     u8 a[0x10];
     u8 b[0x10];
     u8 *base = (u8 *) M2C_FIELD(data_02159e38, void **, 0x141C);
-    u8 *p = base + 0x60;
+    u8 *p    = base + 0x60;
 
     if (M2C_FIELD(p, u16 *, 0x20) != 0xFFFF) {
         func_0200718c(a, b);

@@ -25,6 +25,6 @@ void func_02033dd4(s32 arg0) {
         return;
     }
     func_020a5a1c(1, -1);
-    base = (s8 *) func_020a5fcc() + 0x88;
+    base                   = (s8 *) func_020a5fcc() + 0x88;
     *(s32 *) (base + 0x6C) = 0;
 }

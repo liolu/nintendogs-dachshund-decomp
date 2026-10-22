@@ -23,14 +23,14 @@ void func_020ebe84(s32 arg0, s32 arg1, s32 arg2, s32 arg3, s32 arg4, s32 arg5, u
 
     v = 0;
     switch (arg0) {
-    case 0:
-    case 1:
-        v = M2C_FIELD((u8 *) data_02159e70 + 0x1000, s32 *, 0xDE4);
-        break;
-    case 2:
-    case 3:
-        v = M2C_FIELD((u8 *) data_02159e70 + 0x1000, s32 *, 0xDE8);
-        break;
+        case 0:
+        case 1:
+            v = M2C_FIELD((u8 *) data_02159e70 + 0x1000, s32 *, 0xDE4);
+            break;
+        case 2:
+        case 3:
+            v = M2C_FIELD((u8 *) data_02159e70 + 0x1000, s32 *, 0xDE8);
+            break;
     }
 
     ent = (u8 *) M2C_FIELD((u8 *) v, s32 *, 4) + arg7 * 32;
@@ -39,13 +39,13 @@ void func_020ebe84(s32 arg0, s32 arg1, s32 arg2, s32 arg3, s32 arg4, s32 arg5, u
     func_02066724(c, a, b);
 
     base = (u8 *) data_02159e70 + 0x1dec + arg0 * 0x294;
-    ptr = (u32 *) func_02085d3c(M2C_FIELD(base, s32 *, 0xc),
-                                M2C_FIELD((u8 *) M2C_FIELD(base, s32 *, 8) + arg1 * 8, s32 *, 0xc));
+    ptr =
+        (u32 *) func_02085d3c(M2C_FIELD(base, s32 *, 0xc), M2C_FIELD((u8 *) M2C_FIELD(base, s32 *, 8) + arg1 * 8, s32 *, 0xc));
 
     M2C_FIELD(ptr, u32 *, 0) = (M2C_FIELD(ptr, u32 *, 0) & 0xfe00ff00) | (arg3 & 0xff) | ((arg2 & 0x1ff) << 16);
 
-    M2C_FIELD(ent, s16 *, 0x6) = M2C_FIELD(b, s32 *, 0) >> 4;
-    M2C_FIELD(ent, s16 *, 0xe) = M2C_FIELD(b, s32 *, 4) >> 4;
+    M2C_FIELD(ent, s16 *, 0x6)  = M2C_FIELD(b, s32 *, 0) >> 4;
+    M2C_FIELD(ent, s16 *, 0xe)  = M2C_FIELD(b, s32 *, 4) >> 4;
     M2C_FIELD(ent, s16 *, 0x16) = M2C_FIELD(b, s32 *, 8) >> 4;
     M2C_FIELD(ent, s16 *, 0x1e) = M2C_FIELD(b, s32 *, 0xc) >> 4;
 

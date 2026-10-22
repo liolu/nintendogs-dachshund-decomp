@@ -30,39 +30,40 @@ void func_020e6bec(s32 arg0) {
     s32 y;
 
     switch (M2C_FIELD(arg0, u32 *, 0x1C60)) {
-    case 0:
-        M2C_FIELD(arg0, u32 *, 0x874) = 8;
-        M2C_FIELD(arg0, u16 *, 0x878) = 9;
-        M2C_FIELD(arg0, u16 *, 0x87A) = 3;
-        M2C_FIELD(arg0, u16 *, 0x87C) = 0xE;
-        M2C_FIELD(arg0, u16 *, 0x87E) = 3;
-        M2C_FIELD(arg0, u16 *, 0x880) = 7;
-        break;
-    case 1:
-        M2C_FIELD(arg0, u32 *, 0x874) = 0xB;
-        M2C_FIELD(arg0, u16 *, 0x878) = 6;
-        M2C_FIELD(arg0, u16 *, 0x87A) = 3;
-        M2C_FIELD(arg0, u16 *, 0x87C) = 0x14;
-        M2C_FIELD(arg0, u16 *, 0x87E) = 3;
-        M2C_FIELD(arg0, u16 *, 0x880) = 0xA;
-        break;
-    case 2:
-        M2C_FIELD(arg0, u32 *, 0x874) = 0x1B;
-        M2C_FIELD(arg0, u16 *, 0x878) = 3;
-        M2C_FIELD(arg0, u16 *, 0x87A) = 2;
-        M2C_FIELD(arg0, u16 *, 0x87C) = 0x1A;
-        M2C_FIELD(arg0, u16 *, 0x87E) = 5;
-        M2C_FIELD(arg0, u16 *, 0x880) = 0xD;
-        break;
+        case 0:
+            M2C_FIELD(arg0, u32 *, 0x874) = 8;
+            M2C_FIELD(arg0, u16 *, 0x878) = 9;
+            M2C_FIELD(arg0, u16 *, 0x87A) = 3;
+            M2C_FIELD(arg0, u16 *, 0x87C) = 0xE;
+            M2C_FIELD(arg0, u16 *, 0x87E) = 3;
+            M2C_FIELD(arg0, u16 *, 0x880) = 7;
+            break;
+        case 1:
+            M2C_FIELD(arg0, u32 *, 0x874) = 0xB;
+            M2C_FIELD(arg0, u16 *, 0x878) = 6;
+            M2C_FIELD(arg0, u16 *, 0x87A) = 3;
+            M2C_FIELD(arg0, u16 *, 0x87C) = 0x14;
+            M2C_FIELD(arg0, u16 *, 0x87E) = 3;
+            M2C_FIELD(arg0, u16 *, 0x880) = 0xA;
+            break;
+        case 2:
+            M2C_FIELD(arg0, u32 *, 0x874) = 0x1B;
+            M2C_FIELD(arg0, u16 *, 0x878) = 3;
+            M2C_FIELD(arg0, u16 *, 0x87A) = 2;
+            M2C_FIELD(arg0, u16 *, 0x87C) = 0x1A;
+            M2C_FIELD(arg0, u16 *, 0x87E) = 5;
+            M2C_FIELD(arg0, u16 *, 0x880) = 0xD;
+            break;
     }
 
-    w = M2C_FIELD(arg0, u16 *, 0x87C) * M2C_FIELD(arg0, u16 *, 0x87E);
+    w    = M2C_FIELD(arg0, u16 *, 0x87C) * M2C_FIELD(arg0, u16 *, 0x87E);
     fill = 0x1FF;
-    y = 0x232;
-    dst = arg0 + 0x64;
+    y    = 0x232;
+    dst  = arg0 + 0x64;
     func_0206cbc4(fill, dst, 0x800);
     func_020db55c();
-    M2C_FIELD(arg0, s32 *, 0x10) = func_020dad78(0, 1, dst, M2C_FIELD(arg0, u16 *, 0x878), M2C_FIELD(arg0, u16 *, 0x87A), M2C_FIELD(arg0, u16 *, 0x87C), M2C_FIELD(arg0, u16 *, 0x87E), y, 2, 0x32);
+    M2C_FIELD(arg0, s32 *, 0x10) = func_020dad78(0, 1, dst, M2C_FIELD(arg0, u16 *, 0x878), M2C_FIELD(arg0, u16 *, 0x87A),
+                                                 M2C_FIELD(arg0, u16 *, 0x87C), M2C_FIELD(arg0, u16 *, 0x87E), y, 2, 0x32);
     M2C_FIELD(arg0, s32 *, 0x14) = func_020dad78(0, 1, dst, 6, 9, 0x18, 0xA, (u16) (y + w), 2, (u16) (w + 0x32));
     func_020dab90(0, M2C_FIELD(arg0, s32 *, 0x10), 0);
 }

@@ -21,7 +21,7 @@ s32 func_0208b9c8(s32 arg0, s32 arg1) {
         idx = func_02089d60((void *) arg0);
         if (idx != -1) {
             *(s16 *) (arg0 + idx * 2 + 0x12) = arg1;
-            bit = 1 << idx;
+            bit                              = 1 << idx;
             *(u16 *) (arg0 + 8) |= bit;
             *(s32 *) (arg0 + idx * 4 + 0x28) = 0;
             *(u16 *) (arg0 + 0x26) &= ~bit;

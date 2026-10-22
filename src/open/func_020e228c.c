@@ -8,10 +8,10 @@ void func_020e228c(s32 arg0, s32 arg1, s32 arg2) {
     s32 type;
     s32 v;
 
-    wk = (u8 *) data_02159e70 + 0x1D20;
+    wk                        = (u8 *) data_02159e70 + 0x1D20;
     M2C_FIELD(wk, s32 *, 0xC) = arg2;
-    M2C_FIELD(wk, s32 *, 8) = arg1;
-    type = 2;
+    M2C_FIELD(wk, s32 *, 8)   = arg1;
+    type                      = 2;
     if (arg0 <= 8) {
         type = 0;
     } else if (arg0 <= 0xB) {

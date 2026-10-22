@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 void func_020b777c(s32 arg0, s32 arg1, s32 arg2, s32 arg3, s32 arg4);
 M2C_UNK func_020cba74(M2C_UNK);
 void func_0207ca98(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -25,6 +25,6 @@ s32 func_02006e3c(s32 arg0) {
         return 0x1000;
     }
     rounding = 0x800;
-    product = (s64) arg0 * arg0;
+    product  = (s64) arg0 * arg0;
     return (u64) (product + rounding) >> 0xC;
 }

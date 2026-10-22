@@ -10,10 +10,10 @@ s32 func_0208ef10(s32 arg0, s32 arg1) {
     void **qp;
     void *q;
 
-    p = (s32 *) data_0215449c;
+    p    = (s32 *) data_0215449c;
     p[8] = 0;
-    qp = &data_021544d4;
-    q = *qp;
+    qp   = &data_021544d4;
+    q    = *qp;
     if (q == 0 && p[9] == 0) {
         func_02073328(qp, 0x43, 0);
         p[9] = 1;

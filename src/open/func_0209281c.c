@@ -15,7 +15,7 @@ void func_0209281c(void) {
     s32 tmp;
 
     tmp = 0;
-    v = *(s16 *) (data_02154350 + 0x32);
+    v   = *(s16 *) (data_02154350 + 0x32);
     sel = 4;
     if (v < -0x28) {
         sel = 1;

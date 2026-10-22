@@ -8,7 +8,7 @@ s32 func_020cfcd4(s32 arg0, s32 arg1, s32 arg2) {
     s16 i;
     s8 *p;
 
-    ret = -1;
+    ret  = -1;
     base = arg0 + 0x848;
     if (func_020cd6bc(base) != 0) {
         if (func_020ccf24(base, arg1, arg2) == 0) {
@@ -16,7 +16,7 @@ s32 func_020cfcd4(s32 arg0, s32 arg1, s32 arg2) {
                 ret = 0;
             } else {
                 i = n = 0;
-                p = (s8 *) (arg0 + 0x90);
+                p     = (s8 *) (arg0 + 0x90);
                 do {
                     if (*(u8 *) (p + 0x28) != 0) {
                         n = (s16) (n + 1);
@@ -30,7 +30,7 @@ s32 func_020cfcd4(s32 arg0, s32 arg1, s32 arg2) {
             }
         } else {
             i = n = 0;
-            p = (s8 *) (arg0 + 0x90);
+            p     = (s8 *) (arg0 + 0x90);
             do {
                 if (*(u8 *) (p + 0x28) != 0) {
                     n = (s16) (n + 1);

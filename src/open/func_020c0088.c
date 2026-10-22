@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 s32 func_020648b8(M2C_UNK, void *);                  /* extern */
 s32 func_02080c28();                                /* extern */
 M2C_UNK func_02080c3c(s32);                         /* extern */

@@ -16,7 +16,7 @@ void func_020928b4(void) {
     u8 *temp;
 
     flag = 1;
-    i = 0;
+    i    = 0;
     temp = (u8 *) data_0214d750 + 0x2C;
     seed = *(u32 *) ((u8 *) data_0214d750 + 0x2C) + *(u32 *) (temp + 4) + *(u32 *) (temp + 8);
     for (; i < 3; i++) {

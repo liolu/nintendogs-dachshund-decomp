@@ -14,7 +14,7 @@ s32 func_020958c8(void *arg0, u32 arg1, s32 arg2) {
     s32 max;
     s32 j;
 
-    i = 0;
+    i   = 0;
     max = 0;
     if (arg1 != 0) {
         u8 **p = (u8 **) data_02154664;

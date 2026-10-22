@@ -59,11 +59,11 @@ void func_020a83c0(void *arg0) {
     }
     if (M2C_FIELD(arg0, s16 *, 0x162) > 0) {
         M2C_FIELD(arg0, s16 *, 0x162)--;
-        old = M2C_FIELD(arg0, s32 *, 0x170);
+        old                          = M2C_FIELD(arg0, s32 *, 0x170);
         M2C_FIELD(arg0, s32 *, 0xbc) = old + (s32) (((s64) (val.f0 - old) * 0x400 + 0x800) >> 12);
-        old = M2C_FIELD(arg0, s32 *, 0x174);
+        old                          = M2C_FIELD(arg0, s32 *, 0x174);
         M2C_FIELD(arg0, s32 *, 0xc0) = old + (s32) (((s64) (val.f1 - old) * 0x400 + 0x800) >> 12);
-        old = M2C_FIELD(arg0, s32 *, 0x178);
+        old                          = M2C_FIELD(arg0, s32 *, 0x178);
         M2C_FIELD(arg0, s32 *, 0xc4) = old + (s32) (((s64) (val.f2 - old) * 0x400 + 0x800) >> 12);
         return;
     }

@@ -23,14 +23,14 @@ void func_020bd080(Ctx *c, Vec *in) {
     s32 z;
 
     for (i = 0; i < c->count; i++) {
-        a = c->arr1;
-        z = in->z;
-        x = in->x;
-        y = in->y - i * c->stride;
+        a      = c->arr1;
+        z      = in->z;
+        x      = in->x;
+        y      = in->y - i * c->stride;
         a[i].x = x;
         a[i].y = y;
         a[i].z = z;
-        b = c->arr2;
+        b      = c->arr2;
         b[i].x = 0;
         b[i].y = 0;
         b[i].z = 0;

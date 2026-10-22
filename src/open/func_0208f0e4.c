@@ -15,7 +15,7 @@ s32 func_0208f0e4(M2C_UNK arg0, M2C_UNK arg1) {
 
     thing = *((u8 *) ((s8 *) &data_02129429 + (M2C_FIELD(&data_0215422c, u16 *, 0x18) * 6)));
     state = func_02070c3c((s32) &data_02154464);
-    bad = (state == 4) || (state == 5) || (state == 0x3E);
+    bad   = (state == 4) || (state == 5) || (state == 0x3E);
     if (bad != 0) {
         return -1;
     }

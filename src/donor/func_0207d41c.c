@@ -5,8 +5,8 @@
 M2C_UNK func_0205e15c(M2C_UNK, M2C_UNK);
 extern void func_020cf19c();
 u16 func_0207d41c(u32 arg0, u16 arg1) {
-    u32 addr = arg0 + 0x24;
-    u16 old = *(u16 *) (addr + 0x10);
+    u32 addr               = arg0 + 0x24;
+    u16 old                = *(u16 *) (addr + 0x10);
     *(u16 *) (addr + 0x10) = arg1;
     return old;
 }

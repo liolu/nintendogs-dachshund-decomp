@@ -15,11 +15,11 @@ void func_02044f5c(s32 arg0) {
     s32 temp_r0;
 
     c = 0;
-    if ((u32) *(u16 *) (arg0 + 0xFC) > 0x64U) {
-        t = (*data_0214da84 * 0x10DCD) + 1;
-        q = (u16) t * 3;
+    if ((u32) * (u16 *) (arg0 + 0xFC) > 0x64U) {
+        t              = (*data_0214da84 * 0x10DCD) + 1;
+        q              = (u16) t * 3;
         *data_0214da84 = t;
-        c = (u16) (q >> 0x10) == 0;
+        c              = (u16) (q >> 0x10) == 0;
     }
     temp_r0 = func_020361f0(arg0);
     if (temp_r0 != 0) {

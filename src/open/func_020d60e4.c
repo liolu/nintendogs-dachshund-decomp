@@ -11,9 +11,9 @@ s32 func_020d60e4(s32 arg0, s32 arg1, s32 arg2) {
     s32 r;
 
     base = (u8 *) data_02159e70 + 0x1DEC;
-    p = (u8 *) ((u32) base + 0x528);
-    p = (u8 *) ((u32) p + 0x24);
-    r = func_02073a38(func_020e7ec4(arg0, arg1), &v);
+    p    = (u8 *) ((u32) base + 0x528);
+    p    = (u8 *) ((u32) p + 0x24);
+    r    = func_02073a38(func_020e7ec4(arg0, arg1), &v);
     if (r != 0) {
         *(s32 *) (p + 0x10 + arg2 * 4) = v + 0xC;
     } else {
