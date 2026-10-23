@@ -19,3 +19,11 @@ src/auto/func_ov004_021632e8.c:
 src/auto/func_ov004_021632f8.c:
     complete
     .text       start:0x021632f8 end:0x02163308
+
+src/data/ov004_data_02163bc4.c:
+    complete
+    .data       start:0x02163bc4 end:0x02163bc8
+
+src/data/ov004_data_02163bd0.c:
+    complete
+    .data       start:0x02163bd0 end:0x02163bd4
