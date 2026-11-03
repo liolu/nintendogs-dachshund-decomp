@@ -1,0 +1,33 @@
+/* compiler: 1.2/sp2p3  */
+/* func_020598c0 from projets/children-of-mana/src/auto/func_020598c0.c (same code in another game of this workspace), reused
+ * by tools/donor_match.py */
+typedef long s32;
+typedef unsigned long u32;
+typedef s32 M2C_UNK;
+extern M2C_UNK func_02081288();
+void func_0206d6c0(s32 arg0, s32 arg1, s32 arg2, s32 arg3) {
+    s32 var_r1;
+    u32 temp_r0;
+    u32 temp_r0_2;
+
+    var_r1 = arg1;
+    if (arg0 != 0) {
+        return;
+    }
+    temp_r0 = var_r1 & 0xFF000000;
+    switch (arg3) {
+        case 0x800000:
+            var_r1 -= arg2;
+            break;
+        case 0x0:
+            var_r1 += arg2;
+            break;
+    }
+    if ((temp_r0 != 0x04000000) && (temp_r0 < 0x08000000U)) {
+        temp_r0_2 = var_r1 & 0xFF000000;
+        if ((temp_r0_2 != 0x04000000) && (temp_r0_2 < 0x08000000U)) {
+            return;
+        }
+    }
+    func_02081288();
+}

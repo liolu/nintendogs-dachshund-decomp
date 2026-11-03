@@ -5350,13 +5350,13 @@ void func_0205d568(M2C_UNK, M2C_UNK);
 M2C_UNK func_0205d9b0(void);
 #endif
 #ifndef M2C_SELF_func_0205da08
-M2C_UNK func_0205da08(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
+M2C_UNK _ll_sdiv(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0205dbb8
-M2C_UNK func_0205dbb8(M2C_UNK, M2C_UNK);
+M2C_UNK _s32_div_f(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0205ddc4
-M2C_UNK func_0205ddc4(M2C_UNK, M2C_UNK);
+M2C_UNK _u32_div_f(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0205dfa8
 void func_0205dfa8(void);
@@ -7198,13 +7198,13 @@ M2C_UNK func_02072fa0(void);
 M2C_UNK func_02073004(void);
 #endif
 #ifndef M2C_SELF_func_02073068
-M2C_UNK func_02073068(void);
+M2C_UNK _ZN5Sound23InfoInstrumentBankEntry9GetWithIDEj(void);
 #endif
 #ifndef M2C_SELF_func_020730cc
 M2C_UNK func_020730cc(void);
 #endif
 #ifndef M2C_SELF_func_02073130
-M2C_UNK func_02073130(void);
+M2C_UNK _ZN5Sound17InfoSequenceEntry9GetWithIDEj(void);
 #endif
 #ifndef M2C_SELF_func_02073194
 M2C_UNK func_02073194(void);
@@ -7654,7 +7654,7 @@ M2C_UNK func_02078f7c(M2C_UNK, M2C_UNK);
 M2C_UNK func_02078f8c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02078fc4
-M2C_UNK func_02078fc4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
+M2C_UNK _Z18GetMatrixFromIndexP9Matrix3x3iii(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02079164
 void func_02079164(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -7774,7 +7774,8 @@ void func_0207b7fc(M2C_UNK, M2C_UNK);
 void func_0207b914(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0207badc
-void func_0207badc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
+void _Z36BoneMatrixScaleCalculationProc_Type2P20BoneMatrixRenderDataPN15NSBXXBoneMatrix7ScalingEPhi(M2C_UNK, M2C_UNK, M2C_UNK,
+                                                                                                    M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0207bd14
 void func_0207bd14(M2C_UNK);
@@ -8257,19 +8258,19 @@ void func_0207f368(M2C_UNK);
 M2C_UNK func_0207f39c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0207f3e4
-M2C_UNK func_0207f3e4(M2C_UNK);
+M2C_UNK _Z24EnableSpecificInterruptsj(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0207f41c
 M2C_UNK func_0207f41c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0207f450
-void func_0207f450(M2C_UNK, M2C_UNK, M2C_UNK);
+void _Z24SetTimerOverflowCallbackiPFviEi(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0207f49c
-void func_0207f49c(M2C_UNK, M2C_UNK, M2C_UNK);
+void _Z24SetDMACompletionCallbackiPFviEi(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0207f4e8
-M2C_UNK func_0207f4e8(M2C_UNK);
+M2C_UNK _Z19GetInterruptHandlerj(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0207f574
 void func_0207f574(M2C_UNK);
@@ -9895,7 +9896,7 @@ M2C_UNK func_0209bfac(M2C_UNK);
 M2C_UNK func_0209bfbc(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0209bfcc
-M2C_UNK func_0209bfcc(M2C_UNK);
+M2C_UNK _ZN9GameState15GetGrottoStructEv(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0209bfdc
 M2C_UNK func_0209bfdc(M2C_UNK);

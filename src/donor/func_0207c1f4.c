@@ -1,0 +1,16 @@
+/* compiler: 2.0/sp1p5  */
+/* func_020304d0 from projets/blue-dragon-awakened-shadow/src/auto/func_020304d0.c (same code in another game of this
+ * workspace), reused by tools/donor_match.py */
+typedef signed char s8;
+typedef unsigned short u16;
+typedef long s32;
+void func_0207c1f4(void *arg0, void *arg1) {
+    (*(s32 *) ((s8 *) (arg0) + (0)))    = 0x1000;
+    (*(s32 *) ((s8 *) (arg0) + (0x14))) = 0x1000;
+    (*(s32 *) ((s8 *) (arg0) + (4)))    = 0;
+    (*(s32 *) ((s8 *) (arg0) + (0x30))) =
+        (s32) ((0 - (*(s32 *) ((s8 *) (arg1) + (0x24)))) * (*(u16 *) ((s8 *) (arg1) + (0x2C))) * 0x10);
+    (*(s32 *) ((s8 *) (arg0) + (0x34))) =
+        (s32) ((*(s32 *) ((s8 *) (arg1) + (0x28))) * (*(u16 *) ((s8 *) (arg1) + (0x2E))) * 0x10);
+    (*(s32 *) ((s8 *) (arg0) + (0x10))) = 0;
+}
