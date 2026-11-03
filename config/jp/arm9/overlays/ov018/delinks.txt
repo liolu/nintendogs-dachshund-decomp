@@ -138,3 +138,15 @@ src/data/ov018_data_0215d0a8.c:
 src/auto/func_ov018_0215cdc0.c:
     complete
     .text       start:0x0215cdc0 end:0x0215cdcc
+
+src/data/ov018_data_0215d0c8.c:
+    complete
+    .data       start:0x0215d0c8 end:0x0215d100
+
+src/data/ov018_data_0215d100.c:
+    complete
+    .data       start:0x0215d100 end:0x0215d138
+
+src/data/ov018_data_0215d138.c:
+    complete
+    .data       start:0x0215d138 end:0x0215d170

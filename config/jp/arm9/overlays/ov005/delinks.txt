@@ -83,3 +83,19 @@ src/data/ov005_data_02161b50.c:
 src/data/ov005_data_02161b84.c:
     complete
     .data       start:0x02161b84 end:0x02161b88
+
+src/data/ov005_data_021619cc.c:
+    complete
+    .data       start:0x021619cc end:0x021619d0
+
+src/data/ov005_data_02161a0c.c:
+    complete
+    .data       start:0x02161a0c end:0x02161a14
+
+src/data/ov005_data_02161b58.c:
+    complete
+    .data       start:0x02161b58 end:0x02161b6c
+
+src/data/ov005_data_02161bf0.c:
+    complete
+    .data       start:0x02161bf0 end:0x02161bf4

@@ -11,3 +11,19 @@ src/data/ov026_data_021581a0.c:
 src/data/ov026_data_021581a4.c:
     complete
     .data       start:0x021581a4 end:0x021581a8
+
+src/data/ov026_rodata_02158180.c:
+    complete
+    .rodata     start:0x02158180 end:0x02158184
+
+src/data/ov026_rodata_02158184.c:
+    complete
+    .rodata     start:0x02158184 end:0x02158188
+
+src/data/ov026_data_021581a8.c:
+    complete
+    .data       start:0x021581a8 end:0x021581ac
+
+src/data/ov026_data_021581b8.c:
+    complete
+    .data       start:0x021581b8 end:0x021581e0
