@@ -1,0 +1,2 @@
+#include "m2c.h"
+char data_02140444[20] = "WM_APIID_PORT_RECV";

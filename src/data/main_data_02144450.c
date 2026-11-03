@@ -1,0 +1,2 @@
+#include "m2c.h"
+u32 data_02144450[1] = {0xFFFF0000};

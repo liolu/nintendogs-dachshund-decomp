@@ -1,0 +1,3 @@
+#include "m2c.h"
+extern u8 data_02143cdc[];
+u32 data_02143cd8[1] = {(u32) &data_02143cdc};

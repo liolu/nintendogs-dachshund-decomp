@@ -27,3 +27,47 @@ src/auto/func_ov007_0215cda8.c:
 src/auto/func_ov007_0215cdcc.c:
     complete
     .text       start:0x0215cdcc end:0x0215cdf0
+
+src/data/ov007_data_0215e3f4.c:
+    complete
+    .data       start:0x0215e3f4 end:0x0215e3f8
+
+src/data/ov007_data_0215e3f8.c:
+    complete
+    .data       start:0x0215e3f8 end:0x0215e400
+
+src/data/ov007_data_0215e410.c:
+    complete
+    .data       start:0x0215e410 end:0x0215e428
+
+src/data/ov007_data_0215e44c.c:
+    complete
+    .data       start:0x0215e44c end:0x0215e460
+
+src/data/ov007_data_0215e460.c:
+    complete
+    .data       start:0x0215e460 end:0x0215e464
+
+src/data/ov007_data_0215e4d4.c:
+    complete
+    .data       start:0x0215e4d4 end:0x0215e4e0
+
+src/data/ov007_data_0215e5a0.c:
+    complete
+    .data       start:0x0215e5a0 end:0x0215e5b8
+
+src/data/ov007_data_0215e5d8.c:
+    complete
+    .data       start:0x0215e5d8 end:0x0215e5dc
+
+src/data/ov007_data_0215e640.c:
+    complete
+    .data       start:0x0215e640 end:0x0215e644
+
+src/data/ov007_data_0215e674.c:
+    complete
+    .data       start:0x0215e674 end:0x0215e678
+
+src/data/ov007_data_0215e698.c:
+    complete
+    .data       start:0x0215e698 end:0x0215e69c
