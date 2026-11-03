@@ -1,0 +1,12 @@
+/* compiler: 1.2/sp2p3 */
+#include "engine.h"
+#include "m2c.h"
+
+void func_020be07c(M2C_UNK);
+
+void func_020b7384(s32 arg0) {
+    *(M2C_UNK *) arg0 = 0;
+    func_020be07c(arg0 + 0xB8);
+    func_020be07c(arg0 + 0xD8);
+    func_020be07c(arg0 + 0xF8);
+}

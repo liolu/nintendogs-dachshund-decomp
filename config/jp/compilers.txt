@@ -2724,3 +2724,574 @@ src/donor/func_0212421c.c 2.0/sp1p5
 src/donor/func_02124234.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/donor/func_021243b8.c 2.0/sp1p5
 src/donor/func_02124584.c 1.2/sp2p3
+src/auto/func_02000dec.c 1.2/sp2p3
+src/auto/func_02002fa4.c 1.2/sp2p3
+src/auto/func_020030ac.c 1.2/sp2p3
+src/auto/func_02003394.c 1.2/sp2p3
+src/auto/func_02003458.c 1.2/sp2p3
+src/auto/func_0200348c.c 1.2/sp2p3
+src/auto/func_020034f4.c 1.2/sp2p3
+src/auto/func_020035a8.c 1.2/sp2p3
+src/auto/func_0200365c.c 1.2/sp2p3
+src/auto/func_02003790.c 1.2/sp2p3
+src/auto/func_020037ec.c 1.2/sp2p3
+src/auto/func_02003844.c 1.2/sp2p3
+src/auto/func_020038a4.c 1.2/sp2p3
+src/auto/func_0200390c.c 1.2/sp2p3
+src/auto/func_0200399c.c 1.2/sp2p3
+src/auto/func_02003a08.c 1.2/sp2p3
+src/auto/func_02003b70.c 1.2/sp2p3
+src/auto/func_02003b9c.c 1.2/sp2p3
+src/auto/func_02003be4.c 1.2/sp2p3
+src/auto/func_02003c2c.c 1.2/sp2p3
+src/auto/func_02003c8c.c 1.2/sp2p3
+src/auto/func_02003cf0.c 1.2/sp2p3
+src/auto/func_02003d1c.c 1.2/sp2p3
+src/auto/func_02003d50.c 1.2/sp2p3
+src/auto/func_02003d84.c 1.2/sp2p3
+src/auto/func_0200420c.c 1.2/sp2p3
+src/auto/func_0200588c.c 1.2/sp2p3
+src/auto/func_020058c4.c 1.2/sp2p3
+src/auto/func_02005f70.c 1.2/sp2p3
+src/auto/func_02005fb4.c 1.2/sp2p3
+src/auto/func_02006240.c 1.2/sp2p3
+src/auto/func_020062ec.c 1.2/sp2p3
+src/auto/func_02006358.c 1.2/sp2p3
+src/auto/func_020063ac.c 1.2/sp2p3
+src/auto/func_020066c0.c 1.2/sp2p3
+src/auto/func_020069bc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02007bb4.c 2.0/sp1p5 -O4,s
+src/auto/func_02007d80.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02007e0c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02007e98.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02008eb4.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02008f40.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02008fcc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0201e7b0.c 1.2/sp2p3
+src/auto/func_0201e7dc.c 1.2/sp2p3
+src/auto/func_0201e830.c 1.2/sp2p3
+src/auto/func_0201e85c.c 1.2/sp2p3
+src/auto/func_0201e888.c 1.2/sp2p3
+src/auto/func_0201e8dc.c 1.2/sp2p3
+src/auto/func_0201e930.c 1.2/sp2p3
+src/auto/func_0201e95c.c 1.2/sp2p3
+src/auto/func_0201e988.c 1.2/sp2p3
+src/auto/func_0201e9dc.c 1.2/sp2p3
+src/auto/func_0201ea08.c 1.2/sp2p3
+src/auto/func_0201ea34.c 1.2/sp2p3
+src/auto/func_0201ea88.c 1.2/sp2p3
+src/auto/func_0201eab4.c 1.2/sp2p3
+src/auto/func_0201eae0.c 1.2/sp2p3
+src/auto/func_0201eb34.c 1.2/sp2p3
+src/auto/func_0201eb60.c 1.2/sp2p3
+src/auto/func_0201eb8c.c 1.2/sp2p3
+src/auto/func_0201ebe0.c 1.2/sp2p3
+src/auto/func_0201ec34.c 1.2/sp2p3
+src/auto/func_0201ec60.c 1.2/sp2p3
+src/auto/func_0201ec8c.c 1.2/sp2p3
+src/auto/func_0201ece0.c 1.2/sp2p3
+src/auto/func_0201ed0c.c 1.2/sp2p3
+src/auto/func_0201ed38.c 1.2/sp2p3
+src/auto/func_0201ed8c.c 1.2/sp2p3
+src/auto/func_0201edb8.c 1.2/sp2p3
+src/auto/func_0201ede4.c 1.2/sp2p3
+src/auto/func_0201ee38.c 1.2/sp2p3
+src/auto/func_0201ee64.c 1.2/sp2p3
+src/auto/func_0201ee90.c 1.2/sp2p3
+src/auto/func_0201eee4.c 1.2/sp2p3
+src/auto/func_0201ef10.c 1.2/sp2p3
+src/auto/func_0201ef3c.c 1.2/sp2p3
+src/auto/func_0201ef90.c 1.2/sp2p3
+src/auto/func_0201efbc.c 1.2/sp2p3
+src/auto/func_0201f010.c 1.2/sp2p3
+src/auto/func_0201f03c.c 1.2/sp2p3
+src/auto/func_0201f068.c 1.2/sp2p3
+src/auto/func_0201f094.c 1.2/sp2p3
+src/auto/func_0201f0c0.c 1.2/sp2p3
+src/auto/func_0201f0ec.c 1.2/sp2p3
+src/auto/func_0201f118.c 1.2/sp2p3
+src/auto/func_0201f144.c 1.2/sp2p3
+src/auto/func_0201f198.c 1.2/sp2p3
+src/auto/func_0201f1c4.c 1.2/sp2p3
+src/auto/func_0201f1f0.c 1.2/sp2p3
+src/auto/func_0201f244.c 1.2/sp2p3
+src/auto/func_0201f270.c 1.2/sp2p3
+src/auto/func_0201f29c.c 1.2/sp2p3
+src/auto/func_0201f2f0.c 1.2/sp2p3
+src/auto/func_0201f98c.c 1.2/sp2p3
+src/auto/func_0201f9b8.c 1.2/sp2p3
+src/auto/func_0201fc7c.c 1.2/sp2p3
+src/auto/func_0201fca8.c 1.2/sp2p3
+src/auto/func_02020184.c 1.2/sp2p3
+src/auto/func_020201b0.c 1.2/sp2p3
+src/auto/func_020201dc.c 1.2/sp2p3
+src/auto/func_02020260.c 1.2/sp2p3
+src/auto/func_0202028c.c 1.2/sp2p3
+src/auto/func_020202b8.c 1.2/sp2p3
+src/auto/func_020202e4.c 1.2/sp2p3
+src/auto/func_02020338.c 1.2/sp2p3
+src/auto/func_0202038c.c 1.2/sp2p3
+src/auto/func_020203b8.c 1.2/sp2p3
+src/auto/func_020203e4.c 1.2/sp2p3
+src/auto/func_02020438.c 1.2/sp2p3
+src/auto/func_0202048c.c 1.2/sp2p3
+src/auto/func_020204b8.c 1.2/sp2p3
+src/auto/func_02027044.c 1.2/sp2p3
+src/auto/func_02027140.c 1.2/sp2p3
+src/auto/func_02027180.c 1.2/sp2p3
+src/auto/func_020273b8.c 1.2/sp2p3
+src/auto/func_02059af0.c 1.2/sp2p3
+src/auto/func_02059b94.c 1.2/sp2p3
+src/auto/func_02059c34.c 1.2/sp2p3
+src/auto/func_0205a994.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/_ll_sdiv.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/_s32_div_f.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0205dfa8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205dfdc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205e004.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205e050.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205e184.c 1.2/sp2p3
+src/auto/func_0205e470.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205e4ec.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205e7a0.c 1.2/sp2p3
+src/auto/func_0205e800.c 1.2/sp2p3
+src/auto/func_0205e91c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205e950.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020619e4.c 1.2/sp2p3
+src/auto/func_02061a18.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02061efc.c 1.2/sp2p3
+src/auto/func_02061f34.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02061f5c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02061f80.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020633a4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020633b8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020633cc.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020633e4.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020634a8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02063650.c 1.2/sp2p3
+src/auto/func_0206367c.c 1.2/sp2p3
+src/auto/func_020636a8.c 1.2/sp2p3
+src/auto/func_020636d4.c 1.2/sp2p3
+src/auto/func_02063760.c 1.2/sp2p3
+src/auto/func_0206378c.c 1.2/sp2p3
+src/auto/func_02063830.c 1.2/sp2p3
+src/auto/func_0206387c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02063a1c.c 1.2/sp2p3
+src/auto/func_02063ac4.c 1.2/sp2p3
+src/auto/func_02063bc4.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02063c50.c 1.2/sp2p3
+src/auto/func_020668a8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02066944.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020669d4.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02066a78.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02066d0c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02066ddc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02066eac.c 1.2/sp2p3
+src/auto/func_02066f8c.c 1.2/sp2p3
+src/auto/func_020670b8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206714c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02067274.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020672a8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020674fc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02067570.c 1.2/sp2p3
+src/auto/func_020675c8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02067668.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020676e8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02067780.c 1.2/sp2p3
+src/auto/func_020678bc.c 1.2/sp2p3
+src/auto/func_02067920.c 1.2/sp2p3
+src/auto/func_02067980.c 1.2/sp2p3
+src/auto/func_020679ec.c 1.2/sp2p3
+src/auto/func_02067a24.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02067a90.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02067b1c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02067bd0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02067c44.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206ccb4.c 1.2/sp2p3
+src/auto/func_0206cd1c.c 1.2/sp2p3
+src/auto/func_0206cd84.c 1.2/sp2p3
+src/auto/func_0206ceac.c 1.2/sp2p3
+src/auto/func_0206cf14.c 1.2/sp2p3
+src/auto/func_0206cf70.c 1.2/sp2p3
+src/auto/func_0206cfd8.c 1.2/sp2p3
+src/auto/func_0206d040.c 1.2/sp2p3
+src/auto/func_0206d0a8.c 1.2/sp2p3
+src/auto/func_0206d104.c 1.2/sp2p3
+src/auto/func_0206d15c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206d8d8.c 1.2/sp2p3
+src/auto/func_0206d980.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206db60.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206dbdc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206dc6c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206dcac.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206dd6c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206dde0.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206dea8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206e004.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0206e01c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0206e034.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0206e080.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0206e0b8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0206e0d4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0206e0f8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0206e124.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0206e1b8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0206e300.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206e3d8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206e464.c 1.2/sp2p3
+src/auto/func_0206e494.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206e5b8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206e694.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206e700.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206e834.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206e8b8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206ee48.c 1.2/sp2p3
+src/auto/func_0206ee8c.c 1.2/sp2p3
+src/auto/func_0206ef1c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206efa4.c 1.2/sp2p3
+src/auto/func_0206eff8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206f260.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206f658.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206f6bc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206f724.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206f7c4.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206fd8c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206fe68.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02070020.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020700b8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020700e8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0207033c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020703a8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02070440.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020704c0.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02070608.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02070764.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020707f8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020736a8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02073754.c 1.2/sp2p3
+src/auto/func_02073770.c 1.2/sp2p3
+src/auto/func_02073bd4.c 1.2/sp2p3
+src/auto/func_02073db4.c 1.2/sp2p3
+src/auto/func_02073fd0.c 1.2/sp2p3
+src/auto/func_020740c0.c 1.2/sp2p3
+src/auto/func_02074220.c 1.2/sp2p3
+src/auto/func_02074240.c 1.2/sp2p3
+src/auto/func_02074260.c 1.2/sp2p3
+src/auto/func_02074670.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0207472c.c 1.2/sp2p3
+src/auto/func_020747c4.c 1.2/sp2p3
+src/auto/func_02074818.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020748c0.c 1.2/sp2p3
+src/auto/func_020748f8.c 1.2/sp2p3
+src/auto/func_02074940.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020749e0.c 1.2/sp2p3
+src/auto/func_02074a78.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02074b90.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02074c00.c 1.2/sp2p3
+src/auto/func_02074d1c.c 1.2/sp2p3
+src/auto/func_02074d48.c 1.2/sp2p3
+src/auto/func_02074d7c.c 1.2/sp2p3
+src/auto/func_02074dec.c 1.2/sp2p3
+src/auto/func_02074e3c.c 1.2/sp2p3
+src/auto/func_020751c8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02075248.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020752f8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02075390.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02075448.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02075564.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020755e4.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0207f2c8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0207f368.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0207f39c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/_Z24EnableSpecificInterruptsj.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0207f41c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/_Z24SetDMACompletionCallbackiPFviEi.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0207f574.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0207f76c.c 1.2/sp2p3
+src/auto/func_0207f7fc.c 1.2/sp2p3
+src/auto/func_020806b8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0208089c.c 1.2/sp2p3
+src/auto/func_0208100c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02081094.c 1.2/sp2p3
+src/auto/func_02081130.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02081188.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02081270.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0208127c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02081288.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0208129c.c 1.2/sp2p3
+src/auto/func_02081348.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0208135c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020813fc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02081484.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0208281c.c 1.2/sp2p3 -O4,s -lang c99 -inline on,noauto
+src/auto/func_02082944.c 1.2/sp2p3 -O4,s -lang c99 -inline on,noauto
+src/auto/func_02085f74.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020873f8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020874a4.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0208755c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02088a00.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02088a58.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02088aa4.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02088b08.c 1.2/sp2p3
+src/auto/func_02088d90.c 1.2/sp2p3
+src/auto/func_02089090.c 1.2/sp2p3
+src/auto/func_02089114.c 1.2/sp2p3
+src/auto/func_02089210.c 1.2/sp2p3
+src/auto/func_0208927c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020892c0.c 1.2/sp2p3
+src/auto/func_0208930c.c 1.2/sp2p3
+src/auto/func_02089368.c 1.2/sp2p3
+src/auto/func_0209bf84.c 1.2/sp2p3
+src/auto/func_0209bfac.c 1.2/sp2p3
+src/auto/func_0209bfbc.c 1.2/sp2p3
+src/auto/_ZN9GameState15GetGrottoStructEv.c 1.2/sp2p3
+src/auto/func_0209c8f4.c 1.2/sp2p3
+src/auto/func_0209cc58.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0209ccb0.c 1.2/sp2p3
+src/auto/func_020a16ac.c 1.2/sp2p3
+src/auto/func_020a16fc.c 1.2/sp2p3
+src/auto/func_020a3060.c 1.2/sp2p3
+src/auto/func_020a30a8.c 1.2/sp2p3
+src/auto/func_020a311c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020a3174.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020a31cc.c 1.2/sp2p3
+src/auto/func_020a3408.c 1.2/sp2p3
+src/auto/func_020a3454.c 1.2/sp2p3
+src/auto/func_020a3524.c 1.2/sp2p3
+src/auto/func_020a3558.c 1.2/sp2p3
+src/auto/func_020a3788.c 1.2/sp2p3
+src/auto/func_020a73f0.c 1.2/sp2p3
+src/auto/func_020ab228.c 1.2/sp2p3
+src/auto/func_020ab274.c 1.2/sp2p3
+src/auto/func_020ab2c0.c 1.2/sp2p3
+src/auto/func_020ab49c.c 1.2/sp2p3
+src/auto/func_020ab4f4.c 1.2/sp2p3
+src/auto/func_020acdb4.c 1.2/sp2p3
+src/auto/func_020acee4.c 1.2/sp2p3
+src/auto/func_020ad05c.c 1.2/sp2p3
+src/auto/func_020ad0a8.c 1.2/sp2p3
+src/auto/func_020ad7bc.c 1.2/sp2p3
+src/auto/func_020af13c.c 1.2/sp2p3
+src/auto/func_020af1a4.c 1.2/sp2p3
+src/auto/func_020af2c0.c 1.2/sp2p3
+src/auto/func_020af304.c 1.2/sp2p3
+src/auto/func_020af384.c 1.2/sp2p3
+src/auto/func_020af518.c 1.2/sp2p3
+src/auto/func_020af558.c 1.2/sp2p3
+src/auto/func_020af674.c 1.2/sp2p3
+src/auto/func_020af6b0.c 1.2/sp2p3
+src/auto/func_020af6ec.c 1.2/sp2p3
+src/auto/func_020afa24.c 1.2/sp2p3
+src/auto/func_020afa94.c 1.2/sp2p3
+src/auto/func_020afb3c.c 1.2/sp2p3
+src/auto/func_020afc44.c 1.2/sp2p3
+src/auto/func_020afc6c.c 1.2/sp2p3
+src/auto/func_020afc94.c 1.2/sp2p3
+src/auto/func_020aff2c.c 1.2/sp2p3
+src/auto/func_020b03b4.c 1.2/sp2p3
+src/auto/func_020b0444.c 1.2/sp2p3
+src/auto/func_020b1da0.c 1.2/sp2p3
+src/auto/func_020b38ec.c 1.2/sp2p3
+src/auto/func_020b4940.c 1.2/sp2p3
+src/auto/func_020b4a44.c 1.2/sp2p3
+src/auto/func_020b4da0.c 1.2/sp2p3
+src/auto/func_020b5288.c 1.2/sp2p3
+src/auto/func_020b57a0.c 1.2/sp2p3
+src/auto/func_020b64c4.c 1.2/sp2p3
+src/auto/func_020b7384.c 1.2/sp2p3
+src/auto/func_020b74fc.c 1.2/sp2p3
+src/auto/func_020b8bc8.c 1.2/sp2p3
+src/auto/func_020b8e94.c 1.2/sp2p3
+src/auto/func_020b8ee0.c 1.2/sp2p3
+src/auto/func_020b91bc.c 1.2/sp2p3
+src/auto/func_020b93a0.c 1.2/sp2p3
+src/auto/func_020b93d4.c 1.2/sp2p3
+src/auto/func_020b95e0.c 1.2/sp2p3
+src/auto/func_020b9c14.c 1.2/sp2p3
+src/auto/func_020b9e2c.c 1.2/sp2p3
+src/auto/func_020b9e90.c 1.2/sp2p3
+src/auto/func_020ba180.c 1.2/sp2p3
+src/auto/func_020ba228.c 1.2/sp2p3
+src/auto/func_020ba2a0.c 1.2/sp2p3
+src/auto/func_020ba2d8.c 1.2/sp2p3
+src/auto/func_020ba4f0.c 1.2/sp2p3
+src/auto/func_020ba8a0.c 1.2/sp2p3
+src/auto/func_020ba968.c 1.2/sp2p3
+src/auto/func_020baa00.c 1.2/sp2p3
+src/auto/func_020bad74.c 1.2/sp2p3
+src/auto/func_020bb0c4.c 1.2/sp2p3
+src/auto/func_020bb200.c 1.2/sp2p3
+src/auto/func_020bb2bc.c 1.2/sp2p3
+src/auto/func_020bb374.c 1.2/sp2p3
+src/auto/func_020bc0bc.c 1.2/sp2p3
+src/auto/func_020bccf8.c 1.2/sp2p3
+src/auto/func_020bcd54.c 1.2/sp2p3
+src/auto/func_020bcd88.c 1.2/sp2p3
+src/auto/func_020bcdc0.c 1.2/sp2p3
+src/auto/func_020bcdf4.c 1.2/sp2p3
+src/auto/func_020bd38c.c 1.2/sp2p3
+src/auto/func_020bd3e4.c 1.2/sp2p3
+src/auto/func_020bd9f0.c 1.2/sp2p3
+src/auto/func_020bda9c.c 1.2/sp2p3
+src/auto/func_020bdb00.c 1.2/sp2p3
+src/auto/func_020bdca0.c 1.2/sp2p3
+src/auto/func_020bde94.c 1.2/sp2p3
+src/auto/func_020be204.c 1.2/sp2p3
+src/auto/func_020be288.c 1.2/sp2p3
+src/auto/func_020be2fc.c 1.2/sp2p3
+src/auto/func_020be354.c 1.2/sp2p3
+src/auto/func_020be6e4.c 1.2/sp2p3
+src/auto/func_020be920.c 1.2/sp2p3
+src/auto/func_020beb7c.c 1.2/sp2p3
+src/auto/func_020bebd4.c 1.2/sp2p3
+src/auto/func_020beccc.c 1.2/sp2p3
+src/auto/func_020becf8.c 1.2/sp2p3
+src/auto/func_020bed68.c 1.2/sp2p3
+src/auto/func_020bed94.c 1.2/sp2p3
+src/auto/func_020bee50.c 1.2/sp2p3
+src/auto/func_020bf318.c 1.2/sp2p3
+src/auto/func_020bf4b4.c 1.2/sp2p3
+src/auto/func_020bf734.c 1.2/sp2p3
+src/auto/func_020bf8b8.c 1.2/sp2p3
+src/auto/func_020bf8fc.c 1.2/sp2p3
+src/auto/func_020bfd40.c 1.2/sp2p3
+src/auto/func_020bfe18.c 1.2/sp2p3
+src/auto/func_020bfec0.c 1.2/sp2p3
+src/auto/func_020c0584.c 1.2/sp2p3
+src/auto/func_020c0848.c 1.2/sp2p3
+src/auto/func_020c08b0.c 1.2/sp2p3
+src/auto/func_020c2554.c 1.2/sp2p3
+src/auto/func_020c29f8.c 1.2/sp2p3
+src/auto/func_020c2a54.c 1.2/sp2p3
+src/auto/func_020c34b4.c 1.2/sp2p3
+src/auto/func_020c3504.c 1.2/sp2p3
+src/auto/func_020c3694.c 1.2/sp2p3
+src/auto/func_020c3ab4.c 1.2/sp2p3
+src/auto/func_020c3b78.c 1.2/sp2p3
+src/auto/func_020c3ba0.c 1.2/sp2p3
+src/auto/func_020c3cd0.c 1.2/sp2p3
+src/auto/func_020c3cfc.c 1.2/sp2p3
+src/auto/func_020c3e8c.c 1.2/sp2p3
+src/auto/func_020c3eb8.c 1.2/sp2p3
+src/auto/func_020c3ee4.c 1.2/sp2p3
+src/auto/func_020c47f4.c 1.2/sp2p3
+src/auto/func_020c4814.c 1.2/sp2p3
+src/auto/func_020c4910.c 1.2/sp2p3
+src/auto/func_020c4930.c 1.2/sp2p3
+src/auto/func_020c495c.c 1.2/sp2p3
+src/auto/func_020c498c.c 1.2/sp2p3
+src/auto/func_020ca2dc.c 1.2/sp2p3
+src/auto/func_020ca74c.c 1.2/sp2p3
+src/auto/func_020cc318.c 1.2/sp2p3
+src/auto/func_020cc8f8.c 1.2/sp2p3
+src/auto/func_020cd044.c 1.2/sp2p3
+src/auto/func_020cd214.c 1.2/sp2p3
+src/auto/func_020cd3a4.c 1.2/sp2p3
+src/auto/func_020cd3d0.c 1.2/sp2p3
+src/auto/func_020ced68.c 1.2/sp2p3
+src/auto/func_020cf134.c 1.2/sp2p3
+src/auto/func_020cf444.c 1.2/sp2p3
+src/auto/func_020cfe08.c 1.2/sp2p3
+src/auto/func_020cfe5c.c 1.2/sp2p3
+src/auto/func_020d00e4.c 1.2/sp2p3
+src/auto/func_020d0abc.c 1.2/sp2p3
+src/auto/func_020d12b8.c 1.2/sp2p3
+src/auto/func_020d12f4.c 1.2/sp2p3
+src/auto/func_020d173c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020d7f18.c 1.2/sp2p3
+src/auto/func_020d8364.c 1.2/sp2p3
+src/auto/func_020d83a8.c 1.2/sp2p3
+src/auto/func_020d8494.c 1.2/sp2p3
+src/auto/func_020d8554.c 1.2/sp2p3
+src/auto/func_020d85e0.c 1.2/sp2p3
+src/auto/func_020d8f8c.c 1.2/sp2p3
+src/auto/func_020d9168.c 1.2/sp2p3
+src/auto/func_020d9328.c 1.2/sp2p3
+src/auto/func_020d93c8.c 1.2/sp2p3
+src/auto/func_020dbf8c.c 1.2/sp2p3
+src/auto/func_020dbfc0.c 1.2/sp2p3
+src/auto/func_020dbff4.c 1.2/sp2p3
+src/auto/func_020dc028.c 1.2/sp2p3
+src/auto/func_020dc05c.c 1.2/sp2p3
+src/auto/func_020dc090.c 1.2/sp2p3
+src/auto/func_020dc664.c 1.2/sp2p3
+src/auto/func_020dcc68.c 1.2/sp2p3
+src/auto/func_020dccd0.c 1.2/sp2p3
+src/auto/func_020dea44.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020deba0.c 1.2/sp2p3
+src/auto/func_020ded5c.c 1.2/sp2p3
+src/auto/func_020df964.c 1.2/sp2p3
+src/auto/func_020dfac0.c 1.2/sp2p3
+src/auto/func_020dfb14.c 1.2/sp2p3
+src/auto/func_020e111c.c 1.2/sp2p3
+src/auto/func_020e14a8.c 1.2/sp2p3
+src/auto/func_020e9708.c 1.2/sp2p3
+src/auto/func_020e973c.c 1.2/sp2p3
+src/auto/func_020e9790.c 1.2/sp2p3
+src/auto/func_020e97fc.c 1.2/sp2p3
+src/auto/func_020e9850.c 1.2/sp2p3
+src/auto/func_020e987c.c 1.2/sp2p3
+src/auto/func_020e98bc.c 1.2/sp2p3
+src/auto/func_020e9968.c 1.2/sp2p3
+src/auto/func_020e9a10.c 1.2/sp2p3
+src/auto/func_020e9a68.c 1.2/sp2p3
+src/auto/func_020e9b24.c 1.2/sp2p3
+src/auto/func_020e9b60.c 1.2/sp2p3
+src/auto/func_020ea638.c 1.2/sp2p3
+src/auto/func_020ea6d0.c 1.2/sp2p3
+src/auto/func_020eb0b8.c 1.2/sp2p3
+src/auto/func_020ebc40.c 1.2/sp2p3
+src/auto/func_020ebc9c.c 1.2/sp2p3
+src/auto/func_020ec0b0.c 1.2/sp2p3
+src/auto/func_020ee850.c 1.2/sp2p3
+src/auto/func_020eebdc.c 1.2/sp2p3
+src/auto/func_020ef588.c 1.2/sp2p3
+src/auto/func_020ef85c.c 1.2/sp2p3
+src/auto/func_020ef8b4.c 1.2/sp2p3
+src/auto/func_020efa24.c 1.2/sp2p3
+src/auto/func_020efa78.c 1.2/sp2p3
+src/auto/func_020efacc.c 1.2/sp2p3
+src/auto/func_020efb24.c 1.2/sp2p3
+src/auto/func_020f5f8c.c 1.2/sp2p3
+src/auto/func_020f6c28.c 1.2/sp2p3
+src/auto/func_020f70bc.c 1.2/sp2p3
+src/auto/func_020f7170.c 1.2/sp2p3
+src/auto/func_020f71b8.c 1.2/sp2p3
+src/auto/func_020f7484.c 1.2/sp2p3
+src/auto/func_020f7a68.c 1.2/sp2p3
+src/auto/func_020f7cd4.c 1.2/sp2p3
+src/auto/func_020f7d30.c 1.2/sp2p3
+src/auto/func_020f7da8.c 1.2/sp2p3
+src/auto/func_020f98a4.c 1.2/sp2p3
+src/auto/func_020fb65c.c 1.2/sp2p3
+src/auto/func_020fb8e4.c 1.2/sp2p3
+src/auto/func_020fbc1c.c 1.2/sp2p3
+src/auto/func_020fbe70.c 1.2/sp2p3
+src/auto/func_020fbeac.c 1.2/sp2p3
+src/auto/func_020ff22c.c 1.2/sp2p3
+src/auto/func_020ff268.c 1.2/sp2p3
+src/auto/func_020ff6cc.c 1.2/sp2p3
+src/auto/func_020ffa9c.c 1.2/sp2p3
+src/auto/func_020ffd80.c 1.2/sp2p3
+src/auto/func_02100258.c 1.2/sp2p3
+src/auto/func_0210028c.c 1.2/sp2p3
+src/auto/func_02101a94.c 1.2/sp2p3
+src/auto/func_02101da4.c 1.2/sp2p3
+src/auto/func_021035bc.c 1.2/sp2p3
+src/auto/func_02103f3c.c 1.2/sp2p3
+src/auto/func_021182b4.c 1.2/sp2p3
+src/auto/func_02118e64.c 1.2/sp2p3
+src/auto/func_02118ec8.c 1.2/sp2p3
+src/auto/func_02119184.c 1.2/sp2p3
+src/auto/func_0211a678.c 1.2/sp2p3
+src/auto/func_0211b224.c 1.2/sp2p3
+src/auto/func_0211f1e8.c 1.2/sp2p3
+src/auto/func_0211f21c.c 1.2/sp2p3
+src/auto/func_0211f354.c 1.2/sp2p3
+src/auto/func_0211f3b4.c 1.2/sp2p3
+src/auto/func_0211f4e4.c 1.2/sp2p3
+src/auto/func_0211f560.c 1.2/sp2p3
+src/auto/func_0211f664.c 1.2/sp2p3
+src/auto/func_0211f788.c 1.2/sp2p3
+src/auto/func_0211f864.c 1.2/sp2p3
+src/auto/func_02121e84.c 1.2/sp2p3
