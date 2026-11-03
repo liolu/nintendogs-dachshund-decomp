@@ -3,3 +3,95 @@
     .ctor       start:0x0216dea4 end:0x0216dea4 kind:rodata align:4
     .data       start:0x0216dec0 end:0x0216e3c0 kind:data align:32
     .bss        start:0x0216e3c0 end:0x0216e3e0 kind:bss align:32
+
+src/auto/func_ov004_0215a93c.c:
+    complete
+    .text       start:0x0215a93c end:0x0215a948
+
+src/auto/func_ov004_0216279c.c:
+    complete
+    .text       start:0x0216279c end:0x021627b0
+
+src/auto/func_ov004_021627b0.c:
+    complete
+    .text       start:0x021627b0 end:0x021627cc
+
+src/auto/func_ov004_02164550.c:
+    complete
+    .text       start:0x02164550 end:0x02164560
+
+src/auto/func_ov004_02164560.c:
+    complete
+    .text       start:0x02164560 end:0x02164570
+
+src/auto/func_ov004_02164570.c:
+    complete
+    .text       start:0x02164570 end:0x02164580
+
+src/auto/func_ov004_02165830.c:
+    complete
+    .text       start:0x02165830 end:0x02165840
+
+src/auto/func_ov004_021672d8.c:
+    complete
+    .text       start:0x021672d8 end:0x021672f8
+
+src/auto/func_ov004_021672f8.c:
+    complete
+    .text       start:0x021672f8 end:0x02167318
+
+src/auto/func_ov004_02167318.c:
+    complete
+    .text       start:0x02167318 end:0x02167338
+
+src/auto/func_ov004_02167b10.c:
+    complete
+    .text       start:0x02167b10 end:0x02167b24
+
+src/auto/func_ov004_02167b24.c:
+    complete
+    .text       start:0x02167b24 end:0x02167b38
+
+src/auto/func_ov004_02167b38.c:
+    complete
+    .text       start:0x02167b38 end:0x02167b4c
+
+src/auto/func_ov004_0216c5e0.c:
+    complete
+    .text       start:0x0216c5e0 end:0x0216c5f4
+
+src/auto/func_ov004_0216ca30.c:
+    complete
+    .text       start:0x0216ca30 end:0x0216ca44
+
+src/auto/func_ov004_0216cadc.c:
+    complete
+    .text       start:0x0216cadc end:0x0216caec
+
+src/auto/func_ov004_0216da00.c:
+    complete
+    .text       start:0x0216da00 end:0x0216da10
+
+src/auto/func_ov004_0216da10.c:
+    complete
+    .text       start:0x0216da10 end:0x0216da20
+
+src/auto/func_ov004_0216da20.c:
+    complete
+    .text       start:0x0216da20 end:0x0216da30
+
+src/auto/func_ov004_0216da30.c:
+    complete
+    .text       start:0x0216da30 end:0x0216da40
+
+src/auto/func_ov004_0216da40.c:
+    complete
+    .text       start:0x0216da40 end:0x0216da50
+
+src/auto/func_ov004_0216da50.c:
+    complete
+    .text       start:0x0216da50 end:0x0216da60
+
+src/auto/func_ov004_0216da60.c:
+    complete
+    .text       start:0x0216da60 end:0x0216da70

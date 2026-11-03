@@ -1,2 +1,46 @@
     .text       start:0x01ff8000 end:0x01ffeaf4 kind:code align:32
     .bss        start:0x01ffeb00 end:0x01ffeb00 kind:bss align:32
+
+src/auto/func_01ff8930.c:
+    complete
+    .text       start:0x01ff8930 end:0x01ff8958
+
+src/auto/func_01ff93e8.c:
+    complete
+    .text       start:0x01ff93e8 end:0x01ff93f8
+
+src/auto/func_01ff93f8.c:
+    complete
+    .text       start:0x01ff93f8 end:0x01ff9408
+
+src/auto/func_01ff9408.c:
+    complete
+    .text       start:0x01ff9408 end:0x01ff9418
+
+src/auto/func_01ff9418.c:
+    complete
+    .text       start:0x01ff9418 end:0x01ff9428
+
+src/auto/func_01ffabe4.c:
+    complete
+    .text       start:0x01ffabe4 end:0x01ffabf4
+
+src/auto/func_01ffabf4.c:
+    complete
+    .text       start:0x01ffabf4 end:0x01ffac04
+
+src/auto/func_01ffad84.c:
+    complete
+    .text       start:0x01ffad84 end:0x01ffad94
+
+src/auto/func_01ffad94.c:
+    complete
+    .text       start:0x01ffad94 end:0x01ffada4
+
+src/auto/func_01ffb024.c:
+    complete
+    .text       start:0x01ffb024 end:0x01ffb034
+
+src/auto/func_01ffb034.c:
+    complete
+    .text       start:0x01ffb034 end:0x01ffb044
