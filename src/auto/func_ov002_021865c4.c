@@ -1,0 +1,7 @@
+#include "m2c.h"
+
+M2C_UNK func_ov002_021865f0(M2C_UNK, M2C_UNK, M2C_UNK);   /* extern */
+
+void func_ov002_021865c4(M2C_UNK arg0) {
+    func_ov002_021865f0(arg0, 1, 0x1F);
+}
