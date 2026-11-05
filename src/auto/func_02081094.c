@@ -1,7 +1,7 @@
 /* compiler: 1.2/sp2p3  */
 #include "m2c.h"
 
-M2C_UNK func_0207f3e4(M2C_UNK);                     /* extern */
+M2C_UNK _Z24EnableSpecificInterruptsj(M2C_UNK);                     /* extern */
 M2C_UNK func_0207f574(M2C_UNK, M2C_UNK *);          /* extern */
 M2C_UNK func_02080f40(M2C_UNK);                     /* extern */
 extern u16 data_02153624;
@@ -21,6 +21,6 @@ void func_02081094(void) {
     *(s16 *) 0x04000100                 = 0;
     *(s16 *) 0x04000102                 = 0xC1;
     func_0207f574(8, &func_0208100c);
-    func_0207f3e4(8);
+    _Z24EnableSpecificInterruptsj(8);
     data_02153628 = 0;
 }

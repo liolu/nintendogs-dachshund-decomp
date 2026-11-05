@@ -2,7 +2,7 @@
 #include "engine.h"
 #include "m2c.h"
 
-M2C_UNK func_0205dbb8(M2C_UNK, M2C_UNK);
+M2C_UNK _s32_div_f(M2C_UNK, M2C_UNK);
 
 s32 func_02074c00(s32 arg0) {
     s32 temp_r1;
@@ -15,5 +15,5 @@ s32 func_02074c00(s32 arg0) {
         return M2C_FIELD(arg0, s32 *, 4);
     }
     temp_r4 = M2C_FIELD(arg0, s32 *, 0);
-    return temp_r4 + func_0205dbb8(temp_r2 * (M2C_FIELD(arg0, s32 *, 4) - temp_r4), temp_r1);
+    return temp_r4 + _s32_div_f(temp_r2 * (M2C_FIELD(arg0, s32 *, 4) - temp_r4), temp_r1);
 }

@@ -1,7 +1,7 @@
 #include "m2c.h"
 
 /* Uses instructions the compiler never generates: written in assembly. */
-extern void func_0205dbb8();
+extern void _s32_div_f();
 extern void func_0206b794();
 // clang-format off
 asm void func_02007d14(void) {
@@ -18,7 +18,7 @@ asm void func_02007d14(void) {
     ldrsh r1, [r0, #0x8]
     mov r0, r2, lsl #0x3
     rsb r0, r0, #0x0
-    bl func_0205dbb8
+    bl _s32_div_f
     ldrb r1, [sp, #0x0]
     mov r3, r0
     mvn r2, #0x7

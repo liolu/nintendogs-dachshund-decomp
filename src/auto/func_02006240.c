@@ -1,7 +1,7 @@
 /* compiler: 1.2/sp2p3  */
 #include "m2c.h"
 
-s32 func_0205ddc4(s32, s32);                        /* extern */
+s32 _u32_div_f(s32, s32);                        /* extern */
 extern M2C_UNK data_0214afe0;
 
 void func_02006240(s32 arg0, s32 arg1, s32 arg2, u32 arg3) {
@@ -27,7 +27,7 @@ void func_02006240(s32 arg0, s32 arg1, s32 arg2, u32 arg3) {
         var_r3 = temp_r5;
     }
     if ((u32) M2C_FIELD(&data_0214afe0, u32 *, 4) < (u32) (var_r3 + temp_r4)) {
-        var_r3 = (temp_r4 * func_0205ddc4(M2C_FIELD(&data_0214afe0, u32 *, 4) - temp_r5, temp_r4)) + temp_r5;
+        var_r3 = (temp_r4 * _u32_div_f(M2C_FIELD(&data_0214afe0, u32 *, 4) - temp_r5, temp_r4)) + temp_r5;
     }
     M2C_FIELD(&data_0214afe0, u32 *, 8) = var_r3;
 }
