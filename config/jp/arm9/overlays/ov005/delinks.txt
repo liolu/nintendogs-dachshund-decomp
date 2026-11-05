@@ -51,3 +51,51 @@ src/auto/func_ov005_0215ef24.c:
 src/auto/func_ov005_02160f78.c:
     complete
     .text       start:0x02160f78 end:0x02160f8c
+
+src/data/ov005_data_021619cc.c:
+    complete
+    .data       start:0x021619cc end:0x021619d0
+
+src/data/ov005_data_02161a0c.c:
+    complete
+    .data       start:0x02161a0c end:0x02161a14
+
+src/data/ov005_data_02161a18.c:
+    complete
+    .data       start:0x02161a18 end:0x02161a1c
+
+src/data/ov005_data_02161a4c.c:
+    complete
+    .data       start:0x02161a4c end:0x02161a50
+
+src/data/ov005_data_02161a80.c:
+    complete
+    .data       start:0x02161a80 end:0x02161a84
+
+src/data/ov005_data_02161ab4.c:
+    complete
+    .data       start:0x02161ab4 end:0x02161ab8
+
+src/data/ov005_data_02161afc.c:
+    complete
+    .data       start:0x02161afc end:0x02161b1c
+
+src/data/ov005_data_02161b34.c:
+    complete
+    .data       start:0x02161b34 end:0x02161b38
+
+src/data/ov005_data_02161b50.c:
+    complete
+    .data       start:0x02161b50 end:0x02161b54
+
+src/data/ov005_data_02161b58.c:
+    complete
+    .data       start:0x02161b58 end:0x02161b6c
+
+src/data/ov005_data_02161b84.c:
+    complete
+    .data       start:0x02161b84 end:0x02161b88
+
+src/data/ov005_data_02161bf0.c:
+    complete
+    .data       start:0x02161bf0 end:0x02161bf4

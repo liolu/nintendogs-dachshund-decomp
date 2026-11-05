@@ -95,3 +95,43 @@ src/auto/func_ov003_0216b4cc.c:
 src/auto/func_ov003_0216b4dc.c:
     complete
     .text       start:0x0216b4dc end:0x0216b4ec
+
+src/data/ov003_rodata_0216b918.c:
+    complete
+    .rodata     start:0x0216b918 end:0x0216b920
+
+src/data/ov003_data_0216b94c.c:
+    complete
+    .data       start:0x0216b94c end:0x0216b950
+
+src/data/ov003_data_0216b984.c:
+    complete
+    .data       start:0x0216b984 end:0x0216b988
+
+src/data/ov003_data_0216b9c0.c:
+    complete
+    .data       start:0x0216b9c0 end:0x0216b9c4
+
+src/data/ov003_data_0216b9c4.c:
+    complete
+    .data       start:0x0216b9c4 end:0x0216b9c8
+
+src/data/ov003_data_0216b9fc.c:
+    complete
+    .data       start:0x0216b9fc end:0x0216ba04
+
+src/data/ov003_data_0216ba04.c:
+    complete
+    .data       start:0x0216ba04 end:0x0216ba0c
+
+src/data/ov003_data_0216babc.c:
+    complete
+    .data       start:0x0216babc end:0x0216bafc
+
+src/data/ov003_data_0216bdf0.c:
+    complete
+    .data       start:0x0216bdf0 end:0x0216bdfc
+
+src/data/ov003_data_0216bdfc.c:
+    complete
+    .data       start:0x0216bdfc end:0x0216be00
