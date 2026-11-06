@@ -87,3 +87,35 @@ src/auto/func_ov004_021632e8.c:
 src/auto/func_ov004_021632f8.c:
     complete
     .text       start:0x021632f8 end:0x02163308
+
+src/data/ov004_data_02163ba4.c:
+    complete
+    .data       start:0x02163ba4 end:0x02163ba8
+
+src/data/ov004_data_02163bcc.c:
+    complete
+    .data       start:0x02163bcc end:0x02163bd0
+
+src/data/ov004_data_02163c38.c:
+    complete
+    .data       start:0x02163c38 end:0x02163c3c
+
+src/data/ov004_data_02163c40.c:
+    complete
+    .data       start:0x02163c40 end:0x02163c4c
+
+src/data/ov004_data_02163c4c.c:
+    complete
+    .data       start:0x02163c4c end:0x02163c58
+
+src/data/ov004_data_02163c58.c:
+    complete
+    .data       start:0x02163c58 end:0x02163c5c
+
+src/data/ov004_data_02163c64.c:
+    complete
+    .data       start:0x02163c64 end:0x02163c68
+
+src/data/ov004_data_02163c70.c:
+    complete
+    .data       start:0x02163c70 end:0x02163c7c

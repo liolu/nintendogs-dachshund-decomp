@@ -87,3 +87,15 @@ src/auto/func_ov005_0215ef24.c:
 src/auto/func_ov005_02160f78.c:
     complete
     .text       start:0x02160f78 end:0x02160f8c
+
+src/data/ov005_data_021619cc.c:
+    complete
+    .data       start:0x021619cc end:0x021619d0
+
+src/data/ov005_data_02161a0c.c:
+    complete
+    .data       start:0x02161a0c end:0x02161a14
+
+src/data/ov005_data_02161b58.c:
+    complete
+    .data       start:0x02161b58 end:0x02161b6c

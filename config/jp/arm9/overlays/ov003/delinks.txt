@@ -127,3 +127,11 @@ src/auto/func_ov003_0216b4cc.c:
 src/auto/func_ov003_0216b4dc.c:
     complete
     .text       start:0x0216b4dc end:0x0216b4ec
+
+src/data/ov003_data_0216b9fc.c:
+    complete
+    .data       start:0x0216b9fc end:0x0216ba04
+
+src/data/ov003_data_0216bdf0.c:
+    complete
+    .data       start:0x0216bdf0 end:0x0216bdfc
