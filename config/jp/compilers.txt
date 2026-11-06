@@ -3779,3 +3779,4 @@ src/auto/func_020d8ffc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_020e118c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_02100fd0.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_020aab8c.c 1.2/sp2p3
+src/auto/func_ov004_0216012c.c 1.2/sp2p3
