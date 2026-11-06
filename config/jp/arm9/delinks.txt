@@ -19144,3 +19144,15 @@ src/auto/func_021244e8.c:
 src/auto/func_0212458c.c:
     complete
     .text       start:0x0212458c end:0x021245b8
+
+src/donor/func_020a6b48.c:
+    complete
+    .text       start:0x020a6b48 end:0x020a6bac
+
+src/donor/func_020a6bac.c:
+    complete
+    .text       start:0x020a6bac end:0x020a6d44
+
+src/donor/func_020aab8c.c:
+    complete
+    .text       start:0x020aab8c end:0x020aadfc

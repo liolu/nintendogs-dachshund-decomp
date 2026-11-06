@@ -2870,3 +2870,6 @@ src/auto/func_02123e50.c 1.2/sp2p3
 src/auto/func_021241f0.c 1.2/sp2p3
 src/auto/func_021244e8.c 1.2/sp2p3
 src/auto/func_0212458c.c 1.2/sp2p3
+src/donor/func_020a6b48.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_020a6bac.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_020aab8c.c 1.2/sp2p3
