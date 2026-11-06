@@ -206,7 +206,7 @@ from:0x0215be5c kind:arm_call to:0x0206b598 module:main
 from:0x0215bfa8 kind:arm_call to:0x0206b598 module:main
 from:0x0215c218 kind:load to:0x0216ba6c module:overlay(3)
 from:0x0215c220 kind:load to:0x0216be20 module:overlay(3)
-from:0x0215c224 kind:load to:0x0216b84a module:overlay(3)
+from:0x0215c224 kind:load to:0x0216b848 add:0x2 module:overlay(3)
 from:0x0215c228 kind:load to:0x0216b848 module:overlay(3)
 from:0x0215c248 kind:arm_call to:0x01ffda04 module:itcm
 from:0x0215c2a4 kind:arm_call to:0x020280ac module:main

@@ -547,3 +547,31 @@ src/auto/func_ov002_02191e44.c:
 src/auto/func_ov002_0218dce8.c:
     complete
     .text       start:0x0218dce8 end:0x0218dcfc
+
+src/data/ov002_data_02196320.c:
+    complete
+    .data       start:0x02196320 end:0x02196328
+
+src/data/ov002_data_02196328.c:
+    complete
+    .data       start:0x02196328 end:0x0219633c
+
+src/data/ov002_data_0219633c.c:
+    complete
+    .data       start:0x0219633c end:0x0219635c
+
+src/data/ov002_data_0219635c.c:
+    complete
+    .data       start:0x0219635c end:0x02196370
+
+src/data/ov002_data_02196370.c:
+    complete
+    .data       start:0x02196370 end:0x021963a0
+
+src/data/ov002_rodata_021962f8.c:
+    complete
+    .rodata     start:0x021962f8 end:0x02196300
+
+src/data/ov002_rodata_02196300.c:
+    complete
+    .rodata     start:0x02196300 end:0x02196308

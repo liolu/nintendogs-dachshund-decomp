@@ -35,3 +35,99 @@ src/auto/func_ov006_0215a480.c:
 src/auto/func_ov006_0215a4a4.c:
     complete
     .text       start:0x0215a4a4 end:0x0215a4c8
+
+src/data/ov006_bss_0215bb60.c:
+    complete
+    .bss        start:0x0215bb60 end:0x0215bb64
+
+src/data/ov006_bss_0215bb64.c:
+    complete
+    .bss        start:0x0215bb64 end:0x0215bc20
+
+src/data/ov006_bss_0215bc20.c:
+    complete
+    .bss        start:0x0215bc20 end:0x0215bc24
+
+src/data/ov006_bss_0215bc24.c:
+    complete
+    .bss        start:0x0215bc24 end:0x0215bc28
+
+src/data/ov006_bss_0215bc28.c:
+    complete
+    .bss        start:0x0215bc28 end:0x0215bc2c
+
+src/data/ov006_bss_0215bc2c.c:
+    complete
+    .bss        start:0x0215bc2c end:0x0215bc30
+
+src/data/ov006_bss_0215bc30.c:
+    complete
+    .bss        start:0x0215bc30 end:0x0215bc34
+
+src/data/ov006_bss_0215bc34.c:
+    complete
+    .bss        start:0x0215bc34 end:0x0215bc40
+
+src/data/ov006_data_0215b9e0.c:
+    complete
+    .data       start:0x0215b9e0 end:0x0215ba00
+
+src/data/ov006_data_0215ba00.c:
+    complete
+    .data       start:0x0215ba00 end:0x0215ba10
+
+src/data/ov006_data_0215ba14.c:
+    complete
+    .data       start:0x0215ba14 end:0x0215ba18
+
+src/data/ov006_data_0215ba18.c:
+    complete
+    .data       start:0x0215ba18 end:0x0215ba48
+
+src/data/ov006_data_0215ba48.c:
+    complete
+    .data       start:0x0215ba48 end:0x0215ba68
+
+src/data/ov006_data_0215ba68.c:
+    complete
+    .data       start:0x0215ba68 end:0x0215ba78
+
+src/data/ov006_data_0215ba78.c:
+    complete
+    .data       start:0x0215ba78 end:0x0215ba7c
+
+src/data/ov006_data_0215ba7c.c:
+    complete
+    .data       start:0x0215ba7c end:0x0215baa8
+
+src/data/ov006_data_0215baa8.c:
+    complete
+    .data       start:0x0215baa8 end:0x0215bac0
+
+src/data/ov006_data_0215bac0.c:
+    complete
+    .data       start:0x0215bac0 end:0x0215bad4
+
+src/data/ov006_data_0215bad4.c:
+    complete
+    .data       start:0x0215bad4 end:0x0215bae8
+
+src/data/ov006_data_0215bae8.c:
+    complete
+    .data       start:0x0215bae8 end:0x0215bb14
+
+src/data/ov006_data_0215bb14.c:
+    complete
+    .data       start:0x0215bb14 end:0x0215bb2c
+
+src/data/ov006_data_0215bb2c.c:
+    complete
+    .data       start:0x0215bb2c end:0x0215bb3c
+
+src/data/ov006_data_0215bb3c.c:
+    complete
+    .data       start:0x0215bb3c end:0x0215bb60
+
+src/data/ov006_rodata_0215b97c.c:
+    complete
+    .rodata     start:0x0215b97c end:0x0215b9cc
