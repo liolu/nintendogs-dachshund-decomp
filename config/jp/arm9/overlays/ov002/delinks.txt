@@ -543,3 +543,7 @@ src/auto/func_ov002_02192e74.c:
 src/auto/func_ov002_02192e80.c:
     complete
     .text       start:0x02192e80 end:0x02192e8c
+
+src/auto/func_ov002_0218dce8.c:
+    complete
+    .text       start:0x0218dce8 end:0x0218dcfc

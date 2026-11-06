@@ -1,0 +1,112 @@
+/* compiler: 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto */
+/* func_0209a310 from https://github.com/chasmlol/nintendogs-decomp src/arm9/func_0209a310.c (license: none), reused by
+ * tools/donor_match.py */
+typedef unsigned char u8;
+typedef unsigned short u16;
+typedef unsigned int u32;
+typedef signed short s16;
+typedef signed int s32;
+extern u8 data_02154c78[];
+extern s32 func_020022cc(void);
+extern s32 func_020022e8(s32 a);
+extern void func_020040c8(void);
+extern s32 func_02120748(void);
+extern s32 func_021211a8(void);
+extern s32 func_020c94e4(void);
+extern void func_020f06dc(void);
+extern void func_020e99b8(void);
+extern s32 func_020e9970(void);
+extern void func_02003f40(void);
+extern void func_02003de8(void);
+void func_020cfba4(void) {
+    s32 bVar4 = 1;
+    s32 bVar3 = 0;
+    s16 iVar7 = 0;
+    s32 iVar6 = 0;
+    s32 bVar1 = 0;
+    s32 bVar2;
+    s32 iVar5;
+    s32 local_28;
+    s32 zero = 0;
+    s32 r4   = 0;
+    s32 one;
+
+    bVar2 = func_020022cc();
+    if (bVar2 == 1) {
+        do {
+            r4 = func_020022e8(0);
+        } while (r4 == 0);
+    }
+    *(u16 *) 0x04000304 = *(u16 *) 0x04000304 & ~0x20e;
+    zero                = 0;
+    one                 = 1;
+    local_28            = 2;
+    do {
+        func_020040c8();
+        if (func_02120748() != 0) {
+            goto chk1;
+        }
+        if (func_021211a8() == 0) {
+            goto other;
+        }
+    chk1:
+        if (func_020c94e4() == 1) {
+            if (iVar7 <= 0) {
+                iVar6 = one;
+                iVar7 = 3600;
+            }
+        } else {
+        other:
+            if (*(u32 *) data_02154c78 != 0 && *(s16 *) (*(u8 **) data_02154c78 + 4) != 0 && bVar1 == 0) {
+                bVar1 = one;
+                iVar6 = local_28;
+            }
+        }
+        if (iVar7 > 0) {
+            iVar7 = iVar7 - 1;
+        }
+        if (bVar3 == 0) {
+            if (iVar6 != 0) {
+                iVar5 = func_020022cc();
+                if (iVar5 == 0) {
+                    do {
+                        iVar5 = func_020022e8(one);
+                    } while (iVar5 == 0);
+                }
+                bVar3 = one;
+            }
+        } else {
+            switch (iVar6) {
+                case 1:
+                    func_020f06dc();
+                    break;
+                case 2:
+                    func_020e99b8();
+                    break;
+            }
+            iVar6 = zero;
+            if (func_020e9970() == 0) {
+                iVar5 = func_020022cc();
+                if (iVar5 == 1) {
+                    do {
+                        iVar5 = func_020022e8(zero);
+                    } while (iVar5 == 0);
+                }
+                bVar3 = zero;
+            }
+        }
+        if (((s32) (*(u16 *) 0x027fffa8 & 0x8000) >> 15) == 0) {
+            bVar4 = 0;
+        }
+        func_02003f40();
+        func_02003de8();
+    } while (bVar4 != 0);
+    *(u16 *) 0x04000304 = (*(u16 *) 0x04000304 & ~0x20e) | 0x20e;
+    bVar2               = func_020022cc();
+    if (bVar2 != 0) {
+        return;
+    }
+    do {
+        iVar5 = func_020022e8(1);
+    } while (iVar5 == 0);
+}

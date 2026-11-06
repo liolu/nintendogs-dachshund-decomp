@@ -1,0 +1,24 @@
+/* compiler: 2.0/sp1p5  */
+/* func_020e1a14 from projets/nintendogs-dachshund/src/auto/func_020e1a14.c (same code in another game of this workspace),
+ * reused by tools/donor_match.py */
+extern char data_02153740[];
+// clang-format off
+asm void func_020aed4c(void) {
+    ldr r3, =data_02153740
+    ldr r3, [r3, #0x0]
+    add ip, r3, #0xc4
+    ldr r3, [ip, #0x268]
+    add ip, ip, #0x254
+    cmp r3, #0x0
+    bxne lr
+    mov r3, #0x1
+    str r3, [ip, #0x0]
+    mov r3, #0x1e
+    str r3, [ip, #0x4]
+    str r0, [ip, #0x8]
+    add r3, ip, #0xc
+    swpb r0, r1, [r3]
+    str r2, [ip, #0x10]
+    bx lr
+}
+// clang-format on
