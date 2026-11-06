@@ -3766,3 +3766,15 @@ src/donor/func_0211f604.c 2.0/sp1p5
 src/donor/func_0211f9c0.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/donor/func_02121eac.c 1.2/sp2p3
 src/donor/func_021244e0.c 1.2/sp2p3
+src/auto/func_0206c090.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02080910.c 1.2/sp2p3
+src/auto/func_020a6b48.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020a6bac.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020bdfe0.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020c9f60.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020ca014.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020ca0c8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020ca17c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020d8ffc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020e118c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02100fd0.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
