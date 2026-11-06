@@ -13710,6 +13710,9 @@ void func_ov003_0218fd1c(void);
 #ifndef M2C_SELF_func_ov003_0218fd28
 void func_ov003_0218fd28(void);
 #endif
+#ifndef M2C_SELF_func_ov003_0218ffac
+void func_ov003_0218ffac(M2C_UNK);
+#endif
 #ifndef M2C_SELF_func_ov003_0218ffc0
 void func_ov003_0218ffc0(M2C_UNK);
 #endif
@@ -18242,9 +18245,6 @@ void func_ov003_0218fc44(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov003_0218fd34
 void func_ov003_0218fd34(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_ov003_0218ffac
-void func_ov003_0218ffac(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0218ffd0
 void func_ov003_0218ffd0(M2C_UNK, M2C_UNK);
