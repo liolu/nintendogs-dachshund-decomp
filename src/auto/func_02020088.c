@@ -1,0 +1,15 @@
+/* compiler: 1.2/sp2p3  */
+#include "m2c.h"
+
+M2C_UNK func_02023610(void *, M2C_UNK, M2C_UNK);    /* extern */
+M2C_UNK func_020254f0(void *);                      /* extern */
+M2C_UNK func_02026bcc(void *);                      /* extern */
+s16 func_02034c88();                                /* extern */
+
+void func_02020088(void *arg0) {
+    M2C_FIELD(arg0, s16 *, 0x150) = 0x119;
+    M2C_FIELD(arg0, s16 *, 0x156) = func_02034c88(arg0);
+    func_02026bcc(arg0);
+    func_020254f0(arg0);
+    func_02023610(arg0, 0x32, 1);
+}

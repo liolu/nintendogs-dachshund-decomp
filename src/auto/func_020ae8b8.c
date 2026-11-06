@@ -1,0 +1,13 @@
+#include "m2c.h"
+
+extern void *data_02153740;
+
+s32 func_020ae8b8(void) {
+    s32 var_r0;
+
+    var_r0 = 1;
+    if (M2C_FIELD(data_02153740, s32 *, 0xB8) == 2) {
+        var_r0 = M2C_FIELD(data_02153740, s32 *, 0xDC);
+    }
+    return var_r0;
+}

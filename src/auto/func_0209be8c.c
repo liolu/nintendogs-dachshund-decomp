@@ -1,0 +1,18 @@
+/* compiler: 1.2/sp2p3  */
+#include "m2c.h"
+
+void *func_02003844(M2C_UNK, M2C_UNK);              /* extern */
+M2C_UNK func_020929b4();                            /* extern */
+extern M2C_UNK func_0209becc;
+extern M2C_UNK func_0209bf20;
+
+void *func_0209be8c(M2C_UNK arg0) {
+    void *temp_r4;
+
+    temp_r4 = func_02003844(arg0, 0x20);
+    func_020929b4();
+    M2C_FIELD(temp_r4, s16 *, 0)         = 0xB;
+    M2C_FIELD(temp_r4, M2C_UNK **, 0x14) = &func_0209bf20;
+    M2C_FIELD(temp_r4, M2C_UNK **, 0x10) = &func_0209becc;
+    return temp_r4;
+}

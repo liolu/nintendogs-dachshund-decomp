@@ -1,0 +1,76 @@
+/* compiler: 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto */
+/* func_0200314c from https://github.com/chasmlol/nintendogs-decomp src/arm9/func_0200314c.c (license: none), reused by
+ * tools/donor_match.py */
+typedef unsigned char u8;
+typedef unsigned short u16;
+typedef unsigned int u32;
+typedef unsigned long long u64;
+typedef signed int s32;
+typedef volatile u16 vu16;
+typedef volatile u32 vu32;
+extern u8 data_02153348[];
+extern u8 data_0214a75c[];
+extern u32 data_0213b3c4;
+extern void func_0208089c(void);
+extern u64 func_02080f5c(void);
+extern void func_0207fae8(int a, int b);
+extern void func_02080e94(void *a, int b);
+extern void func_020031ec(void);
+extern void func_020807f4(void);
+extern void func_02081094(void);
+extern void func_02081130(void);
+extern void func_02069b38(void);
+extern void func_02069cec(void);
+extern void func_02069c44(void);
+extern void func_0207f574(int a, int b);
+extern void func_02003394(void);
+extern void func_02003418(void);
+extern void func_0207f3e4(int a);
+extern u64 func_020811f8(void);
+extern void func_02069c8c(int a);
+extern void func_02069cbc(int a);
+extern void func_02002c54(void);
+extern void func_020026f0(int a);
+extern void func_020026d8(int a);
+extern void func_0206ef1c(void);
+extern void func_0208babc(int a);
+extern void func_0208bb8c(int a);
+extern u8 func_02006614(void);
+u8 func_020030d8(void) {
+    u64 uVar7;
+    int iVar4;
+    vu16 *hp;
+
+    func_0208089c();
+    uVar7                        = func_02080f5c();
+    *(u64 *) (data_0214a75c + 4) = uVar7;
+    iVar4                        = *(s32 *) (data_02153348 + 8);
+    *(s32 *) data_0214a75c       = iVar4;
+    func_0207fae8(iVar4, 0x100);
+    func_02080e94((void *) func_020031ec, 0);
+    func_020807f4();
+    func_02081094();
+    func_02081130();
+    func_02069b38();
+    data_0213b3c4 = 3;
+    func_02069cec();
+    func_02069c44();
+    *(vu32 *) 0x04001000 = *(vu32 *) 0x04001000 & 0xfffeffff;
+    func_0207f574(1, (int) func_02003418);
+    func_0207f574(2, (int) func_02003394);
+    func_0207f3e4(1);
+    func_0207f3e4(2);
+    hp = (vu16 *) 0x04000208;
+    (void) *hp;
+    *hp   = 1;
+    uVar7 = func_020811f8();
+    func_02069c8c(1);
+    func_02069cbc(1);
+    func_02002c54();
+    func_020026f0(1);
+    func_020026d8(2);
+    func_0206ef1c();
+    func_0208babc(-1);
+    func_0208bb8c(-1);
+    return func_02006614();
+}

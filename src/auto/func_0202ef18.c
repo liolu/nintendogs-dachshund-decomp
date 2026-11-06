@@ -1,0 +1,194 @@
+#include "m2c.h"
+
+/* Uses instructions the compiler never generates: written in assembly. */
+extern char data_0214b484[];
+extern char data_02153708[];
+// clang-format off
+asm void func_0202ef18(void) {
+    ldr r2, =data_02153708
+    ldr r2, [r2, #0x0]
+    ldrh r2, [r2, #0x0]
+    cmp r2, #0x11
+    bne L_0202ef40
+    ldr r2, [r0, #0x9e4]
+    ldrb r2, [r2, #0x72]
+    cmp r2, #0x4
+    moveq r0, #0x0
+    bxeq lr
+L_0202ef40:
+    cmp r1, #0x8
+    addls pc, pc, r1, lsl #0x2
+    b L_0202f18c
+L_0202ef4c:
+    b L_0202ef70
+    b L_0202f0d0
+    b L_0202f0e0
+    b L_0202f0f0
+    b L_0202f100
+    b L_0202f15c
+    b L_0202f16c
+    b L_0202f17c
+    b L_0202f184
+L_0202ef70:
+    ldr r2, =data_0214b484
+    ldr r1, =0x10dcd
+    ldr r3, [r2, #0x0]
+    ldr r2, [r3, #0x0]
+    mul r1, r2, r1
+    add r2, r1, #0x1
+    mov r1, r2, lsl #0x10
+    mov r1, r1, lsr #0x1e
+    mov r1, r1, lsl #0x10
+    mov r1, r1, lsr #0x10
+    str r2, [r3, #0x0]
+    cmp r1, #0x3
+    addls pc, pc, r1, lsl #0x2
+    b L_0202f18c
+L_0202efa8:
+    b L_0202efb8
+    b L_0202efc8
+    b L_0202efd8
+    b L_0202efd8
+L_0202efb8:
+    ldr r1, =0x225
+    strh r1, [r0, #0xe8]
+    mov r0, #0x1
+    bx lr
+L_0202efc8:
+    ldr r1, =0x226
+    strh r1, [r0, #0xe8]
+    mov r0, #0x1
+    bx lr
+L_0202efd8:
+    mov r1, #0x224
+    strh r1, [r0, #0xe8]
+    ldrsh r3, [r0, #0xf0]
+    cmp r3, #0x4
+    blt L_0202eff8
+    cmp r3, #0x8
+    movle r1, #0x1
+    ble L_0202f038
+L_0202eff8:
+    cmp r3, #0x57
+    moveq r1, #0x1
+    beq L_0202f038
+    ldrsh r2, [r0, #0xe8]
+    cmp r2, #0xf
+    blt L_0202f01c
+    cmp r2, #0x4b
+    movle r1, #0x1
+    ble L_0202f038
+L_0202f01c:
+    ldr r1, =0x119
+    cmp r2, r1
+    blt L_0202f034
+    cmp r2, #0x13c
+    movle r1, #0x1
+    ble L_0202f038
+L_0202f034:
+    mov r1, #0x0
+L_0202f038:
+    cmp r1, #0x0
+    movne r1, #0x0
+    bne L_0202f098
+    ldrsh r2, [r0, #0xe8]
+    ldr r1, =0x477
+    cmp r2, r1
+    blt L_0202f064
+    ldr r1, =0x47d
+    cmp r2, r1
+    movle r1, #0x0
+    ble L_0202f098
+L_0202f064:
+    ldr r1, =0x4c6
+    cmp r2, r1
+    blt L_0202f080
+    ldr r1, =0x4c9
+    cmp r2, r1
+    movle r1, #0x0
+    ble L_0202f098
+L_0202f080:
+    cmp r3, #0x53
+    moveq r1, #0x0
+    beq L_0202f098
+    cmp r3, #0x54
+    moveq r1, #0x0
+    movne r1, #0x1
+L_0202f098:
+    cmp r1, #0x0
+    beq L_0202f0c8
+    add r2, r0, #0xbe
+    mov r3, #0x0
+    swpb r1, r3, [r2]
+    add r1, r0, #0x100
+    strh r3, [r1, #0x20]
+    mov r1, #0xb
+    strh r1, [r0, #0xf0]
+    add r1, r0, #0xc4
+    mov r0, #0x3
+    swpb r0, r0, [r1]
+L_0202f0c8:
+    mov r0, #0x1
+    bx lr
+L_0202f0d0:
+    ldr r1, =0x22f
+    strh r1, [r0, #0xe8]
+    mov r0, #0x1
+    bx lr
+L_0202f0e0:
+    ldr r1, =0x233
+    strh r1, [r0, #0xe8]
+    mov r0, #0x1
+    bx lr
+L_0202f0f0:
+    ldr r1, =0x236
+    strh r1, [r0, #0xe8]
+    mov r0, #0x1
+    bx lr
+L_0202f100:
+    ldr r2, =data_0214b484
+    ldr r1, =0x10dcd
+    ldr r3, [r2, #0x0]
+    ldr r2, [r3, #0x0]
+    mul r1, r2, r1
+    add r2, r1, #0x1
+    mov r1, r2, lsl #0x10
+    mov r1, r1, lsr #0x1f
+    mov r1, r1, lsl #0x10
+    str r2, [r3, #0x0]
+    movs r1, r1, lsr #0x10
+    beq L_0202f13c
+    cmp r1, #0x1
+    beq L_0202f14c
+    b L_0202f18c
+L_0202f13c:
+    ldr r1, =0x23b
+    strh r1, [r0, #0xe8]
+    mov r0, #0x1
+    bx lr
+L_0202f14c:
+    mov r1, #0x23c
+    strh r1, [r0, #0xe8]
+    mov r0, #0x1
+    bx lr
+L_0202f15c:
+    ldr r1, =0x243
+    strh r1, [r0, #0xe8]
+    mov r0, #0x1
+    bx lr
+L_0202f16c:
+    mov r1, #0x244
+    strh r1, [r0, #0xe8]
+    mov r0, #0x1
+    bx lr
+L_0202f17c:
+    mov r0, #0x0
+    bx lr
+L_0202f184:
+    mov r0, #0x0
+    bx lr
+L_0202f18c:
+    mov r0, #0x0
+    bx lr
+}
+// clang-format on

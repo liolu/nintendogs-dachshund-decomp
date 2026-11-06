@@ -1,0 +1,77 @@
+/* compiler: 1.2/sp2p3  */
+#include "m2c.h"
+
+s32 func_02002de4();                                /* extern */
+M2C_UNK func_02002dec();                            /* extern */
+M2C_UNK func_02003954(M2C_UNK, M2C_UNK *);          /* extern */
+M2C_UNK func_02006010(s32, M2C_UNK *, M2C_UNK *);   /* extern */
+M2C_UNK func_02006654(M2C_UNK, M2C_UNK *, M2C_UNK); /* extern */
+M2C_UNK func_02006920(s32, M2C_UNK);                /* extern */
+M2C_UNK func_0200704c(s32);                         /* extern */
+M2C_UNK func_020665e8(M2C_UNK);                     /* extern */
+M2C_UNK func_02067970(M2C_UNK *);                   /* extern */
+M2C_UNK func_02078330(M2C_UNK);                     /* extern */
+M2C_UNK func_020c12b8(s32);                         /* extern */
+M2C_UNK func_020c2054();                            /* extern */
+M2C_UNK func_020c2068(s32);                         /* extern */
+M2C_UNK func_020c3754();                            /* extern */
+M2C_UNK func_020c3a78();                            /* extern */
+M2C_UNK func_020c66f8(s32);                         /* extern */
+M2C_UNK func_020cba58(s32);                         /* extern */
+M2C_UNK func_020cd2f4(s32);                         /* extern */
+M2C_UNK func_020cedf0(s32);                         /* extern */
+M2C_UNK func_020cfd84(s32);                         /* extern */
+M2C_UNK func_020ea354(s32);                         /* extern */
+M2C_UNK func_02120764();                            /* extern */
+extern M2C_UNK data_0213b938;
+extern M2C_UNK data_0213b940;
+extern M2C_UNK data_0213b948;
+extern M2C_UNK data_0213b950;
+extern M2C_UNK data_0213b958;
+extern M2C_UNK data_0213b960;
+extern M2C_UNK data_0213b968;
+extern M2C_UNK data_0213b970;
+extern M2C_UNK data_0213b978;
+extern M2C_UNK data_0213b990;
+extern M2C_UNK func_0208c79c;
+extern M2C_UNK func_0208c7a8;
+extern M2C_UNK func_0208c7e0;
+extern M2C_UNK func_0208c850;
+extern M2C_UNK func_020cf818;
+
+void func_0208c610(void) {
+    s32 temp_r0;
+
+    func_02002dec();
+    temp_r0 = func_02002de4();
+    func_02006920(temp_r0, 0);
+    func_02006654(0, &data_0213b938, 1);
+    func_02006654(1, &data_0213b940, 2);
+    func_02006654(2, &data_0213b948, 3);
+    func_02006654(3, &data_0213b950, 4);
+    func_02006654(4, &data_0213b958, 5);
+    func_02006654(5, &data_0213b960, 6);
+    func_02006654(6, &data_0213b968, 7);
+    func_02006654(7, &data_0213b970, 8);
+    func_020c3a78();
+    func_020c2068(temp_r0);
+    func_020c2054();
+    func_020c3754();
+    func_0200704c(temp_r0);
+    func_020cba58(temp_r0);
+    func_020cfd84(temp_r0);
+    func_020c12b8(temp_r0);
+    func_020ea354(temp_r0);
+    func_02006010(temp_r0, &data_0213b978, &data_0213b990);
+    func_020665e8(0x14);
+    func_02078330(1);
+    func_02120764();
+    func_020cd2f4(temp_r0);
+    func_020c66f8(temp_r0);
+    func_020cedf0(temp_r0);
+    func_02067970(&func_0208c850);
+    func_02003954(0, &func_0208c7e0);
+    func_02003954(1, &func_0208c7a8);
+    func_02003954(2, &func_0208c79c);
+    func_02003954(3, &func_020cf818);
+}

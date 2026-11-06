@@ -1,0 +1,9 @@
+/* compiler: 1.2/sp2p3  */
+#include "m2c.h"
+
+s32 func_02003844(M2C_UNK, M2C_UNK);                /* extern */
+extern s32 data_02156084;
+
+void func_021081f8(M2C_UNK arg0) {
+    data_02156084 = func_02003844(arg0, 0x18);
+}
