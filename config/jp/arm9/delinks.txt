@@ -16324,7 +16324,6 @@ src/auto/func_0205a994.c:
     complete
     .text       start:0x0205a994 end:0x0205ab00
 
-
 src/donor/func_020030d8.c:
     complete
     .text       start:0x020030d8 end:0x020031ec
@@ -19992,3 +19991,16 @@ src/donor/func_02121eb4.c:
 src/donor/func_021244e8.c:
     complete
     .text       start:0x021244e8 end:0x0212458c
+
+src/auto/func_02004e9c.c:
+    complete
+    .text       start:0x02004e9c end:0x02005460
+
+src/auto/func_02007880.c:
+    complete
+    .text       start:0x02007880 end:0x02007a10
+
+src/auto/func_02007a10.c:
+    complete
+    .text       start:0x02007a10 end:0x02007b9c
+
