@@ -27,3 +27,11 @@ src/data/ov026_data_021581a8.c:
 src/data/ov026_data_021581b8.c:
     complete
     .data       start:0x021581b8 end:0x021581e0
+
+src/data/ov026_bss_021581e0.c:
+    complete
+    .bss        start:0x021581e0 end:0x02158200
+
+src/data/ov026_data_021581ac.c:
+    complete
+    .data       start:0x021581ac end:0x021581b8
