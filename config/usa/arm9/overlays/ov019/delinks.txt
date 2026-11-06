@@ -150,3 +150,47 @@ src/data/ov019_data_0215f580.c:
 src/data/ov019_data_0215f5b8.c:
     complete
     .data       start:0x0215f5b8 end:0x0215f5f0
+
+src/data/ov019_bss_0215f6a0.c:
+    complete
+    .bss        start:0x0215f6a0 end:0x0215f6a4
+
+src/data/ov019_bss_0215f6a4.c:
+    complete
+    .bss        start:0x0215f6a4 end:0x0215f6a8
+
+src/data/ov019_bss_0215f6a8.c:
+    complete
+    .bss        start:0x0215f6a8 end:0x0215f6ac
+
+src/data/ov019_bss_0215f6ac.c:
+    complete
+    .bss        start:0x0215f6ac end:0x0215f6b0
+
+src/data/ov019_bss_0215f6b0.c:
+    complete
+    .bss        start:0x0215f6b0 end:0x0215f6b4
+
+src/data/ov019_bss_0215f6b4.c:
+    complete
+    .bss        start:0x0215f6b4 end:0x0215f6b8
+
+src/data/ov019_bss_0215f6b8.c:
+    complete
+    .bss        start:0x0215f6b8 end:0x0215f7a0
+
+src/data/ov019_data_0215f5f0.c:
+    complete
+    .data       start:0x0215f5f0 end:0x0215f624
+
+src/data/ov019_data_0215f624.c:
+    complete
+    .data       start:0x0215f624 end:0x0215f640
+
+src/data/ov019_data_0215f640.c:
+    complete
+    .data       start:0x0215f640 end:0x0215f654
+
+src/data/ov019_data_0215f654.c:
+    complete
+    .data       start:0x0215f654 end:0x0215f6a0

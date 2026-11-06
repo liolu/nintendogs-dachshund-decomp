@@ -531,3 +531,31 @@ src/auto/func_ov003_02195320.c:
 src/auto/func_ov003_0218ffac.c:
     complete
     .text       start:0x0218ffac end:0x0218ffc0
+
+src/data/ov003_data_021987e0.c:
+    complete
+    .data       start:0x021987e0 end:0x021987e8
+
+src/data/ov003_data_021987e8.c:
+    complete
+    .data       start:0x021987e8 end:0x021987fc
+
+src/data/ov003_data_021987fc.c:
+    complete
+    .data       start:0x021987fc end:0x0219881c
+
+src/data/ov003_data_0219881c.c:
+    complete
+    .data       start:0x0219881c end:0x02198830
+
+src/data/ov003_data_02198830.c:
+    complete
+    .data       start:0x02198830 end:0x02198860
+
+src/data/ov003_rodata_021987c0.c:
+    complete
+    .rodata     start:0x021987c0 end:0x021987c8
+
+src/data/ov003_rodata_021987c8.c:
+    complete
+    .rodata     start:0x021987c8 end:0x021987d0

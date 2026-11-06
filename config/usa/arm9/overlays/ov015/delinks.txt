@@ -7,3 +7,39 @@
 src/data/ov015_data_0215ab5c.c:
     complete
     .data       start:0x0215ab5c end:0x0215ab68
+
+src/data/ov015_bss_0215ab80.c:
+    complete
+    .bss        start:0x0215ab80 end:0x0215ab84
+
+src/data/ov015_bss_0215ab84.c:
+    complete
+    .bss        start:0x0215ab84 end:0x0215ab88
+
+src/data/ov015_bss_0215ab88.c:
+    complete
+    .bss        start:0x0215ab88 end:0x0215ab8c
+
+src/data/ov015_bss_0215ab8c.c:
+    complete
+    .bss        start:0x0215ab8c end:0x0215ab9c
+
+src/data/ov015_bss_0215ab9c.c:
+    complete
+    .bss        start:0x0215ab9c end:0x0215abc0
+
+src/data/ov015_data_0215ab40.c:
+    complete
+    .data       start:0x0215ab40 end:0x0215ab48
+
+src/data/ov015_data_0215ab48.c:
+    complete
+    .data       start:0x0215ab48 end:0x0215ab5c
+
+src/data/ov015_data_0215ab68.c:
+    complete
+    .data       start:0x0215ab68 end:0x0215ab80
+
+src/data/ov015_rodata_0215ab28.c:
+    complete
+    .rodata     start:0x0215ab28 end:0x0215ab38
