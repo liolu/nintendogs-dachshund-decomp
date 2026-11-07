@@ -36203,3 +36203,91 @@ src/data/main_rodata_021332d4.c:
 src/data/main_rodata_02133830.c:
     complete
     .rodata     start:0x02133830 end:0x02133880
+
+src/data/main_data_02133bdc.c:
+    complete
+    .data       start:0x02133bdc end:0x02133be0
+
+src/data/main_data_0213931c.c:
+    complete
+    .data       start:0x0213931c end:0x0213933c
+
+src/data/main_data_02139cd0.c:
+    complete
+    .data       start:0x02139cd0 end:0x0213afe8
+
+src/data/main_rodata_02128ce8.c:
+    complete
+    .rodata     start:0x02128ce8 end:0x02128cec
+
+src/data/main_rodata_02128d98.c:
+    complete
+    .rodata     start:0x02128d98 end:0x02128dbc
+
+src/data/main_rodata_02128ebc.c:
+    complete
+    .rodata     start:0x02128ebc end:0x02128ee0
+
+src/data/main_rodata_0212d2ec.c:
+    complete
+    .rodata     start:0x0212d2ec end:0x0212d310
+
+src/data/main_rodata_0212db00.c:
+    complete
+    .rodata     start:0x0212db00 end:0x0212db04
+
+src/data/main_rodata_0212db24.c:
+    complete
+    .rodata     start:0x0212db24 end:0x0212db6c
+
+src/data/main_rodata_02130728.c:
+    complete
+    .rodata     start:0x02130728 end:0x021307e4
+
+src/data/main_bss_0214e9b0.c:
+    complete
+    .bss        start:0x0214e9b0 end:0x0214e9b2
+
+src/data/main_bss_0214e9b2.c:
+    complete
+    .bss        start:0x0214e9b2 end:0x0214e9b4
+
+src/data/main_bss_0214e9b4.c:
+    complete
+    .bss        start:0x0214e9b4 end:0x0214e9b6
+
+src/data/main_bss_0214e9b6.c:
+    complete
+    .bss        start:0x0214e9b6 end:0x0214e9b8
+
+src/data/main_bss_0214e9b8.c:
+    complete
+    .bss        start:0x0214e9b8 end:0x0214e9ba
+
+src/data/main_bss_0214e9ba.c:
+    complete
+    .bss        start:0x0214e9ba end:0x0214e9bc
+
+src/data/main_bss_0214e9bc.c:
+    complete
+    .bss        start:0x0214e9bc end:0x0214e9be
+
+src/data/main_bss_0214e9be.c:
+    complete
+    .bss        start:0x0214e9be end:0x0214e9c0
+
+src/data/main_bss_0214e9c0.c:
+    complete
+    .bss        start:0x0214e9c0 end:0x0214e9c2
+
+src/data/main_bss_0214e9c2.c:
+    complete
+    .bss        start:0x0214e9c2 end:0x0214e9c4
+
+src/data/main_bss_0214e9c4.c:
+    complete
+    .bss        start:0x0214e9c4 end:0x0214e9c6
+
+src/data/main_bss_0214e9c6.c:
+    complete
+    .bss        start:0x0214e9c6 end:0x0214e9c8
