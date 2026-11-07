@@ -150,3 +150,55 @@ src/auto/func_ov018_021595d8.c:
 src/auto/func_ov018_0215cdc0.c:
     complete
     .text       start:0x0215cdc0 end:0x0215cdcc
+
+src/data/ov018_bss_0215d220.c:
+    complete
+    .bss        start:0x0215d220 end:0x0215d224
+
+src/data/ov018_bss_0215d224.c:
+    complete
+    .bss        start:0x0215d224 end:0x0215d228
+
+src/data/ov018_bss_0215d228.c:
+    complete
+    .bss        start:0x0215d228 end:0x0215d22c
+
+src/data/ov018_bss_0215d22c.c:
+    complete
+    .bss        start:0x0215d22c end:0x0215d230
+
+src/data/ov018_bss_0215d230.c:
+    complete
+    .bss        start:0x0215d230 end:0x0215d234
+
+src/data/ov018_bss_0215d234.c:
+    complete
+    .bss        start:0x0215d234 end:0x0215d238
+
+src/data/ov018_bss_0215d238.c:
+    complete
+    .bss        start:0x0215d238 end:0x0215d320
+
+src/data/ov018_data_0215d170.c:
+    complete
+    .data       start:0x0215d170 end:0x0215d1a4
+
+src/data/ov018_data_0215d1a4.c:
+    complete
+    .data       start:0x0215d1a4 end:0x0215d1c0
+
+src/data/ov018_data_0215d1c0.c:
+    complete
+    .data       start:0x0215d1c0 end:0x0215d1dc
+
+src/data/ov018_data_0215d1dc.c:
+    complete
+    .data       start:0x0215d1dc end:0x0215d1f8
+
+src/data/ov018_data_0215d1f8.c:
+    complete
+    .data       start:0x0215d1f8 end:0x0215d200
+
+src/data/ov018_data_0215d200.c:
+    complete
+    .data       start:0x0215d200 end:0x0215d220

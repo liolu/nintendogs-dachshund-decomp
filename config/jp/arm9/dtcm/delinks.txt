@@ -1,2 +1,62 @@
     .data       start:0x027c0000 end:0x027c0c80 kind:data align:32
     .bss        start:0x027c0c80 end:0x027c0c80 kind:bss align:32
+
+src/data/dtcm_data_027c0000.c:
+    complete
+    .data       start:0x027c0000 end:0x027c0010
+
+src/data/dtcm_data_027c0010.c:
+    complete
+    .data       start:0x027c0010 end:0x027c0020
+
+src/data/dtcm_data_027c00a0.c:
+    complete
+    .data       start:0x027c00a0 end:0x027c00a4
+
+src/data/dtcm_data_027c00a4.c:
+    complete
+    .data       start:0x027c00a4 end:0x027c00a8
+
+src/data/dtcm_data_027c00a8.c:
+    complete
+    .data       start:0x027c00a8 end:0x027c0408
+
+src/data/dtcm_data_027c0408.c:
+    complete
+    .data       start:0x027c0408 end:0x027c0454
+
+src/data/dtcm_data_027c0454.c:
+    complete
+    .data       start:0x027c0454 end:0x027c0458
+
+src/data/dtcm_data_027c0458.c:
+    complete
+    .data       start:0x027c0458 end:0x027c045c
+
+src/data/dtcm_data_027c045c.c:
+    complete
+    .data       start:0x027c045c end:0x027c0460
+
+src/data/dtcm_data_027c0460.c:
+    complete
+    .data       start:0x027c0460 end:0x027c0464
+
+src/data/dtcm_data_027c0464.c:
+    complete
+    .data       start:0x027c0464 end:0x027c0468
+
+src/data/dtcm_data_027c0468.c:
+    complete
+    .data       start:0x027c0468 end:0x027c07f0
+
+src/data/dtcm_data_027c07f0.c:
+    complete
+    .data       start:0x027c07f0 end:0x027c09f0
+
+src/data/dtcm_data_027c09f0.c:
+    complete
+    .data       start:0x027c09f0 end:0x027c0bf0
+
+src/data/dtcm_data_027c0bf0.c:
+    complete
+    .data       start:0x027c0bf0 end:0x027c0c80

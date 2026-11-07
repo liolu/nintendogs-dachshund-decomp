@@ -1,0 +1,5 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+char data_021407c4[12] = "/home.bncl";
+char data_021407d0[24] = "/fs_home_obj.nce.bncd";
