@@ -60,3 +60,7 @@ src/data/dtcm_data_027c09f0.c:
 src/data/dtcm_data_027c0bf0.c:
     complete
     .data       start:0x027c0bf0 end:0x027c0c80
+
+src/data/dtcm_data_027c0020.c:
+    complete
+    .data       start:0x027c0020 end:0x027c00a0
