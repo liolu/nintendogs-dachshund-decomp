@@ -208,7 +208,7 @@ from:0x02160140 kind:arm_call to:0x0206a588 module:main
 from:0x0216028c kind:arm_call to:0x0206a588 module:main
 from:0x021604fc kind:load to:0x0216fdac module:overlay(4)
 from:0x02160504 kind:load to:0x02170180 module:overlay(4)
-from:0x02160508 kind:load to:0x0216fb96 module:overlay(4)
+from:0x02160508 kind:load to:0x0216fb94 add:0x2 module:overlay(4)
 from:0x0216050c kind:load to:0x0216fb94 module:overlay(4)
 from:0x0216052c kind:arm_call to:0x01ffdb08 module:itcm
 from:0x02160588 kind:arm_call to:0x020280e4 module:main

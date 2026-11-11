@@ -1,3 +1,7 @@
     .text       start:0x0215be60 end:0x0215c2f8 kind:code align:32
     .ctor       start:0x0215c2f8 end:0x0215c2f8 kind:rodata align:4
     .bss        start:0x0215c300 end:0x0215c320 kind:bss align:32
+
+src/data/ov029_bss_0215c300.c:
+    complete
+    .bss        start:0x0215c300 end:0x0215c320
