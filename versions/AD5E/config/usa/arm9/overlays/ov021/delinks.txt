@@ -2,3 +2,15 @@
     .ctor       start:0x0215a710 end:0x0215a710 kind:rodata align:4
     .data       start:0x0215a720 end:0x0215a760 kind:data align:32
     .bss        start:0x0215a760 end:0x0215a780 kind:bss align:32
+
+src/data/ov021_bss_0215a760.c:
+    complete
+    .bss        start:0x0215a760 end:0x0215a780
+
+src/data/ov021_data_0215a720.c:
+    complete
+    .data       start:0x0215a720 end:0x0215a72c
+
+src/data/ov021_data_0215a72c.c:
+    complete
+    .data       start:0x0215a72c end:0x0215a760

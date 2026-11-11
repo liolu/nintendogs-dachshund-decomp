@@ -278,7 +278,6 @@ data_ov004_0216dddc kind:data(any) addr:0x0216dddc
 data_ov004_0216dde4 kind:data(any) addr:0x0216dde4
 data_ov004_0216ddec kind:data(any) addr:0x0216ddec
 data_ov004_0216ddf4 kind:data(any) addr:0x0216ddf4
-data_ov004_0216ddf6 kind:data(any) addr:0x0216ddf6
 data_ov004_0216ddfc kind:data(any) addr:0x0216ddfc
 data_ov004_0216de08 kind:data(any) addr:0x0216de08
 data_ov004_0216de14 kind:data(any) addr:0x0216de14
