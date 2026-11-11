@@ -67,3 +67,11 @@ src/data/ov027_data_02159b00.c:
 src/data/ov027_rodata_02159aa4.c:
     complete
     .rodata     start:0x02159aa4 end:0x02159ae4
+
+src/auto/func_ov027_021586e8.c:
+    complete
+    .text       start:0x021586e8 end:0x02158718
+
+src/auto/func_ov027_02158c08.c:
+    complete
+    .text       start:0x02158c08 end:0x02158c4c

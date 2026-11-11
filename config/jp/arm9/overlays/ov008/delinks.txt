@@ -30,3 +30,7 @@ src/data/ov008_data_021588e0.c:
 src/data/ov008_data_021588f0.c:
     complete
     .data       start:0x021588f0 end:0x02158900
+
+src/auto/func_ov008_02158864.c:
+    complete
+    .text       start:0x02158864 end:0x02158890

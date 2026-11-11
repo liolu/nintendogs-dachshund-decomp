@@ -131,3 +131,31 @@ src/data/ov006_data_0215bb3c.c:
 src/data/ov006_rodata_0215b97c.c:
     complete
     .rodata     start:0x0215b97c end:0x0215b9cc
+
+src/auto/func_ov006_02157cb0.c:
+    complete
+    .text       start:0x02157cb0 end:0x02157e10
+
+src/auto/func_ov006_02157e10.c:
+    complete
+    .text       start:0x02157e10 end:0x02157e54
+
+src/auto/func_ov006_02158aa0.c:
+    complete
+    .text       start:0x02158aa0 end:0x02158aec
+
+src/auto/func_ov006_021596d0.c:
+    complete
+    .text       start:0x021596d0 end:0x0215974c
+
+src/auto/func_ov006_0215a2b8.c:
+    complete
+    .text       start:0x0215a2b8 end:0x0215a2e8
+
+src/auto/func_ov006_0215a2e8.c:
+    complete
+    .text       start:0x0215a2e8 end:0x0215a364
+
+src/auto/func_ov006_0215a650.c:
+    complete
+    .text       start:0x0215a650 end:0x0215a664

@@ -39,3 +39,7 @@ src/data/ov010_rodata_02158ec8.c:
 src/data/ov010_rodata_02158ed8.c:
     complete
     .rodata     start:0x02158ed8 end:0x02158f18
+
+src/auto/func_ov010_02157ce8.c:
+    complete
+    .text       start:0x02157ce8 end:0x02157d04
