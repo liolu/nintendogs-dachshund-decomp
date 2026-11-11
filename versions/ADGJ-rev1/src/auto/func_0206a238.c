@@ -1,0 +1,9 @@
+#include "m2c.h"
+
+M2C_UNK func_0206a284(M2C_UNK *);                   /* extern */
+extern M2C_UNK data_0214e9be;
+
+void func_0206a238(void) {
+    *(s32 *) 0x04000000 &= ~0x40000000;
+    func_0206a284(&data_0214e9be);
+}

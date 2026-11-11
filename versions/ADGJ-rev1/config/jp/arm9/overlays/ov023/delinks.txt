@@ -1,0 +1,15 @@
+    .text       start:0x02157c20 end:0x02157f70 kind:code align:32
+    .ctor       start:0x02157f70 end:0x02157f70 kind:rodata align:4
+    .bss        start:0x02157f80 end:0x02157fa0 kind:bss align:32
+
+src/data/ov023_bss_02157f80.c:
+    complete
+    .bss        start:0x02157f80 end:0x02157fa0
+
+src/auto/func_ov023_02157d44.c:
+    complete
+    .text       start:0x02157d44 end:0x02157dd8
+
+src/auto/func_ov023_02157d40.c:
+    complete
+    .text       start:0x02157d40 end:0x02157d44
