@@ -5,3 +5,15 @@
 src/data/ov009_bss_02159600.c:
     complete
     .bss        start:0x02159600 end:0x02159620
+
+src/auto/func_ov009_021595e0.c:
+    complete
+    .text       start:0x021595e0 end:0x021595e4
+
+src/auto/func_ov009_02157c20.c:
+    complete
+    .text       start:0x02157c20 end:0x02157cdc
+
+src/auto/func_ov009_02157cdc.c:
+    complete
+    .text       start:0x02157cdc end:0x02157d10

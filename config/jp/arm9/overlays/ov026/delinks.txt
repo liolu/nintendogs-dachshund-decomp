@@ -35,3 +35,15 @@ src/data/ov026_bss_021581e0.c:
 src/data/ov026_data_021581ac.c:
     complete
     .data       start:0x021581ac end:0x021581b8
+
+src/auto/func_ov026_02157d84.c:
+    complete
+    .text       start:0x02157d84 end:0x02157dcc
+
+src/auto/func_ov026_021580ac.c:
+    complete
+    .text       start:0x021580ac end:0x0215817c
+
+src/auto/func_ov026_0215817c.c:
+    complete
+    .text       start:0x0215817c end:0x02158180
