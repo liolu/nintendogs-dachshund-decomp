@@ -1,2 +1,42 @@
     .data       start:0x027c0000 end:0x027c0be0 kind:data align:32
     .bss        start:0x027c0be0 end:0x027c0be0 kind:bss align:32
+
+src/data/dtcm_data_027c0000.c:
+    complete
+    .data       start:0x027c0000 end:0x027c0364
+
+src/data/dtcm_data_027c0364.c:
+    complete
+    .data       start:0x027c0364 end:0x027c0734
+
+src/data/dtcm_data_027c0734.c:
+    complete
+    .data       start:0x027c0734 end:0x027c0934
+
+src/data/dtcm_data_027c0934.c:
+    complete
+    .data       start:0x027c0934 end:0x027c0b34
+
+src/data/dtcm_data_027c0b34.c:
+    complete
+    .data       start:0x027c0b34 end:0x027c0bb4
+
+src/data/dtcm_data_027c0bb4.c:
+    complete
+    .data       start:0x027c0bb4 end:0x027c0bb8
+
+src/data/dtcm_data_027c0bb8.c:
+    complete
+    .data       start:0x027c0bb8 end:0x027c0bbc
+
+src/data/dtcm_data_027c0bbc.c:
+    complete
+    .data       start:0x027c0bbc end:0x027c0bc0
+
+src/data/dtcm_data_027c0bc0.c:
+    complete
+    .data       start:0x027c0bc0 end:0x027c0bc4
+
+src/data/dtcm_data_027c0bc4.c:
+    complete
+    .data       start:0x027c0bc4 end:0x027c0be0

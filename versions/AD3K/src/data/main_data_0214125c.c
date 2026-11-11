@@ -1,0 +1,4 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+char data_0214125c[8] = "wait_b";
