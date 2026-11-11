@@ -1,0 +1,10 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+extern u8 data_02150b48[];
+extern u8 data_02150b90[];
+extern u8 data_02150bd8[];
+
+const u32 data_02138ae8[3] = {
+    (u32)&data_02150b48, (u32)&data_02150b90, (u32)&data_02150bd8
+};

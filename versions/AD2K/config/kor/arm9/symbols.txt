@@ -6052,7 +6052,6 @@ data_021320c5 kind:data(any) addr:0x021320c5
 data_021320c6 kind:data(any) addr:0x021320c6
 data_021320c7 kind:data(any) addr:0x021320c7
 data_021320c8 kind:data(any) addr:0x021320c8
-data_021320c9 kind:data(any) addr:0x021320c9
 data_02132184 kind:data(any) addr:0x02132184
 data_02132190 kind:data(any) addr:0x02132190
 data_0213219c kind:data(any) addr:0x0213219c
@@ -6517,9 +6516,7 @@ data_02135257 kind:data(any) addr:0x02135257
 data_0213525e kind:data(any) addr:0x0213525e
 data_0213525f kind:data(any) addr:0x0213525f
 data_02135260 kind:data(any) addr:0x02135260
-data_02135267 kind:data(any) addr:0x02135267
 data_02135268 kind:data(any) addr:0x02135268
-data_02135269 kind:data(any) addr:0x02135269
 data_02135294 kind:data(any) addr:0x02135294
 data_021352a0 kind:data(any) addr:0x021352a0
 data_021352f8 kind:data(any) addr:0x021352f8
@@ -6596,7 +6593,6 @@ data_021358dc kind:data(any) addr:0x021358dc
 data_021382dc kind:data(any) addr:0x021382dc
 data_02138304 kind:data(any) addr:0x02138304
 data_0213834c kind:data(any) addr:0x0213834c
-data_0213834d kind:data(any) addr:0x0213834d
 data_02138a64 kind:data(any) addr:0x02138a64
 data_02138a6c kind:data(any) addr:0x02138a6c
 data_02138a74 kind:data(any) addr:0x02138a74
@@ -6622,12 +6618,10 @@ data_02138c20 kind:data(any) addr:0x02138c20
 data_02138c3c kind:data(any) addr:0x02138c3c
 data_02138c8c kind:data(any) addr:0x02138c8c
 data_02138d1c kind:data(any) addr:0x02138d1c
-data_02138d32 kind:data(any) addr:0x02138d32
 data_02138dcc kind:data(any) addr:0x02138dcc
 data_02138eec kind:data(any) addr:0x02138eec
 data_02138eee kind:data(any) addr:0x02138eee
 data_02138ef0 kind:data(any) addr:0x02138ef0
-data_02138ef2 kind:data(any) addr:0x02138ef2
 data_021390dc kind:data(any) addr:0x021390dc
 data_0213944c kind:data(any) addr:0x0213944c
 data_0213993c kind:data(any) addr:0x0213993c
@@ -6794,15 +6788,10 @@ data_0213d974 kind:data(any) addr:0x0213d974
 data_0213d990 kind:data(any) addr:0x0213d990
 data_0213d9ac kind:data(any) addr:0x0213d9ac
 data_0213d9c8 kind:data(any) addr:0x0213d9c8
-data_0213d9ca kind:data(any) addr:0x0213d9ca
-data_0213d9cb kind:data(any) addr:0x0213d9cb
 data_0213d9e8 kind:data(any) addr:0x0213d9e8
 data_0213da0c kind:data(any) addr:0x0213da0c
 data_0213da48 kind:data(any) addr:0x0213da48
 data_0213da84 kind:data(any) addr:0x0213da84
-data_0213da96 kind:data(any) addr:0x0213da96
-data_0213da9f kind:data(any) addr:0x0213da9f
-data_0213daba kind:data(any) addr:0x0213daba
 data_0213dac4 kind:data(any) addr:0x0213dac4
 data_0213db20 kind:data(any) addr:0x0213db20
 data_0213db84 kind:data(any) addr:0x0213db84
@@ -6835,8 +6824,6 @@ data_0213e6ec kind:data(any) addr:0x0213e6ec
 data_0213e6f0 kind:data(any) addr:0x0213e6f0
 data_0213e6f4 kind:data(any) addr:0x0213e6f4
 data_0213f058 kind:data(any) addr:0x0213f058
-data_0213f05e kind:data(any) addr:0x0213f05e
-data_0213f05f kind:data(any) addr:0x0213f05f
 data_02140000 kind:data(any) addr:0x02140000
 data_02140378 kind:data(any) addr:0x02140378
 data_02140384 kind:data(any) addr:0x02140384
@@ -10303,8 +10290,6 @@ data_0214eaa8 kind:data(any) addr:0x0214eaa8
 data_0214eabc kind:data(any) addr:0x0214eabc
 data_0214ead0 kind:data(any) addr:0x0214ead0
 data_0214eae4 kind:data(any) addr:0x0214eae4
-data_02150001 kind:data(any) addr:0x02150001
-data_021500a3 kind:data(any) addr:0x021500a3
 data_02150764 kind:data(any) addr:0x02150764
 data_02150770 kind:data(any) addr:0x02150770
 data_02150784 kind:data(any) addr:0x02150784
@@ -10390,7 +10375,6 @@ data_02150f60 kind:data(any) addr:0x02150f60
 data_02150f80 kind:data(any) addr:0x02150f80
 data_02150fa0 kind:data(any) addr:0x02150fa0
 data_02150fc0 kind:data(any) addr:0x02150fc0
-data_02150fdd kind:data(any) addr:0x02150fdd
 data_02150fe0 kind:data(any) addr:0x02150fe0
 data_02151000 kind:data(any) addr:0x02151000
 data_02151020 kind:data(any) addr:0x02151020
@@ -10942,7 +10926,6 @@ data_0215e034 kind:bss addr:0x0215e034
 data_0215e038 kind:bss addr:0x0215e038
 data_0215e03c kind:bss addr:0x0215e03c
 data_0215e058 kind:bss addr:0x0215e058
-data_0215e05e kind:bss addr:0x0215e05e
 data_0215e448 kind:bss addr:0x0215e448
 data_0215e44c kind:bss addr:0x0215e44c
 data_0215e450 kind:bss addr:0x0215e450
