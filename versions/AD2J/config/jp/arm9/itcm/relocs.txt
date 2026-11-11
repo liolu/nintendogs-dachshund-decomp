@@ -389,8 +389,8 @@ from:0x01ffd438 kind:arm_call to:0x0208d7d0 module:main
 from:0x01ffd530 kind:load to:0x02138589 module:main
 from:0x01ffd534 kind:load to:0x021378b0 module:main
 from:0x01ffd538 kind:load to:0x02137844 module:main
-from:0x01ffd53c kind:load to:0x021378b3 module:main
-from:0x01ffd540 kind:load to:0x021378b2 module:main
+from:0x01ffd53c kind:load to:0x021378b0 add:0x3 module:main
+from:0x01ffd540 kind:load to:0x021378b0 add:0x2 module:main
 from:0x01ffd54c kind:load to:0x0213765c module:main
 from:0x01ffd550 kind:load to:0x02138f3c module:main
 from:0x01ffd554 kind:load to:0x021376c8 module:main

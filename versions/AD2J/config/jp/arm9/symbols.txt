@@ -5899,7 +5899,6 @@ data_02123605 kind:data(any) addr:0x02123605
 data_02123606 kind:data(any) addr:0x02123606
 data_02123607 kind:data(any) addr:0x02123607
 data_02123608 kind:data(any) addr:0x02123608
-data_02123609 kind:data(any) addr:0x02123609
 data_021236c0 kind:data(any) addr:0x021236c0
 data_021236cc kind:data(any) addr:0x021236cc
 data_021236d8 kind:data(any) addr:0x021236d8
@@ -6457,9 +6456,7 @@ data_0212fca7 kind:data(any) addr:0x0212fca7
 data_0212fcae kind:data(any) addr:0x0212fcae
 data_0212fcaf kind:data(any) addr:0x0212fcaf
 data_0212fcb0 kind:data(any) addr:0x0212fcb0
-data_0212fcb7 kind:data(any) addr:0x0212fcb7
 data_0212fcb8 kind:data(any) addr:0x0212fcb8
-data_0212fcb9 kind:data(any) addr:0x0212fcb9
 data_0212fce4 kind:data(any) addr:0x0212fce4
 data_0212fcf0 kind:data(any) addr:0x0212fcf0
 data_0212fd3c kind:data(any) addr:0x0212fd3c
@@ -6566,12 +6563,10 @@ data_02132b94 kind:data(any) addr:0x02132b94
 data_02132bb0 kind:data(any) addr:0x02132bb0
 data_02132c00 kind:data(any) addr:0x02132c00
 data_02132c90 kind:data(any) addr:0x02132c90
-data_02132ca3 kind:data(any) addr:0x02132ca3
 data_02132d28 kind:data(any) addr:0x02132d28
 data_02132e48 kind:data(any) addr:0x02132e48
 data_02132e4a kind:data(any) addr:0x02132e4a
 data_02132e4c kind:data(any) addr:0x02132e4c
-data_02132e4e kind:data(any) addr:0x02132e4e
 data_02133038 kind:data(any) addr:0x02133038
 data_02133330 kind:data(any) addr:0x02133330
 data_02133820 kind:data(any) addr:0x02133820
@@ -6739,15 +6734,10 @@ data_0213785c kind:data(any) addr:0x0213785c
 data_02137878 kind:data(any) addr:0x02137878
 data_02137894 kind:data(any) addr:0x02137894
 data_021378b0 kind:data(any) addr:0x021378b0
-data_021378b2 kind:data(any) addr:0x021378b2
-data_021378b3 kind:data(any) addr:0x021378b3
 data_021378d0 kind:data(any) addr:0x021378d0
 data_021378f4 kind:data(any) addr:0x021378f4
 data_02137930 kind:data(any) addr:0x02137930
 data_0213796c kind:data(any) addr:0x0213796c
-data_0213797e kind:data(any) addr:0x0213797e
-data_02137987 kind:data(any) addr:0x02137987
-data_021379a2 kind:data(any) addr:0x021379a2
 data_021379ac kind:data(any) addr:0x021379ac
 data_02137a08 kind:data(any) addr:0x02137a08
 data_02137a6c kind:data(any) addr:0x02137a6c
@@ -6780,8 +6770,6 @@ data_021385d0 kind:data(any) addr:0x021385d0
 data_021385d4 kind:data(any) addr:0x021385d4
 data_021385d8 kind:data(any) addr:0x021385d8
 data_02138f3c kind:data(any) addr:0x02138f3c
-data_02138f42 kind:data(any) addr:0x02138f42
-data_02138f43 kind:data(any) addr:0x02138f43
 data_0213a254 kind:data(any) addr:0x0213a254
 data_0213a260 kind:data(any) addr:0x0213a260
 data_0213a264 kind:data(any) addr:0x0213a264
@@ -7889,7 +7877,6 @@ data_0213f890 kind:data(any) addr:0x0213f890
 data_0213f8a4 kind:data(any) addr:0x0213f8a4
 data_0213f8b8 kind:data(any) addr:0x0213f8b8
 data_02140000 kind:data(any) addr:0x02140000
-data_02140001 kind:data(any) addr:0x02140001
 data_02141398 kind:data(any) addr:0x02141398
 data_021413a4 kind:data(any) addr:0x021413a4
 data_021413b4 kind:data(any) addr:0x021413b4
@@ -10235,7 +10222,6 @@ data_0214aaa8 kind:bss addr:0x0214aaa8
 data_0214aaac kind:bss addr:0x0214aaac
 data_0214aab0 kind:bss addr:0x0214aab0
 data_0214aacc kind:bss addr:0x0214aacc
-data_0214aad2 kind:bss addr:0x0214aad2
 data_0214aebc kind:bss addr:0x0214aebc
 data_0214aec0 kind:bss addr:0x0214aec0
 data_0214aec4 kind:bss addr:0x0214aec4
@@ -10355,7 +10341,6 @@ data_0214fd60 kind:bss addr:0x0214fd60
 data_0214fd80 kind:bss addr:0x0214fd80
 data_0214fdc0 kind:bss addr:0x0214fdc0
 data_0214ff20 kind:bss addr:0x0214ff20
-data_021500a3 kind:bss addr:0x021500a3
 data_02150500 kind:bss addr:0x02150500
 data_02150520 kind:bss addr:0x02150520
 data_02150740 kind:bss addr:0x02150740
@@ -10402,7 +10387,6 @@ data_02150880 kind:bss addr:0x02150880
 data_02150884 kind:bss addr:0x02150884
 data_02150888 kind:bss addr:0x02150888
 data_02150924 kind:bss addr:0x02150924
-data_02150fdd kind:bss addr:0x02150fdd
 data_021510dc kind:bss addr:0x021510dc
 data_021510e0 kind:bss addr:0x021510e0
 data_021510ec kind:bss addr:0x021510ec
