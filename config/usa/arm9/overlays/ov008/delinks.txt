@@ -10,3 +10,19 @@ src/data/ov008_bss_0215a780.c:
 src/data/ov008_data_0215a760.c:
     complete
     .data       start:0x0215a760 end:0x0215a780
+
+src/auto/func_ov008_0215a150.c:
+    complete
+    .text       start:0x0215a150 end:0x0215a154
+
+src/auto/func_ov008_0215a2bc.c:
+    complete
+    .text       start:0x0215a2bc end:0x0215a444
+
+src/auto/func_ov008_0215a65c.c:
+    complete
+    .text       start:0x0215a65c end:0x0215a69c
+
+src/auto/func_ov008_0215a754.c:
+    complete
+    .text       start:0x0215a754 end:0x0215a758

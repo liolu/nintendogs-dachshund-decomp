@@ -44,3 +44,11 @@ src/auto/func_01ffb024.c:
 src/auto/func_01ffb034.c:
     complete
     .text       start:0x01ffb034 end:0x01ffb044
+
+src/auto/func_01ffd8f8.c:
+    complete
+    .text       start:0x01ffd8f8 end:0x01ffdb08
+
+src/auto/func_01ffdc94.c:
+    complete
+    .text       start:0x01ffdc94 end:0x01ffdcec

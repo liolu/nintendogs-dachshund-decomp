@@ -14,3 +14,7 @@ src/data/ov012_bss_0215a7d4.c:
 src/data/ov012_data_0215a7a0.c:
     complete
     .data       start:0x0215a7a0 end:0x0215a7c0
+
+src/auto/func_ov012_0215a790.c:
+    complete
+    .text       start:0x0215a790 end:0x0215a794

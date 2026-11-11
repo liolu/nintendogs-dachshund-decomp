@@ -38,3 +38,15 @@ src/data/ov009_data_0215ad60.c:
 src/data/ov009_data_0215ad70.c:
     complete
     .data       start:0x0215ad70 end:0x0215ad80
+
+src/auto/func_ov009_0215a148.c:
+    complete
+    .text       start:0x0215a148 end:0x0215a14c
+
+src/auto/func_ov009_0215ace4.c:
+    complete
+    .text       start:0x0215ace4 end:0x0215ad10
+
+src/auto/func_ov009_0215ad10.c:
+    complete
+    .text       start:0x0215ad10 end:0x0215ad14

@@ -5,3 +5,7 @@
 src/data/ov000_bss_0215a620.c:
     complete
     .bss        start:0x0215a620 end:0x0215a640
+
+src/auto/func_ov000_0215a608.c:
+    complete
+    .text       start:0x0215a608 end:0x0215a60c

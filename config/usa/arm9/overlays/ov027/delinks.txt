@@ -27,3 +27,11 @@ src/data/ov027_bss_0215a660.c:
 src/data/ov027_data_0215a628.c:
     complete
     .data       start:0x0215a628 end:0x0215a660
+
+src/auto/func_ov027_0215a204.c:
+    complete
+    .text       start:0x0215a204 end:0x0215a24c
+
+src/auto/func_ov027_0215a5fc.c:
+    complete
+    .text       start:0x0215a5fc end:0x0215a600

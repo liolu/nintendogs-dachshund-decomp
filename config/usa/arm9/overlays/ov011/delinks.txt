@@ -39,3 +39,19 @@ src/data/ov011_rodata_0215b348.c:
 src/data/ov011_rodata_0215b358.c:
     complete
     .rodata     start:0x0215b358 end:0x0215b398
+
+src/auto/func_ov011_0215a184.c:
+    complete
+    .text       start:0x0215a184 end:0x0215a76c
+
+src/auto/func_ov011_0215aecc.c:
+    complete
+    .text       start:0x0215aecc end:0x0215b214
+
+src/auto/func_ov011_0215b214.c:
+    complete
+    .text       start:0x0215b214 end:0x0215b254
+
+src/auto/func_ov011_0215b324.c:
+    complete
+    .text       start:0x0215b324 end:0x0215b328

@@ -1,0 +1,8 @@
+/* compiler: 1.2/sp2p3 */
+#include "m2c.h"
+
+void func_ov003_021734f8(void *, s32, s32, s32, s32, s32, s32, s32, s32);
+
+void func_ov003_021733b8(void *arg0) {
+    func_ov003_021734f8(arg0, 0x3B0, 1, 0x200, 0, 0, 0, 0, 1);
+}

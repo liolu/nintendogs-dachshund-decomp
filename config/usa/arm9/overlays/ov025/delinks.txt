@@ -34,3 +34,11 @@ src/data/ov025_data_0215a7c0.c:
 src/data/ov025_data_0215a7d8.c:
     complete
     .data       start:0x0215a7d8 end:0x0215a7e0
+
+src/auto/func_ov025_0215a59c.c:
+    complete
+    .text       start:0x0215a59c end:0x0215a5a0
+
+src/auto/func_ov025_0215a5a0.c:
+    complete
+    .text       start:0x0215a5a0 end:0x0215a5d0

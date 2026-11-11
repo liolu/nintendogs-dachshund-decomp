@@ -58,3 +58,7 @@ src/data/ov002_data_0215a8b4.c:
 src/data/ov002_data_0215a8b8.c:
     complete
     .data       start:0x0215a8b8 end:0x0215a8d8
+
+src/auto/func_ov002_0215a300.c:
+    complete
+    .text       start:0x0215a300 end:0x0215a38c

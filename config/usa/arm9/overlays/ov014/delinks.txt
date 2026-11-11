@@ -26,3 +26,11 @@ src/data/ov014_data_0215a800.c:
 src/data/ov014_data_0215a820.c:
     complete
     .data       start:0x0215a820 end:0x0215a838
+
+src/auto/func_ov014_0215a170.c:
+    complete
+    .text       start:0x0215a170 end:0x0215a1b8
+
+src/auto/func_ov014_0215a7ec.c:
+    complete
+    .text       start:0x0215a7ec end:0x0215a7f0
