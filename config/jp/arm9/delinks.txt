@@ -10524,7 +10524,6 @@ src/auto/func_0205a994.c:
     complete
     .text       start:0x0205a994 end:0x0205ab00
 
-
 src/donor/func_02007880.c:
     complete
     .text       start:0x02007880 end:0x02007a10
@@ -34532,3 +34531,64 @@ src/data/main_bss_0214e9c4.c:
 src/data/main_bss_0214e9c6.c:
     complete
     .bss        start:0x0214e9c6 end:0x0214e9c8
+
+
+src/auto/func_0205e4ec.c:
+    complete
+    .text       start:0x0205e4ec end:0x0205e588
+
+src/auto/func_020676e8.c:
+    complete
+    .text       start:0x020676e8 end:0x02067780
+
+src/auto/func_0206dad0.c:
+    complete
+    .text       start:0x0206dad0 end:0x0206db60
+
+src/auto/func_0206dbdc.c:
+    complete
+    .text       start:0x0206dbdc end:0x0206dc6c
+
+src/auto/func_0207d698.c:
+    complete
+    .text       start:0x0207d698 end:0x0207d704
+
+src/auto/func_0207d704.c:
+    complete
+    .text       start:0x0207d704 end:0x0207d784
+
+src/auto/func_0207d784.c:
+    complete
+    .text       start:0x0207d784 end:0x0207d7e8
+
+src/auto/func_02080414.c:
+    complete
+    .text       start:0x02080414 end:0x020804c0
+
+src/auto/func_0208af68.c:
+    complete
+    .text       start:0x0208af68 end:0x0208aff8
+
+src/auto/func_0208b654.c:
+    complete
+    .text       start:0x0208b654 end:0x0208b6fc
+
+src/auto/func_020644c0.c:
+    complete
+    .text       start:0x020644c0 end:0x020644f0
+
+src/auto/func_02067c44.c:
+    complete
+    .text       start:0x02067c44 end:0x02067cc8
+
+src/auto/func_0207e97c.c:
+    complete
+    .text       start:0x0207e97c end:0x0207e99c
+
+src/auto/func_020a3558.c:
+    complete
+    .text       start:0x020a3558 end:0x020a358c
+
+src/auto/func_020d7f20.c:
+    complete
+    .text       start:0x020d7f20 end:0x020d7f80
