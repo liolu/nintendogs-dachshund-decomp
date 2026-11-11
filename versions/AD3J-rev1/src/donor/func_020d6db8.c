@@ -1,0 +1,36 @@
+/* compiler: 1.2/sp2p3  */
+/* func_020fadb0 from projets/nintendogs-dachshund/src/auto/func_020fadb0.c (same code in another game of this workspace),
+ * reused by tools/donor_match.py */
+typedef signed char s8;
+typedef unsigned short u16;
+typedef long s32;
+typedef s32 M2C_UNK;
+extern s32 func_0200348c(s32, M2C_UNK);
+extern void *func_020037ec(s32, M2C_UNK, M2C_UNK);
+extern s32 func_020850ec(M2C_UNK *, M2C_UNK, M2C_UNK, M2C_UNK, s32, s32);
+extern void *data_02154c9c;
+extern u16 *data_02153708;
+extern M2C_UNK func_020d6f34;
+void func_020d6db8(s32 arg0) {
+    s32 var_r4;
+    u16 temp_r0_2;
+    u16 temp_r1;
+    void *temp_r0;
+
+    temp_r1 = *data_02153708;
+    if ((temp_r1 == 8) || (temp_r1 == 0x10)) {
+        var_r4 = func_0200348c(arg0, 0x4B000);
+    } else {
+        var_r4 = func_0200348c(arg0, 0xB000);
+    }
+    temp_r0                                   = func_020037ec(var_r4, 0x10, 4);
+    data_02154c9c                             = temp_r0;
+    (*(s32 *) ((s8 *) (temp_r0) + (4)))       = arg0;
+    (*(s32 *) ((s8 *) (data_02154c9c) + (8))) = var_r4;
+    temp_r0_2                                 = *data_02153708;
+    if ((temp_r0_2 == 8) || (temp_r0_2 == 0x10)) {
+        (*(s32 *) ((s8 *) (data_02154c9c) + (0))) = func_020850ec(&func_020d6f34, 0x40, 0x320, 0xD, 0xE, 0x3D);
+        return;
+    }
+    (*(s32 *) ((s8 *) (data_02154c9c) + (0))) = func_020850ec(&func_020d6f34, 0x14, 0x3C, 0x1E, 0x1F, 0x3D);
+}

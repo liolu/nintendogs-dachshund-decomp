@@ -1,0 +1,85 @@
+/* compiler: 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto */
+/* func_020ea354 from projets/nintendogs-chihuahua-friends/src/donor/func_020ea354.c (same code in another game of this
+ * workspace), reused by tools/donor_match.py */
+typedef unsigned char u8;
+typedef unsigned int u32;
+typedef signed short s16;
+typedef signed int s32;
+extern s32 data_02154cb8[];
+extern u8 data_021470b8[];
+extern u8 data_02154cfc[];
+extern u8 data_021470d0[];
+extern u32 data_02154cb4;
+extern u32 data_02154cb0;
+extern s16 data_02154cc0[];
+extern s32 *func_02003844(s32 *a, s32 b);
+extern void func_02071624(void);
+extern s32 func_02073770(s32 *a, s32 b);
+extern void func_020733d8(s32 a, s32 b, s32 c, s32 d);
+extern void func_02074818(s32 a);
+extern s32 func_02073638(s32 *a, s32 b, s32 c, s32 d, s32 e);
+extern void func_020736a8(s32 a);
+extern s32 func_020735e0(s32 a);
+extern void func_02072294(s32 *a);
+extern void func_020eec4c(void);
+extern void func_020f13dc(void);
+extern void func_020ec9e8(void);
+extern void func_020f1d50(void);
+extern void func_020f230c(void);
+extern void func_020f2fa0(void);
+extern void func_02074110(s32 a, s32 b);
+void func_020ea34c(s32 *param_1) {
+    s32 *p1;
+    s32 *p2;
+    s32 i;
+    s32 iVar1;
+    u8 *r4;
+    u8 *pp;
+    u8 *puVar3;
+    s16 *puVar4;
+
+    r4 = (u8 *) data_02154cb8;
+    p1 = func_02003844(param_1, 0xa0000);
+    p2 = func_02003844(param_1, 0x1b800);
+    func_02071624();
+    data_02154cb8[0] = func_02073770(p1, 0xa0000);
+    data_02154cb8[1] = func_02073770(p2, 0x1b800);
+    func_020733d8((s32) data_02154cfc, (s32) data_021470b8, data_02154cb8[0], 0);
+    func_02074818(data_02154cb8[0]);
+    data_02154cb4 = func_02073638(p1, 0x4e38, 0, 0, 0);
+    data_02154cb0 = func_02073638(p1, 0x4e38, 0, 0, 0);
+    func_020736a8(data_02154cb8[1]);
+    func_020733d8((s32) (u32) (void *) data_02154cfc, (s32) data_021470d0, data_02154cb8[1], 0);
+    func_02074818(data_02154cb8[1]);
+    *(s16 *) ((u8 *) data_02154cb8 + 20) = (s16) func_020735e0(data_02154cb8[1]);
+    *(s16 *) ((u8 *) data_02154cb8 + 22) = -1;
+    i                                    = 0;
+    do {
+        pp                = r4 + i * 2;
+        i                 = (s16) (i + 1);
+        *(s16 *) (pp + 8) = -1;
+    } while (i < 5);
+    *(s16 *) (r4 + 24)   = 0;
+    *(s16 *) (r4 + 26)   = 0;
+    *(s32 *) (r4 + 0x1c) = 0;
+    func_02072294((s32 *) (r4 + 32));
+    *(s16 *) (r4 + 36)                     = 0;
+    *(s32 *) (r4 + 0x28)                   = 0;
+    *(s32 *) (r4 + 0x2c)                   = 0;
+    *(s32 *) (r4 + 0x30)                   = 0;
+    *(s32 *) (r4 + 0x34)                   = 0;
+    *(s32 *) (r4 + 0x38)                   = 0;
+    *(s16 *) (r4 + 60)                     = 0;
+    *(s16 *) ((u8 *) data_02154cb8 + 62)   = -1;
+    *(s32 *) ((u8 *) data_02154cb8 + 0x40) = 0;
+    func_020eec4c();
+    func_020f13dc();
+    func_020ec9e8();
+    func_020f1d50();
+    func_020f230c();
+    func_020f2fa0();
+    func_02074110(27, *(s32 *) r4);
+    puVar4    = (s16 *) data_02154cc0;
+    *puVar4   = (s16) func_020735e0(data_02154cb8[0]);
+    puVar4[5] = 0;
+}

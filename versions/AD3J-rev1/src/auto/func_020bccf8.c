@@ -1,0 +1,22 @@
+/* compiler: 1.2/sp2p3 */
+#include "engine.h"
+#include "m2c.h"
+
+M2C_UNK func_01ffda04(M2C_UNK);
+M2C_UNK func_02028144(M2C_UNK);
+M2C_UNK func_020caa3c(M2C_UNK);
+
+s32 func_020bccf8(s32 arg0) {
+    s32 temp_r0;
+    s32 var_r4;
+    void *temp_r0_2;
+
+    var_r4  = 0;
+    temp_r0 = func_01ffda04((s32) (s16) arg0);
+    if ((temp_r0 != 0) && (((temp_r0_2 = (void *) func_02028144(temp_r0), (M2C_FIELD(temp_r0_2, s32 *, 0x640) == 0xFFFF)) &&
+                            (M2C_FIELD(temp_r0_2, s32 *, 0x644) == 0xFFFF)) ||
+                           (func_020caa3c((s32) temp_r0_2) == 0))) {
+        var_r4 = 1;
+    }
+    return var_r4;
+}

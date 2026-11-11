@@ -1,0 +1,7 @@
+func_ov023_02157c20 kind:function(arm,size=0x120) addr:0x02157c20
+func_ov023_02157d40 kind:function(arm,size=0x4) addr:0x02157d40
+func_ov023_02157d44 kind:function(arm,size=0x94) addr:0x02157d44
+func_ov023_02157dd8 kind:function(arm,size=0x198) addr:0x02157dd8
+data_ov023_02157f80 kind:bss addr:0x02157f80
+data_ov023_02157f84 kind:bss addr:0x02157f84
+data_ov023_02157f8c kind:bss addr:0x02157f8c ambiguous

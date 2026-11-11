@@ -1,0 +1,16 @@
+/* compiler: 2.0/sp1p5  */
+/* func_020bd030 from projets/nintendogs-dachshund/src/auto/func_020bd030.c (same code in another game of this workspace),
+ * reused by tools/donor_match.py */
+typedef signed char s8;
+typedef long s32;
+typedef struct {
+    s32 f0;
+    s32 f1;
+    s32 f2;
+} M2C_S12;
+void func_0211c8ac(void *arg0, s32 arg1, void *arg2) {
+    s32 temp_r0;
+
+    temp_r0                        = (arg1 * 0xC) + (*(s32 *) ((s8 *) (arg0) + (8)));
+    *(M2C_S12 *) ((s8 *) arg2 + 0) = *(M2C_S12 *) ((s8 *) temp_r0 + 0);
+}

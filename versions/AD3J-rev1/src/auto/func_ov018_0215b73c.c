@@ -1,0 +1,8 @@
+/* compiler: 1.2/sp2p3 */
+#include "m2c.h"
+
+extern void (*data_ov018_0215ce88[])(void *);
+
+void func_ov018_0215b73c(void *arg0) {
+    data_ov018_0215ce88[*(s16 *) ((u8 *) arg0 + 0x1E)](arg0);
+}

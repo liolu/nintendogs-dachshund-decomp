@@ -1,0 +1,18 @@
+/* compiler: 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto */
+/* func_020ef814 from projets/nintendogs-chihuahua-friends/src/donor/func_020ef814.c (same code in another game of this
+ * workspace), reused by tools/donor_match.py */
+typedef unsigned char u8;
+typedef unsigned short u16;
+typedef unsigned int u32;
+extern u8 data_02154cb8[];
+extern u8 data_02130729[];
+extern u32 func_020f0c20(u32 a, u32 b);
+u32 func_020ef80c(u32 param_1) {
+    u32 uVar1;
+
+    uVar1 = data_02130729[*(u16 *) (data_02154cb8 + 24) * 6];
+    if (uVar1 != 0xff) {
+        return func_020f0c20(uVar1, param_1);
+    }
+    return -1;
+}

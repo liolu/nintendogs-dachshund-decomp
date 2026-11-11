@@ -1,0 +1,16 @@
+/* compiler: 1.2/sp2p3  */
+/* func_0201ffac from projets/nintendogs-chihuahua-friends/src/auto/func_0201ffac.c (same code in another game of this
+ * workspace), reused by tools/donor_match.py */
+typedef signed char s8;
+typedef short s16;
+typedef long s32;
+typedef s32 M2C_UNK;
+extern void func_020254f0(M2C_UNK);
+extern void func_02026bcc(M2C_UNK);
+extern M2C_UNK func_02034c88(M2C_UNK);
+void func_0201ffac(s32 arg0) {
+    (*(s16 *) ((s8 *) (arg0) + (0x150))) = 0x119;
+    (*(s16 *) ((s8 *) (arg0) + (0x156))) = (s16) func_02034c88(arg0);
+    func_02026bcc(arg0);
+    func_020254f0(arg0);
+}

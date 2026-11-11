@@ -1,0 +1,10 @@
+/* compiler: 1.2/sp2p3  */
+/* func_0204571c from projets/nintendogs-chihuahua-friends/src/auto/func_0204571c.c (same code in another game of this
+ * workspace), reused by tools/donor_match.py */
+typedef long s32;
+typedef s32 M2C_UNK;
+extern s32 func_02035294(s32, M2C_UNK);
+extern M2C_UNK func_020459a0(s32, M2C_UNK, M2C_UNK, s32, s32, s32);
+void func_0204571c(s32 arg0) {
+    func_020459a0(arg0, 0, 0xD, arg0 + 0x33C, func_02035294(arg0, 0x22), 0x2EA);
+}
