@@ -159,3 +159,15 @@ src/data/ov001_rodata_0215c244.c:
 src/auto/func_ov001_0215a430.c:
     complete
     .text       start:0x0215a430 end:0x0215a434
+
+src/auto/func_ov001_0215ba74.c:
+    complete
+    .text       start:0x0215ba74 end:0x0215bb70
+
+src/auto/func_ov001_0215a0a0.c:
+    complete
+    .text       start:0x0215a0a0 end:0x0215a130
+
+src/auto/func_ov001_0215a130.c:
+    complete
+    .text       start:0x0215a130 end:0x0215a154

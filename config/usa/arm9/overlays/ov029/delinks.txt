@@ -9,3 +9,19 @@ src/data/ov029_bss_0215a540.c:
 src/auto/func_ov029_0215a534.c:
     complete
     .text       start:0x0215a534 end:0x0215a538
+
+src/auto/func_ov029_0215a0a0.c:
+    complete
+    .text       start:0x0215a0a0 end:0x0215a1e4
+
+src/auto/func_ov029_0215a1e4.c:
+    complete
+    .text       start:0x0215a1e4 end:0x0215a248
+
+src/auto/func_ov029_0215a248.c:
+    complete
+    .text       start:0x0215a248 end:0x0215a2c4
+
+src/auto/func_ov029_0215a388.c:
+    complete
+    .text       start:0x0215a388 end:0x0215a444

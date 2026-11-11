@@ -139,3 +139,51 @@ src/auto/func_ov028_0215b964.c:
 src/auto/func_ov028_0215bb5c.c:
     complete
     .text       start:0x0215bb5c end:0x0215bbac
+
+src/auto/func_ov028_0215a380.c:
+    complete
+    .text       start:0x0215a380 end:0x0215a428
+
+src/auto/func_ov028_0215a428.c:
+    complete
+    .text       start:0x0215a428 end:0x0215a4f4
+
+src/auto/func_ov028_0215abac.c:
+    complete
+    .text       start:0x0215abac end:0x0215ac28
+
+src/auto/func_ov028_0215b6c8.c:
+    complete
+    .text       start:0x0215b6c8 end:0x0215b6dc
+
+src/auto/func_ov028_0215b6dc.c:
+    complete
+    .text       start:0x0215b6dc end:0x0215b77c
+
+src/auto/func_ov028_0215b77c.c:
+    complete
+    .text       start:0x0215b77c end:0x0215b790
+
+src/auto/func_ov028_0215bbac.c:
+    complete
+    .text       start:0x0215bbac end:0x0215bc1c
+
+src/auto/func_ov028_0215bc1c.c:
+    complete
+    .text       start:0x0215bc1c end:0x0215bc84
+
+src/auto/func_ov028_0215be08.c:
+    complete
+    .text       start:0x0215be08 end:0x0215bf24
+
+src/auto/func_ov028_0215b4b4.c:
+    complete
+    .text       start:0x0215b4b4 end:0x0215b650
+
+src/auto/func_ov028_0215b6b4.c:
+    complete
+    .text       start:0x0215b6b4 end:0x0215b6c8
+
+src/auto/func_ov028_0215ae28.c:
+    complete
+    .text       start:0x0215ae28 end:0x0215ae44

@@ -26,3 +26,7 @@ src/auto/func_ov008_0215a65c.c:
 src/auto/func_ov008_0215a754.c:
     complete
     .text       start:0x0215a754 end:0x0215a758
+
+src/auto/func_ov008_0215a154.c:
+    complete
+    .text       start:0x0215a154 end:0x0215a170

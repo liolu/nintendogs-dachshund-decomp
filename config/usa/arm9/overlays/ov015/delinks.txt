@@ -51,3 +51,11 @@ src/auto/func_ov015_0215a140.c:
 src/auto/func_ov015_0215aa3c.c:
     complete
     .text       start:0x0215aa3c end:0x0215aa40
+
+src/auto/func_ov015_0215a0a0.c:
+    complete
+    .text       start:0x0215a0a0 end:0x0215a140
+
+src/auto/func_ov015_0215a51c.c:
+    complete
+    .text       start:0x0215a51c end:0x0215a678

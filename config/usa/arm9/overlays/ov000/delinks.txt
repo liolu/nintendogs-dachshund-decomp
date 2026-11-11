@@ -9,3 +9,11 @@ src/data/ov000_bss_0215a620.c:
 src/auto/func_ov000_0215a608.c:
     complete
     .text       start:0x0215a608 end:0x0215a60c
+
+src/auto/func_ov000_0215a0a0.c:
+    complete
+    .text       start:0x0215a0a0 end:0x0215a220
+
+src/auto/func_ov000_0215a29c.c:
+    complete
+    .text       start:0x0215a29c end:0x0215a328

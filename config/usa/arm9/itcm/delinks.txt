@@ -52,3 +52,23 @@ src/auto/func_01ffd8f8.c:
 src/auto/func_01ffdc94.c:
     complete
     .text       start:0x01ffdc94 end:0x01ffdcec
+
+src/auto/func_01ff832c.c:
+    complete
+    .text       start:0x01ff832c end:0x01ff838c
+
+src/auto/func_01ffdb08.c:
+    complete
+    .text       start:0x01ffdb08 end:0x01ffdb38
+
+src/auto/func_01ffdf78.c:
+    complete
+    .text       start:0x01ffdf78 end:0x01ffdfe4
+
+src/auto/func_01ff8058.c:
+    complete
+    .text       start:0x01ff8058 end:0x01ff810c
+
+src/auto/func_01ff810c.c:
+    complete
+    .text       start:0x01ff810c end:0x01ff832c

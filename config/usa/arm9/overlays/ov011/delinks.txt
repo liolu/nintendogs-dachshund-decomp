@@ -55,3 +55,27 @@ src/auto/func_ov011_0215b214.c:
 src/auto/func_ov011_0215b324.c:
     complete
     .text       start:0x0215b324 end:0x0215b328
+
+src/auto/func_ov011_0215a0a0.c:
+    complete
+    .text       start:0x0215a0a0 end:0x0215a168
+
+src/auto/func_ov011_0215a168.c:
+    complete
+    .text       start:0x0215a168 end:0x0215a184
+
+src/auto/func_ov011_0215a76c.c:
+    complete
+    .text       start:0x0215a76c end:0x0215a8cc
+
+src/auto/func_ov011_0215aa9c.c:
+    complete
+    .text       start:0x0215aa9c end:0x0215ab48
+
+src/auto/func_ov011_0215ac2c.c:
+    complete
+    .text       start:0x0215ac2c end:0x0215ad64
+
+src/auto/func_ov011_0215b254.c:
+    complete
+    .text       start:0x0215b254 end:0x0215b324

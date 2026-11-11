@@ -62,3 +62,11 @@ src/data/ov002_data_0215a8b8.c:
 src/auto/func_ov002_0215a300.c:
     complete
     .text       start:0x0215a300 end:0x0215a38c
+
+src/auto/func_ov002_0215a0a0.c:
+    complete
+    .text       start:0x0215a0a0 end:0x0215a0f4
+
+src/auto/func_ov002_0215a4d4.c:
+    complete
+    .text       start:0x0215a4d4 end:0x0215a5ac

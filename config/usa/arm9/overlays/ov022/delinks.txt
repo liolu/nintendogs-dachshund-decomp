@@ -58,3 +58,11 @@ src/auto/func_ov022_0215a598.c:
 src/auto/func_ov022_0215a728.c:
     complete
     .text       start:0x0215a728 end:0x0215a72c
+
+src/auto/func_ov022_0215a608.c:
+    complete
+    .text       start:0x0215a608 end:0x0215a670
+
+src/auto/func_ov022_0215a164.c:
+    complete
+    .text       start:0x0215a164 end:0x0215a180

@@ -38,3 +38,11 @@ src/auto/func_ov020_0215a468.c:
 src/auto/func_ov020_0215a5bc.c:
     complete
     .text       start:0x0215a5bc end:0x0215a5c0
+
+src/auto/func_ov020_0215a154.c:
+    complete
+    .text       start:0x0215a154 end:0x0215a170
+
+src/auto/func_ov020_0215a170.c:
+    complete
+    .text       start:0x0215a170 end:0x0215a2bc

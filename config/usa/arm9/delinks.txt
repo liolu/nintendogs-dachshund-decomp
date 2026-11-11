@@ -39707,3 +39707,75 @@ src/data/main_bss_0214f464.c:
 src/data/main_bss_0214f466.c:
     complete
     .bss        start:0x0214f466 end:0x0214f468
+
+src/auto/VBlankIntrWait.c:
+    complete
+    .text       start:0x02000564 end:0x0200056a
+
+src/auto/WaitByLoop.c:
+    complete
+    .text       start:0x020005c6 end:0x020005ca
+
+src/auto/RLUnCompReadByCallbackWrite16bit.c:
+    complete
+    .text       start:0x02000420 end:0x02000424
+
+src/auto/RLUnCompReadNormalWrite8bit.c:
+    complete
+    .text       start:0x02000200 end:0x02000204
+
+src/auto/SoftReset.c:
+    complete
+    .text       start:0x020003b0 end:0x020003b4
+
+src/auto/Sqrt.c:
+    complete
+    .text       start:0x020002ce end:0x020002d2
+
+src/auto/BitUnPack.c:
+    complete
+    .text       start:0x020004fa end:0x020004fe
+
+src/auto/CpuFastSet.c:
+    complete
+    .text       start:0x020000ea end:0x020000ee
+
+src/auto/CpuSet.c:
+    complete
+    .text       start:0x020006a0 end:0x020006a4
+
+src/auto/Div.c:
+    complete
+    .text       start:0x0200019a end:0x0200019e
+
+src/auto/GetCRC16.c:
+    complete
+    .text       start:0x020004a0 end:0x020004a4
+
+src/auto/Halt.c:
+    complete
+    .text       start:0x02000146 end:0x0200014a
+
+src/auto/HuffUnCompReadByCallback.c:
+    complete
+    .text       start:0x0200078a end:0x0200078e
+
+src/auto/IntrWait.c:
+    complete
+    .text       start:0x0200025e end:0x02000262
+
+src/auto/IsDebugger.c:
+    complete
+    .text       start:0x0200033c end:0x02000340
+
+src/auto/LZ77UnCompReadByCallbackWrite16bit.c:
+    complete
+    .text       start:0x02000634 end:0x02000638
+
+src/auto/LZ77UnCompReadNormalWrite8bit.c:
+    complete
+    .text       start:0x02000716 end:0x0200071a
+
+src/auto/Mod.c:
+    complete
+    .text       start:0x0200007e end:0x02000084
