@@ -1,0 +1,4 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+char data_ov006_0215baa8[24] = "%s:JPRelay_d_obj.NCLR";

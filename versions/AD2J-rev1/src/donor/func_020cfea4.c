@@ -1,0 +1,57 @@
+/* compiler: 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto */
+/* func_0209a66c from https://github.com/chasmlol/nintendogs-decomp src/arm9/func_0209a66c.c (license: none), reused by
+ * tools/donor_match.py */
+typedef signed short s16;
+extern int data_02154c78;
+extern void func_020cff68(int a);
+extern int func_021211d8(void);
+extern void func_0211eb28(void);
+extern int func_0211e860(void);
+extern void func_02121330(void);
+extern int func_021203f8(void);
+extern void func_021212e8(void);
+void func_020cfea4(void) {
+    s16 *psVar4;
+    s16 sVar2;
+    int iVar3;
+    int bVar1;
+
+    psVar4 = (s16 *) data_02154c78;
+    sVar2  = *psVar4;
+    if (sVar2 != 0) {
+        switch (sVar2) {
+            case 1:
+                func_020cff68((int) psVar4);
+                break;
+            case 2:
+                iVar3 = func_021211d8();
+                if (iVar3 == 1) {
+                    func_0211eb28();
+                    *psVar4 = 3;
+                } else {
+                    iVar3 = func_021211d8();
+                    if (iVar3 != 5) {
+                        goto nz;
+                    }
+                    switch (func_0211e860()) {
+                        case 0x14:
+                            bVar1 = 1;
+                            goto jn;
+                        default:
+                            break;
+                    }
+                nz:
+                    bVar1 = 0;
+                jn:
+                    if (bVar1) {
+                        func_02121330();
+                    }
+                }
+                break;
+        }
+    }
+    iVar3 = func_021203f8();
+    if (iVar3 != 0) {
+        func_021212e8();
+    }
+}

@@ -1,0 +1,20 @@
+/* compiler: 1.2/sp2p3  */
+/* func_020d0678 from projets/nintendogs-dachshund/src/auto/func_020d0678.c (same code in another game of this workspace),
+ * reused by tools/donor_match.py */
+typedef unsigned short u16;
+typedef long s32;
+typedef unsigned long u32;
+typedef s32 M2C_UNK;
+extern void func_020cb024(M2C_UNK, M2C_UNK, M2C_UNK);
+void func_020cae20(s32 arg0) {
+    s32 var_r6;
+    u16 temp_r5;
+
+    temp_r5 = (u16) arg0;
+    func_020cb024(4, (s32) temp_r5, 0);
+    var_r6 = 0;
+    do {
+        func_020cb024(5, (s32) temp_r5, var_r6);
+        var_r6 = (s32) (u16) (var_r6 + 1);
+    } while ((u32) var_r6 < 0x14U);
+}

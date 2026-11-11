@@ -1,0 +1,20 @@
+/* compiler: 1.2/sp2p3  */
+#include "m2c.h"
+
+extern s32 data_0214b484;
+
+void *func_020360a0(void *arg0) {
+    s16 temp_r1;
+    void *var_r0;
+
+    temp_r1 = M2C_FIELD(arg0, s16 *, 0x146);
+    if (((s32) temp_r1 < 0) || ((s32) temp_r1 >= 3)) {
+        var_r0 = NULL;
+    } else {
+        var_r0 = M2C_FIELD((data_0214b484 + (temp_r1 * 4)), void **, 0x50);
+    }
+    if ((var_r0 != NULL) && !(M2C_FIELD(var_r0, u8 *, 0xCC) & 2)) {
+        return var_r0;
+    }
+    return NULL;
+}

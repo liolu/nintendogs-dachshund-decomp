@@ -1,0 +1,399 @@
+/* compiler: 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto */
+/* func_02081130 from projets/nintendogs-dachshund/src/donor/func_02081130.c (same code in another game of this workspace),
+ * reused by tools/donor_match.py */
+typedef unsigned char u8;
+typedef unsigned short int u16;
+typedef unsigned long u32;
+typedef signed short int s16;
+typedef signed long s32;
+typedef s32 fx32;
+typedef s16 fx16;
+typedef struct {
+    fx32 x;
+    fx32 y;
+    fx32 z;
+} VecFx32;
+typedef struct {
+    fx16 x;
+    fx16 y;
+    fx16 z;
+} VecFx16;
+typedef union {
+    struct {
+        fx32 _00, _01, _02;
+        fx32 _10, _11, _12;
+        fx32 _20, _21, _22;
+        fx32 _30, _31, _32;
+    };
+    fx32 m[4][3];
+    fx32 a[12];
+} MtxFx43;
+typedef u16 GXRgb;
+typedef enum {
+    GX_POLYGON_ATTR_MISC_NONE             = 0,
+    GX_POLYGON_ATTR_MISC_XLU_DEPTH_UPDATE = 1 << 11,
+    GX_POLYGON_ATTR_MISC_FAR_CLIPPING     = 1 << 12,
+    GX_POLYGON_ATTR_MISC_DISP_1DOT        = 1 << 13,
+    GX_POLYGON_ATTR_MISC_DEPTHTEST_DECAL  = 1 << 14,
+    GX_POLYGON_ATTR_MISC_FOG              = 1 << 15
+} GXPolygonAttrMisc;
+typedef struct SPLParticle {
+    struct SPLParticle *next;
+    struct SPLParticle *prev;
+    VecFx32 position;
+    VecFx32 velocity;
+    u16 rotation;
+    s16 angularVelocity;
+    u16 lifeTime;
+    u16 age;
+
+    u16 loopTimeFactor;
+    u16 lifeTimeFactor;
+
+    u8 texture;
+
+    u8 lifeRateOffset;
+
+    struct {
+        u16 baseAlpha : 5;
+        u16 animAlpha : 5;
+        u16 currentPolygonID : 6;
+    } visibility;
+    fx32 baseScale;
+    fx16 animScale;
+    GXRgb color;
+    VecFx32 emitterPos;
+} SPLParticle;
+typedef struct SPLParticleList {
+    SPLParticle *first;
+    int count;
+    SPLParticle *last;
+} SPLParticleList;
+typedef struct SPLBehavior {
+    void (*applyFunc)(const void *, struct SPLParticle *, VecFx32 *, struct SPLEmitter *);
+    const void *object;
+} SPLBehavior;
+typedef union SPLResourceFlags {
+    u32 all;
+    struct {
+        u32 emissionType : 4;
+        u32 drawType : 2;
+        u32 circleAxis : 2;
+        u32 hasScaleAnim : 1;
+        u32 hasColorAnim : 1;
+        u32 hasAlphaAnim : 1;
+        u32 hasTexAnim : 1;
+        u32 hasRotation : 1;
+        u32 randomInitAngle : 1;
+
+        u32 selfMaintaining : 1;
+        u32 followEmitter : 1;
+        u32 hasChildResource : 1;
+        u32 polygonRotAxis : 2;
+        u32 polygonReferencePlane : 1;
+        u32 randomizeLoopedAnim : 1;
+        u32 drawChildrenFirst : 1;
+        u32 hideParent : 1;
+        u32 useViewSpace : 1;
+        u32 hasGravityBehavior : 1;
+        u32 hasRandomBehavior : 1;
+        u32 hasMagnetBehavior : 1;
+        u32 hasSpinBehavior : 1;
+        u32 hasCollisionPlaneBehavior : 1;
+        u32 hasConvergenceBehavior : 1;
+        u32 hasFixedPolygonID : 1;
+        u32 childHasFixedPolygonID : 1;
+    };
+} SPLResourceFlags;
+typedef union SPLChildResourceFlags {
+    u16 all;
+    struct {
+        u16 usesBehaviors : 1;
+        u16 hasScaleAnim : 1;
+        u16 hasAlphaAnim : 1;
+        u16 rotationType : 2;
+        u16 followEmitter : 1;
+        u16 useChildColor : 1;
+        u16 drawType : 2;
+        u16 polygonRotAxis : 2;
+        u16 polygonReferencePlane : 1;
+        u16 : 4;
+    };
+} SPLChildResourceFlags;
+typedef union SPLCurveInOut {
+    u16 all;
+    struct {
+        u16 in : 8;
+        u16 out : 8;
+    };
+} SPLCurveInOut;
+typedef union SPLCurveInPeakOut {
+    u32 all;
+    struct {
+        u32 in : 8;
+        u32 peak : 8;
+        u32 out : 8;
+        u32 : 8;
+    };
+} SPLCurveInPeakOut;
+typedef struct SPLResourceHeader {
+    SPLResourceFlags flags;
+    VecFx32 emitterBasePos;
+    fx32 emissionCount;
+    fx32 radius;
+    fx32 length;
+    VecFx16 axis;
+    GXRgb color;
+    fx32 initVelPosAmplifier;
+    fx32 initVelAxisAmplifier;
+    fx32 baseScale;
+    fx16 aspectRatio;
+    u16 startDelay;
+    s16 minRotation;
+    s16 maxRotation;
+    u16 initAngle;
+    u16 reserved;
+    u16 emitterLifeTime;
+    u16 particleLifeTime;
+
+    struct {
+        u32 baseScale : 8;
+        u32 lifeTime : 8;
+        u32 initVel : 8;
+        u32 : 8;
+    } randomAttenuation;
+
+    struct {
+        u32 emissionInterval : 8;
+        u32 baseAlpha : 8;
+        u32 airResistance : 8;
+        u32 textureIndex : 8;
+        u32 loopFrames : 8;
+        u32 dbbScale : 16;
+        u32 textureTileCountS : 2;
+        u32 textureTileCountT : 2;
+        u32 scaleAnimDir : 3;
+        u32 dpolFaceEmitter : 1;
+        u32 flipTextureS : 1;
+        u32 flipTextureT : 1;
+        u32 : 30;
+    } misc;
+    fx16 polygonX;
+    fx16 polygonY;
+    struct {
+        u32 flags : 8;
+        u32 : 24;
+    } userData;
+} SPLResourceHeader;
+typedef struct SPLScaleAnim {
+    fx16 start;
+    fx16 mid;
+    fx16 end;
+    SPLCurveInOut curve;
+    struct {
+        u16 loop : 1;
+        u16 : 15;
+    } flags;
+    u16 padding;
+} SPLScaleAnim;
+typedef struct SPLColorAnim {
+    GXRgb start;
+    GXRgb end;
+    SPLCurveInPeakOut curve;
+    struct {
+        u16 randomStartColor : 1;
+        u16 loop : 1;
+        u16 interpolate : 1;
+        u16 : 13;
+    } flags;
+    u16 padding;
+} SPLColorAnim;
+typedef struct SPLAlphaAnim {
+    union {
+        u16 all;
+        struct {
+            u16 start : 5;
+            u16 mid : 5;
+            u16 end : 5;
+            u16 : 1;
+        };
+    } alpha;
+    struct {
+        u16 randomRange : 8;
+        u16 loop : 1;
+        u16 : 7;
+    } flags;
+    SPLCurveInOut curve;
+    u16 padding;
+} SPLAlphaAnim;
+typedef struct SPLTexAnim {
+    u8 textures[8];
+    struct {
+        u32 frameCount : 8;
+        u32 step : 8;
+        u32 randomizeInit : 1;
+        u32 loop : 1;
+        u32 : 14;
+    } param;
+} SPLTexAnim;
+typedef struct SPLChildResource {
+    SPLChildResourceFlags flags;
+    fx16 randomInitVelMag;
+    fx16 endScale;
+    u16 lifeTime;
+    u8 velocityRatio;
+    u8 scaleRatio;
+    GXRgb color;
+    struct {
+        u32 emissionCount : 8;
+        u32 emissionDelay : 8;
+        u32 emissionInterval : 8;
+        u32 texture : 8;
+        u32 textureTileCountS : 2;
+        u32 textureTileCountT : 2;
+        u32 flipTextureS : 1;
+        u32 flipTextureT : 1;
+        u32 dpolFaceEmitter : 1;
+        u32 : 25;
+    } misc;
+} SPLChildResource;
+typedef struct SPLResource {
+    SPLResourceHeader *header;
+    SPLScaleAnim *scaleAnim;
+    SPLColorAnim *colorAnim;
+    SPLAlphaAnim *alphaAnim;
+    SPLTexAnim *texAnim;
+    SPLChildResource *childResource;
+    SPLBehavior *behaviors;
+    u16 behaviorCount;
+    u16 reserved;
+} SPLResource;
+enum SPLUpdateCallbackType {
+    SPL_CALLBACK_PRE_UPDATE  = 0,
+    SPL_CALLBACK_POST_UPDATE = 1,
+};
+typedef void (*SPLEmitterUpdateCallback)(struct SPLEmitter *emitter, enum SPLUpdateCallbackType type);
+typedef struct SPLEmitterState {
+    union {
+        u32 all;
+        struct {
+            u32 terminate : 1;
+            u32 emissionPaused : 1;
+            u32 paused : 1;
+            u32 renderingDisabled : 1;
+            u32 started : 1;
+            u32 : 27;
+        };
+    };
+} SPLEmitterState;
+typedef struct SPLEmitter {
+    struct SPLEmitter *next;
+    struct SPLEmitter *prev;
+    SPLParticleList particles;
+    SPLParticleList childParticles;
+    SPLResource *resource;
+    SPLEmitterState state;
+    VecFx32 position;
+    VecFx32 velocity;
+    VecFx32 particleInitVelocity;
+    u16 age;
+    fx16 emissionCountFractional;
+    VecFx16 axis;
+    u16 initAngle;
+    fx32 emissionCount;
+    fx32 radius;
+    fx32 length;
+    fx32 initVelPositionAmplifier;
+    fx32 initVelAxisAmplifier;
+    fx32 baseScale;
+    u16 particleLifeTime;
+    GXRgb color;
+    fx32 collisionPlaneHeight;
+    fx16 textureS;
+    fx16 textureT;
+    fx16 childTextureS;
+    fx16 childTextureT;
+    struct {
+        u32 emissionInterval : 8;
+        u32 baseAlpha : 8;
+        u32 updateCycle : 3;
+        u32 reserved : 13;
+    } misc;
+    VecFx16 crossAxis1;
+    VecFx16 crossAxis2;
+    SPLEmitterUpdateCallback updateCallback;
+
+    void *userDataPtr;
+    union {
+        u32 u32;
+        u16 u16[2];
+        u8 u8[4];
+    } userData;
+} SPLEmitter;
+typedef struct SPLEmitterList {
+    SPLEmitter *first;
+    int count;
+    SPLEmitter *last;
+} SPLEmitterList;
+typedef union SPLTextureParam {
+    u32 all;
+    struct {
+        u32 format : 4;
+        u32 s : 4;
+        u32 t : 4;
+        u32 repeat : 2;
+        u32 flip : 2;
+        u32 palColor0 : 1;
+        u32 useSharedTexture : 1;
+        u32 sharedTexID : 8;
+        u32 : 6;
+    };
+} SPLTextureParam;
+typedef struct SPLTexture {
+    const void *resource;
+    u32 texAddr;
+    u32 palAddr;
+    SPLTextureParam param;
+    u16 width;
+    u16 height;
+} SPLTexture;
+typedef void *(*SPLAllocFunc)(u32);
+typedef struct SPLManager {
+    SPLAllocFunc alloc;
+    SPLEmitterList activeEmitters;
+    SPLEmitterList inactiveEmitters;
+    SPLParticleList inactiveParticles;
+    SPLResource *resources;
+    SPLTexture *textures;
+    u16 resCount;
+    u16 texCount;
+    u16 maxEmitters;
+    u16 maxParticles;
+    struct {
+        u32 min : 6;
+        u32 max : 6;
+        u32 current : 6;
+        u32 fix : 6;
+        u32 drawOrder : 1;
+        u32 unused : 7;
+    } polygonID;
+    GXPolygonAttrMisc miscPolygonAttr;
+    struct {
+        SPLEmitter *emitter;
+        const MtxFx43 *viewMatrix;
+    } renderState;
+    u16 currentCycle;
+    u16 reserved;
+} SPLManager;
+extern void func_020848ec(SPLManager *mgr, SPLEmitter *emtr);
+extern void func_020848a8(SPLManager *mgr);
+extern const u16(*ctrdgi_fl_maxtime);
+extern void func_020848ec(SPLManager *mgr, SPLEmitter *emtr);
+void func_020848a8(SPLManager *mgr) {
+    SPLEmitter *emtr = mgr->activeEmitters.first;
+    while (emtr != 0) {
+        SPLEmitter *next = emtr->next;
+        func_020848ec(mgr, emtr);
+        emtr = next;
+    }
+}
