@@ -43,3 +43,19 @@ src/data/ov014_data_021586e8.c:
 src/data/ov014_rodata_021586a8.c:
     complete
     .rodata     start:0x021586a8 end:0x021586b8
+
+src/auto/func_ov014_02157c20.c:
+    complete
+    .text       start:0x02157c20 end:0x02157cc0
+
+src/auto/func_ov014_02157cc0.c:
+    complete
+    .text       start:0x02157cc0 end:0x02157cc4
+
+src/auto/func_ov014_0215809c.c:
+    complete
+    .text       start:0x0215809c end:0x021581f8
+
+src/auto/func_ov014_021585bc.c:
+    complete
+    .text       start:0x021585bc end:0x021585c0

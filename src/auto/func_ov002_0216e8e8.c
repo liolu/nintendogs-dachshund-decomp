@@ -1,0 +1,27 @@
+/* compiler: 1.2/sp2p3 */
+#include "m2c.h"
+
+s32 func_02039764(void *);
+void func_0203e2b8(void *, s32);
+void func_02105dbc(s32, s8);
+u8 *func_02106344(void);
+s32 func_ov002_02170464(void *, s32, s32, s32, s32, s32, s32);
+
+void func_ov002_0216e8e8(void *arg0) {
+    u16 v;
+
+    if (func_ov002_02170464(arg0, 0, 0x1F1, 0x1F2, 0x1FD, 0x1FE, 0x64) == 0) {
+        return;
+    }
+    if (func_02039764(arg0) != 0) {
+        u8 *p               = func_02106344() + 0x88;
+        *(s32 *) (p + 0x6C) = 0;
+        func_02105dbc(2, *(s8 *) ((u8 *) arg0 + 0x88));
+    }
+    v = *(u16 *) ((u8 *) arg0 + 0xF4);
+    if (v >= 0x4F && v < 0x63) {
+        func_0203e2b8(arg0, 0x437);
+        return;
+    }
+    func_0203e2b8(arg0, 7);
+}

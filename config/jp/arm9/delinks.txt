@@ -36295,3 +36295,91 @@ src/data/main_bss_0214e9c4.c:
 src/data/main_bss_0214e9c6.c:
     complete
     .bss        start:0x0214e9c6 end:0x0214e9c8
+
+src/auto/func_02000afc.c:
+    complete
+    .text       start:0x02000afc end:0x02000b00
+
+src/auto/func_0201e274.c:
+    complete
+    .text       start:0x0201e274 end:0x0201e2a8
+
+src/auto/func_0201e318.c:
+    complete
+    .text       start:0x0201e318 end:0x0201e34c
+
+src/auto/func_0201e3bc.c:
+    complete
+    .text       start:0x0201e3bc end:0x0201e3f0
+
+src/auto/func_0201f31c.c:
+    complete
+    .text       start:0x0201f31c end:0x0201f360
+
+src/auto/func_0201f360.c:
+    complete
+    .text       start:0x0201f360 end:0x0201f3a8
+
+src/auto/func_0201f3a8.c:
+    complete
+    .text       start:0x0201f3a8 end:0x0201f3f0
+
+src/auto/func_0201f3f0.c:
+    complete
+    .text       start:0x0201f3f0 end:0x0201f438
+
+src/auto/func_0201f438.c:
+    complete
+    .text       start:0x0201f438 end:0x0201f480
+
+src/auto/func_0201f480.c:
+    complete
+    .text       start:0x0201f480 end:0x0201f4c8
+
+src/auto/func_0201fa58.c:
+    complete
+    .text       start:0x0201fa58 end:0x0201fa9c
+
+src/auto/func_0201fae4.c:
+    complete
+    .text       start:0x0201fae4 end:0x0201fb28
+
+src/auto/func_0201fb28.c:
+    complete
+    .text       start:0x0201fb28 end:0x0201fb6c
+
+src/auto/func_0201fb6c.c:
+    complete
+    .text       start:0x0201fb6c end:0x0201fbb0
+
+src/auto/func_0201fbb0.c:
+    complete
+    .text       start:0x0201fbb0 end:0x0201fbf4
+
+src/auto/func_0201fbf4.c:
+    complete
+    .text       start:0x0201fbf4 end:0x0201fc38
+
+src/auto/func_0201fc38.c:
+    complete
+    .text       start:0x0201fc38 end:0x0201fc7c
+
+src/auto/func_020204e4.c:
+    complete
+    .text       start:0x020204e4 end:0x02020518
+
+src/auto/func_02020518.c:
+    complete
+    .text       start:0x02020518 end:0x0202054c
+
+src/auto/func_0202054c.c:
+    complete
+    .text       start:0x0202054c end:0x02020580
+
+src/auto/func_02020580.c:
+    complete
+    .text       start:0x02020580 end:0x020205b4
+
+src/auto/func_020205b4.c:
+    complete
+    .text       start:0x020205b4 end:0x020205e8
