@@ -2,3 +2,39 @@
     .ctor       start:0x0215a72c end:0x0215a72c kind:rodata align:4
     .data       start:0x0215a740 end:0x0215a7c0 kind:data align:32
     .bss        start:0x0215a7c0 end:0x0215a7e0 kind:bss align:32
+
+src/data/ov022_bss_0215a7c0.c:
+    complete
+    .bss        start:0x0215a7c0 end:0x0215a7d4
+
+src/data/ov022_bss_0215a7d4.c:
+    complete
+    .bss        start:0x0215a7d4 end:0x0215a7e0
+
+src/data/ov022_data_0215a740.c:
+    complete
+    .data       start:0x0215a740 end:0x0215a744
+
+src/data/ov022_data_0215a744.c:
+    complete
+    .data       start:0x0215a744 end:0x0215a748
+
+src/data/ov022_data_0215a748.c:
+    complete
+    .data       start:0x0215a748 end:0x0215a760
+
+src/data/ov022_data_0215a760.c:
+    complete
+    .data       start:0x0215a760 end:0x0215a778
+
+src/data/ov022_data_0215a778.c:
+    complete
+    .data       start:0x0215a778 end:0x0215a790
+
+src/data/ov022_data_0215a790.c:
+    complete
+    .data       start:0x0215a790 end:0x0215a7a8
+
+src/data/ov022_data_0215a7a8.c:
+    complete
+    .data       start:0x0215a7a8 end:0x0215a7c0
