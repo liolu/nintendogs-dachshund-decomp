@@ -1,0 +1,5 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+char data_02146d84[16] = "%s:record.NCGR";
+char data_02146d94[20] = "%s:record_base.NCGR";

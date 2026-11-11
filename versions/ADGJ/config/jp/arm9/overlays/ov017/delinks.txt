@@ -2,3 +2,163 @@
     .ctor       start:0x0215bc0c end:0x0215bc0c kind:rodata align:4
     .data       start:0x0215bc20 end:0x0215c060 kind:data align:32
     .bss        start:0x0215c060 end:0x0215c160 kind:bss align:32
+
+src/data/ov017_bss_0215c060.c:
+    complete
+    .bss        start:0x0215c060 end:0x0215c064
+
+src/data/ov017_bss_0215c064.c:
+    complete
+    .bss        start:0x0215c064 end:0x0215c068
+
+src/data/ov017_bss_0215c068.c:
+    complete
+    .bss        start:0x0215c068 end:0x0215c06c
+
+src/data/ov017_bss_0215c06c.c:
+    complete
+    .bss        start:0x0215c06c end:0x0215c070
+
+src/data/ov017_bss_0215c070.c:
+    complete
+    .bss        start:0x0215c070 end:0x0215c074
+
+src/data/ov017_bss_0215c074.c:
+    complete
+    .bss        start:0x0215c074 end:0x0215c078
+
+src/data/ov017_bss_0215c078.c:
+    complete
+    .bss        start:0x0215c078 end:0x0215c160
+
+src/data/ov017_data_0215bc20.c:
+    complete
+    .data       start:0x0215bc20 end:0x0215bc50
+
+src/data/ov017_data_0215bc50.c:
+    complete
+    .data       start:0x0215bc50 end:0x0215bc68
+
+src/data/ov017_data_0215bc68.c:
+    complete
+    .data       start:0x0215bc68 end:0x0215bc80
+
+src/data/ov017_data_0215bc80.c:
+    complete
+    .data       start:0x0215bc80 end:0x0215bc98
+
+src/data/ov017_data_0215bc98.c:
+    complete
+    .data       start:0x0215bc98 end:0x0215bcb0
+
+src/data/ov017_data_0215bcb0.c:
+    complete
+    .data       start:0x0215bcb0 end:0x0215bcc8
+
+src/data/ov017_data_0215bcc8.c:
+    complete
+    .data       start:0x0215bcc8 end:0x0215bce0
+
+src/data/ov017_data_0215bce0.c:
+    complete
+    .data       start:0x0215bce0 end:0x0215bcf8
+
+src/data/ov017_data_0215bcf8.c:
+    complete
+    .data       start:0x0215bcf8 end:0x0215bd10
+
+src/data/ov017_data_0215bd10.c:
+    complete
+    .data       start:0x0215bd10 end:0x0215bd28
+
+src/data/ov017_data_0215bd28.c:
+    complete
+    .data       start:0x0215bd28 end:0x0215bd40
+
+src/data/ov017_data_0215bd40.c:
+    complete
+    .data       start:0x0215bd40 end:0x0215bd58
+
+src/data/ov017_data_0215bd58.c:
+    complete
+    .data       start:0x0215bd58 end:0x0215bd8c
+
+src/data/ov017_data_0215bd8c.c:
+    complete
+    .data       start:0x0215bd8c end:0x0215bda8
+
+src/data/ov017_data_0215bda8.c:
+    complete
+    .data       start:0x0215bda8 end:0x0215bdc4
+
+src/data/ov017_data_0215bdc4.c:
+    complete
+    .data       start:0x0215bdc4 end:0x0215bde0
+
+src/data/ov017_data_0215bde0.c:
+    complete
+    .data       start:0x0215bde0 end:0x0215bdfc
+
+src/data/ov017_data_0215bdfc.c:
+    complete
+    .data       start:0x0215bdfc end:0x0215be18
+
+src/data/ov017_data_0215be18.c:
+    complete
+    .data       start:0x0215be18 end:0x0215be34
+
+src/data/ov017_data_0215be34.c:
+    complete
+    .data       start:0x0215be34 end:0x0215be50
+
+src/data/ov017_data_0215be50.c:
+    complete
+    .data       start:0x0215be50 end:0x0215be6c
+
+src/data/ov017_data_0215be6c.c:
+    complete
+    .data       start:0x0215be6c end:0x0215bea8
+
+src/data/ov017_data_0215bea8.c:
+    complete
+    .data       start:0x0215bea8 end:0x0215bec8
+
+src/data/ov017_data_0215bec8.c:
+    complete
+    .data       start:0x0215bec8 end:0x0215bee8
+
+src/data/ov017_data_0215bee8.c:
+    complete
+    .data       start:0x0215bee8 end:0x0215bf40
+
+src/data/ov017_data_0215bf40.c:
+    complete
+    .data       start:0x0215bf40 end:0x0215bf78
+
+src/data/ov017_data_0215bf78.c:
+    complete
+    .data       start:0x0215bf78 end:0x0215bfb0
+
+src/data/ov017_data_0215bfb0.c:
+    complete
+    .data       start:0x0215bfb0 end:0x0215bfe4
+
+src/data/ov017_data_0215bfe4.c:
+    complete
+    .data       start:0x0215bfe4 end:0x0215c000
+
+src/data/ov017_data_0215c000.c:
+    complete
+    .data       start:0x0215c000 end:0x0215c01c
+
+src/data/ov017_data_0215c01c.c:
+    complete
+    .data       start:0x0215c01c end:0x0215c038
+
+src/data/ov017_data_0215c038.c:
+    complete
+    .data       start:0x0215c038 end:0x0215c040
+
+src/data/ov017_data_0215c040.c:
+    complete
+    .data       start:0x0215c040 end:0x0215c060

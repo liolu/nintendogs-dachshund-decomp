@@ -1,0 +1,4 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+char data_021437c0[20] = "/Debug/col_a.nsbmd";
