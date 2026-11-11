@@ -1,7 +1,7 @@
 # Publishes one objdiff report per version for ByteMatch (https://bytematch.dev), like silent-hill-decomp does.
 # A report needs the ROM to be built, so it is built locally (tools/match.py progress --rebuild in the version folder)
 # and committed as versions/<ID>/progress/report.json.gz; this workflow only unpacks each one into the artifact
-# ByteMatch expects: <ID>_report. A version without a committed report is skipped.
+# ByteMatch expects: <version name>_report (the game name and region, from versions.py). A version without a committed report is skipped.
 name: Progress report
 on:
   push:
@@ -10,44 +10,44 @@ on:
   workflow_dispatch:
 jobs:
   report:
-    name: Report ${{ matrix.version }}
+    name: Report ${{ matrix.name }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        version:
-          - ADGE        # Dachshund & Friends (USA)
-          - ADGP        # Dachshund & Friends (Europe)
-          - ADGK        # Dachshund & Chingudeul (Korea)
-          - ADGJ        # Miniature Dachshund & Friends (Japan)
-          - ADGJ-rev1   # Miniature Dachshund & Friends (Japan, Rev 1)
-          - AD2E        # Chihuahua & Friends (USA)
-          - AD2P        # Chihuahua & Friends (Europe)
-          - AD2K        # Chihuahua & Chingudeul (Korea)
-          - AD2J        # Chihuahua & Friends (Japan)
-          - AD2J-rev1   # Chihuahua & Friends (Japan, Rev 1)
-          - AD3E        # Lab & Friends (USA)
-          - AD3P        # Labrador & Friends (Europe)
-          - AD3K        # Labrador & Chingudeul (Korea)
-          - AD3J        # Shiba & Friends (Japan)
-          - AD3J-rev1   # Shiba & Friends (Japan, Rev 1)
-          - AD5E        # Best Friends (USA)
-          - AD7E        # Dalmatian & Friends (USA)
-          - AD7P        # Dalmatian & Friends (Europe)
-          - A36E        # Nintendogs (USA, Europe) (Demo) (Kiosk)
-          - A36P        # Nintendogs (Europe) (Demo) (Kiosk)
+        include:
+          - { id: ADGE, name: "Dachshund & Friends (USA)" }
+          - { id: ADGP, name: "Dachshund & Friends (Europe)" }
+          - { id: ADGK, name: "Dachshund & Chingudeul (Korea)" }
+          - { id: ADGJ, name: "Miniature Dachshund & Friends (Japan)" }
+          - { id: ADGJ-rev1, name: "Miniature Dachshund & Friends (Japan, Rev 1)" }
+          - { id: AD2E, name: "Chihuahua & Friends (USA)" }
+          - { id: AD2P, name: "Chihuahua & Friends (Europe)" }
+          - { id: AD2K, name: "Chihuahua & Chingudeul (Korea)" }
+          - { id: AD2J, name: "Chihuahua & Friends (Japan)" }
+          - { id: AD2J-rev1, name: "Chihuahua & Friends (Japan, Rev 1)" }
+          - { id: AD3E, name: "Lab & Friends (USA)" }
+          - { id: AD3P, name: "Labrador & Friends (Europe)" }
+          - { id: AD3K, name: "Labrador & Chingudeul (Korea)" }
+          - { id: AD3J, name: "Shiba & Friends (Japan)" }
+          - { id: AD3J-rev1, name: "Shiba & Friends (Japan, Rev 1)" }
+          - { id: AD5E, name: "Best Friends (USA)" }
+          - { id: AD7E, name: "Dalmatian & Friends (USA)" }
+          - { id: AD7P, name: "Dalmatian & Friends (Europe)" }
+          - { id: A36E, name: "Nintendogs Demo (Kiosk) (USA, Europe)" }
+          - { id: A36P, name: "Nintendogs Demo (Kiosk) (Europe)" }
     steps:
       - uses: actions/checkout@v7
 
       - name: Unpack the committed report
         run: |
           mkdir -p out
-          f=versions/${{ matrix.version }}/progress/report.json.gz
+          f=versions/${{ matrix.id }}/progress/report.json.gz
           if [ -f "$f" ]; then gunzip -c "$f" > out/report.json; fi
 
       - name: Upload the report
         if: hashFiles('out/report.json') != ''
         uses: actions/upload-artifact@v7
         with:
-          name: ${{ matrix.version }}_report
+          name: ${{ matrix.name }}_report
           path: out/report.json

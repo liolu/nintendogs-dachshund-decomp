@@ -2,3 +2,6 @@ build_*.log
 /versions/*/build/
 versions/*/build.log
 onboard.log
+versions/*/data_chain.log
+data_chain.log
+restes-studio-stash.patch
