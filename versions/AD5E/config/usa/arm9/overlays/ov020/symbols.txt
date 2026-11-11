@@ -1,0 +1,13 @@
+func_ov020_0215a0c0 kind:function(arm,size=0xb0) addr:0x0215a0c0
+func_ov020_0215a170 kind:function(arm,size=0x4) addr:0x0215a170
+func_ov020_0215a174 kind:function(arm,size=0x1c) addr:0x0215a174
+func_ov020_0215a190 kind:function(arm,size=0x14c) addr:0x0215a190
+func_ov020_0215a2dc kind:function(arm,size=0x1a0) addr:0x0215a2dc
+func_ov020_0215a47c kind:function(arm,size=0xc) addr:0x0215a47c
+func_ov020_0215a488 kind:function(arm,size=0x40) addr:0x0215a488
+func_ov020_0215a4c8 kind:function(arm,size=0x114) addr:0x0215a4c8
+func_ov020_0215a5dc kind:function(arm,size=0x4) addr:0x0215a5dc
+data_ov020_0215a600 kind:data(any) addr:0x0215a600
+data_ov020_0215a620 kind:bss addr:0x0215a620
+data_ov020_0215a62c kind:bss addr:0x0215a62c ambiguous
+data_ov020_0215a638 kind:bss addr:0x0215a638 ambiguous

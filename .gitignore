@@ -1,2 +1,4 @@
 build_*.log
 /versions/*/build/
+versions/*/build.log
+onboard.log

@@ -1,0 +1,14 @@
+[INFO ] Loading ROM from extract/eu/config.yaml
+[WARN ] Local function call from 0x0205e098 in ARM9 main to 0x0205e484 goes to middle of function 'func_0205e47c' at 0x0205e47c, adding an external label symbol
+[WARN ] Local function call from 0x0205fc68 in ARM9 main to 0x0205c8dc goes to middle of function 'func_0205c288' at 0x0205c288, adding an external label symbol
+[WARN ] Local function call from 0x020607c0 in ARM9 main to 0x0205c7f0 goes to middle of function 'func_0205c288' at 0x0205c288, adding an external label symbol
+[WARN ] Local function call from 0x02060f60 in ARM9 main to 0x0205e074 goes to middle of function 'func_0205e068' at 0x0205e068, adding an external label symbol
+[WARN ] Local function call from 0x02062858 in ARM9 main to 0x0205c7f0 goes to middle of function 'func_0205c288' at 0x0205c288, adding an external label symbol
+[WARN ] Local function call from 0x02062c2c in ARM9 main to 0x0205c7f0 goes to middle of function 'func_0205c288' at 0x0205c288, adding an external label symbol
+[WARN ] Local function call from 0x02063788 in ARM9 main to 0x0205e074 goes to middle of function 'func_0205e068' at 0x0205e068, adding an external label symbol
+[WARN ] Local function call from 0x020d5f0c in ARM9 main to 0x0205e074 goes to middle of function 'func_0205e068' at 0x0205e068, adding an external label symbol
+[WARN ] Local function call from 0x020d5f44 in ARM9 main to 0x0205e074 goes to middle of function 'func_0205e068' at 0x0205e068, adding an external label symbol
+[WARN ] Local function call from 0x020d5f7c in ARM9 main to 0x0205e074 goes to middle of function 'func_0205e068' at 0x0205e068, adding an external label symbol
+[WARN ] Local function call from 0x020da4f0 in ARM9 main to 0x0205e074 goes to middle of function 'func_0205e068' at 0x0205e068, adding an external label symbol
+[WARN ] Local function call from 0x02114c2c in ARM9 main to 0x0205d668 goes to middle of function 'func_0205d5ec' at 0x0205d5ec, adding an external label symbol
+[WARN ] Local function call from 0x02114c54 in ARM9 main to 0x0205c454 goes to middle of function 'func_0205c288' at 0x0205c288, adding an external label symbol

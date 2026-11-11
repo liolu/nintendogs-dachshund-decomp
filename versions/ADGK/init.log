@@ -1,0 +1,15 @@
+[INFO ] Loading ROM from extract/kor/config.yaml
+[INFO ] Function at 0x02079eb8 was adjusted to include pre-code constant pool at 0x02079ea4
+[WARN ] Local function call from 0x02059168 in ARM9 main to 0x02059554 goes to middle of function 'func_0205954c' at 0x0205954c, adding an external label symbol
+[WARN ] Local function call from 0x0205ad38 in ARM9 main to 0x020579ac goes to middle of function 'func_02057358' at 0x02057358, adding an external label symbol
+[WARN ] Local function call from 0x0205b890 in ARM9 main to 0x020578c0 goes to middle of function 'func_02057358' at 0x02057358, adding an external label symbol
+[WARN ] Local function call from 0x0205c030 in ARM9 main to 0x02059144 goes to middle of function 'func_02059138' at 0x02059138, adding an external label symbol
+[WARN ] Local function call from 0x0205d928 in ARM9 main to 0x020578c0 goes to middle of function 'func_02057358' at 0x02057358, adding an external label symbol
+[WARN ] Local function call from 0x0205dcfc in ARM9 main to 0x020578c0 goes to middle of function 'func_02057358' at 0x02057358, adding an external label symbol
+[WARN ] Local function call from 0x0205e858 in ARM9 main to 0x02059144 goes to middle of function 'func_02059138' at 0x02059138, adding an external label symbol
+[WARN ] Local function call from 0x020d6fc4 in ARM9 main to 0x02059144 goes to middle of function 'func_02059138' at 0x02059138, adding an external label symbol
+[WARN ] Local function call from 0x020d6ffc in ARM9 main to 0x02059144 goes to middle of function 'func_02059138' at 0x02059138, adding an external label symbol
+[WARN ] Local function call from 0x020d7034 in ARM9 main to 0x02059144 goes to middle of function 'func_02059138' at 0x02059138, adding an external label symbol
+[WARN ] Local function call from 0x020db5a8 in ARM9 main to 0x02059144 goes to middle of function 'func_02059138' at 0x02059138, adding an external label symbol
+[WARN ] Local function call from 0x02117124 in ARM9 main to 0x02058738 goes to middle of function 'func_020586bc' at 0x020586bc, adding an external label symbol
+[WARN ] Local function call from 0x0211714c in ARM9 main to 0x02057524 goes to middle of function 'func_02057358' at 0x02057358, adding an external label symbol
