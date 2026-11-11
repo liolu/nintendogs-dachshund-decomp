@@ -1,0 +1,5 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+char data_0213e588[16] = "/item_list.bnll";
+char data_0213e598[20] = "/item_list.nce.bncd";

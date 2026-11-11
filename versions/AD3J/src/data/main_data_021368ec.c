@@ -1,0 +1,132 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+extern u8 data_02136070[];
+extern u8 data_02136084[];
+extern u8 data_02136098[];
+extern u8 data_021360ac[];
+extern u8 data_021360c0[];
+extern u8 data_021360d4[];
+extern u8 data_021360e8[];
+extern u8 data_021360fc[];
+extern u8 data_02136110[];
+extern u8 data_02136124[];
+extern u8 data_02136138[];
+extern u8 data_0213614c[];
+extern u8 data_02136160[];
+extern u8 data_02136174[];
+extern u8 data_02136188[];
+extern u8 data_0213619c[];
+extern u8 data_021361b0[];
+extern u8 data_021361c4[];
+extern u8 data_021361d8[];
+extern u8 data_021361ec[];
+extern u8 data_02136200[];
+extern u8 data_02136214[];
+extern u8 data_02136228[];
+extern u8 data_0213623c[];
+extern u8 data_02136250[];
+extern u8 data_02136264[];
+extern u8 data_02136278[];
+extern u8 data_0213628c[];
+extern u8 data_021362a0[];
+extern u8 data_021362b4[];
+extern u8 data_021362c8[];
+extern u8 data_021362dc[];
+extern u8 data_021362f0[];
+extern u8 data_02136310[];
+extern u8 data_02136330[];
+extern u8 data_02136350[];
+extern u8 data_02136370[];
+extern u8 data_02136390[];
+extern u8 data_021363b0[];
+extern u8 data_021363d0[];
+extern u8 data_021363f0[];
+extern u8 data_02136410[];
+extern u8 data_02136430[];
+extern u8 data_02136450[];
+extern u8 data_02136470[];
+extern u8 data_02136490[];
+extern u8 data_021364b0[];
+extern u8 data_021364d0[];
+extern u8 data_021364f0[];
+extern u8 data_02136510[];
+extern u8 data_02136530[];
+extern u8 data_02136550[];
+extern u8 data_02136570[];
+extern u8 data_02136590[];
+extern u8 data_021365b0[];
+extern u8 data_021365d0[];
+extern u8 data_021365f0[];
+extern u8 data_02136610[];
+extern u8 data_02136630[];
+extern u8 data_02136650[];
+extern u8 data_02136670[];
+extern u8 data_02136690[];
+extern u8 data_021366b0[];
+extern u8 data_021366d0[];
+extern u8 data_021366f0[];
+extern u8 data_02136710[];
+extern u8 data_02136738[];
+extern u8 data_02136760[];
+extern u8 data_02136788[];
+extern u8 data_021367b0[];
+extern u8 data_021367d8[];
+extern u8 data_02136800[];
+extern u8 data_02136828[];
+extern u8 data_02136850[];
+extern u8 data_02136884[];
+extern u8 data_021368b8[];
+
+u32 data_021368ec[13] = {
+    0x03010000, 0xFFFF0000, 0x0000FFFF, 0x02000304,
+    0x008F0083, 0x03040000, 0x00840300, 0x00000090,
+    0x02000304, 0x00910085, 0x03040000, 0x00860300,
+    0x00000092
+};
+u32 data_02136920[18] = {
+    0x03020002, 0xFFFF0001, 0x0002FFFF, 0x03010302,
+    0x01880188, 0x03020002, 0x01910301, 0x00020191,
+    0x03010303, 0x01970197, 0x03030002, 0x01980301,
+    0x00020198, 0x03010302, 0x01760176, 0x03020002,
+    0x017F0301, 0x0000017F
+};
+u32 data_02136968[23] = {
+    0x03030020, 0xFFFF0000, 0x0020FFFF, 0x00000302,
+    0x03A4039C, 0x03020020, 0x039D0000, 0x002003A4,
+    0x00000303, 0x03A5039E, 0x03030020, 0x039F0000,
+    0x002003A5, 0x00000304, 0x03A603A0, 0x03040020,
+    0x03A10000, 0x002003A6, 0x00000305, 0x03A703A2,
+    0x03050020, 0x03A30000, 0x000003A7
+};
+u32 data_021369c4[25] = {
+    0x04010000, 0xFFFF0001, 0x0000FFFF, 0x00010401,
+    0x01BD01BD, 0x04010000, 0x01BE0101, 0x000001BE,
+    0x02010401, 0x01BF01BF, 0x04010000, 0x01C00301,
+    0x000001C0, 0x04010401, 0x01C101C1, 0x04010000,
+    0x01C20501, 0x000001C2, 0x06010401, 0x01C301C3,
+    0x04010000, 0x01C40701, 0x000001C4, 0x08010401,
+    0x01C501C5
+};
+u32 data_02136a28[80] = {
+    (u32)&data_021361d8, (u32)&data_02136738, (u32)&data_021369c4, (u32)&data_021364f0,
+    (u32)&data_02136650, (u32)&data_021366d0, (u32)&data_021363b0, (u32)&data_021366f0,
+    (u32)&data_02136530, (u32)&data_021365b0, (u32)&data_02136884, (u32)&data_02136920,
+    (u32)&data_021368b8, (u32)&data_02136610, (u32)&data_02136450, (u32)&data_021367d8,
+    (u32)&data_02136800, (u32)&data_021366b0, (u32)&data_02136690, (u32)&data_021360d4,
+    (u32)&data_0213619c, (u32)&data_021360e8, (u32)&data_02136174, (u32)&data_021365f0,
+    (u32)&data_02136370, (u32)&data_02136390, (u32)&data_021362a0, (u32)&data_02136160,
+    (u32)&data_021361c4, (u32)&data_021363d0, (u32)&data_02136098, (u32)&data_021363f0,
+    (u32)&data_02136410, (u32)&data_02136430, (u32)&data_021360ac, (u32)&data_02136968,
+    (u32)&data_02136470, (u32)&data_02136490, (u32)&data_021364b0, (u32)&data_021360c0,
+    (u32)&data_02136278, (u32)&data_021361ec, (u32)&data_02136630, (u32)&data_02136510,
+    (u32)&data_02136550, (u32)&data_02136570, (u32)&data_021365d0, (u32)&data_021364d0,
+    (u32)&data_021368ec, (u32)&data_02136670, (u32)&data_021362f0, (u32)&data_02136310,
+    (u32)&data_02136350, (u32)&data_021361b0, (u32)&data_02136264, (u32)&data_021360fc,
+    (u32)&data_02136110, (u32)&data_02136124, (u32)&data_02136070, (u32)&data_02136138,
+    (u32)&data_0213614c, (u32)&data_0213628c, (u32)&data_02136084, (u32)&data_02136590,
+    (u32)&data_02136188, (u32)&data_021362dc, (u32)&data_02136710, (u32)&data_021362b4,
+    (u32)&data_02136250, (u32)&data_02136200, (u32)&data_02136214, (u32)&data_02136760,
+    (u32)&data_02136788, (u32)&data_021362c8, (u32)&data_02136330, (u32)&data_02136228,
+    (u32)&data_0213623c, (u32)&data_021367b0, (u32)&data_02136850, (u32)&data_02136828
+};
