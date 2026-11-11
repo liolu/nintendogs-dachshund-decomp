@@ -22,3 +22,19 @@ src/data/ov013_data_02158380.c:
 src/data/ov013_data_021583a0.c:
     complete
     .data       start:0x021583a0 end:0x021583b0
+
+src/auto/func_ov013_02157c20.c:
+    complete
+    .text       start:0x02157c20 end:0x02157cf0
+
+src/auto/func_ov013_02157cf0.c:
+    complete
+    .text       start:0x02157cf0 end:0x02157d38
+
+src/auto/func_ov013_0215829c.c:
+    complete
+    .text       start:0x0215829c end:0x0215836c
+
+src/auto/func_ov013_0215836c.c:
+    complete
+    .text       start:0x0215836c end:0x02158370
