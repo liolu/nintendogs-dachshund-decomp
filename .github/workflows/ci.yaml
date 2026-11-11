@@ -32,6 +32,6 @@ jobs:
 
       - name: Check that sources are ASCII
         run: |
-          if grep -rnP '[^\x00-\x7F]' src include tools/probes; then
+          if grep -rnP '[^\x00-\x7F]' versions/*/src versions/*/include; then
             echo "Non-ASCII characters found (sjiswrap reads sources as Shift-JIS)"; exit 1
           fi

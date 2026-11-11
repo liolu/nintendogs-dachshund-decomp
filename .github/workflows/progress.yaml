@@ -1,0 +1,53 @@
+# Publishes one objdiff report per version for ByteMatch (https://bytematch.dev), like silent-hill-decomp does.
+# A report needs the ROM to be built, so it is built locally (tools/match.py progress --rebuild in the version folder)
+# and committed as versions/<ID>/progress/report.json.gz; this workflow only unpacks each one into the artifact
+# ByteMatch expects: <ID>_report. A version without a committed report is skipped.
+name: Progress report
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  report:
+    name: Report ${{ matrix.version }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        version:
+          - ADGE        # Dachshund & Friends (USA)
+          - ADGP        # Dachshund & Friends (Europe)
+          - ADGK        # Dachshund & Chingudeul (Korea)
+          - ADGJ        # Miniature Dachshund & Friends (Japan)
+          - ADGJ-rev1   # Miniature Dachshund & Friends (Japan, Rev 1)
+          - AD2E        # Chihuahua & Friends (USA)
+          - AD2P        # Chihuahua & Friends (Europe)
+          - AD2K        # Chihuahua & Chingudeul (Korea)
+          - AD2J        # Chihuahua & Friends (Japan)
+          - AD2J-rev1   # Chihuahua & Friends (Japan, Rev 1)
+          - AD3E        # Lab & Friends (USA)
+          - AD3P        # Labrador & Friends (Europe)
+          - AD3K        # Labrador & Chingudeul (Korea)
+          - AD3J        # Shiba & Friends (Japan)
+          - AD3J-rev1   # Shiba & Friends (Japan, Rev 1)
+          - AD5E        # Best Friends (USA)
+          - AD7E        # Dalmatian & Friends (USA)
+          - AD7P        # Dalmatian & Friends (Europe)
+          - A36E        # Nintendogs (USA, Europe) (Demo) (Kiosk)
+          - A36P        # Nintendogs (Europe) (Demo) (Kiosk)
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Unpack the committed report
+        run: |
+          mkdir -p out
+          f=versions/${{ matrix.version }}/progress/report.json.gz
+          if [ -f "$f" ]; then gunzip -c "$f" > out/report.json; fi
+
+      - name: Upload the report
+        if: hashFiles('out/report.json') != ''
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ matrix.version }}_report
+          path: out/report.json
